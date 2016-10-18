@@ -26,6 +26,12 @@ body {
     color:#eeeeee;
 }
 
+.bg-subheading {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .bg-heading {
   color: #000;
   /* background-color: #e2cede; */
