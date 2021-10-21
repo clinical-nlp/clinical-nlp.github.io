@@ -72,3 +72,6 @@ Temporary Items
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# Build directory for gh-pages deployment
+.build
