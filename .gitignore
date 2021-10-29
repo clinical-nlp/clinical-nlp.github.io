@@ -69,9 +69,11 @@ Temporary Items
 
 
 # Jekyll (https://github.com/github/gitignore/blob/master/Jekyll.gitignore)
-_site/
-.sass-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
+vendor
 
 # Build directory for gh-pages deployment
 .build
