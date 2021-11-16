@@ -3,7 +3,7 @@ title: resources
 layout: default
 ---
 
-<h3 class="bg-heading">Resources</h3>
+<h3 class="bg-heading">Datasets</h3>
 
 One of the main obstacles to NLP research in the clinical domain is data access. On this page, we will assemble links to existing data sets (both raw and annotated) that are currently available to the general public.
 
@@ -44,3 +44,21 @@ One of the main obstacles to NLP research in the clinical domain is data access.
     - [NTCIR12::MedNLPDoc](https://sites.google.com/site/mednlpdoc/)
     - [NTCIR11::MedNLP 2](http://mednlp.jp/ntcir11/)
     - [NTCIR10::MedNLP](http://mednlp.jp/medistj-en/)
+
+
+<h3 class="bg-heading">Language Models</h3>
+
+Recent success in neural language models has led to the creation of language models for the clinical domain.
+
+- Clinical BERT-based models
+    - [Publicly Available Clinical BERT Embeddings](https://aclanthology.org/W19-1909/)
+    - [ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission](https://arxiv.org/abs/1904.05342)
+    - [Enhancing clinical concept extraction with contextual embeddings](https://academic.oup.com/jamia/article/26/11/1297/5527248)
+
+- Biomedical BERT-based models
+    - [Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://dl.acm.org/doi/10.1145/3458754)
+    - [SciBERT: A Pretrained Language Model for Scientific Text](https://aclanthology.org/D19-1371/)
+    - [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506)
+
+- Non-English BERT-based models
+    - [A clinical specific BERT developed using a huge Japanese clinical text corpus](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259763)
