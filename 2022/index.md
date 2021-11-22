@@ -3,7 +3,7 @@ title: about
 layout: default
 ---
 
-ClinicalNLP 2022 is currently proposed as a workshop for the ACL/NAACL-HLT/COLING/EMNLP 2022 Call for Workshop Proposals.
+ClinicalNLP 2022 is an accepted workshop for NAACL 2022. This page will be updated as additional details become available.
 For content from prior events, please see:
 
 - [Clinical NLP 2020](https://clinical-nlp.github.io/2020/)
