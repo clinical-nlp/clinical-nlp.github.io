@@ -24,6 +24,7 @@ layout: default
 - Djoerd Hiemstra (Radboud University)
 - Alistair Johnson (MIT)
 - Yoshinobu Kano (Shizuoka University)
+- Byung-Hak Kim (AKASA)
 - Egoitz Laparra (University of Arizona)
 - Sijia Liu (IBM Research)
 - Matthew McDermott (MIT)
