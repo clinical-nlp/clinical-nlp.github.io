@@ -26,10 +26,10 @@ If you committed your reviews to NAACL 2022, and you find you are not accepted b
 
 ### Important Dates
 
-| Event                                     | Date                                    |
-| ----------------------------------------- | --------------------------------------- |
-| Latest submission to ARR                  | Tuesday, March 15, 2022                 |
-| Commitment deadline for Clinical NLP 2022 | Sunday, April 24, 2022                  |
-| Notification of acceptance                | Friday, May 6, 2022                     |
-| Final versions of papers due              | Friday, May 20, 2022                    |
-| Workshop                                  | Thursday or Friday, July 14 or 15, 2022 |
+| Event                                     | Date                    |
+| ----------------------------------------- | ----------------------- |
+| Latest submission to ARR                  | Tuesday, March 15, 2022 |
+| Commitment deadline for Clinical NLP 2022 | Sunday, April 24, 2022  |
+| Notification of acceptance                | Friday, May 6, 2022     |
+| Final versions of papers due              | Friday, May 20, 2022    |
+| Workshop                                  | Thursday, July 14, 2022 |
