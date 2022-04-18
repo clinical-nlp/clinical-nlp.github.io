@@ -20,7 +20,7 @@ Once you have reviews back from ACL Rolling Review, you may commit your reviews 
 
 <https://openreview.net/group?id=aclweb.org/NAACL/2022/Workshop/Clinical_NLP>
 
-You must submit this commitment form by 24 Apr 2022.
+You must submit this commitment form by Sunday, May 8, 2022.
 If you committed your reviews to NAACL 2022, and you find you are not accepted by NAACL on 7 Apr 2022, you may commit the same reviews to Clinical NLP 2022 if the topic is appropriate to the workshop.
 
 
