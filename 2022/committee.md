@@ -3,6 +3,8 @@ title: committee
 layout: default
 ---
 
+For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.com>.
+
 ### Workshop Organizers
 
 - [Anna Rumshisky](http://www.cs.uml.edu/~arum) (UMass Lowell)
