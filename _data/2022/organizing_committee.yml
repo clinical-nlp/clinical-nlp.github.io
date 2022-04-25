@@ -1,0 +1,18 @@
+- members:
+  - first_name: Anna
+    last_name: Rumshisky
+    institution: UMass Lowell
+
+  - first_name: Kirk
+    last_name: Roberts
+    institution: University of Texas Health Science Center at Houston
+
+  - first_name: Steven
+    last_name: Bethard
+    institution: University of Arizona
+
+  - first_name: Tristan
+    last_name: Naumann
+    institution: Microsoft Research
+    
+  role: General Chairs
