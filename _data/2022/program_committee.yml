@@ -1,0 +1,126 @@
+- entries:
+  - first_name: John
+    last_name: Aberdeen
+    institution: The MITRE Corporation
+
+  - first_name: Emily
+    last_name: Alsentzer
+    institution: MIT
+
+  - first_name: Sabine
+    last_name: Bergler
+    institution: Concordia University
+
+  - first_name: Cheryl
+    last_name:  Clark
+    institution: The MITRE Corporation
+
+  - first_name: Surabhi
+    last_name: Datta
+    institution: UTHealth
+
+  - first_name: Dmitriy
+    last_name: Dligach
+    institution: Loyola University
+
+  - first_name: Jungwei
+    last_name: Fan
+    institution: Mayo Clinic
+
+  - first_name: Jason
+    last_name:  Fries
+    institution: Stanford University
+
+  - first_name: Sadid
+    last_name: Hasan
+    institution: CVS Health
+
+  - first_name: Djoerd
+    last_name: Hiemstra
+    institution: Radboud University
+
+  - first_name: Alistair
+    last_name: Johnson
+    institution: MIT
+
+  - first_name: Yoshinobu
+    last_name: Kano
+    institution: Shizuoka University
+
+  - first_name: Byung-Hak
+    last_name: Kim
+    institution: AKASA
+
+  - first_name: Egoitz
+    last_name: Laparra
+    institution: University of Arizona
+
+  - first_name: Sijia
+    last_name: Liu
+    institution: IBM Research
+
+  - first_name: Matthew
+    last_name: McDermott
+    institution: MIT
+
+  - first_name: Bridget
+    last_name: McInnes
+    institution: VCU
+
+  - first_name: Timothy
+    last_name: Miller
+    institution: Boston Children's Hospital
+
+  - first_name: Yifan
+    last_name: Peng
+    institution: Weill Cornell Medicine
+
+  - first_name: Hoifung
+    last_name: Poon
+    institution: Microsoft Research
+
+  - first_name: Preethi
+    last_name: Raghavan
+    institution: IBM Research
+
+  - first_name: Thomas
+    last_name: Searle
+    institution: King's College London
+
+  - first_name: Chaitanya
+    last_name: Shivade
+    institution: Amazon
+
+  - first_name: Bhanu
+    last_name: Pratap Singh
+    institution: UMass - Amherst
+
+  - first_name: Yuqi
+    last_name: Si
+    institution: UTHealth
+
+  - first_name: Sarvesh
+    last_name: Soni
+    institution: UTHealth
+
+  - first_name: Karin
+    last_name: Verspoor
+    institution: The University of Melbourne
+
+  - first_name: Yanshan
+    last_name: Wang
+    institution: Mayo Clinic
+
+  - first_name: Stephen
+    last_name: Wu
+    institution: UTHealth
+
+  - first_name: Dongfang
+    last_name: Xu
+    institution: University of Arizona
+
+  - first_name: Rui
+    last_name: Zhang
+    institution: University of Minnesota
+    
+  role: Program Committee
