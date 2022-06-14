@@ -21,9 +21,9 @@ layout: default
 {% endfor %}
 
 {% for paper in session.papers %}
-{% assign paper_info = site.data["2022"].papers | find: "id", paper.id %}
+{% assign paper_info = site.data["2022"].papers | find: "id", "{{ paper.id }}" %}
 <tr>
-    <td valign=top>{{ paper.start_time | date: "%H:%M"}}–{{ paper.end_time | date: "%H:%M" }}</td><td valign=top><em>{{ paper_info.size }}</em></td>
+    <td valign=top>{{ paper.start_time | date: "%H:%M"}}–{{ paper.end_time | date: "%H:%M" }}</td><td valign=top><em>{{ paper.id }}: {{ paper_info.size }}</em></td>
 </tr>
 
 {% endfor %}
