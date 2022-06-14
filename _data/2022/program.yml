@@ -1,0 +1,97 @@
+- title: Opening Remarks
+  start_time: 2022-07-14 08:30:00
+  end_time: 2022-07-14 08:40:00
+
+- title: "Keynote: Mark Dredze"
+  start_time: 2022-07-14 08:40:00
+  end_time: 2022-07-14 09:25:00
+  subsessions:
+    - title: "Keynote: Mark Dredze"
+      start_time: 2022-07-14 08:40:00
+      end_time: 2022-07-14 09:25:00
+    - title: "Keynote Q&A"
+      start_time: 2022-07-14 09:25:00
+      end_time: 2022-07-14 09:40:00
+
+- title: Session 1
+  start_time: 2022-07-14 09:40:00
+  end_time: 2022-07-14 10:00:00
+  papers:
+    - id: 1
+      start_time: 2022-07-14 09:40:00
+      end_time: 2022-07-14 10:00:00
+
+- title: Break
+  start_time: 2022-07-14 10:00:00
+  end_time: 2022-07-14 10:20:00
+
+- title: Session 2
+  start_time: 2022-07-14 10:20:00
+  end_time: 2022-07-14 12:00:00
+  papers:
+    - id: 2
+      start_time: 2022-07-14 10:20:00
+      end_time: 2022-07-14 10:40:00
+    - id: 13
+      start_time: 2022-07-14 10:40:00
+      end_time: 2022-07-14 11:00:00
+    - id: 7
+      start_time: 2022-07-14 11:00:00
+      end_time: 2022-07-14 11:20:00
+    - id: 5
+      start_time: 2022-07-14 11:20:00
+      end_time: 2022-07-14 11:40:00
+    - id: 12
+      start_time: 2022-07-14 11:40:00
+      end_time: 2022-07-14 12:00:00
+
+- title: Lunch
+  start_time: 2022-07-14 12:00:00
+  end_time: 2022-07-14 13:30:00
+
+- title: Session 3
+  start_time: 2022-07-14 13:30:00
+  end_time: 2022-07-14 15:10:00
+  papers:
+    - id: 6
+      start_time: 2022-07-14 13:30:00
+      end_time: 2022-07-14 13:50:00
+    - id: 9
+      start_time: 2022-07-14 13:50:00
+      end_time: 2022-07-14 14:10:00
+    - id: 11
+      start_time: 2022-07-14 14:10:00
+      end_time: 2022-07-14 14:30:00
+    - id: 14
+      start_time: 2022-07-14 14:30:00
+      end_time: 2022-07-14 14:50:00
+    - id: 16
+      start_time: 2022-07-14 14:50:00
+      end_time: 2022-07-14 15:10:00
+    
+- title: Break
+  start_time: 2022-07-14 15:10:00
+  end_time: 2022-07-14 15:30:00
+
+- title: Session 4
+  start_time: 2022-07-14 15:30:00
+  end_time: 2022-07-14 15:50:00
+  papers:
+    - id: 4
+      start_time: 2022-07-14 15:30:00
+      end_time: 2022-07-14 15:50:00
+
+- title: "Keynote: Hongfang Liu"
+  start_time: 2022-07-14 15:50:00
+  end_time: 2022-07-14 16:50:00
+  subsessions:
+    - title: "Keynote: Hongfang Liu"
+      start_time: 2022-07-14 15:50:00
+      end_time: 2022-07-14 15:35:00
+    - title: "Keynote Q&A"
+      start_time: 2022-07-14 15:35:00
+      end_time: 2022-07-14 16:50:00
+
+- title: Closing Remarks
+  start_time: 2022-07-14 16:50:00
+  end_time: 2022-07-14 17:00:00
