@@ -20,6 +20,14 @@ layout: default
 </tr>
 {% endfor %}
 
+{% for paper in session.papers %}
+{% assign paper_info = site.data["2022"].papers | find: "id", paper.id %}
+<tr>
+    {{ paper_info }}
+</tr>
+
+{% endfor %}
+
 {% endfor %}
 
 </table>
