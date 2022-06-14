@@ -123,3 +123,13 @@
   - first_name: Rui
     last_name: Zhang
     institution: University of Minnesota
+
+- role: Invited Speakers
+  entries:
+  - first_name: Hongfang
+    last_name: Liu
+    institution: Mayo Clinic
+
+  - first_name: Mark
+    last_name: Dredze
+    institution: Johns Hopkins University
