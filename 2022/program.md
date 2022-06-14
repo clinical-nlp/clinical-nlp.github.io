@@ -18,6 +18,7 @@ layout: default
 <tr>
     <td valign=top>{{ subsession.start_time | date: "%H:%M"}}–{{ subsession.end_time | date: "%H:%M" }}</td><td valign=top><em>{{ subsession.title }}</em><!-- <br>{{ subsession.presenter }} would need to be added --></td>
 </tr>
+{% endfor %}
 
 {% endfor %}
 
