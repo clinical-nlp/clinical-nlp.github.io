@@ -17,12 +17,7 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 ### Program Committee
 
 {% assign program_committee = site.data["2022"].program_committee | where: "role", "Program Committee" %}
-console.log({{ program_committee | json }})
-
-{% for pc_group in site.data["2022"].program_committee | where:"role","'Program Committee'" %}
-if pc_group.
-console.log({{ pc_group | json }})
-
+{% for pc_group program_committee %}
 {%- for member in pc_group.entries -%}
 - {{ member.first_name }} {{ member.last_name }} ({{member.institution}})
 {% endfor %}
