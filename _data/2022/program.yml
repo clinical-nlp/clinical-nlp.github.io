@@ -1,11 +1,10 @@
-- title: Opening Remarks
+- title: Opening Session
   start_time: 2022-07-14 08:30:00
-  end_time: 2022-07-14 08:40:00
-
-- title: "Keynote: Mark Dredze"
-  start_time: 2022-07-14 08:40:00
-  end_time: 2022-07-14 09:25:00
+  end_time: 2022-07-14 09:40:00
   subsessions:
+    - title: "Opening Remarks"
+      start_time: 2022-07-14 08:30:00
+      end_time: 2022-07-14 08:40:00
     - title: "Keynote: Mark Dredze"
       start_time: 2022-07-14 08:40:00
       end_time: 2022-07-14 09:25:00
@@ -53,19 +52,19 @@
   start_time: 2022-07-14 13:30:00
   end_time: 2022-07-14 15:10:00
   papers:
-    - id: 6
+    - id: 16
       start_time: 2022-07-14 13:30:00
       end_time: 2022-07-14 13:50:00
-    - id: 9
+    - id: 14
       start_time: 2022-07-14 13:50:00
       end_time: 2022-07-14 14:10:00
     - id: 11
       start_time: 2022-07-14 14:10:00
       end_time: 2022-07-14 14:30:00
-    - id: 14
+    - id: 9
       start_time: 2022-07-14 14:30:00
       end_time: 2022-07-14 14:50:00
-    - id: 16
+    - id: 6
       start_time: 2022-07-14 14:50:00
       end_time: 2022-07-14 15:10:00
     
@@ -81,9 +80,9 @@
       start_time: 2022-07-14 15:30:00
       end_time: 2022-07-14 15:50:00
 
-- title: "Keynote: Hongfang Liu"
+- title: Closing Session
   start_time: 2022-07-14 15:50:00
-  end_time: 2022-07-14 16:50:00
+  end_time: 2022-07-14 17:00:00
   subsessions:
     - title: "Keynote: Hongfang Liu"
       start_time: 2022-07-14 15:50:00
@@ -91,7 +90,6 @@
     - title: "Keynote Q&A"
       start_time: 2022-07-14 15:35:00
       end_time: 2022-07-14 16:50:00
-
-- title: Closing Remarks
-  start_time: 2022-07-14 16:50:00
-  end_time: 2022-07-14 17:00:00
+    - title: "Closing Remarks"
+      start_time: 2022-07-14 16:50:00
+      end_time: 2022-07-14 17:00:00
