@@ -25,7 +25,7 @@ layout: default
 {% assign paper_info = site.data["2022"].papers | where: "id", paper.id | first %}
 <tr>
     <td style="border-top: 0px">{{ paper.start_time | date: "%H:%M"}}–{{ paper.end_time | date: "%H:%M" }}</td>
-    <td style="border-top: 0px"><em>{{ paper_info.title }}</em><br />{{ paper_info.authors | map: 'name' | join: ', ' }}</td>
+    <td style="border-top: 0px"><a href="{{ paper.url }}"><em>{{ paper_info.title }}</em></a><br />{{ paper_info.authors | map: 'name' | join: ', ' }}</td>
 </tr>
 {% endfor %}
 {% endfor %}
