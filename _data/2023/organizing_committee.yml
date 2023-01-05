@@ -1,0 +1,27 @@
+- role: General Chairs
+  members:
+  - first_name: Tristan
+    last_name: Naumann
+    institution: Microsoft Research
+    homepage: https://aka.ms/tristan
+
+  - first_name: Steven
+    last_name: Bethard
+    institution: University of Arizona
+    homepage: https://bethard.faculty.arizona.edu/
+
+  - first_name: Kirk
+    last_name: Roberts
+    institution: University of Texas Health Science Center at Houston
+    homepage: https://sbmi.uth.edu/faculty-and-staff/kirk-roberts.htm
+
+  - first_name: Anna
+    last_name: Rumshisky
+    institution: UMass Lowell
+    homepage: http://www.cs.uml.edu/~arum/
+
+  - first_name: Asma
+    last_name: Ben Abacha
+    institution: Microsoft Research
+    homepage: https://sites.google.com/site/asmabenabacha
+    
