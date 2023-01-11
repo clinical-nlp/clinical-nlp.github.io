@@ -47,7 +47,7 @@ Submissions may have a maximum length of eight (8) pages for long papers and fou
 All submissions must be made through [OpenReview](https://openreview.net/) and follow [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html).
 The OpenReview submission site will be found here:
 
-<https://openreview.net/group?id=aclweb.org/ACL/2023/Workshop>
+https://openreview.net/group?id=aclweb.org/ACL/2023/Workshop/Clinical_NLP
 
 We encourage submissions of papers submitted but not accepted by [EACL 2023](https://2023.eacl.org/), [ACL 2023](https://2023.aclweb.org/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
 
