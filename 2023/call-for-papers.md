@@ -77,3 +77,6 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](timeanddate.com/time/zo
 * Kirk Roberts (University of Texas Health Science Center at Houston)
 * Steven Bethard (University of Arizona)
 * Tristan Naumann (Microsoft Research)
+
+
+For inquiries, please contact: clinical-nlp-workshop-organizers@googlegroups.com. 
