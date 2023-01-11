@@ -5,7 +5,20 @@ layout: default_2023
 
 ### Important Dates
 
-TBA
+| Event                                               | Date                                    |
+| --------------------------------------------------- | --------------------------------------- |
+| Shared task registration opens                      | Tuesday, January 10, 2023               |
+| Shared task release of training and validation sets | Friday, February 10, 2023               |
+| Shared task release of the test sets                | Wednesday, March 15, 2023               |
+| Shared task run submission deadline                 | Friday, March 17, 2023                  |
+| Shared task release of official results             | Friday, March 31, 2023                  |
+| Submission deadline (both general and shared task)  | Monday, April 24, 2023                  |
+| Notification of acceptance                          | Monday, May 22, 2023                    |
+| Final versions of papers due                        | Tuesday, June 6, 2023                   |
+| Pre-recorded video due                              | Monday, June 12, 2023                   |
+| Workshop @ ACL 2023                                 | Thursday or Friday, July 13 or 14, 2023 |
+
+All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
 
 ### Prior Events
 
