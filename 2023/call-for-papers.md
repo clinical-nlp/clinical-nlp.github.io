@@ -54,7 +54,7 @@ We encourage submissions of papers submitted but not accepted by [EACL 2023](htt
 
 ### Important Dates
 
-All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](timeanddate.com/time/zones/aoe))
+All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
 
 | Event                                               | Date                                    |
 | --------------------------------------------------- | --------------------------------------- |
