@@ -3,7 +3,7 @@ title: call-for-papers
 layout: default_2023
 ---
 
-### Call for Papers
+### Call for Papers: The Clinical NLP Workshop & Shared Tasks @ ACL 2023
 
 Clinical text is growing rapidly as electronic health records become pervasive.
 Much of the information recorded in a clinical encounter is located exclusively in provider narrative notes, which makes them indispensable for supplementing structured clinical data in order to better understand patient state and care provided.
@@ -12,7 +12,7 @@ Despite the substantial recent strides in clinical NLP, a substantial gap remain
 The goal of this workshop is to address this gap by establishing a regular event in CL conferences that brings together researchers interested in developing state-of-the-art methods for the clinical domain.
 The focus is on improving NLP technology to enable clinical applications, and specifically, information extraction and modeling of narrative provider notes from electronic health records, patient encounter transcripts, and other clinical narratives.
 
-The following is a list of topics of interest:
+Relevant topics for the workshop include, but are not limited to:
 * Modeling clinical text in standard NLP tasks (tagging, chunking, parsing, entity identification, entity linking/normalization, relation extraction, coreference, summarization, etc.)
 * De-identification and other handling of protected health information
 * Structure of clinical documents (e.g., section identification)
@@ -30,6 +30,7 @@ In 2023, Clinical NLP will encourage submissions from four special tracks:
 * Clinical NLP for clinical conversations (e.g., doctor-patient)
 * Multi-word expressions in Clinical NLP, a joint track with [MWE 2023](https://multiword.org/mwe2023/)
 
+The 5th Clinical NLP Workshop will be co-located with [ACL 2023](https://2023.aclweb.org/) in Toronto, Canada - July 13 or 14, 2023. 
 
 ## Shared Task
 
@@ -52,6 +53,8 @@ We encourage submissions of papers submitted but not accepted by [EACL 2023](htt
 
 
 ### Important Dates
+
+All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](timeanddate.com/time/zones/aoe))
 
 | Event                                               | Date                                    |
 | --------------------------------------------------- | --------------------------------------- |
