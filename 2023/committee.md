@@ -15,6 +15,7 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 
 
 ### Program Committee
+
 * Alberto Lavelli (FBK, Italy)
 * Alistair Johnson (Hospital for Sick Children, Canada) 
 * Aurélie Névéol (LISN-CNRS, France)
