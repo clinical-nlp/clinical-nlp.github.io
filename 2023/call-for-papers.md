@@ -3,7 +3,7 @@ title: call-for-papers
 layout: default_2023
 ---
 
-### Call for Papers & Participation: The ClinicalNLP 2023 Workshop & Shared Tasks at ACL 2023
+# Call for Papers & Participation: The ClinicalNLP 2023 Workshop & Shared Tasks at ACL 2023
 
 Clinical text is growing rapidly as electronic health records become pervasive.
 Much of the information recorded in a clinical encounter is located exclusively in provider narrative notes, which makes them indispensable for supplementing structured clinical data in order to better understand patient state and care provided.
@@ -46,14 +46,11 @@ Please visit the [shared task website](https://sites.google.com/view/mediqa2023/
 Submissions may have a maximum length of eight (8) pages for long papers and four (4) pages for short papers and shared task participant papers, with unlimited pages for references and appendices.
 All submissions must be made through [OpenReview](https://openreview.net/) and follow [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html).
 
-
 The OpenReview submission site can be found here: [OpenReview-ClinicalNLP](https://openreview.net/group?id=aclweb.org/ACL/2023/Workshop/Clinical_NLP)
 
+We encourage submissions of papers submitted to but not accepted by [EACL 2023](https://2023.eacl.org/), [ACL 2023](https://2023.aclweb.org/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
 
-We encourage submissions of papers submitted but not accepted by [EACL 2023](https://2023.eacl.org/), [ACL 2023](https://2023.aclweb.org/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
-
-
-### Important Dates
+## Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
 
@@ -70,14 +67,12 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Pre-recorded video due                              | Monday, June 12, 2023                   |
 | Workshop                                            | Thursday or Friday, July 13 or 14, 2023 |
 
-
-### Workshop Organizers
+## Workshop Organizers
 
 * Anna Rumshisky (UMass Lowell)
 * Asma Ben Abacha (Microsoft)
 * Kirk Roberts (University of Texas Health Science Center at Houston)
 * Steven Bethard (University of Arizona)
 * Tristan Naumann (Microsoft Research)
-
 
 For inquiries, please contact: clinical-nlp-workshop-organizers@googlegroups.com. 
