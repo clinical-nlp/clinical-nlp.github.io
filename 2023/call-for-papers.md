@@ -24,13 +24,22 @@ Relevant topics for the workshop include, but are not limited to:
 * Evaluation techniques for the clinical domain
 * Bias and fairness in clinical text
 
-In 2023, Clinical NLP will encourage submissions from four special tracks:
+In 2023, Clinical NLP will encourage submissions from the following special tracks:
 * Clinical NLP in languages other than English
 * Clinical NLP in low-resource settings
 * Clinical NLP for clinical conversations (e.g., doctor-patient)
-* Multi-word expressions in Clinical NLP, a joint track with [MWE 2023](https://multiword.org/mwe2023/)
 
 The 5th Clinical NLP Workshop will be co-located with [ACL 2023](https://2023.aclweb.org/) in Toronto, Canada - July 13 or 14, 2023. 
+
+## Joint Track with MWE
+
+Clinical NLP 2023 is also co-organizing a special track with the [19th Workshop on Multiword Expressions (MWE 2023)](https://multiword.org/mwe2023/).
+The goal is to foster future synergies that could address scientific challenges in the creation of resources, models and applications to deal with multiword expressions and related phenomena in the specialised domain of Clinical NLP.
+Submissions describing research on multi-word expressions in the specialized domain of Clinical NLP, especially introducing new datasets or new tools and resources, are welcome.
+
+Note that submissions to this track must be **submitted to MWE, not Clinical NLP** by their earlier submission deadline, **13 Feb 2023**.
+Please visit the [MWE 2023 website](https://multiword.org/mwe2023/) for more details.
+Submissions accepted to this "Multi-word expressions in Clinical NLP" special track will have the opportunity to present their work first at MWE 2023 at EACL and then also at Clinical NLP 2023 at ACL.
 
 ## Shared Task
 
