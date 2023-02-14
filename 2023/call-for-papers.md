@@ -29,7 +29,7 @@ In 2023, Clinical NLP will encourage submissions from the following special trac
 * Clinical NLP in low-resource settings
 * Clinical NLP for clinical conversations (e.g., doctor-patient)
 
-The 5th Clinical NLP Workshop will be co-located with [ACL 2023](https://2023.aclweb.org/) in Toronto, Canada - July 13 or 14, 2023. 
+The 5th Clinical NLP Workshop will be co-located with [ACL 2023](https://2023.aclweb.org/) in Toronto, Canada - July 14, 2023. 
 
 ## Joint Track with MWE
 
@@ -74,7 +74,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Notification of acceptance                          | Monday, May 22, 2023                    |
 | Final versions of papers due                        | Tuesday, June 6, 2023                   |
 | Pre-recorded video due                              | Monday, June 12, 2023                   |
-| Workshop                                            | Thursday or Friday, July 13 or 14, 2023 |
+| Workshop                                            | Thursday or Friday, July 14, 2023       |
 
 ## Workshop Organizers
 
