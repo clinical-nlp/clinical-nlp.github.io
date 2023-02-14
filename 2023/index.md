@@ -16,7 +16,7 @@ layout: default_2023
 | Notification of acceptance                          | Monday, May 22, 2023                    |
 | Final versions of papers due                        | Tuesday, June 6, 2023                   |
 | Pre-recorded video due                              | Monday, June 12, 2023                   |
-| Workshop @ ACL 2023                                 | Thursday or Friday, July 13 or 14, 2023 |
+| Workshop @ ACL 2023                                 | Thursday or Friday, July 14, 2023 |
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
 
