@@ -19,7 +19,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 
 | Event                                               | Date                                    |
 | --------------------------------------------------- | --------------------------------------- |
-| Submission deadline (both general and shared task)  | Monday, April 24, 2023                  |
+| Submission deadline (both general and shared task)  | Tuesday, May 2, 2023                    |
 | Notification of acceptance                          | Monday, May 22, 2023                    |
 | Final versions of papers due                        | Tuesday, June 6, 2023                   |
 | Pre-recorded video due                              | Monday, June 12, 2023                   |
