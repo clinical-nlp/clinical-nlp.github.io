@@ -9,6 +9,8 @@ If your organization would like to sponsor Clinical NLP, we are offering the spo
 Support at all levels is aimed at supporting Diversity, Inclusion and Accessibility (DIA) initiatives of ClinicalNLP, including student registration.
 Support at Silver and Gold levels is aimed at further support of the ClinicalNLP workshop and the MEDIQA shared task through awards for top submissions.
 
+To request to become a sponsor, please contact <clinical-nlp-workshop-organizers@googlegroups.com> and let us know your organization's preferred level of support.
+
 ### Gold - $8,000
 * Recognition of support during opening session.
 * Present awards for best papers for both the main workshop and the shared task.
