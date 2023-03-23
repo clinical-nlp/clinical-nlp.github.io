@@ -17,10 +17,10 @@ We encourage submissions of papers submitted but not accepted by [EACL 2023](htt
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
 
-| Event                                               | Date                                    |
-| --------------------------------------------------- | --------------------------------------- |
-| Submission deadline (both general and shared task)  | Tuesday, May 2, 2023                    |
-| Notification of acceptance                          | Monday, May 22, 2023                    |
-| Final versions of papers due                        | Tuesday, June 6, 2023                   |
-| Pre-recorded video due                              | Monday, June 12, 2023                   |
-| Workshop                                            | Thursday or Friday, July 13 or 14, 2023 |
+| Event                                               | Date                  |
+| --------------------------------------------------- | --------------------- |
+| Submission deadline (both general and shared task)  | Tuesday, May 2, 2023  |
+| Notification of acceptance                          | Monday, May 22, 2023  |
+| Final versions of papers due                        | Tuesday, June 6, 2023 |
+| Pre-recorded video due                              | Monday, June 12, 2023 |
+| Workshop                                            | Friday, July 14, 2023 |
