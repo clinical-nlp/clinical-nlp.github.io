@@ -12,7 +12,7 @@ layout: default_2023
 | Shared task release of the test sets                | Wednesday, March 15, 2023 |
 | Shared task run submission deadline                 | Friday, March 17, 2023    |
 | Shared task release of official results             | Friday, March 31, 2023    |
-| Submission deadline (both general and shared task)  | Tuesday, May 2, 2023      |
+| Submission deadline (both general and shared task)  | Thursday, May 4, 2023     |
 | Notification of acceptance                          | Monday, May 22, 2023      |
 | Final versions of papers due                        | Tuesday, June 6, 2023     |
 | Pre-recorded video due                              | Monday, June 12, 2023     |
