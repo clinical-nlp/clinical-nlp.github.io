@@ -5,12 +5,21 @@ layout: default_2023
 
 ### Submissions
 
-Submissions may have a maximum length of eight (8) pages for long papers and four (4) pages for short papers and shared task participant papers, with unlimited pages for references and appendices.
-All submissions must be made through [OpenReview](https://openreview.net/) and follow [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html).
+The OpenReview submission site is:
 
-The OpenReview submission site can be found here: [OpenReview-ClinicalNLP](https://openreview.net/group?id=aclweb.org/ACL/2023/Workshop/Clinical_NLP)
+* <https://openreview.net/group?id=aclweb.org/ACL/2023/Workshop/Clinical_NLP>
 
-We encourage submissions of papers submitted but not accepted by [EACL 2023](https://2023.eacl.org/), [ACL 2023](https://2023.aclweb.org/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
+All submissions must follow [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html), including:
+
+* Submissions should be anonymous and [must not include any identifying information about the authors](https://acl-org.github.io/ACLPUB/review-version.html)
+* Long papers may have up to eight (8) pages of content and short papers may have up to four (4) pages of content.
+* You are allowed [unlimited pages for references](https://acl-org.github.io/ACLPUB/formatting.html#paper-length)
+* Any "Limitations" section or "Ethics Statement" is similar to references; it does not count toward the page limit.
+
+Clinical NLP 2023 has no preprint restrictions; you may post to arXiv at any time.
+Clinical NLP 2023 workshop proceedings are archival will be published [on the ACL Anthology](https://aclanthology.org/venues/clinicalnlp/).
+
+We encourage submissions of papers submitted to but not accepted by [EACL 2023](https://2023.eacl.org/), [ACL 2023](https://2023.aclweb.org/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
 
 
 ### Important Dates
