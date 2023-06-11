@@ -57,6 +57,7 @@
     first_name: Griffin
     google_scholar_id: https://scholar.google.com/citations?user=ZxKRzugAAAAJ&hl=en
     homepage: http://www.Griffintadams.com
+    institution: Columbia University
     last_name: Adams
     middle_name: Thomas
     name: Griffin Thomas Adams
@@ -65,6 +66,7 @@
     first_name: Surabhi
     google_scholar_id: https://scholar.google.com/citations?user=4oG5fmkAAAAJ&hl=en
     homepage: https://sites.google.com/dtu.ac.in/surabhiadhikari/home
+    institution: Columbia University
     last_name: Adhikari
     name: Surabhi Adhikari
     username: ~Surabhi_Adhikari1
@@ -88,6 +90,7 @@
     emails: emily.alsentzer@gmail.com
     first_name: Emily
     google_scholar_id: https://scholar.google.ca/citations?user=wKcw9Y8AAAAJ&hl=en
+    institution: Massachusetts Institute of Technology
     last_name: Alsentzer
     name: Emily Alsentzer
     semantic_scholar_id: https://www.semanticscholar.org/author/Emily-Alsentzer/50229020
@@ -147,7 +150,7 @@
     first_name: Qingyu
     google_scholar_id: https://scholar.google.com/citations?user=FSLotiMAAAAJ&hl=en
     homepage: https://sites.google.com/view/qingyuchen/home
-    institution: National Institutes of Health (NIH)
+    institution: National Institutes of Health
     last_name: Chen
     name: Qingyu Chen
     username: ~Qingyu_Chen1
@@ -165,12 +168,6 @@
     last_name: Dai
     name: Hong-Jie Dai
     username: ~Hong-Jie_Dai1
-  - emails: judith.dexheimer@cchmc.org
-    first_name: Judith
-    last_name: Dexheimer
-    middle_name: W
-    name: Judith W Dexheimer
-    username: ~Judith_W_Dexheimer1
   - dblp_id: https://dblp.org/pid/83/3441
     emails: ddligach@luc.edu
     first_name: Dmitriy
@@ -203,12 +200,6 @@
     orcid: https://orcid.org/0000-0001-6726-7242
     semantic_scholar_id: https://www.semanticscholar.org/author/Jocelyn-Dunstan/121936601?sort=pub-date
     username: ~Jocelyn_Dunstan1
-  - emails: naomeetori@gmail.com
-    first_name: Naome
-    last_name: Etori
-    middle_name: A
-    name: Naome A Etori
-    username: ~Naome_A_Etori1
   - emails: s1206296@ed.ac.uk
     first_name: Matúš
     google_scholar_id: https://scholar.google.com/citations?user=_fqaq5EAAAAJ&hl=en
@@ -226,6 +217,7 @@
     username: ~Yadan_Fan1
   - dblp_id: https://dblp.org/pers/f/Fontaine:Xavier.html
     emails: xavier.fontaine@polytechnique.edu
+    institution: ENS Paris-Saclay
     first_name: Xavier
     last_name: Fontaine
     name: Xavier Fontaine
@@ -241,6 +233,7 @@
     first_name: John
     google_scholar_id: https://scholar.google.com/citations?user=TNFEhK4AAAAJ&hl=en
     homepage: https://github.com/JohnGiorgi
+    institution: University of Toronto
     last_name: Giorgi
     middle_name: Michael
     name: John Michael Giorgi
@@ -251,6 +244,7 @@
     emails: natalia.grabar@univ-lille.fr
     first_name: Natalia
     homepage: http://natalia.grabar.free.fr/index.php
+    institution: CNRS
     last_name: Grabar
     name: Natalia Grabar
     orcid: https://orcid.org/0000-0002-0237-4554
@@ -271,11 +265,6 @@
     last_name: Huang
     name: Ming Huang
     username: ~Ming_Huang4
-  - emails: r.iyamu@ufl.edu
-    first_name: Raphael
-    last_name: Iyamu
-    name: Raphael Iyamu
-    username: ~Raphael_Iyamu1
   - emails: xiaoqian.jiang@uth.tmc.edu
     first_name: Xiaoqian
     google_scholar_id: https://scholar.google.com/citations?user=DSmxHuMAAAAJ&hl=en
@@ -300,6 +289,7 @@
     first_name: Alistair
     google_scholar_id: https://scholar.google.com/citations?user=66GCSz8AAAAJ&hl=en
     homepage: https://alistairewj.github.io
+    institution: The Hospital for Sick Children
     last_name: Johnson
     name: ALISTAIR JOHNSON
     username: ~ALISTAIR_JOHNSON1
@@ -318,6 +308,7 @@
     first_name: Raghav
     google_scholar_id: https://scholar.google.com/citations?user=8eJoJ0MAAAAJ&hl=en&oi=ao
     homepage: https://raghav1606.github.io/
+    institution: Carnegie Mellon University
     last_name: Kapoor
     name: Raghav Kapoor
     username: ~Raghav_Kapoor1
