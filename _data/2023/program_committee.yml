@@ -330,6 +330,7 @@
   - emails: shiba.kuanar@mavs.uta.edu
     first_name: Shiba
     google_scholar_id: https://scholar.google.com/citations?user=hcR8BvgAAAAJ&hl=en
+    institution: University of Texas, Arlington
     last_name: Kuanar
     name: Shiba Kuanar
     username: ~Shiba_Kuanar1
@@ -337,6 +338,7 @@
     first_name: Yanis
     google_scholar_id: https://scholar.google.com/citations?user=DavIBZsJ4EgC&hl=fr&oi=ao
     homepage: https://qanastek.github.io/
+    institution: Université d'Avignon
     last_name: Labrak
     name: Yanis Labrak
     semantic_scholar_id: https://www.semanticscholar.org/author/Yanis-Labrak/2139767217
@@ -370,12 +372,14 @@
   - emails: luqh@cs.uoregon.edu
     first_name: Qiuhao
     google_scholar_id: https://scholar.google.com/citations?user=IddOf0MAAAAJ&hl=en
+    institution: University of Oregon 
     last_name: Lu
     name: Qiuhao Lu
     username: ~Qiuhao_Lu1
   - emails: yxlu0613@gmail.com
     first_name: Yuxing
     homepage: http://yuxinglu613.github.io
+    institution: Peking University
     last_name: Lu
     name: Yuxing Lu
     username: ~Yuxing_Lu1
@@ -388,18 +392,6 @@
     name: Diwakar Mahajan
     semantic_scholar_id: https://www.semanticscholar.org/author/Diwakar-Mahajan/40665082
     username: ~Diwakar_Mahajan1
-  - emails: pranita.mahajan@outlook.com
-    first_name: Pranita
-    last_name: Mahajan
-    middle_name: Yogesh
-    name: Pranita Yogesh Mahajan
-    username: ~Pranita_Yogesh_Mahajan1
-  - emails: gaetano.manzo@nih.gov
-    first_name: Gaetano
-    homepage: https://www.linkedin.com/in/gaetano-manzo/
-    last_name: Manzo
-    name: Gaetano Manzo
-    username: ~Gaetano_Manzo1
   - dblp_id: https://dblp.org/pid/43/7440
     emails: aleixomatos@ua.pt
     first_name: Sérgio
@@ -438,6 +430,7 @@
   - emails: imondal@umd.edu
     first_name: Ishani
     google_scholar_id: https://scholar.google.co.in/citations?user=BKc5kXkAAAAJ&hl=en
+    institution: University of Maryland, College Park
     last_name: Mondal
     name: Ishani Mondal
     username: ~Ishani_Mondal2
@@ -466,6 +459,7 @@
   - emails: kbozler@arizona.edu
     first_name: Kadir Bulut
     google_scholar_id: https://scholar.google.com/citations?user=fh3q400AAAAJ&hl=en
+    institution: University of Arizona
     last_name: Ozler
     name: Kadir Bulut Ozler
     username: ~Kadir_Bulut_Ozler1
@@ -503,6 +497,7 @@
     emails: satyajeet.raje@gmail.com
     first_name: Satyajeet
     google_scholar_id: https://scholar.google.com/citations?user=euvM3v0AAAAJ&hl=en
+    institution: International Business Machines
     last_name: Raje
     name: Satyajeet Raje
     username: ~Satyajeet_Raje1
@@ -525,6 +520,7 @@
   - emails: ankurani0001@gmail.com
     first_name: Anku
     google_scholar_id: https://scholar.google.com/citations?hl=en&user=2tu6-0UAAAAJ
+    institution: University of South Carolina
     last_name: Rani
     name: Anku Rani
     semantic_scholar_id: https://www.semanticscholar.org/author/Anku-Rani/2106627712
@@ -569,6 +565,7 @@
     last_name: Singh
     name: Atul Singh
     username: ~Atul_Singh1
+    institution: University of Dublin, Trinity College
   - emails: sonish.sivarajkumar@pitt.edu
     first_name: Sonish
     google_scholar_id: https://scholar.google.com/citations?user=7bKK-AoAAAAJ&hl=en
@@ -577,15 +574,6 @@
     name: Sonish Sivarajkumar
     orcid: https://orcid.org/0000-0003-4173-1988
     username: ~Sonish_Sivarajkumar1
-  - dblp_id: https://dblp.org/pid/246/0249
-    emails: sarveshsoni26@gmail.com
-    first_name: Sarvesh
-    google_scholar_id: https://scholar.google.com/citations?user=o8Qzs0QAAAAJ&hl=en
-    last_name: Soni
-    name: Sarvesh Soni
-    orcid: https://orcid.org/0000-0003-1704-1039
-    semantic_scholar_id: https://www.semanticscholar.org/author/Sarvesh-Soni/145944603
-    username: ~Sarvesh_Soni1
   - emails: arvindkrishna1997@gmail.com
     first_name: Arvind Krishna
     google_scholar_id: https://scholar.google.com/citations?user=bLD8eHoAAAAJ
@@ -597,19 +585,12 @@
     first_name: Dhananjay
     last_name: Srivastava
     name: Dhananjay Srivastava
+    institution: Indiana University
     username: ~Dhananjay_Srivastava1
-  - emails: karl.swanson@ucsf.edu
-    first_name: Karl
-    google_scholar_id: https://scholar.google.com/citations?user=IzxihrgAAAAJ&hl=en
-    homepage: https://www.datascienceportfol.io/karlswanson
-    last_name: Swanson
-    middle_name: Eric
-    name: Karl Eric Swanson
-    orcid: https://orcid.org/0000-0002-5209-6046
-    username: ~Karl_Eric_Swanson1
   - emails: behrad.taghibeyglou@mail.utoronto.ca
     first_name: Behrad
     google_scholar_id: https://scholar.google.com/citations?user=k5QagtAAAAAJ&hl=en
+    institution: University of Toronto
     last_name: Taghibeyglou
     name: Behrad Taghibeyglou
     username: ~Behrad_Taghibeyglou1
@@ -633,6 +614,7 @@
     emails: k.thaker@pitt.edu
     first_name: Khushboo
     homepage: http://pitt.edu/~kmt81
+    institution: University of Pittsburgh 
     last_name: Thaker
     name: Khushboo Thaker
     orcid: https://orcid.org/0000-0003-3619-9376
@@ -658,6 +640,7 @@
   - emails: jinge.wu.20@ucl.ac.uk
     first_name: Jinge
     google_scholar_id: https://scholar.google.com/citations?user=DdLPDagAAAAJ&hl=en
+    institution: University College London
     last_name: Wu
     name: Jinge Wu
     username: ~Jinge_Wu1
@@ -718,18 +701,21 @@
     first_name: Xiang
     google_scholar_id: https://scholar.google.com/citations?hl=en&user=4jX_dI8AAAAJ
     homepage: https://xiangyue9607.github.io/
+    institution: Ohio State University 
     last_name: Yue
     name: Xiang Yue
     username: ~Xiang_Yue1
   - emails: boya.zhang@unige.ch
     first_name: Boya
     homepage: https://be.linkedin.com/in/tinaboya
+    institution: University of Geneva 
     last_name: Zhang
     name: Boya Zhang
     username: ~Boya_Zhang2
   - emails: wzhou87@uw.edu
     first_name: Weipeng
     homepage: https://www.linkedin.com/in/weipeng-zhou-56b802106
+    institution: University of Washington
     last_name: Zhou
     name: Weipeng Zhou
     username: ~Weipeng_Zhou1
