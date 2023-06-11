@@ -7,8 +7,8 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 
 ### Workshop Organizers
 
-{% for org_group in site.data["2023"].program_committee | where: "role", "Program_Chairs" %}
-{%- for member in org_group.members -%}
+{% assign program_chairs = site.data["2023"].program_committee | where: "role", "Program_Chairs" %}
+{% for pc_group in program_chairs %}
 - [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}) ({{member.institution}})
 {% endfor %}
 {% endfor %}
