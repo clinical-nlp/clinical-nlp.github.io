@@ -4,7 +4,7 @@
     first_name: Asma
     google_scholar_id: https://scholar.google.com/citations?user=KO6_r0cAAAAJ&hl=en
     homepage: https://sites.google.com/site/asmabenabacha/
-    institution: Microsoft, USA
+    institution: Microsoft
     last_name: Ben Abacha
     name: Asma Ben Abacha
     orcid: https://orcid.org/0000-0001-6312-9387
@@ -423,6 +423,7 @@
     last_name: Michalopoulos
     name: George Michalopoulos
     semantic_scholar_id: https://www.semanticscholar.org/author/153246940
+    institution: Microsoft
     username: ~George_Michalopoulos1
   - dblp_id: https://dblp.org/pid/205/8996
     emails: kirill.milintsevich@unicaen.fr
@@ -699,6 +700,7 @@
     emails: wenwaiyim@gmail.com
     first_name: Wen-wai
     google_scholar_id: https://scholar.google.com/citations?user=zLbXslcAAAAJ&hl=en
+    institution: Microsoft
     last_name: Yim
     name: Wen-wai Yim
     semantic_scholar_id: https://www.semanticscholar.org/author/Wen-wai-Yim/38845771
