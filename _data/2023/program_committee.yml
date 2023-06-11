@@ -108,25 +108,6 @@
     name: Hajer Ayadi
     orcid: https://orcid.org/0000-0002-4462-8786
     username: ~Hajer_Ayadi1
-  - dblp_id: https://dblp.org/pid/136/7924.html
-    emails: hajaya1@yorku.ca
-    first_name: Hajer
-    institution: York University
-    last_name: Ayadi
-    name: Hajer Ayadi
-    orcid: https://orcid.org/0000-0002-4462-8786
-    username: ~Hajer_Ayadi1
-  - dblp_id: https://dblp.org/pid/52/5246
-    emails: bethard@arizona.edu
-    first_name: Steven
-    google_scholar_id: https://scholar.google.com.tw/citations?user=sXM8J5EAAAAJ
-    homepage: http://bethard.faculty.arizona.edu/
-    institution: University of Arizona
-    last_name: Bethard
-    name: Steven Bethard
-    orcid: https://orcid.org/0000-0001-9560-6491
-    semantic_scholar_id: https://www.semanticscholar.org/author/Steven-Bethard/2105138
-    username: ~Steven_Bethard1
   - dblp_id: https://dblp.org/pid/b/SjaakBrinkkemper.html
     emails: s.brinkkemper@uu.nl
     first_name: Sjaak
@@ -156,13 +137,6 @@
     last_name: Chemlal
     name: Salim Chemlal
     username: ~Salim_Chemlal1
-  - emails: schem001@gmail.com
-    first_name: Salim
-    homepage: https://www.linkedin.com/in/salimchemlal/
-    institution: MoroccoAI
-    last_name: Chemlal
-    name: Salim Chemlal
-    username: ~Salim_Chemlal1
   - emails: shaaan@brandeis.edu
     first_name: Shan
     homepage: https://shanchen.dev
@@ -174,15 +148,7 @@
     first_name: Qingyu
     google_scholar_id: https://scholar.google.com/citations?user=FSLotiMAAAAJ&hl=en
     homepage: https://sites.google.com/view/qingyuchen/home
-    institution: NIH and National Institutes of Health
-    last_name: Chen
-    name: Qingyu Chen
-    username: ~Qingyu_Chen1
-  - emails: qingyu.chen@nih.gov
-    first_name: Qingyu
-    google_scholar_id: https://scholar.google.com/citations?user=FSLotiMAAAAJ&hl=en
-    homepage: https://sites.google.com/view/qingyuchen/home
-    institution: NIH and National Institutes of Health
+    institution: National Institutes of Health (NIH)
     last_name: Chen
     name: Qingyu Chen
     username: ~Qingyu_Chen1
@@ -238,17 +204,6 @@
     orcid: https://orcid.org/0000-0001-6726-7242
     semantic_scholar_id: https://www.semanticscholar.org/author/Jocelyn-Dunstan/121936601?sort=pub-date
     username: ~Jocelyn_Dunstan1
-  - dblp_id: https://dblp.org/pid/268/0573
-    emails: jdunstan@uchile.cl
-    first_name: Jocelyn
-    google_scholar_id: https://scholar.google.co.uk/citations?user=geH4mS0AAAAJ&hl=en&oi=ao
-    homepage: https://sites.google.com/view/jdunstan/home
-    institution: Universidad de Chile
-    last_name: Dunstan
-    name: Jocelyn Dunstan
-    orcid: https://orcid.org/0000-0001-6726-7242
-    semantic_scholar_id: https://www.semanticscholar.org/author/Jocelyn-Dunstan/121936601?sort=pub-date
-    username: ~Jocelyn_Dunstan1
   - emails: naomeetori@gmail.com
     first_name: Naome
     last_name: Etori
@@ -270,19 +225,6 @@
     last_name: Fan
     name: Yadan Fan
     username: ~Yadan_Fan1
-  - emails: yadan.fan@nuance.com
-    first_name: Yadan
-    homepage: https://scholar.google.com/citations?user=nrtuv5gAAAAJ&hl=en&oi=ao
-    institution: Nuance Communications
-    last_name: Fan
-    name: Yadan Fan
-    username: ~Yadan_Fan1
-  - dblp_id: https://dblp.org/pers/f/Fontaine:Xavier.html
-    emails: xavier.fontaine@polytechnique.edu
-    first_name: Xavier
-    last_name: Fontaine
-    name: Xavier Fontaine
-    username: ~Xavier_Fontaine1
   - dblp_id: https://dblp.org/pers/f/Fontaine:Xavier.html
     emails: xavier.fontaine@polytechnique.edu
     first_name: Xavier
@@ -372,14 +314,6 @@
     name: Yoshinobu Kano
     semantic_scholar_id: https://www.semanticscholar.org/author/Yoshinobu-Kano/34803801
     username: ~Yoshinobu_Kano1
-  - dblp_id: https://dblp.org/pid/200/2387
-    emails: raghavka@cs.cmu.edu
-    first_name: Raghav
-    google_scholar_id: https://scholar.google.com/citations?user=8eJoJ0MAAAAJ&hl=en&oi=ao
-    homepage: https://raghav1606.github.io/
-    last_name: Kapoor
-    name: Raghav Kapoor
-    username: ~Raghav_Kapoor1
   - dblp_id: https://dblp.org/pid/200/2387
     emails: raghavka@cs.cmu.edu
     first_name: Raghav
