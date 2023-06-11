@@ -392,6 +392,13 @@
     name: Diwakar Mahajan
     semantic_scholar_id: https://www.semanticscholar.org/author/Diwakar-Mahajan/40665082
     username: ~Diwakar_Mahajan1
+   - emails: pranita.mahajan@outlook.com
+    institution: Sardar Vallabhbhai National Institute of Technology
+    first_name: Pranita
+    last_name: Mahajan
+    middle_name: Yogesh
+    name: Pranita Yogesh Mahajan
+    username: ~Pranita_Yogesh_Mahajan1
   - dblp_id: https://dblp.org/pid/43/7440
     emails: aleixomatos@ua.pt
     first_name: Sérgio
@@ -463,16 +470,6 @@
     last_name: Ozler
     name: Kadir Bulut Ozler
     username: ~Kadir_Bulut_Ozler1
-  - dblp_id: https://dblp.org/pid/127/6577.html
-    emails: pankur1@umbc.edu
-    first_name: Ankur
-    google_scholar_id: https://scholar.google.com/citations?user=l9_UCy0AAAAJ&hl=en
-    homepage: https://ebiquity.umbc.edu/person/html/Ankur/Padia
-    institution: Philips Research North America
-    last_name: Padia
-    name: Ankur Padia
-    semantic_scholar_id: https://www.semanticscholar.org/author/Ankur-Padia/1682574
-    username: ~Ankur_Padia1
   - dblp_id: https://dblp.org/pid/123/7941
     emails: yip4002@med.cornell.edu
     first_name: Yifan
@@ -525,16 +522,6 @@
     name: Anku Rani
     semantic_scholar_id: https://www.semanticscholar.org/author/Anku-Rani/2106627712
     username: ~Anku_Rani2
-  - dblp_id: https://dblp.org/pid/48/6798
-    emails: rinaldi.fabio@gmail.com
-    first_name: Fabio
-    google_scholar_id: https://scholar.google.com/citations?user=aCD4rSEAAAAJ&hl=en
-    homepage: https://nlp.idsia.ch/fabiorinaldi.html
-    institution: IDSIA
-    last_name: Rinaldi
-    name: Fabio Rinaldi
-    orcid: http://orcid.org/0000-0001-5718-5462
-    username: ~Fabio_Rinaldi1
   - dblp_id: https://dblp.org/pers/hd/r/Rudzicz:Frank
     emails: frank@dal.ca
     first_name: Frank
@@ -578,6 +565,16 @@
     name: Dhananjay Srivastava
     institution: Indiana University
     username: ~Dhananjay_Srivastava1
+    - emails: karl.swanson@ucsf.edu
+    first_name: Karl
+    google_scholar_id: https://scholar.google.com/citations?user=IzxihrgAAAAJ&hl=en
+    homepage: https://www.datascienceportfol.io/karlswanson
+    institution: University of California, San Francisco 
+    last_name: Swanson
+    middle_name: Eric
+    name: Karl Eric Swanson
+    orcid: https://orcid.org/0000-0002-5209-6046
+    username: ~Karl_Eric_Swanson1
   - emails: behrad.taghibeyglou@mail.utoronto.ca
     first_name: Behrad
     google_scholar_id: https://scholar.google.com/citations?user=k5QagtAAAAAJ&hl=en
