@@ -9,6 +9,7 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 
 {% assign program_chairs = site.data["2023"].program_committee | where: "role", "Program_Chairs" %}
 {% for pc_group in program_chairs %}
+{%- for member in pc_group.entries -%}
 - [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}) ({{member.institution}})
 {% endfor %}
 {% endfor %}
