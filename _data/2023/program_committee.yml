@@ -46,8 +46,7 @@
     first_name: Anna
     google_scholar_id: https://scholar.google.com.tw/citations?user=_Q1uzVYAAAAJ
     homepage: http://text-machine.cs.uml.edu
-    institution: University of Massachusetts, Lowell, University of Massachusetts
-      at Lowell and Amazon
+    institution: University of Massachusetts at Lowell and Amazon
     last_name: Rumshisky
     name: Anna Rumshisky
     semantic_scholar_id: https://www.semanticscholar.org/author/Anna-Rumshisky/1681193
@@ -343,12 +342,6 @@
     last_name: Kuanar
     name: Shiba Kuanar
     username: ~Shiba_Kuanar1
-  - emails: shiba.kuanar@mavs.uta.edu
-    first_name: Shiba
-    google_scholar_id: https://scholar.google.com/citations?user=hcR8BvgAAAAJ&hl=en
-    last_name: Kuanar
-    name: Shiba Kuanar
-    username: ~Shiba_Kuanar1
   - emails: yanis.labrak@univ-avignon.fr
     first_name: Yanis
     google_scholar_id: https://scholar.google.com/citations?user=DavIBZsJ4EgC&hl=fr&oi=ao
@@ -467,39 +460,6 @@
     name: Aakanksha Naik
     semantic_scholar_id: https://www.semanticscholar.org/author/Aakanksha-Naik/23175870
     username: ~Aakanksha_Naik1
-  - dblp_id: https://dblp.org/pid/148/5539
-    emails: tristan@microsoft.com
-    first_name: Tristan
-    google_scholar_id: https://scholar.google.com/citations?user=cjlSeqwAAAAJ&hl=en&oi=ao
-    homepage: https://www.microsoft.com/en-us/research/people/tristan/
-    institution: Microsoft Research
-    last_name: Naumann
-    name: Tristan Naumann
-    orcid: https://orcid.org/0000-0003-2150-1747
-    semantic_scholar_id: https://www.semanticscholar.org/author/Tristan-Naumann/40466858/
-    username: ~Tristan_Naumann1
-  - dblp_id: https://dblp.org/pid/148/5539
-    emails: tristan@microsoft.com
-    first_name: Tristan
-    google_scholar_id: https://scholar.google.com/citations?user=cjlSeqwAAAAJ&hl=en&oi=ao
-    homepage: https://www.microsoft.com/en-us/research/people/tristan/
-    institution: Microsoft Research
-    last_name: Naumann
-    name: Tristan Naumann
-    orcid: https://orcid.org/0000-0003-2150-1747
-    semantic_scholar_id: https://www.semanticscholar.org/author/Tristan-Naumann/40466858/
-    username: ~Tristan_Naumann1
-  - dblp_id: https://dblp.org/pid/37/3908
-    emails: aurelie.neveol@lisn.upsaclay.fr
-    first_name: Aurélie
-    google_scholar_id: https://scholar.google.com/citations?user=8uAT7BgAAAAJ&hl=fr
-    homepage: https://perso.limsi.fr/neveol
-    institution: LISN-CNRS / Université Paris Saclay
-    last_name: Névéol
-    name: Aurélie Névéol
-    orcid: https://orcid.org/0000-0002-1846-9144
-    semantic_scholar_id: https://www.semanticscholar.org/author/Aur%C3%A9lie-N%C3%A9v%C3%A9ol/1692256
-    username: ~Aurélie_Névéol1
   - dblp_id: https://dblp.org/pid/37/3908
     emails: aurelie.neveol@lisn.upsaclay.fr
     first_name: Aurélie
@@ -554,13 +514,6 @@
     last_name: Raje
     name: Satyajeet Raje
     username: ~Satyajeet_Raje1
-  - dblp_id: https://dblp.org/pid/04/11498.html
-    emails: satyajeet.raje@gmail.com
-    first_name: Satyajeet
-    google_scholar_id: https://scholar.google.com/citations?user=euvM3v0AAAAJ&hl=en
-    last_name: Raje
-    name: Satyajeet Raje
-    username: ~Satyajeet_Raje1
   - dblp_id: https://dblp.org/pid/185/5494
     emails: pavithra.rajendran@gosh.nhs.uk
     first_name: Pavithra
@@ -594,26 +547,6 @@
     name: Fabio Rinaldi
     orcid: http://orcid.org/0000-0001-5718-5462
     username: ~Fabio_Rinaldi1
-  - dblp_id: https://dblp.org/pid/59/1629
-    emails: kirkroberts@gmail.com
-    first_name: Kirk
-    google_scholar_id: https://scholar.google.com/citations?user=ukBG4CUAAAAJ&hl=en
-    institution: University of Texas Health Science Center at Houston
-    last_name: Roberts
-    name: Kirk Roberts
-    orcid: https://orcid.org/0000-0001-6525-5213
-    semantic_scholar_id: https://www.semanticscholar.org/author/Kirk-Roberts/1742509
-    username: ~Kirk_Roberts2
-  - dblp_id: https://dblp.org/pid/59/1629
-    emails: kirkroberts@gmail.com
-    first_name: Kirk
-    google_scholar_id: https://scholar.google.com/citations?user=ukBG4CUAAAAJ&hl=en
-    institution: University of Texas Health Science Center at Houston
-    last_name: Roberts
-    name: Kirk Roberts
-    orcid: https://orcid.org/0000-0001-6525-5213
-    semantic_scholar_id: https://www.semanticscholar.org/author/Kirk-Roberts/1742509
-    username: ~Kirk_Roberts2
   - dblp_id: https://dblp.org/pers/hd/r/Rudzicz:Frank
     emails: frank@dal.ca
     first_name: Frank
@@ -624,15 +557,6 @@
     name: Frank Rudzicz
     orcid: https://orcid.org/0000-0002-1139-3423
     username: ~Frank_Rudzicz2
-  - emails: guerganasavova@hotmail.com
-    first_name: Guergana
-    google_scholar_id: https://scholar.google.com/citations?user=9538Cr4AAAAJ&hl=en&oi=sra
-    institution: Harvard University
-    last_name: Savova
-    middle_name: K
-    name: Guergana K Savova
-    orcid: https://orcid.org/0000-0002-5887-200X
-    username: ~Guergana_K_Savova1
   - emails: guerganasavova@hotmail.com
     first_name: Guergana
     google_scholar_id: https://scholar.google.com/citations?user=9538Cr4AAAAJ&hl=en&oi=sra
@@ -677,13 +601,6 @@
     last_name: Sridhar
     name: Arvind Krishna Sridhar
     username: ~Arvind_Krishna_Sridhar1
-  - emails: arvindkrishna1997@gmail.com
-    first_name: Arvind Krishna
-    google_scholar_id: https://scholar.google.com/citations?user=bLD8eHoAAAAJ
-    institution: Qualcomm Inc, QualComm
-    last_name: Sridhar
-    name: Arvind Krishna Sridhar
-    username: ~Arvind_Krishna_Sridhar1
   - emails: dsrivast@iu.edu
     first_name: Dhananjay
     last_name: Srivastava
@@ -704,13 +621,6 @@
     last_name: Taghibeyglou
     name: Behrad Taghibeyglou
     username: ~Behrad_Taghibeyglou1
-  - emails: ntan607@aucklanduni.ac.nz
-    first_name: Neset
-    homepage: https://unidirectory.auckland.ac.nz/profile/neset-tan
-    institution: University of Auckland
-    last_name: Tan
-    name: Neset TAN
-    username: ~Neset_TAN1
   - emails: ntan607@aucklanduni.ac.nz
     first_name: Neset
     homepage: https://unidirectory.auckland.ac.nz/profile/neset-tan
@@ -793,24 +703,6 @@
     name: Wen-wai Yim
     semantic_scholar_id: https://www.semanticscholar.org/author/Wen-wai-Yim/38845771
     username: ~Wen-wai_Yim1
-  - dblp_id: https://dblp.org/pid/152/2666.html
-    emails: wenwaiyim@gmail.com
-    first_name: Wen-wai
-    google_scholar_id: https://scholar.google.com/citations?user=zLbXslcAAAAJ&hl=en
-    last_name: Yim
-    name: Wen-wai Yim
-    semantic_scholar_id: https://www.semanticscholar.org/author/Wen-wai-Yim/38845771
-    username: ~Wen-wai_Yim1
-  - emails: wonjin.yoon@childrens.harvard.edu
-    first_name: WonJin
-    google_scholar_id: https://scholar.google.com/citations?user=7xuGLSoAAAAJ
-    homepage: http://wonjin.info
-    institution: Harvard University
-    last_name: Yoon
-    name: WonJin Yoon
-    orcid: https://orcid.org/0000-0002-6435-548X
-    semantic_scholar_id: https://www.semanticscholar.org/author/Wonjin-Yoon/51433082
-    username: ~WonJin_Yoon1
   - emails: wonjin.yoon@childrens.harvard.edu
     first_name: WonJin
     google_scholar_id: https://scholar.google.com/citations?user=7xuGLSoAAAAJ
