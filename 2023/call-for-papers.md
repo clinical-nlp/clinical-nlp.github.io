@@ -3,7 +3,7 @@ title: call-for-papers
 layout: default_2023
 ---
 
-# Call for Papers & Participation: The ClinicalNLP 2023 Workshop & Shared Tasks at ACL 2023
+# Call for Papers & Participation: The ClinicalNLP 2023 Workshop & Shared Tasks at ACL 2023 
 
 Clinical text is growing rapidly as electronic health records become pervasive.
 Much of the information recorded in a clinical encounter is located exclusively in provider narrative notes, which makes them indispensable for supplementing structured clinical data in order to better understand patient state and care provided.
