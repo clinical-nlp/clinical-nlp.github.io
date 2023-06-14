@@ -3,7 +3,7 @@ title: submission
 layout: default_2023
 ---
 
-### Submissions
+### Submissions 
 
 The OpenReview submission site is:
 
@@ -15,6 +15,7 @@ All submissions must follow [ACL formatting guidelines](https://acl-org.github.i
 * Long papers may have up to eight (8) pages of content and short papers may have up to four (4) pages of content.
 * You are allowed [unlimited pages for references](https://acl-org.github.io/ACLPUB/formatting.html#paper-length)
 * Any "Limitations" section or "Ethics Statement" is similar to references; it does not count toward the page limit.
+* Please use ACL Pubcheck Tool (https://github.com/acl-org/aclpubcheck) to ensure that your paper is properly formatted. 
 
 Clinical NLP 2023 has no preprint restrictions; you may post to arXiv at any time.
 Clinical NLP 2023 workshop proceedings are archival will be published [on the ACL Anthology](https://aclanthology.org/venues/clinicalnlp/).
