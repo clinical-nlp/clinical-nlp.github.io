@@ -1,0 +1,3480 @@
+- abstract: Automatic Speech Recognition (ASR) in medical contexts has the potential
+    to save time, cut costs, increase report accuracy, and reduce physician burnout.
+    However, the healthcare industry has been slower to adopt this technology, in
+    part due to the importance of avoiding medically-relevant transcription mistakes.
+    In this work, we present the Clinical BERTScore (CBERTScore), an ASR metric that
+    penalizes clinically-relevant mistakes more than others. We collect a benchmark
+    of 18 clinician preferences on 149 realistic medical sentences called the Clinician
+    Transcript Preference benchmark (CTP) and make it publicly available for the community
+    to further develop clinically-aware ASR metrics. To our knowledge, this is the
+    first public dataset of its kind. We demonstrate that our metric more closely
+    aligns with clinician preferences on medical sentences as compared to other metrics
+    (WER, BLUE, METEOR, etc), sometimes by wide margins.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/185/1037
+    emails: joelshor@google.com
+    first_name: Joel
+    google_scholar_id: https://scholar.google.com/citations?user=OQ5isgcAAAAJ&hl=en
+    institution: Google
+    last_name: Shor
+    name: Joel Shor
+    username: ~Joel_Shor1
+  - emails: ruyuebi@mit.edu
+    first_name: Ruyue Agnes
+    homepage: https://www.ruyuebi.com/
+    last_name: Bi
+    name: Ruyue Agnes Bi
+    username: ~Ruyue_Agnes_Bi1
+  - dblp_id: https://dblp.org/pid/21/11044
+    emails: vsubhashini@google.com
+    first_name: Subhashini
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=TmWYBeEAAAAJ
+    homepage: https://vsubhashini.github.io
+    institution: Google
+    last_name: Venugopalan
+    name: Subhashini Venugopalan
+    orcid: https://orcid.org/0000-0003-3729-8456
+    username: ~Subhashini_Venugopalan2
+  - emails: ssi9@cornell.edu
+    first_name: Steven
+    institution: Cornell University
+    last_name: Ibara
+    name: Steven Ibara
+    username: ~Steven_Ibara1
+  - dblp_id: https://dblp.org/pid/99/3512.html
+    emails: gnamor@gmail.com
+    first_name: Roman
+    google_scholar_id: https://scholar.google.com/citations?user=yggUoWYAAAAJ&hl=en
+    last_name: Goldenberg
+    name: Roman Goldenberg
+    orcid: https://orcid.org/0000-0002-5538-772X
+    username: ~Roman_Goldenberg1
+  - emails: ehud@google.com
+    first_name: Ehud
+    homepage: http://www.cs.technion.ac.il/~ehudr/
+    institution: Technion, Technion
+    last_name: Rivlin
+    name: Ehud Rivlin
+    username: ~Ehud_Rivlin2
+  decision: Accept
+  file: 2.pdf
+  id: 2
+  openreview_id: VrMGIG4fTI
+  pdf_file: 74d7c9b4cad55316feeb0a7941dd919e39fc0edc.pdf
+  title: 'Clinical BERTScore: An Improved Measure of Automatic Speech Recognition
+    Performance in Clinical Settings'
+- abstract: 'Assessing the capacity of numerical understanding of vision-and-language
+    models over images and texts is crucial for real vision-and-language applications,
+    such as systems for automated medical image analysis.
+
+    We provide a visual reasoning dataset focusing on numerical understanding in the
+    medical domain.
+
+    The experiments using our dataset show that current vision-and-language models
+    fail to perform numerical inference in the medical domain.
+
+    However, the data augmentation with only a small amount of our dataset improves
+    the model performance, while maintaining the performance in the general domain.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/187/5994.html
+    emails: hyanaka@is.s.u-tokyo.ac.jp
+    first_name: Hitomi
+    google_scholar_id: https://scholar.google.co.jp/citations?user=kwoER0sAAAAJ&hl=ja
+    homepage: http://hitomiyanaka.strikingly.com/
+    institution: the University of Tokyo and RIKEN
+    last_name: Yanaka
+    name: Hitomi Yanaka
+    username: ~Hitomi_Yanaka2
+  - dblp_id: https://dblp.org/pid/143/9494
+    emails: yutanakamura-tky@umin.ac.jp
+    first_name: Yuta
+    google_scholar_id: https://scholar.google.com/citations?user=NMM4E7AAAAAJ&hl=en
+    homepage: https://yutanakamura-tky.github.io/
+    institution: The University of Tokyo
+    last_name: Nakamura
+    name: Yuta Nakamura
+    orcid: https://orcid.org/0000-0001-6962-6704
+    username: ~Yuta_Nakamura1
+  - emails: yuki.chida@is.s.u-tokyo.ac.jp
+    first_name: Yuki
+    homepage: https://www-al.nii.ac.jp/
+    last_name: Chida
+    name: Yuki Chida
+    username: ~Yuki_Chida1
+  - emails: kurosawa-tomoya@is.s.u-tokyo.ac.jp
+    first_name: Tomoya
+    last_name: Kurosawa
+    name: Tomoya Kurosawa
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tomoya-Kurosawa/2162780102
+    username: ~Tomoya_Kurosawa1
+  decision: Accept
+  file: 3.pdf
+  id: 3
+  openreview_id: HkYSVtkTUc
+  pdf_file: 241b89391cd48225ca5e92be9b172e88f843f713.pdf
+  title: Medical Visual Textual Entailment for Numerical Understanding of Vision-and-Language
+    Models
+- abstract: Valuable datasets that contain sensitive information are not shared due
+    to privacy and copyright concerns. This hinders progress in many areas and prevents
+    the use of machine learning solutions to solve relevant tasks. One possible solution
+    is sharing models that are trained on such datasets. However, this is also associated
+    with potential privacy risks due to data extraction attacks. In this work, we
+    propose a solution based on sharing parts of the model's parameters, and using
+    a proxy dataset for complimentary knowledge transfer. Our experiments show encouraging
+    results, and reduced risk to potential training data identification attacks. We
+    present a viable solution to sharing knowledge with data-disadvantaged parties,
+    that do not have the resources to produce high-quality data, with reduced privacy
+    risks to the sharing parties. We make our code publicly available.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/228/5549
+    emails: paul.youssef@uni-marburg.de
+    first_name: Paul
+    google_scholar_id: https://scholar.google.de/citations?user=VhMWcqYAAAAJ&hl=en
+    institution: Phillips-Universität Marburg
+    last_name: Youssef
+    name: Paul Youssef
+    username: ~Paul_Youssef1
+  - dblp_id: https://dblp.org/pid/160/1725
+    emails: joerg.schloetterer@uni-marburg.de
+    first_name: Jörg
+    google_scholar_id: https://scholar.google.com/citations?user=5A2TGRgAAAAJ
+    institution: Universität Mannheim and Phillips-Universität Marburg
+    last_name: Schlötterer
+    name: Jörg Schlötterer
+    orcid: https://orcid.org/0000-0002-3678-0390
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jörg-Schlötterer/3044872
+    username: ~Jörg_Schlötterer1
+  - dblp_id: https://dblp.org/pid/47/5048
+    emails: christin.seifert@uni-marburg.de
+    first_name: Christin
+    google_scholar_id: https://scholar.google.de/citations?hl=en&user=aK6ZccUAAAAJ
+    homepage: http://christinseifert.info
+    institution: Phillips-Universität Marburg and University of Twente
+    last_name: Seifert
+    name: Christin Seifert
+    orcid: https://orcid.org/0000-0002-6776-3868
+    username: ~Christin_Seifert1
+  decision: Accept
+  file: 4.pdf
+  id: 4
+  openreview_id: Qm9jUWlpTv
+  pdf_file: d33bf7ac060facec4867f2fd69adc60e8f690833.pdf
+  title: Privacy-Preserving Knowledge Transfer through Partial Parameter Sharing
+- abstract: Alzheimer's Disease (AD) is a neurodegenerative disorder that affects
+    cognitive abilities and memory, especially in older adults. One of the challenges
+    of AD is that it can be difficult to diagnose in its early stages. However, recent
+    research has shown that changes in language, including speech decline and difficulty
+    in processing information, can be important indicators of AD and may help with
+    early detection. Hence, the speech narratives of the patients can be useful in
+    diagnosing the early stages of Alzheimer's disease. While the previous works have
+    presented the potential of using speech narratives to diagnose AD in high-resource
+    languages, this work explores the possibility of using a low-resourced language,
+    i.e., Hindi language, to diagnose AD. In this paper, we present a dataset specifically
+    for analyzing AD in the Hindi language, along with experimental results using
+    various state-of-the-art algorithms to assess the diagnostic potential of speech
+    narratives in Hindi. Our analysis suggests that speech narratives in the Hindi
+    language have the potential to aid in the diagnosis of AD. Our dataset and code
+    are made publicly available at https://github.com/rkritesh210/DementiaBankHindi.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - emails: rauniyark11@gmail.com
+    first_name: Kritesh
+    google_scholar_id: https://scholar.google.com/citations?user=1-h2mc8AAAAJ&hl=en&authuser=2
+    homepage: https://github.com/rkritesh210?tab=repositories
+    last_name: Rauniyar
+    name: Kritesh Rauniyar
+    username: ~Kritesh_Rauniyar1
+  - emails: ssiwakoti12@gmail.com
+    first_name: Shuvam
+    last_name: Shiwakoti
+    name: Shuvam Shiwakoti
+    username: ~Shuvam_Shiwakoti1
+  - emails: sweta.poudel26@gmail.com
+    first_name: Sweta
+    last_name: Poudel
+    name: Sweta Poudel
+    username: ~Sweta_Poudel1
+  - emails: surendrabikram@vt.edu
+    first_name: Surendrabikram
+    homepage: https://www.therealthapa.com/
+    last_name: Thapa
+    name: Surendrabikram Thapa
+    username: ~Surendrabikram_Thapa1
+  - dblp_id: https://dblp.org/pid/253/6972.html
+    emails: usman.naseem@sydney.edu.au
+    first_name: Usman
+    google_scholar_id: https://scholar.google.com.au/citations?hl=en&user=61Ou1P8AAAAJ&view_op=list_works&sortby=pubdate
+    homepage: https://usmaann.github.io/
+    last_name: Naseem
+    name: Usman Naseem
+    orcid: https://orcid.org/0000-0003-0191-7171
+    semantic_scholar_id: https://www.semanticscholar.org/author/Usman-Naseem/1394609613
+    username: ~Usman_Naseem1
+  - dblp_id: https://dblp.org/pid/91/8376
+    emails: mehwish.nasim@uwa.edu.au
+    first_name: Mehwish
+    google_scholar_id: https://scholar.google.com.au/citations?user=z1VccFsAAAAJ&hl=en
+    homepage: https://research-repository.uwa.edu.au/en/persons/mehwish-nasim
+    institution: University of Western Australia and Flinders University of South
+      Australia
+    last_name: Nasim
+    name: Mehwish Nasim
+    orcid: https://orcid.org/0000-0003-0683-9125
+    username: ~Mehwish_Nasim1
+  decision: Accept
+  file: 5.pdf
+  id: 5
+  openreview_id: 2RpTxh3tNn
+  pdf_file: a5d4ea6fb00e5fffd78587c330d9be9f19c8b0f8.pdf
+  title: 'Breaking Barriers: Exploring the Diagnostic Potential of Speech Narratives
+    in Hindi for Alzheimer''s Disease'
+- abstract: 'Massively multilingual pre-trained language models (MMPLMs) are developed
+    in recent years demonstrating superpowers and the pre-knowledge they acquire for
+    downstream tasks.
+
+    This work investigates whether MMPLMs can be applied to clinical domain machine
+    translation (MT) towards entirely unseen languages via transfer learning.
+
+    We carry out an experimental investigation using Meta-AI''s MMPLMs ``wmt21-dense-24-wide-en-X
+    and X-en (WMT21fb)'''' which were pre-trained on 7 language pairs and 14 translation
+    directions including English to Czech, German, Hausa, Icelandic, Japanese, Russian,
+    and Chinese, and the opposite direction.
+
+    We fine-tune these MMPLMs towards English-\textit{Spanish} language pair which
+    \textit{did not exist at all} in their original pre-trained corpora both implicitly
+    and explicitly.
+
+    We prepare carefully aligned \textit{clinical} domain data for this fine-tuning,
+    which is different from their original mixed domain knowledge.
+
+    Our experimental result shows that the fine-tuning is very successful using just
+    250k well-aligned in-domain EN-ES segments for three sub-task translation testings:
+    clinical cases, clinical terms, and ontology concepts. It achieves very close
+    evaluation scores to another MMPLM NLLB from Meta-AI, which included Spanish as
+    a high-resource setting in the pre-training.
+
+    To the best of our knowledge, this is the first work on using MMPLMs towards \textit{clinical
+    domain transfer-learning NMT} successfully for totally unseen languages during
+    pre-training.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+  authors:
+  - emails: hanlifengaaron@gmail.com
+    first_name: Lifeng
+    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
+    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
+    last_name: Han
+    name: Lifeng Han
+    orcid: https://orcid.org/0000-0002-3221-2185
+    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
+    username: ~Lifeng_Han1
+  - emails: gleberof@gmail.com
+    first_name: Gleb
+    last_name: ''
+    middle_name: Erofeev
+    name: 'Gleb Erofeev '
+    username: ~Gleb_Erofeev1
+  - emails: irina.sorokina@logrusglobal.com
+    first_name: Irina
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=8dpGA4AAAAAJ&view_op=list_works&gmla=AHoSzlXIaFHQgsMPtiem8PSLSVMLANnwr4UiQDbYW0vq0cubxE5OHKLI-7NIwRmWjryDWfect2OhffYkmIffglHrfiif6Vze2b7m77oX-skXHLUFed_h-I-sZirqTSGWbkkLAUrHparjywbT0g
+    homepage: https://scholar.google.com/citations?hl=en&user=8dpGA4AAAAAJ&view_op=list_works&gmla=AHoSzlXIaFHQgsMPtiem8PSLSVMLANnwr4UiQDbYW0vq0cubxE5OHKLI-7NIwRmWjryDWfect2OhffYkmIffglHrfiif6Vze2b7m77oX-skXHLUFed_h-I-sZirqTSGWbkkLAUrHparjywbT0g
+    last_name: Sorokina
+    name: Irina Sorokina
+    username: ~Irina_Sorokina1
+  - emails: serge.gladkoff@logrusglobal.com
+    first_name: Serge
+    google_scholar_id: https://scholar.google.com/citations?user=8QhjX18AAAAJ&hl=en
+    homepage: http://ai-lab.logrusglobal.com/
+    institution: Logrus Global AI Lab
+    last_name: Gladkoff
+    name: Serge Gladkoff
+    username: ~Serge_Gladkoff1
+  - emails: gnenadic@manchester.ac.uk
+    first_name: Goran
+    google_scholar_id: https://scholar.google.com.tw/citations?user=CyTXHuUAAAAJ
+    homepage: http://www.manchester.ac.uk/research/gnenadic/personaldetails
+    institution: University of Manchester
+    last_name: Nenadic
+    name: Goran Nenadic
+    username: ~Goran_Nenadic1
+  decision: Accept
+  file: 6.pdf
+  id: 6
+  openreview_id: tJJkp9LeEu
+  pdf_file: f1846e752cd1f8f5c86d989909cb660e049fe639.pdf
+  title: Investigating Massive Multilingual Pre-Trained Machine Translation Models
+    for Clinical Domain via Transfer Learning
+- abstract: The Coronavirus pandemic has heightened the demand for technological solutions
+    capable of gathering and monitoring data automatically, quickly, and securely.
+    To achieve this need, the Plantão Coronavirus chatbot has been made available
+    to the population of Ceará State in Brazil. This chatbot employs automated symptom
+    detection technology through Natural Language Processing (NLP). The proposal of
+    this work is a symptom tracker, which is a neural network that processes texts
+    and captures symptoms in messages exchanged between citizens of the state and
+    the Plantão Coronavirus nurse/doctor, i.e., clinical conversations. The model
+    has the ability to recognize new patterns and has identified a high incidence
+    of altered psychological behaviors, including anguish, anxiety, and sadness, among
+    users who tested positive or negative for Covid-19. As a result, the tool has
+    emphasized the importance of expanding coverage through community mental health
+    services in the state.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP in low-resource settings'
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: ticianalc@insightlab.ufc.br
+    first_name: Ticiana
+    google_scholar_id: https://scholar.google.com.br/citations?user=Q2xm94wAAAAJ&hl=pt-BR&oi=ao
+    institution: Universidade Federal do Ceará
+    last_name: Coelho Da Silva
+    middle_name: Linhares
+    name: Ticiana Linhares Coelho da Silva
+    username: ~Ticiana_Linhares_Coelho_da_Silva1
+  - dblp_id: https://dblp.uni-trier.de/pid/f/JAFernandesdeMacedo.html
+    emails: jose.macedo@insightlab.ufc.br
+    first_name: José
+    google_scholar_id: https://scholar.google.com/citations?user=vQ5sIO4AAAAJ&hl=en
+    last_name: Fernandes De Macêdo
+    middle_name: A.
+    name: José A. Fernandes de Macêdo
+    username: ~José_A._Fernandes_de_Macêdo1
+  - dblp_id: https://dblp.org/pid/119/3890.html
+    emails: regis@insightlab.ufc.br
+    first_name: Régis
+    google_scholar_id: https://scholar.google.com.br/citations?hl=pt-BR&user=DTiEzJYAAAAJ
+    homepage: https://www.quixada.ufc.br/docente/regis-pires-magalhaes/
+    institution: Universidade Federal do Ceará
+    last_name: Magalhães
+    middle_name: Pires
+    name: Régis Pires Magalhães
+    orcid: https://orcid.org/0000-0001-6737-4750
+    username: ~Régis_Pires_Magalhães1
+  decision: Accept
+  file: 7.pdf
+  id: 7
+  openreview_id: q0M4QoCwIrR
+  pdf_file: da292d163b7ba5d1f88f3d9aed1e307c90448f3b.pdf
+  title: Tracking the Evolution of Covid-19 Symptoms through Clinical Conversations
+- abstract: 'In the rapidly evolving landscape of medical research, accurate and concise
+    summarization of clinical studies is crucial to support evidence-based practice.
+    This paper presents a novel approach to clinical studies summarization, leveraging
+    reinforcement learning to enhance factual consistency and align with human annotator
+    preferences. Our work focuses on two tasks: Conclusion Generation and Review Generation.
+    We train a CONFIT summarization model that outperforms GPT-3 and previous state-of-the-art
+    models on the same datasets and collects expert and crowd-worker annotations to
+    evaluate the quality and factual consistency of the generated summaries. These
+    annotations enable us to measure the correlation of various automatic metrics,
+    including modern factual evaluation metrics like QAFactEval, with human-assessed
+    factual consistency. By employing top-correlated metrics as objectives for a reinforcement
+    learning model, we demonstrate improved factuality in generated summaries that
+    are preferred by human annotators. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/246/8064
+    emails: 871607149@qq.com
+    first_name: Xiangru
+    homepage: https://xiangrutang.github.io/
+    institution: Yale University
+    last_name: Tang
+    name: Xiangru Tang
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xiangru-Tang/47274259
+    username: ~Xiangru_Tang2
+  - dblp_id: https://dblp.org/pid/160/1727
+    emails: arman.cohan@yale.edu
+    first_name: Arman
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=baI7IY0AAAAJ
+    homepage: http://www.armancohan.com
+    institution: Yale University and Allen Institute for Artificial Intelligence
+    last_name: Cohan
+    name: Arman Cohan
+    username: ~Arman_Cohan1
+  - dblp_id: https://dblp.org/pid/67/5132
+    emails: mark.gerstein@yale.edu
+    first_name: Mark
+    google_scholar_id: https://scholar.google.com/citations?user=YvjuUugAAAAJ&hl=en
+    homepage: http://www.gersteinlab.org/
+    institution: Yale University
+    last_name: Gerstein
+    name: Mark Gerstein
+    orcid: https://orcid.org/0000-0002-9746-3719
+    username: ~Mark_Gerstein2
+  decision: Accept
+  file: 8.pdf
+  id: 8
+  openreview_id: pPd7ImeXPQ
+  pdf_file: d00de198fa60b8b817f39656c484522ca20d10d8.pdf
+  title: Aligning Factual Consistency for Clinical Studies Summarization through Reinforcement
+    Learning
+- abstract: Pretrained language models leverage self-supervised learning to use large
+    amounts of unlabeled text for learning contextual representations of sequences.
+    However, in the domain of medical conversations, the availability of large, public
+    datasets is limited due to issues of privacy and data management. In this paper,
+    we study the effectiveness of dialog-aware pretraining objectives and multiphase
+    training in using unlabeled data to improve LMs training for medical utterance
+    classification. The objectives of pretraining for dialog awareness involve tasks
+    that take into account the structure of conversations, including features such
+    as turn-taking and the roles of speakers. The multiphase training process uses
+    unannotated data in a sequence that prioritizes similarities and connections between
+    different domains. We empirically evaluate these methods on conversational dialog
+    classification tasks in the medical and counseling domains, and find that multiphase
+    training can help achieve higher performance than standard pretraining or finetuning.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in low-resource settings'
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: dojmin@umich.edu
+    first_name: Do June
+    homepage: https://mindojune.github.io/
+    last_name: Min
+    name: Do June Min
+    semantic_scholar_id: https://www.semanticscholar.org/author/Do-June-Min/2028953652
+    username: ~Do_June_Min1
+  - emails: vrncapr@umich.edu
+    first_name: Veronica
+    google_scholar_id: https://scholar.google.com/?authuser=1
+    institution: University of Michigan - Ann Arbor
+    last_name: Perez-Rosas
+    name: Veronica Perez-Rosas
+    username: ~Veronica_Perez-Rosas1
+  - dblp_id: https://dblp.org/pid/m/RadaMihalcea
+    emails: mihalcea@umich.edu
+    first_name: Rada
+    google_scholar_id: https://scholar.google.com.tw/citations?user=UetM7FgAAAAJ
+    homepage: https://web.eecs.umich.edu/~mihalcea/
+    institution: University of Michigan
+    last_name: Mihalcea
+    name: Rada Mihalcea
+    username: ~Rada_Mihalcea1
+  decision: Accept
+  file: 12.pdf
+  id: 12
+  openreview_id: TDDrBKv-tm
+  pdf_file: a104ee38c3ed3f4e0cc3090d5fd03fc4570ed23d.pdf
+  title: 'Navigating Data Scarcity: Pretraining for Medical Utterance Classification'
+- abstract: In developing countries like India, doctors and healthcare professionals
+    working in public health spend significant time answering health queries that
+    are fact-based and repetitive. Therefore, we propose an automated way to answer
+    maternal and child health-related queries. A database of Frequently Asked Questions
+    (FAQs) and their corresponding answers generated by experts is curated from rural
+    health workers and young mothers. We develop a Hindi chatbot that identifies k
+    relevant Question and Answer (QnA) pairs from the database in response to a healthcare
+    query (q) written in Devnagri script or Hindi-English (Hinglish) code-mixed script.
+    The curated database covers 80% of all the queries that a user of our study is
+    likely to ask. We experimented with (i) rule-based methods, (ii) sentence embeddings,
+    and (iii) a paraphrasing classifier, to calculate the q-Q similarity. We observed
+    that paraphrasing classifier gives the best result when trained first on an open-domain
+    text and then on the healthcare domain. Our chatbot uses an ensemble of all three
+    approaches. We observed that if a given q can be answered using the database,
+    then our chatbot can provide at least one relevant QnA pair among its top three
+    suggestions for up to 70% of the queries.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP in low-resource settings'
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: ritwikm@iiitd.ac.in
+    first_name: Ritwik
+    google_scholar_id: https://scholar.google.co.in/citations?user=mRmHHhkAAAAJ&hl=en&authuser=1
+    homepage: http://midas.iiitd.edu.in/team/Ritwik-Mishra.html
+    institution: Indraprastha Institute of Information Technology, Delhi
+    last_name: Mishra
+    name: Ritwik Mishra
+    orcid: https://orcid.org/0000-0001-7058-0037
+    username: ~Ritwik_Mishra1
+  - emails: simranjeets.ec18@nsut.ac.in
+    first_name: Simranjeet
+    last_name: Singh
+    name: Simranjeet Singh
+    username: ~Simranjeet_Singh1
+  - emails: jasmeetk@iiitd.ac.in
+    first_name: Jasmeet
+    homepage: https://jasmeetk6.wixsite.com/jasmeetk
+    institution: Indraprastha Institute of Information Technology, Delhi
+    last_name: Kaur
+    name: Jasmeet Kaur
+    username: ~Jasmeet_Kaur2
+  - emails: psingh@iiitd.ac.in
+    first_name: Pushpendra
+    google_scholar_id: https://scholar.google.com.tw/citations?user=qkSEUCMAAAAJ
+    homepage: https://www.iiitd.edu.in/~pushpendra/
+    last_name: Singh
+    name: Pushpendra Singh
+    username: ~Pushpendra_Singh1
+  - dblp_id: https://dblp.org/pid/134/3502
+    emails: rajivratn@iiitd.ac.in
+    first_name: Rajiv
+    last_name: Shah
+    middle_name: Ratn
+    name: Rajiv Ratn Shah
+    username: ~Rajiv_Ratn_Shah1
+  decision: Accept
+  file: 13.pdf
+  id: 13
+  openreview_id: aEAUrF3JPsx
+  pdf_file: f154c462057b361628c84b1e14141ac61db46e7a.pdf
+  title: Hindi Chatbot for Supporting Maternal and Child Health Related Queries in
+    Rural India
+- abstract: Generative artificial intelligence (AI) is a promising direction for augmenting
+    clinical diagnostic decision support and reducing diagnostic errors, a leading
+    contributor to medical errors. To further the development of clinical AI systems,
+    the Diagnostic Reasoning Benchmark (DR.BENCH) was introduced as a comprehensive
+    generative AI framework, comprised of six tasks representing key components in
+    clinical reasoning. We present a comparative analysis of in-domain versus out-of-domain
+    language models as well as multi-task versus single task training with a focus
+    on the problem summarization task in DR.BENCH. We demonstrate that a multi-task,
+    clinically-trained language model outperforms its general domain counterpart by
+    a large margin, establishing a new state-of-the-art performance, with a ROUGE-L
+    score of 28.55. This research underscores the value of domain-specific training
+    for optimizing clinical diagnostic reasoning tasks.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - emails: brihat.sharma@gmail.com
+    first_name: Brihat
+    google_scholar_id: https://scholar.google.com/citations?user=gWK5o2EAAAAJ&hl=en
+    institution: University of Wisconsin - Madison
+    last_name: Sharma
+    name: Brihat Sharma
+    orcid: https://orcid.org/0000-0003-0417-4553
+    username: ~Brihat_Sharma1
+  - emails: ygao@medicine.wisc.edu
+    first_name: Yanjun
+    google_scholar_id: https://scholar.google.com/citations?user=GThZXQgAAAAJ&hl=en
+    homepage: https://serenayj.github.io/
+    last_name: Gao
+    name: Yanjun Gao
+    username: ~Yanjun_Gao1
+  - dblp_id: https://dblp.org/pid/117/6625
+    emails: timothy.miller@childrens.harvard.edu
+    first_name: Timothy
+    google_scholar_id: https://scholar.google.com/citations?user=iKtu9fgAAAAJ&hl=en
+    homepage: https://scholar.harvard.edu/tim-miller
+    institution: Harvard University
+    last_name: Miller
+    middle_name: A
+    name: Timothy A Miller
+    semantic_scholar_id: https://www.semanticscholar.org/author/Timothy-Miller/144950569
+    username: ~Timothy_A_Miller1
+  - emails: mchurpek@medicine.wisc.edu
+    first_name: Matthew
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=mdJBRB4AAAAJ
+    institution: University of Wisconsin - Madison
+    last_name: Churpek
+    name: Matthew Churpek
+    username: ~Matthew_Churpek1
+  - emails: majid.afshar@wisc.edu
+    first_name: Majid
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=bUjIkLAAAAAJ
+    homepage: https://www.medicine.wisc.edu/apcc/icu-data-science-research
+    institution: University of Wisconsin - Madison
+    last_name: Afshar
+    name: Majid Afshar
+    orcid: https://orcid.org/0000-0002-6368-4652
+    username: ~Majid_Afshar1
+  - dblp_id: https://dblp.org/pid/83/3441
+    emails: ddligach@luc.edu
+    first_name: Dmitriy
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=mkLwEPkAAAAJ&view_op=list_works&sortby=pubdate
+    homepage: https://www.dmitriydligach.com
+    institution: Loyola University Chicago
+    last_name: Dligach
+    name: Dmitriy Dligach
+    semantic_scholar_id: https://www.semanticscholar.org/author/1839381
+    username: ~Dmitriy_Dligach1
+  decision: Accept
+  file: 16.pdf
+  id: 16
+  openreview_id: 52ZBNFQhf5
+  pdf_file: 9fc5504b44bdaea475bb5c5c6a703fdba03a06bf.pdf
+  title: Multi-Task Training with In-Domain Language Models for Diagnostic Reasoning
+- abstract: Accurately capturing medication history is crucial in delivering high-quality
+    medical care. The extraction of medication events from unstructured clinical notes,
+    however, is challenging because the information is presented in complex narratives.
+    We address this challenge by leveraging the newly released Contextualized Medication
+    Event Dataset (CMED) as part of our participation in the 2022 National NLP Clinical
+    Challenges (n2c2) shared task. Our study evaluates the performance of various
+    pretrained language models in this task. Further, we find that data augmentation
+    coupled with domain-specific training provides notable improvements. With experiments,
+    we also underscore the importance of careful data preprocessing in medical event
+    detection.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - emails: nsalekfarama@cs.stonybrook.edu
+    first_name: Noushin
+    homepage: https://you.stonybrook.edu/noushinsalek/
+    institution: ', State University of New York at Stony Brook'
+    last_name: Salek Faramarzi
+    name: Noushin Salek Faramarzi
+    username: ~Noushin_Salek_Faramarzi2
+  - emails: meppatel@cs.stonybrook.edu
+    first_name: Meet
+    last_name: Patel
+    name: Meet Patel
+    username: ~Meet_Patel1
+  - emails: hbandarupall@cs.stonybrook.edu
+    first_name: Sai Harika
+    last_name: Bandarupally
+    name: Sai Harika Bandarupally
+    username: ~Sai_Harika_Bandarupally1
+  - emails: rbanerjee@cs.stonybrook.edu
+    first_name: Ritwik
+    google_scholar_id: https://scholar.google.com/citations?user=2LCxkUIAAAAJ
+    homepage: https://www.ritwikbanerjee.com/
+    institution: State University of New York, Stony Brook
+    last_name: Banerjee
+    name: Ritwik Banerjee
+    orcid: https://orcid.org/0000-0003-0336-0258
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ritwik-Banerjee/2343088
+    username: ~Ritwik_Banerjee1
+  decision: Accept
+  file: 19.pdf
+  id: 19
+  openreview_id: fLIsjLCMTM
+  pdf_file: ccf5b3ea6287d5aab3341e9f78a9a62a16f88d96.pdf
+  title: Context-aware Medication Event Extraction from Unstructured Text
+- abstract: International Classification of Diseases (ICD) coding is the task of assigning
+    a patient's electronic health records into standardized codes, which is crucial
+    for enhancing medical services and reducing healthcare costs. In Korea, automatic
+    Korean Standard Classification of Diseases (KCD) coding has been hindered by limited
+    resources, differences in ICD systems, and language-specific characteristics.
+    Therefore, we construct the Korean Dataset for Automatic KCD coding (KoDAK) by
+    collecting and preprocessing Korean clinical documents. In addition, we propose
+    a tokenization method optimized for Korean clinical documents. Our experiments
+    show that our proposed method outperforms Korean Medical BERT (KM-BERT) in Macro-F1
+    performance by 0.14%p while using fewer model parameters, demonstrating its effectiveness
+    in Korean clinical documents.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+  authors:
+  - emails: jyjg7218@konkuk.ac.kr
+    first_name: Geunyeong
+    google_scholar_id: https://scholar.google.com/citations?user=srnrcsMAAAAJ&hl=ko
+    homepage: https://github.com/GY-Jeong
+    institution: Konkuk University
+    last_name: Jeong
+    name: Geunyeong Jeong
+    username: ~Geunyeong_Jeong1
+  - emails: qssz1326@konkuk.ac.kr
+    first_name: Juoh
+    google_scholar_id: https://scholar.google.co.kr/citations?user=giBGQRUAAAAJ&hl=ko
+    last_name: Sun
+    name: Juoh Sun
+    username: ~Juoh_Sun1
+  - emails: nlpsw@kangwon.ac.kr
+    first_name: Seokwon
+    institution: Kangwon National University
+    last_name: Jeong
+    name: Seokwon Jeong
+    orcid: https://orcid.org/0009-0008-1550-6860
+    username: ~Seokwon_Jeong1
+  - emails: shineye@kuh.ac.kr
+    first_name: Hyunjin
+    google_scholar_id: https://scholar.google.co.kr/citations?user=o6T4algAAAAJ&hl=ko
+    last_name: Shin
+    name: Hyunjin Shin
+    orcid: https://orcid.org/0000-0002-3563-8042
+    username: ~Hyunjin_Shin1
+  - dblp_id: http://dblp.uni-trier.de/pers/hy/k/Kim:Harksoo
+    emails: nlpdrkim@konkuk.ac.kr
+    first_name: Harksoo
+    google_scholar_id: https://scholar.google.com/citations?user=D2wbG84AAAAJ&hl=ko
+    homepage: http://nlp.konkuk.ac.kr/
+    institution: Konkuk University
+    last_name: Kim
+    name: Harksoo Kim
+    orcid: https://orcid.org/0000-0002-8286-7198
+    semantic_scholar_id: https://www.semanticscholar.org/author/Harksoo-Kim/2108880610
+    username: ~Harksoo_Kim2
+  decision: Accept
+  file: 20.pdf
+  id: 20
+  openreview_id: wZUuq6OD-p
+  pdf_file: b4dba4f1c6ed7005d037043946e3d1a3a4f100a3.pdf
+  title: 'Improving Automatic KCD Coding: Introducing the KoDAK and an Optimized Tokenization
+    Method for Korean Clinical Documents'
+- abstract: 'Natural language processing (NLP) has shown great potential for Alzheimer''s
+    disease (AD) detection, particularly due to the adverse effect of AD on spontaneous
+    speech. The current body of literature has directed attention toward context-based
+    models, especially Bidirectional Encoder Representations from Transformers (BERTs),
+    owing to their exceptional abilities to integrate contextual information in a
+    wide range of NLP tasks.
+
+    This comes at the cost of added model opacity and computational requirements.
+    Taking this into consideration, we propose a Word2Vec-based model for AD detection
+    in 108 age- and sex-matched participants who were asked to describe the Cookie
+    Theft picture. We also investigate the effectiveness of our model by fine-tuning
+    BERT-based sequence classification models, as well as incorporating linguistic
+    features. Our results demonstrate that our lightweight and easy-to-implement model
+    outperforms some of the state-of-the-art models available in the literature, as
+    well as BERT models.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in low-resource settings'
+    - '[Track] Clinical NLP for clinical conversations'
+    - None
+  authors:
+  - emails: behrad.taghibeyglou@mail.utoronto.ca
+    first_name: Behrad
+    google_scholar_id: https://scholar.google.com/citations?user=k5QagtAAAAAJ&hl=en
+    last_name: Taghibeyglou
+    name: Behrad Taghibeyglou
+    username: ~Behrad_Taghibeyglou1
+  - dblp_id: https://dblp.org/pers/hd/r/Rudzicz:Frank
+    emails: frank@dal.ca
+    first_name: Frank
+    google_scholar_id: https://scholar.google.ca/citations?user=elXOB1sAAAAJ&hl=en
+    homepage: http://www.cs.toronto.edu/~frank
+    institution: Dalhousie University
+    last_name: Rudzicz
+    name: Frank Rudzicz
+    orcid: https://orcid.org/0000-0002-1139-3423
+    username: ~Frank_Rudzicz2
+  decision: Accept
+  file: 22.pdf
+  id: 22
+  openreview_id: I3bGphPF05K
+  pdf_file: dbfdb2f5e1e34a724ed2bf5087d0eb53fb4667a2.pdf
+  title: Who needs context? Classical techniques for Alzheimer’s disease detection
+- abstract: 'In the medical field, there are many clinical texts such as electronic
+    medical records, and research on Japanese natural language processing using these
+    texts has been conducted.One such research involves Recognizing Textual Entailment
+    (RTE) in clinical texts using a semantic analysis and logical inference system,
+    ccg2lambda.However, it is difficult for existing inference systems to correctly
+    determine the entailment relations , if the input sentence contains medical domain
+    specific paraphrases such as disease names.
+
+    In this study, we propose a method to supplement the equivalence relations of
+    disease names as axioms by identifying candidates for paraphrases that lack in
+    theorem proving.Candidates of paraphrases are identified by using a model for
+    the NER task for disease names and a disease name dictionary.We also construct
+    an inference test set that requires knowledge injection of disease names and evaluate
+    our inference system.Experiments showed that our inference system was able to
+    correctly infer for 106 out of 149 inference test sets.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - emails: murakami.natsuki@is.ocha.ac.jp
+    first_name: Natsuki
+    homepage: https://bekkilab.notion.site/
+    institution: Ochanomizu Women's University
+    last_name: Murakami
+    name: Natsuki Murakami
+    username: ~Natsuki_Murakami1
+  - emails: ishida.mana@is.ocha.ac.jp
+    first_name: Mana
+    homepage: https://sites.google.com/is.ocha.ac.jp/manaishida/
+    last_name: Ishida
+    name: Mana Ishida
+    username: ~Mana_Ishida1
+  - emails: takahashi.yuta@is.ocha.ac.jp
+    first_name: Yuta
+    homepage: https://researchmap.jp/y_takahashi?lang=en
+    institution: Ochanomizu Women's University
+    last_name: Takahashi
+    name: Yuta Takahashi
+    username: ~Yuta_Takahashi1
+  - dblp_id: https://dblp.org/pid/187/5994.html
+    emails: hyanaka@is.s.u-tokyo.ac.jp
+    first_name: Hitomi
+    google_scholar_id: https://scholar.google.co.jp/citations?user=kwoER0sAAAAJ&hl=ja
+    homepage: http://hitomiyanaka.strikingly.com/
+    institution: the University of Tokyo and RIKEN
+    last_name: Yanaka
+    name: Hitomi Yanaka
+    username: ~Hitomi_Yanaka2
+  - dblp_id: https://dblp.org/pid/52/46
+    emails: bekki@is.ocha.ac.jp
+    first_name: Daisuke
+    google_scholar_id: https://scholar.google.co.jp/citations?hl=ja&user=GWMfDLwAAAAJ
+    homepage: https://daisukebekki.github.io/
+    institution: Ochanomizu University
+    last_name: Bekki
+    name: Daisuke Bekki
+    orcid: https://orcid.org/0000-0002-9988-1260
+    semantic_scholar_id: https://www.semanticscholar.org/author/D.-Bekki/2520156
+    username: ~Daisuke_Bekki1
+  decision: Accept
+  file: 26.pdf
+  id: 26
+  openreview_id: wNNOrJRiyn
+  pdf_file: e61f2092bfbc2650676c082ecf2b8bc1b9d102bc.pdf
+  title: Knowledge Injection for Disease Names in Logical Inference between Japanese
+    Clinical Texts
+- abstract: 'This work introduces a novel three-class annotation scheme for text-based
+    dementia classification in patients, based on their recorded visit interactions.
+    Multiple models were developed utilising BERT, RoBERTa and DistilBERT. Two approaches
+    were employed to improve the representation of dementia samples: oversampling
+    the underrepresented data points in the original Pitt dataset and combining the
+    Pitt with the Holland and Kempler datasets. The DistilBERT models trained on either
+    an oversampled Pitt dataset or the combined dataset performed best in classifying
+    the dementia class. Specifically, the model trained on the oversampled Pitt dataset
+    and the one trained on the combined dataset obtained state-of-the-art performance
+    with 98.8% overall accuracy and 98.6% macro-averaged F1-score, respectively. The
+    models'' outputs were manually inspected through saliency highlighting, using
+    Local Interpretable Model-agnostic Explanations (LIME), to provide a better understanding
+    of its predictions.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: nadineyh@live.com
+    first_name: Nadine
+    institution: University of Manchester
+    last_name: Abdelhalim
+    name: Nadine Abdelhalim
+    username: ~Nadine_Abdelhalim1
+  - emails: ingyyh@live.com
+    first_name: Ingy
+    institution: University of Manchester
+    last_name: Abdelhalim
+    middle_name: Yasser Hassan Abdou
+    name: Ingy Yasser Hassan Abdou Abdelhalim
+    username: ~Ingy_Yasser_Hassan_Abdou_Abdelhalim1
+  - dblp_id: https://dblp.org/pid/92/11424
+    emails: riza.batista@manchester.ac.uk
+    first_name: Riza
+    homepage: http://www.cs.manchester.ac.uk/about-us/staff/profile/?ea=riza.batista
+    institution: University of Manchester
+    last_name: Batista-Navarro
+    name: Riza Batista-Navarro
+    username: ~Riza_Batista-Navarro1
+  decision: Accept
+  file: 27.pdf
+  id: 27
+  openreview_id: z7tX7l2LS5j
+  pdf_file: 4723812195307aaf411651570e0505b005f75b4e.pdf
+  title: Training Models on Oversampled Data and a Novel Multi-class Annotation Scheme
+    for Dementia Detection
+- abstract: Text in electronic health records is organized into sections, and classifying
+    those sections into section categories is useful for downstream tasks. In this
+    work, we attempt to improve the transferability of section classification models
+    by combining the dataset-specific knowledge in supervised learning models with
+    the world knowledge inside large language models (LLMs). Surprisingly, we find
+    that zero-shot LLMs out-perform supervised BERT-based models applied to out-of-domain
+    data. We also find that their strengths are synergistic, so that a simple ensemble
+    technique leads to additional performance gains.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - emails: wzhou87@uw.edu
+    first_name: Weipeng
+    homepage: https://www.linkedin.com/in/weipeng-zhou-56b802106
+    last_name: Zhou
+    name: Weipeng Zhou
+    username: ~Weipeng_Zhou1
+  - emails: majid.afshar@wisc.edu
+    first_name: Majid
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=bUjIkLAAAAAJ
+    homepage: https://www.medicine.wisc.edu/apcc/icu-data-science-research
+    institution: University of Wisconsin - Madison
+    last_name: Afshar
+    name: Majid Afshar
+    orcid: https://orcid.org/0000-0002-6368-4652
+    username: ~Majid_Afshar1
+  - dblp_id: https://dblp.org/pid/83/3441
+    emails: ddligach@luc.edu
+    first_name: Dmitriy
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=mkLwEPkAAAAJ&view_op=list_works&sortby=pubdate
+    homepage: https://www.dmitriydligach.com
+    institution: Loyola University Chicago
+    last_name: Dligach
+    name: Dmitriy Dligach
+    semantic_scholar_id: https://www.semanticscholar.org/author/1839381
+    username: ~Dmitriy_Dligach1
+  - emails: ygao@medicine.wisc.edu
+    first_name: Yanjun
+    google_scholar_id: https://scholar.google.com/citations?user=GThZXQgAAAAJ&hl=en
+    homepage: https://serenayj.github.io/
+    last_name: Gao
+    name: Yanjun Gao
+    username: ~Yanjun_Gao1
+  - dblp_id: https://dblp.org/pid/117/6625
+    emails: timothy.miller@childrens.harvard.edu
+    first_name: Timothy
+    google_scholar_id: https://scholar.google.com/citations?user=iKtu9fgAAAAJ&hl=en
+    homepage: https://scholar.harvard.edu/tim-miller
+    institution: Harvard University
+    last_name: Miller
+    middle_name: A
+    name: Timothy A Miller
+    semantic_scholar_id: https://www.semanticscholar.org/author/Timothy-Miller/144950569
+    username: ~Timothy_A_Miller1
+  decision: Accept
+  file: 30.pdf
+  id: 30
+  openreview_id: mY5o1LNDOr
+  pdf_file: 6d182208af694906c274b3a96c60e3d16e232b87.pdf
+  title: Improving the Transferability of Clinical Note Section Classification Models
+    with BERT and Large Language Model Ensembles
+- abstract: "Recent advances in large language models (LLMs) have generated significant\
+    \ interest in their application across various domains including healthcare. However,\
+    \ there is limited data on their safety and performance in real-world scenarios.\
+    \ This study uses data collected using an autonomous telemedicine clinical assistant.\
+    \ The assistant asks symptom-based questions to elicit patient concerns and allows\
+    \ patients to ask questions about their post-operative recovery. We utilise real-world\
+    \ postoperative questions posed to the assistant by a cohort of 120 patients to\
+    \ examine the safety and appropriateness of responses generated by a recent popular\
+    \ LLM by OpenAI, ChatGPT. We demonstrate that LLMs have the potential to helpfully\
+    \ address routine patient queries following routine surgery.  However, important\
+    \ limitations around the safety of today’s models exist which must be considered.\
+    \ \n"
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in low-resource settings'
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: chowdhury.mohita@gmail.com
+    first_name: Mohita
+    last_name: Chowdhury
+    name: Mohita Chowdhury
+    username: ~Mohita_Chowdhury1
+  - emails: el@ufonia.com
+    first_name: Ernest
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=0iiq-7oAAAAJ
+    last_name: Lim
+    name: Ernest Lim
+    username: ~Ernest_Lim1
+  - emails: ah@ufonia.com
+    first_name: Aisling
+    last_name: Higham
+    name: Aisling Higham
+    orcid: https://orcid.org/0000-0002-8901-0007
+    username: ~Aisling_Higham1
+  - emails: rory.fe.mckinnon@gmail.com
+    first_name: Rory
+    homepage: https://www.linkedin.com/in/rory-mckinnon-030638202/
+    last_name: McKinnon
+    name: Rory McKinnon
+    username: ~Rory_McKinnon1
+  - emails: nv@ufonia.com
+    first_name: Nikoletta
+    last_name: Ventoura
+    name: Nikoletta Ventoura
+    username: ~Nikoletta_Ventoura1
+  - emails: yajie.v.he@gmail.com
+    first_name: Yajie
+    last_name: He
+    middle_name: Vera
+    name: Yajie Vera He
+    username: ~Yajie_Vera_He1
+  - emails: ndep@ufonia.co
+    first_name: Nick
+    last_name: De Pennington
+    name: Nick de Pennington
+    username: ~Nick_de_Pennington1
+  decision: Accept
+  file: 31.pdf
+  id: 31
+  openreview_id: 0CDnbvxPb3
+  pdf_file: eb327a0b6f77620f60544a9afec589a15bdf6372.pdf
+  title: Can Large Language Models Safely Address Patient Questions Following Cataract
+    Surgery?
+- abstract: We present our work on building large scale sequence-to-sequence models
+    for generating clinical note from patient-doctor conversation. This is formulated
+    as an abstractive summarization task for which we use encoder-decoder transformer
+    model with pointer-generator. We discuss various modeling enhancements to this
+    baseline model which include using subword and multiword tokenization scheme,
+    prefixing the targets with a chain-of-clinical-facts, and training with contrastive
+    loss that is defined over various candidate summaries. We also use flash attention
+    during training and query chunked attention during inference to be able to process
+    long input and output sequences and to improve computational efficiency. Experiments
+    are conducted on a dataset containing about 900K encounters from around 1800 healthcare
+    providers covering 27 specialties. The results are broken down into primary care
+    and non-primary care specialties. Consistent accuracy improvements are observed
+    across both of these categories.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: gagandeep.singh1@nuance.com
+    first_name: Gagandeep
+    homepage: http://www.cs.toronto.edu/~gagandeep/
+    institution: Nuance Communications
+    last_name: Singh
+    name: Gagandeep Singh
+    username: ~Gagandeep_Singh3
+  - emails: yue.pan@nuance.com
+    first_name: Yue
+    institution: Nuance Communications
+    last_name: Pan
+    name: Yue Pan
+    username: ~Yue_Pan2
+  - dblp_id: https://dblp.org/pid/45/5216
+    emails: jesus.andres@icloud.com
+    first_name: Jesus
+    google_scholar_id: https://scholar.google.com/citations?user=B5kCX6EAAAAJ&hl=en&oi=ao
+    last_name: Andres-Ferrer
+    name: Jesus Andres-Ferrer
+    username: ~Jesus_Andres-Ferrer1
+  - emails: miguel.delagua@nuance.com
+    first_name: Miguel
+    google_scholar_id: https://scholar.google.com/citations?user=AfGKyF8AAAAJ&hl=es
+    institution: Nuance Communications
+    last_name: Del-Agua
+    name: Miguel Del-Agua
+    username: ~Miguel_Del-Agua1
+  - dblp_id: https://dblp.org/pid/49/7819
+    emails: frankdiehl@microsoft.com
+    first_name: Frank
+    institution: Nuance Communications
+    last_name: Diehl
+    name: Frank Diehl
+    username: ~Frank_Diehl1
+  - dblp_id: https://dblp.org/pid/83/2993
+    emails: joel.pinto@nuance.com
+    first_name: Joel
+    last_name: Pinto
+    name: Joel Pinto
+    username: ~Joel_Pinto1
+  - dblp_id: https://dblp.org/pid/20/8160
+    emails: paul.vozila@nuance.com
+    first_name: Paul
+    institution: Nuance Communications
+    last_name: Vozila
+    name: Paul Vozila
+    username: ~Paul_Vozila1
+  decision: Accept
+  file: 33.pdf
+  id: 33
+  openreview_id: iVeo0GbeiD
+  pdf_file: dd9e89ce069e28838004338716b61e0813e19497.pdf
+  title: Large Scale Sequence-to-Sequence Models for Clinical Note Generation from
+    Patient-Doctor Conversations
+- abstract: 'Clinical Natural Language Processing has been an increasingly popular
+    research area in the NLP community. With the rise of large language models (LLMs)
+    and their impressive abilities in NLP tasks, it is crucial to pay attention to
+    their clinical applications. Sequence to sequence generative approaches with LLMs
+    have been widely used in recent years. To be a part of the research in clinical
+    NLP with recent advances in the field, we participated in task A of MEDIQA-Chat
+    at ACL-ClinicalNLP Workshop 2023. In this paper, we explain our methods and findings
+    as well as our comments on our results and limitations. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: kbozler@arizona.edu
+    first_name: Kadir Bulut
+    google_scholar_id: https://scholar.google.com/citations?user=fh3q400AAAAJ&hl=en
+    last_name: Ozler
+    name: Kadir Bulut Ozler
+    username: ~Kadir_Bulut_Ozler1
+  - dblp_id: https://dblp.org/pid/52/5246
+    emails: bethard@arizona.edu
+    first_name: Steven
+    google_scholar_id: https://scholar.google.com.tw/citations?user=sXM8J5EAAAAJ
+    homepage: http://bethard.faculty.arizona.edu/
+    institution: University of Arizona
+    last_name: Bethard
+    name: Steven Bethard
+    orcid: https://orcid.org/0000-0001-9560-6491
+    semantic_scholar_id: https://www.semanticscholar.org/author/Steven-Bethard/2105138
+    username: ~Steven_Bethard1
+  decision: Accept
+  file: 35.pdf
+  id: 35
+  openreview_id: J6CZuORnh9S
+  pdf_file: d61a241f8255140312766c475072a9b122ebd253.pdf
+  title: 'clulab at MEDIQA-Chat 2023: Summarization and classification of medical
+    dialogues'
+- abstract: 'Early detection and automated classification of dementia has recently
+    gained considerable attention using neuroimaging data and spontaneous speech.
+    In this paper, we validate the possibility of dementia detection with in-hospital
+    clinical notes. We collected 954 patients'' clinical notes from a local hospital
+    and assign dementia/non-dementia labels to those patients based on clinical assessment
+    and telephone interview. Given the labeled dementia data sets, we fine tune a
+    ClinicalBioBERT based on some filtered clinical notes and conducted experiments
+    on both binary and three class dementia classification. Our experiment results
+    show that the fine tuned ClinicalBioBERT achieved satisfied performance on binary
+    classification but failed on three class dementia classification. Further analysis
+    suggests that more human prior knowledge should be considered. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - dblp_id: https://dblp.org/pid/20/2039-28
+    emails: m.liu@deakin.edu.au
+    first_name: Ming
+    google_scholar_id: https://scholar.google.com/citations?user=QzTINAIAAAAJ&hl=en&oi=ao
+    homepage: https://grayming.github.io/Ming-Liu/
+    institution: Deakin University
+    last_name: Liu
+    name: Ming Liu
+    orcid: https://orcid.org/0000-0002-2160-6111
+    semantic_scholar_id: https://www.semanticscholar.org/author/2112748109
+    username: ~Ming_Liu13
+  - emails: richardbeare@monash.edu
+    first_name: Richard
+    institution: NA
+    last_name: Beare
+    name: Richard Beare
+    username: richardbeare@monash.edu
+  - emails: tayacollyer@monash.edu
+    first_name: Taya
+    institution: NA
+    last_name: Collyer
+    name: Taya Collyer
+    username: tayacollyer@monash.edu
+  - emails: nadineandrew@monash.edu
+    first_name: Nadine
+    institution: NA
+    last_name: Andrew
+    name: Nadine Andrew
+    username: nadineandrew@monash.edu
+  - emails: velandaisrikanth@monash.edu
+    first_name: Velandai
+    institution: NA
+    last_name: Srikanth
+    name: Velandai Srikanth
+    username: velandaisrikanth@monash.edu
+  decision: Accept
+  file: 36.pdf
+  id: 36
+  openreview_id: oamKGjpD2M-
+  pdf_file: 0eddf52aa4591468347ea54a58d5af8e670236e3.pdf
+  title: Leveraging Natural Language Processing and Clinical Notes for Dementia Detection
+- abstract: We propose a method to automate orthodontic diagnosis with natural language
+    processing. It is worthwhile to assist dentists with such technology to prevent
+    errors by inexperienced dentists and to reduce the workload of experienced ones.
+    However, text length and style inconsistencies in medical findings make an automated
+    orthodontic diagnosis with deep-learning models difficult. In this study, we improve
+    the performance of automatic diagnosis utilizing short summaries of medical findings
+    written in a consistent style by experienced dentists. Experimental results on
+    970 Japanese medical findings show that summarization consistently improves the
+    performance of various machine learning models for automated orthodontic diagnosis.
+    Although BERT is the model that gains the most performance with the proposed method,
+    the convolutional neural network achieved the best performance.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - emails: ohtsuka@ai.cs.ehime-u.ac.jp
+    first_name: Takumi
+    homepage: https://github.com/t-ohtsuka89
+    institution: Ehime University
+    last_name: Ohtsuka
+    name: Takumi Ohtsuka
+    username: ~Takumi_Ohtsuka1
+  - dblp_id: https://dblp.org/pid/140/3305
+    emails: kajiwara@cs.ehime-u.ac.jp
+    first_name: Tomoyuki
+    google_scholar_id: https://scholar.google.com/citations?user=cCAR9aYAAAAJ
+    homepage: https://moguranosenshi.sakura.ne.jp/cv.pdf
+    institution: Ehime University
+    last_name: Kajiwara
+    name: Tomoyuki Kajiwara
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tomoyuki-Kajiwara/1981103
+    username: ~Tomoyuki_Kajiwara1
+  - emails: ctanika@dent.osaka-u.ac.jp
+    first_name: Chihiro
+    institution: NA
+    last_name: Tanikawa
+    name: Chihiro Tanikawa
+    username: ctanika@dent.osaka-u.ac.jp
+  - emails: yjnshimizu@dent.osaka-u.ac.jp
+    first_name: Yuujin
+    institution: NA
+    last_name: Shimizu
+    name: Yuujin Shimizu
+    username: yjnshimizu@dent.osaka-u.ac.jp
+  - dblp_id: https://dblp.org/pid/78/5843
+    emails: nagahara@ids.osaka-u.ac.jp
+    first_name: Hajime
+    google_scholar_id: https://scholar.google.co.uk/citations?user=CZyXjREAAAAJ&hl=ja
+    homepage: https://www.is.ids.osaka-u.ac.jp/author/hajime-nagahara/
+    institution: Osaka University
+    last_name: Nagahara
+    name: Hajime Nagahara
+    username: ~Hajime_Nagahara1
+  - dblp_id: https://dblp.org/pid/67/2953
+    emails: ninomiya@cs.ehime-u.ac.jp
+    first_name: Takashi
+    homepage: http://aiweb.cs.ehime-u.ac.jp/nlp/members/%e4%ba%8c%e5%ae%ae-%e5%b4%87/
+    institution: Ehime University
+    last_name: Ninomiya
+    name: Takashi Ninomiya
+    username: ~Takashi_Ninomiya1
+  decision: Accept
+  file: 37.pdf
+  id: 37
+  openreview_id: UNRFloY1tz
+  pdf_file: 18a6d6dc8f65fffc4f484abfd402d6647cc1ebd7.pdf
+  title: Automated Orthodontic Diagnosis from a Summary of Medical Findings
+- abstract: 'Recent advancements in natural language processing (NLP) have been driven
+    by large language models (LLMs), thereby revolutionizing the field. Our study
+    investigates the impact of diverse pre-training strategies on the performance
+    of Turkish clinical language models in a multi-label classification task involving
+    radiology reports, with a focus on overcoming language resource limitations. Additionally,
+    for the first time, we evaluated the simultaneous pre-training approach by utilizing
+    limited clinical task data. We developed four models: TurkRadBERT-task v1, TurkRadBERT-task
+    v2, TurkRadBERT-sim v1, and TurkRadBERT-sim v2. Our results revealed superior
+    performance from BERTurk and TurkRadBERT-task v1, both of which leverage a broad
+    general-domain corpus. Although task-adaptive pre-training is capable of identifying
+    domain-specific patterns, it may be prone to overfitting because of the constraints
+    of the task-specific corpus. Our findings highlight the importance of domain-specific
+    vocabulary during pre-training to improve performance. They also affirmed that
+    a combination of general domain knowledge and task-specific fine-tuning is crucial
+    for optimal performance across various categories. This study offers key insights
+    for future research on pre-training techniques in the clinical domain, particularly
+    for low-resource languages.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+  authors:
+  - emails: hazalturkmen91@gmail.com
+    first_name: Hazal
+    google_scholar_id: https://scholar.google.com.tr/citations?user=zpPkozcAAAAJ&hl=tr
+    homepage: https://unisis.ege.edu.tr/researcher=hazal.turkmen
+    last_name: Türkmen
+    name: Hazal Türkmen
+    orcid: https://orcid.org/0000-0002-8694-1041
+    username: ~Hazal_Türkmen1
+  - emails: oguz.dikenelli@ege.edu.tr
+    first_name: Oguz
+    google_scholar_id: https://scholar.google.com/citations?user=0B7wQxoAAAAJ&hl=tr
+    institution: Ege University
+    last_name: Dikenelli
+    name: Oguz Dikenelli
+    orcid: https://orcid.org/0000-0001-7948-7453
+    username: ~Oguz_Dikenelli2
+  - emails: cenk.eraslan@ege.edu.tr
+    first_name: Cenk
+    last_name: Eraslan
+    name: Cenk Eraslan
+    username: ~Cenk_Eraslan1
+  - emails: cem.calli@ege.edu.tr
+    first_name: Mehmet
+    institution: NA
+    last_name: Calli
+    name: Mehmet Cem Calli
+    username: cem.calli@ege.edu.tr
+  - emails: sureyya.ozbek@ege.edu.tr
+    first_name: Suha
+    last_name: Ozbek
+    middle_name: Sureyya
+    name: Suha Sureyya Ozbek
+    orcid: https://orcid.org/0000-0002-3351-4150
+    username: ~Suha_Sureyya_Ozbek1
+  decision: Accept
+  file: 38.pdf
+  id: 38
+  openreview_id: UzuEe-Y4wI
+  pdf_file: 0e566253e3fe6a19730bc5a99f72329778c43005.pdf
+  title: 'Harnessing the Power of BERT in the Turkish Clinical Domain: Pretraining
+    Approaches for Limited Data Scenarios'
+- abstract: Over the last years, an increasing number of publicly available, semantically
+    annotated medical corpora have been released for the German language. While their
+    annotations cover comparable semantic classes, the synergies of such efforts have
+    not been explored, yet. This is due to substantial differences in the data schemas
+    (syntax) and annotated entities (semantics), which hinder the creation of common
+    meta-datasets. For instance, it is unclear whether named entity recognition (NER)
+    taggers trained on one or more of such datasets are useful to detect entities
+    in any of the other datasets.  In this work, we create harmonized versions of
+    German medical corpora using the BigBIO framework, and make them available to
+    the community. Using these as a meta-dataset, we perform a series of cross-corpus
+    evaluation experiments on two settings of aligned labels. These consist in fine-tuning
+    various pre-trained Transformers on different combinations of training sets, and
+    testing them against each dataset separately. We find that a) trained NER models
+    generalize poorly, with F1 scores dropping approx. 20 pp. on unseen test data,
+    and b) current pre-trained Transformer models for the German language do not systematically
+    alleviate this issue. However, our results suggest that models benefit from additional
+    training corpora in most cases, even if these belong to different medical fields
+    or text genres.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+  authors:
+  - emails: llorcarodriguez@uni-potsdam.de
+    first_name: Ignacio
+    last_name: Llorca
+    name: Ignacio Llorca
+    orcid: https://orcid.org/0009-0005-6256-1879
+    username: ~Ignacio_Llorca1
+  - emails: fl.borchert@gmail.com
+    first_name: Florian
+    google_scholar_id: https://scholar.google.com/citations?user=iKd0zBoAAAAJ&hl=de
+    homepage: https://www.florianborchert.de
+    institution: Hasso Plattner Institute
+    last_name: Borchert
+    name: Florian Borchert
+    username: ~Florian_Borchert1
+  - dblp_id: https://dblp.org/pid/92/7637.html
+    emails: matthieu.schapranow@hpi.de
+    first_name: Matthieu-P.
+    google_scholar_id: https://scholar.google.de/citations?user=0TD5Ol0AAAAJ
+    homepage: https://hpi.de/lippert/senior-researcher-labs/research-group-in-memory-computing-for-digital-health/dr-ing-matthieu-p-schapranow.html
+    last_name: Schapranow
+    name: Matthieu-P. Schapranow
+    orcid: https://orcid.org/0000-0001-6601-2942
+    username: ~Matthieu-P._Schapranow1
+  decision: Accept
+  file: 39.pdf
+  id: 39
+  openreview_id: RE1WBf0aHJp
+  pdf_file: d84ba01b71b42b842b356f2f1e3274863fcbe642.pdf
+  title: 'A Meta-dataset of German Medical Corpora: Harmonization of Annotations and
+    Cross-corpus NER Evaluation'
+- abstract: 'Post-stroke speech and language deficits (aphasia) significantly impact
+    patients’ quality of life. Many with mild symptoms remain undiagnosed, and the
+    majority do not receive the intensive doses of therapy recommended, due to healthcare
+    costs and/or inadequate services. Automatic Speech Recognition (ASR) may help
+    overcome these difficulties by improving diagnostic rates and providing feedback
+    during tailored therapy. However, its performance is often unsatisfactory due
+    to the high variability in speech errors and scarcity of training datasets. This
+    study assessed the performance of Whisper, a recently released end-to-end model,
+    in patients with post-stroke aphasia (PWA). We tuned its hyperparameters to achieve
+    the lowest word error rate (WER) on aphasic speech. WER was significantly higher
+    in PWA compared to age-matched controls (10.3% vs 38.5%, $p<0.001$). We demonstrated
+    that worse WER was related to the more severe aphasia as measured by expressive
+    (overt naming, and spontaneous speech production) and receptive (written and spoken
+    comprehension) language assessments. Stroke lesion size did not affect the performance
+    of Whisper. Linear mixed models accounting for demographic factors, therapy duration,
+    and time since stroke, confirmed worse Whisper performance with left hemispheric
+    frontal lesions.
+
+    We discuss the implications of these findings for how future ASR can be improved
+    in PWA.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: sangue.giulia@gmail.com
+    first_name: Giulia
+    last_name: Sanguedolce
+    name: Giulia Sanguedolce
+    orcid: https://orcid.org/0000-0002-0024-422X
+    username: ~Giulia_Sanguedolce1
+  - emails: p.naylor@imperial.ac.uk
+    first_name: Patrick
+    homepage: https://www.imperial.ac.uk/people/p.naylor
+    institution: Imperial College London, Imperial College London
+    last_name: Naylor
+    name: Patrick Naylor
+    username: ~Patrick_Naylor1
+  - emails: fatemeh.geranmayeh00@imperial.ac.uk
+    first_name: Fatemeh
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=2OzuhUAAAAAJ
+    homepage: https://www.imperial.ac.uk/people/fatemeh.geranmayeh00
+    institution: Imperial College London
+    last_name: Geranmayeh
+    name: Fatemeh Geranmayeh
+    orcid: https://orcid.org/0000-0003-1112-786X
+    username: ~Fatemeh_Geranmayeh1
+  decision: Accept
+  file: 40.pdf
+  id: 40
+  openreview_id: 1OpvcJ397Z
+  pdf_file: 0c73b7ebdab8e011886a3f08ba3942ca8fc12a13.pdf
+  title: Uncovering the Potential for a Weakly Supervised End-to-End Model in Recognising
+    Speech from Patient with Post-Stroke Aphasia
+- abstract: 'We explore temporal dependency graph (TDG) parsing in the clinical domain.
+    We leverage existing annotations on the THYME dataset to semi-automatically construct
+    a TDG corpus. Then we propose a new natural language inference (NLI) approach
+    to TDG parsing, and evaluate it both on general domain TDGs from wikinews and
+    the newly constructed clinical TDG corpus. We achieve competitive performance
+    on general domain TDGs with a much simpler model than prior work. On the clinical
+    TDGs, our method establishes the first result of TDG parsing on clinical data
+    with 0.79/0.88 micro/macro F1. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/249/9101
+    emails: jryao@brandeis.edu
+    first_name: Jiarui
+    last_name: Yao
+    name: Jiarui Yao
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jiarui-Yao/40040342
+    username: ~Jiarui_Yao1
+  - dblp_id: https://dblp.org/pid/52/5246
+    emails: bethard@arizona.edu
+    first_name: Steven
+    google_scholar_id: https://scholar.google.com.tw/citations?user=sXM8J5EAAAAJ
+    homepage: http://bethard.faculty.arizona.edu/
+    institution: University of Arizona
+    last_name: Bethard
+    name: Steven Bethard
+    orcid: https://orcid.org/0000-0001-9560-6491
+    semantic_scholar_id: https://www.semanticscholar.org/author/Steven-Bethard/2105138
+    username: ~Steven_Bethard1
+  - emails: kristin.wrightbettner@colorado.edu
+    first_name: Kristin
+    institution: University of Colorado at Boulder
+    last_name: Wright-Bettner
+    name: Kristin Wright-Bettner
+    semantic_scholar_id: https://www.semanticscholar.org/author/Kristin-Wright-Bettner/1410067271
+    username: ~Kristin_Wright-Bettner1
+  - emails: eli.goldner@childrens.harvard.edu
+    first_name: Eli
+    last_name: Goldner
+    middle_name: T
+    name: Eli T Goldner
+    orcid: https://orcid.org/0000-0003-3226-0942
+    username: ~Eli_T_Goldner1
+  - emails: david.harris@childrens.harvard.edu
+    first_name: David
+    last_name: Harris
+    middle_name: A
+    name: David A Harris
+    username: ~David_A_Harris1
+  - emails: guerganasavova@hotmail.com
+    first_name: Guergana
+    google_scholar_id: https://scholar.google.com/citations?user=9538Cr4AAAAJ&hl=en&oi=sra
+    institution: Harvard University
+    last_name: Savova
+    middle_name: K
+    name: Guergana K Savova
+    orcid: https://orcid.org/0000-0002-5887-200X
+    username: ~Guergana_K_Savova1
+  decision: Accept
+  file: 42.pdf
+  id: 42
+  openreview_id: lrAJQIoLkM
+  pdf_file: 205192f1c69641a7f5e874be65094214311995c4.pdf
+  title: Textual Entailment for Temporal Dependency Graph Parsing
+- abstract: 'A medical provider''s summary of a patient visit serves several critical
+    purposes, including clinical decision-making, facilitating hand-offs between providers,
+    and as a reference for the patient. An effective summary is required to be coherent
+    and accurately capture all the medically relevant information in the dialogue,
+    despite the complexity of patient-generated language. Even minor inaccuracies
+    in visit summaries (for example, summarizing "patient does not have a fever" when
+    a fever is present) can be detrimental to the outcome of care for the patient.
+
+
+    This paper tackles the problem of medical conversation summarization by discretizing
+    the task into several smaller dialogue-understanding tasks that are sequentially
+    built upon. First, we identify medical entities and their affirmations within
+    the conversation to serve as building blocks. We study dynamically constructing
+    few-shot prompts for tasks by conditioning on relevant patient information and
+    use GPT-3 as the backbone for our experiments. We also develop GPT-derived summarization
+    metrics to measure performance against reference summaries quantitatively. Both
+    our human evaluation study and metrics for medical correctness show that summaries
+    generated using this approach are clinically accurate and outperform the baseline
+    approach of summarizing the dialog in a zero-shot, single-prompt setting.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: nairvarun18@gmail.com
+    first_name: Varun
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=R3SqGgMAAAAJ&authuser=1
+    institution: Curai Health
+    last_name: Nair
+    name: Varun Nair
+    semantic_scholar_id: https://www.semanticscholar.org/author/Varun-Nair/2073604503
+    username: ~Varun_Nair1
+  - dblp_id: https://dblp.org/pid/177/9393
+    emails: elliot@elliotschu.com
+    first_name: Elliot
+    homepage: http://www.elliotschu.com
+    institution: Curai Health and Johns Hopkins University
+    last_name: Schumacher
+    name: Elliot Schumacher
+    username: ~Elliot_Schumacher1
+  - dblp_id: https://dblp.org/pid/58/2858
+    emails: anitha@curai.com
+    first_name: Anitha
+    institution: Curai Health
+    last_name: Kannan
+    name: Anitha Kannan
+    username: ~Anitha_Kannan3
+  decision: Accept
+  file: 43.pdf
+  id: 43
+  openreview_id: M2sWo6dZtm
+  pdf_file: 2d2ae63085dc7922610ff26b9fe1d225c0410273.pdf
+  title: 'Generating medically-accurate summaries of patient-provider dialogue: A
+    multi-stage approach using large language models'
+- abstract: 'Detecting duplicate patient participation in clinical trials is a major
+    challenge because repeated patients can undermine the credibility and accuracy
+    of the trial''s findings and result in significant health and financial risks.
+    Developing accurate automated speaker verification (ASV) models is crucial to
+    verify the identity of enrolled individuals and remove duplicates, but the size
+    and quality of data influence ASV performance. However, there has been limited
+    investigation into the factors that can affect ASV capabilities in clinical environments.
+    In this paper, we bridge the gap by conducting analysis of how participant demographic
+    characteristics, audio quality criteria, and severity level of Alzheimer''s disease
+    (AD) impact the performance of ASV utilizing a dataset of speech recordings from
+    659 participants with varying levels of AD, obtained through multiple speech tasks.
+    Our results indicate that ASV performance: 1) is slightly better on male speakers
+    than on female speakers; 2) degrades for individuals who are above 70 years old;
+    3) is comparatively better for non-native English speakers than for native English
+    speakers; 4) is negatively affected by clinician interference, noisy background,
+    and unclear participant speech; 5) tends to decrease with an increase in the severity
+    level of AD. Our study finds that voice biometrics raise fairness concerns as
+    certain subgroups exhibit different ASV performances owing to their inherent voice
+    characteristics. Moreover, the performance of ASV is influenced by the quality
+    of speech recordings, which underscores the importance of improving the data collection
+    settings in clinical trials.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - emails: malikeh@winterlightlabs.com
+    first_name: Malikeh
+    google_scholar_id: https://scholar.google.ca/citations?user=les29Z8AAAAJ&hl=en&oi=ao
+    homepage: https://winterlightlabs.com/
+    last_name: Ehghaghi
+    name: Malikeh Ehghaghi
+    username: ~Malikeh_Ehghaghi1
+  - dblp_id: https://dblp.org/pid/245/4107
+    emails: mstanojevic118@gmail.com
+    first_name: Marija
+    google_scholar_id: https://scholar.google.com/citations?user=pAyfhIkAAAAJ
+    homepage: http://marija-stanojevic.github.io/
+    institution: WinterLightLabs and Temple University
+    last_name: Stanojevic
+    name: Marija Stanojevic
+    orcid: https://orcid.org/0000-0001-8227-6577
+    semantic_scholar_id: https://www.semanticscholar.org/author/Marija-Stanojevic/34574116
+    username: ~Marija_Stanojevic1
+  - emails: akramsystems@gmail.com
+    first_name: Ali
+    homepage: https://www.github.com/akramsystems
+    last_name: Akram
+    name: Ali Akram
+    username: ~Ali_Akram1
+  - dblp_id: https://dblp.org/pid/142/3126
+    emails: novikova.jekaterina@gmail.com
+    first_name: Jekaterina
+    google_scholar_id: https://scholar.google.co.uk/citations?user=C75JskwAAAAJ&hl=en
+    homepage: http://jeknov.github.io
+    institution: Winterlight Labs
+    last_name: Novikova
+    name: Jekaterina Novikova
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jekaterina-Novikova/2848048
+    username: ~Jekaterina_Novikova1
+  decision: Accept
+  file: 45.pdf
+  id: 45
+  openreview_id: l18AZzV7R8S
+  pdf_file: 85c34ba8c66db1f8c39a25613e6acc96651f42e2.pdf
+  title: Factors Affecting the Performance of Automated Speaker Verification in Alzheimer’s
+    Disease Clinical Trials
+- abstract: This paper describes Team Cadence's winning submission to Task C of the
+    MEDIQA-Chat 2023 shared tasks. We also present the set of methods, including a
+    novel N-pass strategy to summarize a mix of clinical dialogue and an incomplete
+    summarized note, used to complete Task A and Task B, ranking highly on the leaderboard
+    amongst stable and reproducible code submissions. The shared tasks invited participants
+    to summarize, classify and generate patient-doctor conversations. Considering
+    the small volume of training data available, we took a data-augmentation-first
+    approach to the three tasks by focusing on the dialogue generation task, i.e.,
+    Task C. It proved effective in improving our models' performance on Task A and
+    Task B. We also found the BART architecture to be highly versatile, as it formed
+    the base for all our submissions. Finally, based on the results shared by the
+    organizers, we note that Team Cadence was the only team to submit stable and reproducible
+    runs to all three tasks.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: ash@cadencerpm.com
+    first_name: Ashwyn
+    institution: Cadence Solutions
+    last_name: Sharma
+    name: Ashwyn Sharma
+    username: ~Ashwyn_Sharma1
+  - emails: difeldman4@gmail.com
+    first_name: David
+    google_scholar_id: https://scholar.google.com/citations?user=7MFi-DYAAAAJ&hl=en
+    last_name: Feldman
+    middle_name: Ian
+    name: David Ian Feldman
+    username: ~David_Ian_Feldman1
+  - emails: aneeshj@vt.edu
+    first_name: Aneesh
+    homepage: https://aneeshjain.github.io
+    last_name: Jain
+    name: Aneesh Jain
+    username: ~Aneesh_Jain1
+  decision: Accept
+  file: 48.pdf
+  id: 48
+  openreview_id: Y0-MikRxO3
+  pdf_file: 303b592670b65764aee9f2c84a82b0173249ac02.pdf
+  title: 'Team Cadence at MEDIQA-Chat 2023: Generating, augmenting and summarizing
+    clinical dialogue with large language models'
+- abstract: 'Annotated clinical text corpora are essential for machine learning studies
+    that model and predict care processes and disease progression. However, few studies
+    describe the necessary experimental design of the annotation guideline and annotation
+    phases. This makes replication, reuse, and adoption challenging.
+
+
+    Using clinical questions about sepsis, we designed a semantic annotation guideline
+    to capture sepsis signs from clinical text. The clinical questions aid guideline
+    design, application, and evaluation. Our method incrementally evaluates each change
+    in the guideline by testing the resulting annotated corpus using clinical questions.
+    Additionally, our method uses inter-annotator agreement to judge the annotator
+    compliance and quality of the guideline. We show that the method, combined with
+    controlled design increments, is simple and allows the development and measurable
+    improvement of a purpose-built semantic annotation guideline. We believe that
+    our approach is useful for incremental design of semantic annotation guidelines
+    in general.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - dblp_id: https://dblp.org/pid/258/2800.html
+    emails: melissa.yan@ntnu.no
+    first_name: Melissa
+    homepage: https://www.ntnu.edu/employees/melissa.yan
+    institution: Norwegian University of Science and Technology
+    last_name: Yan
+    middle_name: Y.
+    name: Melissa Y. Yan
+    username: ~Melissa_Y._Yan1
+  - emails: lise.t.gustad@nord.no
+    first_name: Lise
+    homepage: https://www.nord.no/no/ansatte/lise-tuset-gustad
+    institution: Nord University and Norwegian University of Science and Technology
+    last_name: Gustad
+    middle_name: Tuset
+    name: Lise Tuset Gustad
+    orcid: https://orcid.org/0000-0003-2709-3991
+    username: ~Lise_Tuset_Gustad1
+  - emails: lise.hovik@ntnu.no
+    first_name: Lise
+    homepage: https://www.ntnu.no/ansatte/lise.hovik
+    last_name: Høvik
+    middle_name: Husby
+    name: Lise Husby Høvik
+    orcid: https://orcid.org/0000-0001-6380-029X
+    username: ~Lise_Husby_Høvik1
+  - emails: nytroe@ntnu.no
+    first_name: Øystein
+    homepage: https://www.ntnu.edu/employees/nytroe
+    institution: Norwegian University of Science and Technology
+    last_name: Nytrø
+    name: Øystein Nytrø
+    username: ~Øystein_Nytrø1
+  decision: Accept
+  file: 49.pdf
+  id: 49
+  openreview_id: AdzQYbfuFSw
+  pdf_file: 67b12649200745e4f569cc5befdd019821de6297.pdf
+  title: Method for Designing Semantic Annotation of Sepsis Signs in Clinical Text
+- abstract: "Prompt tuning offers an efficient approach to domain adaptation for pretrained\
+    \ language models, which predominantly focus on masked language modeling or generative\
+    \ objectives. \nHowever, the potential of discriminative language models in biomedical\
+    \ tasks remains underexplored.\nTo bridge this gap, we develop BioDLM, a method\
+    \ tailored for biomedical domain adaptation of discriminative language models\
+    \ that incorporates prompt-based continual pretraining and prompt tuning for downstream\
+    \ tasks. \nBioDLM aims to maximize the potential of discriminative language models\
+    \ in low-resource scenarios by reformulating these tasks as span-level corruption\
+    \ detection, thereby enhancing performance on domain-specific tasks and improving\
+    \ the efficiency of continual pertaining.\nIn this way, BioDLM provides a data-efficient\
+    \ domain adaptation method for discriminative language models, effectively enhancing\
+    \ performance on discriminative tasks within the biomedical domain."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/65/6898.html
+    emails: keminglu@usc.edu
+    first_name: Keming
+    google_scholar_id: https://scholar.google.com/citations?user=WuD2op4AAAAJ&hl=en&oi=ao
+    last_name: Lu
+    name: Keming Lu
+    semantic_scholar_id: https://www.semanticscholar.org/author/K.-Lu/1515662094
+    username: ~Keming_Lu1
+  - emails: peter.potash@microsoft.com
+    first_name: Peter
+    google_scholar_id: https://scholar.google.ca/citations?user=JZ38E6gAAAAJ&hl=en
+    homepage: https://scholar.google.ca/citations?user=JZ38E6gAAAAJ&hl=en
+    institution: Microsoft
+    last_name: Potash
+    name: Peter Potash
+    username: ~Peter_Potash1
+  - emails: xihlin@microsoft.com
+    first_name: Xihui
+    homepage: https://www.linkedin.com/in/linxihui/
+    institution: Microsoft
+    last_name: Lin
+    name: Xihui Lin
+    username: ~Xihui_Lin1
+  - emails: ys3748@columbia.edu
+    first_name: Yuwen
+    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=en&user=NTMqGl4AAAAJ&gmla=AHoSzlWhMT6ggSVhHOLW0tQ1ZUHVN_7Mx6j3MSLhG7CzTL-gSm-A2zZUthrVQWkKnEZSjju3dYnV1oe3I4y_PtnxoorglchvVPtC_Y5TcA
+    last_name: Sun
+    name: Yuwen Sun
+    username: ~Yuwen_Sun1
+  - emails: zihanqian@hsph.harvard.edu
+    first_name: Zihan
+    last_name: Qian
+    name: Zihan Qian
+    username: ~Zihan_Qian1
+  - dblp_id: https://dblp.org/pid/56/2877-2
+    emails: yuanzheng.yuanzhen@alibaba-inc.com
+    first_name: Zheng
+    google_scholar_id: https://scholar.google.com/citations?hl=zh-CN&user=kRgiVnUAAAAJ
+    institution: Alibaba Group
+    last_name: Yuan
+    name: Zheng Yuan
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zheng-Yuan/2112340945
+    username: ~Zheng_Yuan2
+  - dblp_id: https://dblp.org/pid/148/5539
+    emails: tristan@microsoft.com
+    first_name: Tristan
+    google_scholar_id: https://scholar.google.com/citations?user=cjlSeqwAAAAJ&hl=en&oi=ao
+    homepage: https://www.microsoft.com/en-us/research/people/tristan/
+    institution: Microsoft Research
+    last_name: Naumann
+    name: Tristan Naumann
+    orcid: https://orcid.org/0000-0003-2150-1747
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tristan-Naumann/40466858/
+    username: ~Tristan_Naumann1
+  - emails: tcai@hsph.harvard.edu
+    first_name: Tianxi
+    homepage: https://celehs.hms.harvard.edu/tcai/index.html
+    institution: Harvard T.H. Chan School of Public Health
+    last_name: Cai
+    name: Tianxi Cai
+    username: ~Tianxi_Cai1
+  - emails: junweilu@hsph.harvard.edu
+    first_name: Junwei
+    homepage: https://junwei-lu.github.io/
+    institution: Harvard University
+    last_name: Lu
+    name: Junwei Lu
+    username: ~Junwei_Lu1
+  decision: Accept
+  file: 50.pdf
+  id: 50
+  openreview_id: RE2j58TAthR
+  pdf_file: 304405545d7d5dd8d48c1e154e4d6d5353d610d2.pdf
+  title: Prompt Discriminative Language Models for Domain Adaptation
+- abstract: Information extraction from clinical text has the potential to facilitate
+    clinical research and personalized clinical care, but annotating large amounts
+    of data for each set of target tasks is prohibitive. We present a German medical
+    Named Entity Recognition (NER) system capable of cross-domain knowledge transferring.
+    The system builds on a pre-trained German language model and a token-level binary
+    classifier, employing semantic types sourced from the Unified Medical Language
+    System (UMLS) as entity labels to identify corresponding entity spans within the
+    input text. To enhance the system's performance and robustness, we pre-train it
+    using a medical literature corpus that incorporates UMLS semantic term annotations.
+    We evaluate the system's effectiveness on two German annotated datasets obtained
+    from different clinics in zero- and few-shot settings. The results show that our
+    approach outperforms task-specific Condition Random Fields (CRF) classifiers in
+    terms of accuracy. Our work contributes to developing robust and transparent German
+    medical NER models that can support the extraction of information from various
+    clinical texts.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - emails: siting.liang@dfki.de
+    first_name: Siting
+    google_scholar_id: https://scholar.google.com/citations?user=NuNixssAAAAJ&hl=en
+    homepage: https://www.dfki.de/web/ueber-uns/mitarbeiter/person/sili03
+    institution: German Research Center for AI
+    last_name: Liang
+    name: Siting Liang
+    username: ~Siting_Liang1
+  - dblp_id: https://dblp.org/pid/206/6859
+    emails: mrkhartmann4@gmail.com
+    first_name: Mareike
+    last_name: Hartmann
+    name: Mareike Hartmann
+    username: ~Mareike_Hartmann1
+  - dblp_id: https://dblp.org/pid/83/5858.html
+    emails: sonntag@dfki.de
+    first_name: Daniel
+    homepage: https://www.dfki.de/~sonntag/
+    institution: German Research Center for AI and Carl von Ossietzky Universität
+      Oldenburg
+    last_name: Sonntag
+    name: Daniel Sonntag
+    username: ~Daniel_Sonntag2
+  decision: Accept
+  file: 51.pdf
+  id: 51
+  openreview_id: JNRsQFtTD9
+  pdf_file: bacec01874ee6121cf8b10dc70ed47b9b014ccc5.pdf
+  title: Cross-domain German Medical Named Entity Recognition using a Pre-Trained
+    Language Model and Unified Medical Semantic Types
+- abstract: Graph-based techniques have gained traction for representing and analyzing
+    data in various natural language processing (NLP) tasks. Knowledge graph-based
+    language representation models have shown promising results in leveraging domain-specific
+    knowledge for NLP tasks, particularly in the biomedical NLP field. However, such
+    models have limitations, including knowledge noise and neglect of contextual relationships,
+    leading to potential semantic errors and reduced accuracy. To address these issues,
+    this paper proposes two novel methods. The first method combines knowledge graph-based
+    language model with nearest-neighbor models to incorporate semantic and category
+    information from neighboring instances. The second method involves integrating
+    knowledge graph-based language model with graph neural networks (GNNs) to leverage
+    feature information from neighboring nodes in the graph. Experiments on relation
+    extraction (RE) and classification tasks in English and Chinese language datasets
+    demonstrate significant performance improvements with both methods, highlighting
+    their potential for enhancing the performance of language models and improving
+    NLP applications in the biomedical domain.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/253/6972.html
+    emails: usman.naseem@sydney.edu.au
+    first_name: Usman
+    google_scholar_id: https://scholar.google.com.au/citations?hl=en&user=61Ou1P8AAAAJ&view_op=list_works&sortby=pubdate
+    homepage: https://usmaann.github.io/
+    last_name: Naseem
+    name: Usman Naseem
+    orcid: https://orcid.org/0000-0003-0191-7171
+    semantic_scholar_id: https://www.semanticscholar.org/author/Usman-Naseem/1394609613
+    username: ~Usman_Naseem1
+  - emails: surendrabikram@vt.edu
+    first_name: Surendrabikram
+    homepage: https://www.therealthapa.com/
+    last_name: Thapa
+    name: Surendrabikram Thapa
+    username: ~Surendrabikram_Thapa1
+  - dblp_id: https://dblp.uni-trier.de/pid/52/323-20
+    emails: zhangqi\_cs@bit.edu.cn
+    first_name: Qi
+    google_scholar_id: https://scholar.google.com/citations?user=8UAk1p4AAAAJ&hl=en
+    homepage: https://sites.google.com/view/qizhang-bit-uts/home
+    last_name: Zhang
+    name: Qi Zhang
+    orcid: https://orcid.org/0000-0002-1037-1361
+    username: ~Qi_Zhang25
+  - dblp_id: https://dblp.org/pid/48/5388-4
+    emails: rainmilk@gmail.com
+    first_name: Liang
+    google_scholar_id: https://scholar.google.com.au/citations?user=cj6wAgYAAAAJ
+    homepage: https://sites.google.com/view/lianghu/home
+    institution: Tongji University
+    last_name: Hu
+    name: Liang Hu
+    username: ~Liang_Hu1
+  - emails: anum.masood@ntnu.no
+    first_name: Anum
+    google_scholar_id: https://scholar.google.com/citations?user=zuBJE8EAAAAJ
+    homepage: https://www.ntnu.edu/employees/anum.masood
+    last_name: Masood
+    name: Anum Masood
+    orcid: https://orcid.org/0000-0001-5411-8969
+    username: ~Anum_Masood1
+  - dblp_id: https://dblp.org/pid/91/8376
+    emails: mehwish.nasim@uwa.edu.au
+    first_name: Mehwish
+    google_scholar_id: https://scholar.google.com.au/citations?user=z1VccFsAAAAJ&hl=en
+    homepage: https://research-repository.uwa.edu.au/en/persons/mehwish-nasim
+    institution: University of Western Australia and Flinders University of South
+      Australia
+    last_name: Nasim
+    name: Mehwish Nasim
+    orcid: https://orcid.org/0000-0003-0683-9125
+    username: ~Mehwish_Nasim1
+  decision: Accept
+  file: 52.pdf
+  id: 52
+  openreview_id: JiGCoPv2Id
+  pdf_file: 9e9898d76fedeced00e5cb65ae1f24c375d30f49.pdf
+  title: Reducing Knowledge Noise for Improved Semantic Analysis in Biomedical Natural
+    Language Processing Applications
+- abstract: 'Artificial intelligence based diagnosis systems have emerged as powerful
+    tools to reform traditional medical care. Each clinician now wants to have his
+    own intelligent diagnostic partner to expand the range of services he can provide.  When
+    reading a clinical note, experts make inferences with relevant knowledge. However,
+    medical knowledge appears to be heterogeneous, including structured and unstructured
+    knowledge. Existing approaches are incapable of uniforming them well. Besides,
+    the descriptions of clinical findings in clinical notes, which are reasoned to
+    diagnosis, vary a lot for different diseases or patients. To address these problems,
+    we propose a Medical Knowledge-enhanced Prompt Learning (MedKPL) model for diagnosis
+    classification. First, to overcome the heterogeneity of knowledge, given the knowledge
+    relevant to diagnosis, MedKPL extracts and normalizes the relevant knowledge into
+    a prompt sequence. Then, MedKPL integrates the knowledge prompt with the clinical
+    note into a designed prompt for representation. Therefore, MedKPL can integrate
+    medical knowledge into the models to enhance diagnosis and effectively transfer
+    learned diagnosis capacity to unseen diseases using alternating relevant disease
+    knowledge. The experimental results on two medical datasets show that our method
+    can obtain better medical text classification results and can perform better in
+    transfer and few-shot settings among datasets of different diseases. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - emails: yxlu0613@gmail.com
+    first_name: Yuxing
+    homepage: http://yuxinglu613.github.io
+    last_name: Lu
+    name: Yuxing Lu
+    orcid: https://orcid.org/0000-0002-8207-4411
+    username: ~Yuxing_Lu1
+  - emails: zhaoxukai0208@163.com
+    first_name: Xukai
+    homepage: https://orcid.org/0000-0002-2210-5319
+    last_name: Zhao
+    name: Xukai Zhao
+    orcid: https://orcid.org/0000-0002-2210-5319
+    username: ~Xukai_Zhao1
+  - dblp_id: https://dblp.org/pid/166/6003
+    emails: wangjinzhuo@pku.edu.cn
+    first_name: Jinzhuo
+    institution: Peking University
+    last_name: Wang
+    name: Jinzhuo Wang
+    username: ~Jinzhuo_Wang1
+  decision: Accept
+  file: 54.pdf
+  id: 54
+  openreview_id: amMJfmDprx
+  pdf_file: ac1b621ab0131b7936ad969f488c74a80117d2c4.pdf
+  title: Medical knowledge-enhanced prompt learning for diagnosis classification from
+    clinical text
+- abstract: Natural language tasks like Named Entity Recognition (NER) in the clinical
+    domain on non-English texts can be very time-consuming and expensive due to the
+    lack of annotated data. Cross-lingual transfer (CLT) is a way to circumvent this
+    issue thanks to the ability of multilingual large language models to be fine-tuned
+    on a specific task in one language and to provide high accuracy for the same task
+    in another language. However, other methods leveraging translation models can
+    be used to perform NER without annotated data in the target language, by either
+    translating the training set or test set. This paper compares cross-lingual transfer
+    with these two alternative methods, to perform clinical NER in French and in German
+    without any training data in those languages. To this end, we release MedNERF
+    a medical NER test set extracted from French drug prescriptions and annotated
+    with the same guidelines as an English dataset. Through extensive experiments
+    on this dataset and on a German medical dataset (Frei and Kramer, 2021), we show
+    that translation-based methods can achieve similar performance to CLT but require
+    more care in their design. And while they can take advantage of monolingual clinical
+    language models, those do not guarantee better results than large general-purpose
+    multilingual models, whether with cross-lingual transfer or translation.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+  authors:
+  - dblp_id: https://dblp.org/pid/308/7251
+    emails: felix.gaschi@loria.fr
+    first_name: Félix
+    institution: University of Lorraine
+    last_name: Gaschi
+    name: Félix Gaschi
+    username: ~Félix_Gaschi1
+  - dblp_id: https://dblp.org/pers/f/Fontaine:Xavier.html
+    emails: xavier.fontaine@polytechnique.edu
+    first_name: Xavier
+    last_name: Fontaine
+    name: Xavier Fontaine
+    username: ~Xavier_Fontaine1
+  - dblp_id: https://dblp.org/pid/171/2132.html
+    emails: parisa.rastin@loria.fr
+    first_name: Parisa
+    google_scholar_id: https://scholar.google.com/citations?hl=fr&user=HoVxy3sAAAAJ&view_op=list_works&sortby=pubdate
+    last_name: Rastin
+    name: Parisa Rastin
+    username: ~Parisa_Rastin1
+  - dblp_id: https://dblp.org/pid/27/2056
+    emails: yannick.toussaint@loria.fr
+    first_name: Yannick
+    institution: Université de Lorraine
+    last_name: Toussaint
+    name: Yannick Toussaint
+    username: ~Yannick_Toussaint1
+  decision: Accept
+  file: 55.pdf
+  id: 55
+  openreview_id: FXBe5Wh_IMo
+  pdf_file: d3cdcf281b7478c8cfc819a7c429d2c145d15375.pdf
+  title: 'Multilingual Clinical NER: Translation or Cross-lingual Transfer?'
+- abstract: 'Pre-trained transformer language models (LMs) have in recent years become
+    the dominant paradigm in applied NLP. These models have achieved state-of-the-art
+    performance on tasks such as information extraction, question answering, sentiment
+    analysis, document classification and many others. In the biomedical domain, significant
+    progress has been made in adapting this paradigm to NLP tasks that require the
+    integration of domain-specific knowledge as well as statistical modelling of language.
+    In particular, research in this area has focused on the question of how best to
+    construct LMs that take into account not only the patterns of token distribution
+    in medical text, but also the wealth of structured information contained in terminology
+    resources such as the UMLS. This work contributes a data-centric paradigm for
+    enriching the language representations of biomedical transformer-encoder LMs by
+    extracting text sequences from the UMLS.
+
+    This allows for graph-based learning objectives to be combined with masked-language
+    pre-training. Preliminary results from experiments in the extension of pre-trained
+    LMs as well as training from scratch show that this framework improves downstream
+    performance on multiple biomedical and clinical Named Entity Recognition (NER)
+    tasks. All pre-trained models, data processing pipelines and evaluation scripts
+    will be made publicly available.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - None
+  authors:
+  - emails: aidan.mannion@univ-grenoble-alpes.fr
+    first_name: Aidan
+    last_name: Mannion
+    name: Aidan Mannion
+    username: ~Aidan_Mannion1
+  - emails: didier.schwab@imag.fr
+    first_name: Didier
+    homepage: https://lig-membres.imag.fr/schwab/
+    institution: Université Grenoble Alpes
+    last_name: Schwab
+    name: Didier Schwab
+    username: ~Didier_Schwab1
+  - dblp_id: https://dblp.org/pid/98/7136
+    emails: lorraine.goeuriot@imag.fr
+    first_name: Lorraine
+    institution: Université Grenoble Alpes
+    last_name: Goeuriot
+    name: Lorraine Goeuriot
+    username: ~Lorraine_Goeuriot1
+  decision: Accept
+  file: 56.pdf
+  id: 56
+  openreview_id: kaGRkv6nOvD
+  pdf_file: 9fdce17ea1fe0e7c7f74702fbd843a5290b9ec29.pdf
+  title: 'UMLS-KGI-BERT: Data-Centric Knowledge Integration in Transformers for Biomedical
+    Entity Recognition'
+- abstract: 'This paper describes our submission to the MEDIQA-Chat 2023 shared task
+    for automatic clinical note generation from doctor-patient conversations. We report
+    results for two approaches: the first fine-tunes a pre-trained language model
+    (PLM) on the shared task data, and the second uses few-shot in-context learning
+    (ICL) with a large language model (LLM). Both achieve high performance as measured
+    by automatic metrics (e.g. ROUGE, BERTScore) and ranked second and first, respectively,
+    of all submissions to the shared task. Expert human scrutiny indicates that notes
+    generated via the ICL-based approach with GPT-4 are preferred about as often as
+    human-written notes, making it a promising path toward automated note generation
+    from doctor-patient conversations.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP for clinical conversations'
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: john.giorgi@utoronto.ca
+    first_name: John
+    google_scholar_id: https://scholar.google.com/citations?user=TNFEhK4AAAAJ&hl=en
+    homepage: https://github.com/JohnGiorgi
+    last_name: Giorgi
+    middle_name: Michael
+    name: John Michael Giorgi
+    orcid: https://orcid.org/0000-0001-9621-5046
+    semantic_scholar_id: https://www.semanticscholar.org/author/John-Giorgi/37585306
+    username: ~John_Michael_Giorgi1
+  - emails: augustin.toma@medportal.ca
+    first_name: Augustin
+    homepage: https://www.linkedin.com/in/augustin-toma-58964a244/
+    institution: University of Toronto
+    last_name: Toma
+    name: Augustin Toma
+    username: ~Augustin_Toma1
+  - emails: ronaldxie@gmail.com
+    first_name: Ronald
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=1yCn2oIAAAAJ
+    last_name: Xie
+    name: Ronald Xie
+    username: ~Ronald_Xie1
+  - emails: sondra.chen@mail.utoronto.ca
+    first_name: Sondra
+    google_scholar_id: https://scholar.google.com/citations?user=PhfkrNgAAAAJ&hl=en&authuser=1
+    last_name: Chen
+    name: Sondra Chen
+    username: ~Sondra_Chen1
+  - emails: kevin.an108@gmail.com
+    first_name: Kevin
+    google_scholar_id: https://scholar.google.ca/citations?user=ATJ8L98AAAAJ&hl=en
+    last_name: An
+    middle_name: R
+    name: Kevin R An
+    orcid: https://orcid.org/0000-0002-9184-4510
+    username: ~Kevin_R_An1
+  - emails: gracezheng8@gmail.com
+    first_name: Grace
+    institution: University of Toronto
+    last_name: Zheng
+    middle_name: Xiaoyu
+    name: Grace Xiaoyu Zheng
+    username: ~Grace_Xiaoyu_Zheng1
+  - emails: bowang@vectorinstitute.ai
+    first_name: BO
+    google_scholar_id: https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en
+    homepage: https://wanglab.ml/
+    institution: Vector Institute
+    last_name: Wang
+    name: BO WANG
+    username: ~BO_WANG11
+  decision: Accept
+  file: 57.pdf
+  id: 57
+  openreview_id: aX7VgJhRju
+  pdf_file: 8e1a9f0de4aa94285448624f5783df784e7d77e4.pdf
+  title: 'WangLab at MEDIQA-Chat 2023: Clinical Note Generation from Doctor-Patient
+    Conversations using Large Language Models'
+- abstract: The disease coding task involves assigning a unique identifier from a
+    controlled vocabulary to each disease mentioned in a clinical document. This task
+    is relevant since it allows information extraction from unstructured data to perform,
+    for example, epidemiological studies about the incidence and prevalence of diseases
+    in a determined context. However, the manual coding process is subject to errors
+    as it requires medical personnel to be competent in coding rules and terminology.
+    In addition, this process consumes a lot of time and energy, which could be allocated
+    to more clinically relevant tasks. These difficulties can be addressed by developing
+    computational systems that automatically assign codes to diseases. In this way,
+    we propose a two-step system for automatically coding diseases in referrals from
+    the Chilean public healthcare system. Specifically, our model uses a state-of-the-art
+    NER model for recognizing disease mentions and a search engine system based on
+    Elasticsearch for assigning the most relevant codes associated with these disease
+    mentions. The system's performance was evaluated on referrals manually coded by
+    clinical experts. Our system obtained a MAP score of 0.63 for the subcategory
+    level and 0.83 for the category level, close to the best-performing models in
+    the literature. This system could be a support tool for health professionals,
+    optimizing the coding and management process. Finally, to guarantee reproducibility,
+    we publicly release the code of our models and experiments.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+  authors:
+  - emails: fabian.villena@uchile.cl
+    first_name: Fabián
+    google_scholar_id: https://scholar.google.com/citations?user=P-5s0ugAAAAJ&hl=es
+    homepage: http://fabianvillena.cl/
+    institution: Universidad de Chile
+    last_name: Villena
+    name: Fabián Villena
+    username: ~Fabián_Villena1
+  - dblp_id: https://dblp.org/pid/139/7393
+    emails: matias.rojas.g@ug.uchile.cl
+    first_name: Matías
+    google_scholar_id: https://scholar.google.com/citations?user=-hjCWPMAAAAJ
+    last_name: Rojas
+    name: Matías Rojas
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Rojas/116116019
+    username: ~Matías_Rojas1
+  - emails: felipe.arias.t@ug.uchile.cl
+    first_name: Felipe
+    last_name: Arias
+    name: Felipe Arias
+    username: ~Felipe_Arias1
+  - emails: jorge.pacheco@minsal.cl
+    first_name: Jorge
+    homepage: http://deis.minsal.cl/
+    last_name: Pacheco
+    name: Jorge Pacheco
+    username: ~Jorge_Pacheco1
+  - emails: paulina.vera@minsal.cl
+    first_name: Paulina
+    homepage: https://www.linkedin.com/in/paulina-vera-montecinos-972214275/
+    last_name: Vera
+    name: Paulina Vera
+    username: ~Paulina_Vera1
+  - dblp_id: https://dblp.org/pid/268/0573
+    emails: jdunstan@uchile.cl
+    first_name: Jocelyn
+    google_scholar_id: https://scholar.google.co.uk/citations?user=geH4mS0AAAAJ&hl=en&oi=ao
+    homepage: https://sites.google.com/view/jdunstan/home
+    institution: Universidad de Chile
+    last_name: Dunstan
+    name: Jocelyn Dunstan
+    orcid: https://orcid.org/0000-0001-6726-7242
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jocelyn-Dunstan/121936601?sort=pub-date
+    username: ~Jocelyn_Dunstan1
+  decision: Accept
+  file: 58.pdf
+  id: 58
+  openreview_id: xwDmFMuklc
+  pdf_file: d6a7f433c264926627624534475aae814eb1471b.pdf
+  title: 'Automatic Coding at Scale: Design and Deployment of a Nationwide System
+    for Normalizing Referrals in the Chilean Public Healthcare System'
+- abstract: 'This paper explores methods for extracting information from radiology
+    reports that generalize across exam modalities to reduce requirements for annotated
+    data. We demonstrate that multi-pass T5-based text-to-text generative models exhibit
+    better generalization across exam modalities compared to approaches that employ
+    BERT-based task-specific classification layers.  We then develop methods that
+    reduce the inference cost of the model, making large-scale corpus processing more
+    feasible for clinical applications. Specifically, we introduce a generative technique
+    that decomposes complex tasks into smaller subtask blocks, which improves a single-pass
+    model when combined with multitask training. In addition, we leverage target-domain
+    contexts during inference to enhance domain adaptation, enabling use of smaller
+    models. Analyses offer insights into the benefits of different cost reduction
+    strategies. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - emails: sitongz@uw.edu
+    first_name: Sitong
+    homepage: https://tial-uw.github.io
+    last_name: Zhou
+    name: Sitong Zhou
+    username: ~Sitong_Zhou1
+  - emails: melihay@uw.edu
+    first_name: Meliha
+    homepage: https://faculty.washington.edu/melihay/
+    institution: University of Washington
+    last_name: Yetisgen
+    name: Meliha Yetisgen
+    username: ~Meliha_Yetisgen2
+  - dblp_id: https://dblp.org/pid/85/2189
+    emails: ostendor@uw.edu
+    first_name: Mari
+    google_scholar_id: https://scholar.google.com/citations?user=exS-GecAAAAJ&hl=en
+    homepage: https://people.ece.uw.edu/ostendorf/
+    institution: University of Washington
+    last_name: Ostendorf
+    name: Mari Ostendorf
+    orcid: https://orcid.org/0000-0001-9385-9655
+    semantic_scholar_id: https://www.semanticscholar.org/author/Mari-Ostendorf/144339506
+    username: ~Mari_Ostendorf1
+  decision: Accept
+  file: 62.pdf
+  id: 62
+  openreview_id: CvOGly7ryt
+  pdf_file: 29ebe09665c1a94697a92c08fa00b53d302f931b.pdf
+  title: 'Building blocks for complex tasks:  Robust generative event extraction for
+    radiology reports under domain shifts'
+- abstract: 'Detecting testimonial injustice is an essential element of addressing
+    inequities and promoting inclusive healthcare practices, many of which are life-critical.
+    However, using a single demographic factor to detect testimonial injustice does
+    not fully encompass the nuanced identities that contribute to a patient''s experience.
+    Further, some injustices may only be evident when examining the nuances that arise
+    through the lens of intersectionality. Ignoring such injustices can result in
+    poor quality of care or life-endangering events. Thus, considering intersectionality
+    could result in more accurate classifications and just decisions. To illustrate
+    this, we use real-world medical data to determine whether medical records exhibit
+    words that could lead to testimonial injustice, employ fairness metrics (e.g.
+    demographic parity, differential intersectional fairness, and subgroup fairness)
+    to assess the severity to which subgroups are experiencing testimonial injustice,
+    and analyze how the intersectionality of demographic features (e.g. gender and
+    race) make a difference in uncovering testimonial injustice. From our analysis
+    we found that with intersectionality we can better see disparities in how subgroups
+    are treated and there are differences in how someone is treated based on the intersection
+    of their demographic attributes. This has not been previously studied in clinical
+    records, nor has it been proven through empirical study. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP for clinical conversations'
+    - None
+  authors:
+  - emails: kandre32@uic.edu
+    first_name: Kenya
+    google_scholar_id: https://scholar.google.com/citations?user=iQ-OkUsAAAAJ&hl=en&oi=ao
+    homepage: https://leadershipportfolio.wixsite.com/kenyaandrewscv
+    institution: University of Illinois at Chicago
+    last_name: Andrews
+    middle_name: S.
+    name: Kenya S. Andrews
+    orcid: https://orcid.org/0000-0003-4981-3160
+    username: ~Kenya_S._Andrews1
+  - emails: bshah46@uic.edu
+    first_name: Bhuvni
+    homepage: https://bbshah22.github.io/
+    last_name: Shah
+    name: Bhuvni Shah
+    username: ~Bhuvni_Shah1
+  - dblp_id: https://dblp.org/pid/17/4969
+    emails: lucheng@uic.edu
+    first_name: Lu
+    google_scholar_id: https://scholar.google.com/citations?user=9rpkTSkAAAAJ&hl=en
+    homepage: https://lucheng.ml/
+    institution: University of Illinois at Chicago
+    last_name: Cheng
+    name: Lu Cheng
+    orcid: https://orcid.org/0000-0002-2503-2522
+    username: ~Lu_Cheng2
+  decision: Accept
+  file: 65.pdf
+  id: 65
+  openreview_id: gcwwJepf6y
+  pdf_file: faf7608cbdcd6b88b65b903b2ae6bdf0c9ee4ae1.pdf
+  title: Intersectionality and Testimonial Injustice in Medical Records
+- abstract: Motivated by the scarcity of high-quality labeled biomedical text, as
+    well as the success of data programming, we introduce KRISS-Search. By leveraging
+    the Unified Medical Language Systems (UMLS) ontology, KRISS-Search addresses an
+    interactive few-shot span recommendation task that we propose. We first introduce
+    unsupervised KRISS-Search and show that our method outperforms existing methods
+    in identifying spans that are semantically similar to a given span of interest,
+    with >50% AUPRC improvement relative to PubMedBERT. We then introduce supervised
+    KRISS-Search, which leverages human interaction to improve the notion of similarity
+    used by unsupervised KRISS-Search. Through simulated human feedback, we demonstrate
+    an enhanced F1 score of 0.68 in classifying spans as semantically similar or different
+    in the low-label setting, outperforming PubMedBERT by 2 F1 points. Finally, supervised
+    KRISS-Search demonstrates competitive or superior performance compared to PubMedBERT
+    in few-shot biomedical named entity recognition (NER) across five benchmark datasets,
+    with an average improvement of 5.6 F1 points. We envision KRISS-Search increasing
+    the efficiency of programmatic data labeling and also providing broader utility
+    as an interactive biomedical search engine.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - emails: lblankem@stanford.edu
+    first_name: Louis
+    homepage: https://www.linkedin.com/in/louis-blankemeier/
+    institution: Stanford University
+    last_name: Blankemeier
+    name: Louis Blankemeier
+    username: ~Louis_Blankemeier1
+  - emails: theodorezhao@microsoft.com
+    first_name: Theodore
+    google_scholar_id: https://scholar.google.com/citations?user=Ftyui_wAAAAJ&hl=en&oi=ao
+    institution: Microsoft
+    last_name: Zhao
+    name: Theodore Zhao
+    orcid: https://orcid.org/0000-0003-1931-1426
+    username: ~Theodore_Zhao1
+  - dblp_id: https://dblp.dagstuhl.de/pid/271/4302.html
+    emails: robertdavidtinn@gmail.com
+    first_name: Robert
+    last_name: Tinn
+    name: Robert Tinn
+    semantic_scholar_id: https://www.semanticscholar.org/author/Robert-Tinn/1846722967
+    username: ~Robert_Tinn1
+  - emails: sidkiblawi@gmail.com
+    first_name: Sid
+    google_scholar_id: https://scholar.google.com/citations?user=OlMrMfcAAAAJ&hl=en
+    homepage: http://sidkiblawi.com
+    institution: Microsoft
+    last_name: Kiblawi
+    name: Sid Kiblawi
+    username: ~Sid_Kiblawi1
+  - emails: aiden.gu@microsoft.com
+    first_name: Yu
+    google_scholar_id: https://scholar.google.com/citations?user=1PoaURIAAAAJ&hl=en
+    institution: Microsoft
+    last_name: Gu
+    name: Yu Gu
+    username: ~Yu_Gu12
+  - dblp_id: https://dblp.org/pid/225/4729
+    emails: akshaysc@stanford.edu
+    first_name: Akshay
+    google_scholar_id: https://scholar.google.com/citations?user=08Y4NhMAAAAJ&hl=en
+    institution: Stanford University and Subtle Medical
+    last_name: Chaudhari
+    middle_name: S
+    name: Akshay S Chaudhari
+    username: ~Akshay_S_Chaudhari1
+  - dblp_id: https://dblp.org/pid/78/4609
+    emails: hoifung@microsoft.com
+    first_name: Hoifung
+    google_scholar_id: https://scholar.google.com/citations?user=yqqmVbkAAAAJ&hl=en
+    homepage: https://www.microsoft.com/en-us/research/people/hoifung/
+    institution: Microsoft
+    last_name: Poon
+    name: Hoifung Poon
+    username: ~Hoifung_Poon1
+  - dblp_id: https://dblp.org/pid/69/6137-12
+    emails: zhangsheng.zero@gmail.com
+    first_name: Sheng
+    google_scholar_id: https://scholar.google.com/citations?user=-LVEXQ8AAAAJ&hl=en
+    homepage: https://sheng-z.github.io/
+    institution: Microsoft
+    last_name: Zhang
+    name: Sheng Zhang
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sheng-Zhang/72655349
+    username: ~Sheng_Zhang9
+  - emails: muwei@microsoft.com
+    first_name: Mu
+    google_scholar_id: https://scholar.google.com/citations?user=JNPG9jEAAAAJ&hl=en&oi=ao
+    institution: Microsoft
+    last_name: Wei
+    name: Mu Wei
+    username: ~Mu_Wei1
+  - emails: j.sam.preston@gmail.com
+    first_name: J.
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=E4FUfrsAAAAJ&sortby=pubdate&view_op=list_works&gmla=AHoSzlV1jY3DmlMMLq29FX4I60_jKBnSXXAsOAtWbi73dk3LveIgVIauibiEXZjrsZQ9xh8fyiIK
+    last_name: Preston
+    middle_name: Samuel
+    name: J. Samuel Preston
+    orcid: https://orcid.org/0000-0002-5017-6042
+    username: ~J._Samuel_Preston1
+  decision: Accept
+  file: 66.pdf
+  id: 66
+  openreview_id: 31EmZdVg05
+  pdf_file: f0464c809a5dea0e60f832827b6d98550c02bd2c.pdf
+  title: Interactive Span Recommendation for Biomedical Text
+- abstract: 'Social determinants of health (SDOH) documented in the electronic health
+    record through unstructured text are increasingly being studied to understand
+    how SDOH impacts patient health outcomes. In this work, we utilize the Social
+    History Annotation Corpus (SHAC), a multi-institutional corpus of de-identified
+    social history sections annotated for SDOH, including substance use, employment,
+    and living status information. We explore the automatic extraction of SDOH information
+    with SHAC in both standoff and inline annotation formats using GPT-4 in a one-shot
+    prompting setting. We compare GPT-4 extraction performance with a high-performing
+    supervised approach and perform thorough error analyses. Our prompt-based GPT-4
+    method achieved an overall 0.652 F1 on the SHAC test set, similar to the 7th best-performing
+    system among all teams in the n2c2 challenge with SHAC. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - emails: gramacha@gmu.edu
+    first_name: Giridhar Kaushik
+    google_scholar_id: https://scholar.google.com/citations?user=NZiepDkAAAAJ&hl=en
+    homepage: https://giridhark.org/
+    institution: George Mason University
+    last_name: Ramachandran
+    name: Giridhar Kaushik Ramachandran
+    username: ~Giridhar_Kaushik_Ramachandran1
+  - emails: velvinfu@uw.edu
+    first_name: Yujuan
+    homepage: http://bime.uw.edu/students/yujuan-fu/
+    institution: University of Washington
+    last_name: Fu
+    name: Yujuan Fu
+    username: ~Yujuan_Fu1
+  - emails: bh193@uw.edu
+    first_name: Bin
+    homepage: https://beanham.github.io/
+    institution: University of Washington
+    last_name: Han
+    name: Bin HAN
+    username: ~Bin_HAN1
+  - emails: klybarge@gmu.edu
+    first_name: Kevin
+    homepage: https://kevinlybarger.me/
+    institution: George Mason University
+    last_name: Lybarger
+    name: Kevin Lybarger
+    orcid: https://orcid.org/0000-0001-5798-2664
+    username: ~Kevin_Lybarger1
+  - emails: ndobb@uw.edu
+    first_name: Nic
+    google_scholar_id: https://scholar.google.com/citations?user=xxzcPGIAAAAJ&hl=en
+    last_name: Dobbins
+    middle_name: J
+    name: Nic J Dobbins
+    username: ~Nic_J_Dobbins1
+  - emails: ouzuner@gmu.edu
+    first_name: Ozlem
+    homepage: https://ist.gmu.edu/people/detail/ozlem-uzuner/
+    institution: George Mason University
+    last_name: Uzuner
+    name: Ozlem Uzuner
+    username: ~Ozlem_Uzuner2
+  - emails: melihay@uw.edu
+    first_name: Meliha
+    homepage: https://faculty.washington.edu/melihay/
+    institution: University of Washington
+    last_name: Yetisgen
+    name: Meliha Yetisgen
+    username: ~Meliha_Yetisgen2
+  decision: Accept
+  file: 68.pdf
+  id: 68
+  openreview_id: 7yxkBT1bHDA
+  pdf_file: 30bcbe6873d2be9f0a124a5aa8324f6c7cb53c8f.pdf
+  title: Prompt-based Extraction of Social Determinants of Health Using Few-shot Learning
+- abstract: In this paper, we introduce the design and various attempts for TaskB
+    of MEDIQA-Chat 2023. The goal of TaskB in MEDIQA-Chat 2023 is to generate full
+    clinical note from doctor-patient consultation dialogues. This task has several
+    challenging issues, such as lack of training data, handling long dialogue inputs,
+    and generating semi-structured clinical note which have section heads. To address
+    these issues, we conducted various experiments and analyzed their results. We
+    utilized the DialogLED model pre-trained on long dialogue data to handle long
+    inputs, and we pre-trained on other dialogue datasets to address the lack of training
+    data. We also attempted methods such as using prompts and contrastive learning
+    for handling sections. This paper provides insights into clinical note generation
+    through analyzing experimental methods and results, and it suggests future research
+    directions.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: ybjeong@teddysum.ai
+    first_name: Yongbin
+    homepage: https://github.com/kuonom
+    last_name: Jeong
+    name: Yongbin Jeong
+    username: ~Yongbin_Jeong1
+  - emails: dnfwlq203@gmail.com
+    first_name: Ju-Hyuck
+    google_scholar_id: https://scholar.google.com/citations?hl=ko&view_op=list_works&gmla=AHoSzlX0WczyvX1Qzdt9xsjFon4QDz4QpW3lXQw8L8NoZ8s11z9P5cX5FkNBrDdBAwxZCrtoH_MaR0R_8Rt3sCVj1_SK1i5YpGpmPHLKuSnz-E_h_e6vuZHUIPHZCJ29Efc&user=6_yMsiQAAAAJ
+    last_name: Han
+    name: Ju-Hyuck Han
+    username: ~Ju-Hyuck_Han1
+  - emails: ckm0230@hotmail.com
+    first_name: Kyung Min
+    google_scholar_id: https://scholar.google.co.kr/citations?hl=ko&user=2waNKh4AAAAJ
+    institution: Konyang University
+    last_name: Chae
+    name: Kyung Min CHAE
+    username: ~Kyung_Min_CHAE1
+  - emails: davidecho@naver.com
+    first_name: Yousang
+    google_scholar_id: https://scholar.google.co.kr/citations?view_op=list_works&hl=ko&user=iMYR4pIAAAAJ&gmla=AHoSzlUql2Xd_HxrEWNcpdCf4bJt1sDqrShL_WioZ1xAa-b2AtfJairqWM4MCSK5w4wKW-nZyYgsg25WYW9FxKeuihk0wqgdejIi5A8TzSBuOIvctGgqc-gCutfCfVns_rc7EJp6SQ
+    last_name: Cho
+    name: Yousang Cho
+    username: ~Yousang_Cho1
+  - emails: errol.seo@teddysum.ai
+    first_name: Hyunbin
+    homepage: https://errolseo.github.io/
+    institution: teddysum
+    last_name: Seo
+    name: Hyunbin Seo
+    username: ~Hyunbin_Seo1
+  - emails: ktlim@seoultech.ac.kr
+    first_name: KyungTae
+    google_scholar_id: https://scholar.google.com/citations?user=XRwsGZAAAAAJ&hl
+    homepage: https://sites.google.com/view/aailab
+    institution: Seoul National University of Science and Technology
+    last_name: Lim
+    name: KyungTae Lim
+    orcid: https://orcid.org/0000-0002-5818-1161
+    username: ~KyungTae_Lim1
+  - dblp_id: https://dblp.org/pid/97/6969
+    emails: kschoi@kaist.ac.kr
+    first_name: Key-Sun
+    google_scholar_id: https://scholar.google.co.kr/citations?user=r1ozviEAAAAJ&hl=en
+    institution: Korea Advanced Institute of Science & Technology and Konyang University
+    last_name: Choi
+    name: Key-Sun Choi
+    semantic_scholar_id: https://www.semanticscholar.org/author/Key-Sun-Choi/1709062
+    username: ~Key-Sun_Choi1
+  - emails: hahmyg@teddysum.ai
+    first_name: Younggyun
+    homepage: http://teddysum.ai/
+    last_name: Hahm
+    name: Younggyun Hahm
+    username: ~Younggyun_Hahm1
+  decision: Accept
+  file: 69.pdf
+  id: 69
+  openreview_id: XU6xO5zohW
+  pdf_file: 16f4a707397ae0d220538aca682929afc6247144.pdf
+  title: 'Teddysum at MEDIQA-Chat 2023: an analysis of fine-tuning strategy for long
+    dialog summarization'
+- abstract: Multi-label clinical text classification, such as automatic ICD coding,
+    has always been a challenging subject in Natural Language Processing, due to its
+    long, domain-specific documents and long-tail distribution over a large label
+    set. Existing methods adopt different model architectures to encode the clinical
+    notes. Whereas without digging out the useful connections between labels, the
+    model presents a huge gap in predicting performances between rare and frequent
+    codes. In this work, we propose a novel method for further mining the helpful
+    relations between different codes via a relation-enhanced code encoder to improve
+    the rare code performance. Starting from the simple code descriptions, the model
+    reaches comparable, even better performances than models with heavy external knowledge.
+    Our proposed method is evaluated on MIMIC-III, a common dataset in the medical
+    domain. It outperforms the previous state-of-art models on both overall metrics
+    and rare code performances. Moreover, the interpretation results further prove
+    the effectiveness of our methods. Our code is publicly available at https://github.com/jiaminchen-1031/Rare-ICD.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in low-resource settings'
+  authors:
+  - emails: jiaminchen@buaa.edu.cn
+    first_name: Jiamin
+    last_name: Chen
+    name: Jiamin Chen
+    username: ~Jiamin_Chen2
+  - dblp_id: https://dblp.org/pid/76/5330-2.html
+    emails: lixuhong@baidu.com
+    first_name: Xuhong
+    google_scholar_id: https://scholar.google.com/citations?hl=zh-CN&user=giQLiacAAAAJ
+    institution: Baidu
+    last_name: Li
+    name: Xuhong Li
+    username: ~Xuhong_Li3
+  - emails: drinking@buaa.edu.cn
+    first_name: Junting
+    last_name: Xi
+    name: Junting Xi
+    username: ~Junting_Xi1
+  - emails: yulei@buaa.edu.cn
+    first_name: Lei
+    homepage: http://ecpkn.buaa.edu.cn/info/1968/4611.htm
+    institution: Beihang University
+    last_name: Yu
+    name: Lei Yu
+    username: ~Lei_Yu9
+  - dblp_id: https://dblp.org/pid/06/2700
+    emails: xhyccc@gmail.com
+    first_name: Haoyi
+    google_scholar_id: https://scholar.google.com/citations?user=f_Kcie0AAAAJ&hl=en
+    homepage: https://sites.google.com/site/haoyixiongshomepage/
+    institution: Baidu
+    last_name: Xiong
+    name: Haoyi Xiong
+    username: ~Haoyi_Xiong1
+  decision: Accept
+  file: 70.pdf
+  id: 70
+  openreview_id: oCYAV3K-DO
+  pdf_file: ecc12dc04272d4f4d2d68c77e9514097ad319ff0.pdf
+  title: 'Rare Codes Count: Mining Inter-code Relations for Long-tail Clinical Text
+    Classification'
+- abstract: 'This paper presents the MEDIQA-Chat 2023 shared task organized at the
+    ACL-Clinical NLP workshop. The shared task is motivated by the need to develop
+    methods to automatically generate clinical notes from doctor-patient conversations.
+    In this paper, we present our submission for \textit{MEDIQA-Chat 2023 Task A:
+    Short Dialogue2Note Summarization}. Manual creation of these clinical notes requires
+    extensive human efforts, thus making it a time-consuming and expensive process.
+    To address this, we propose an ensemble-based method over GPT-3, BART, BERT variants,
+    and Rule-based systems to automatically generate clinical notes from these conversations.
+    The proposed system achieves a score of 0.730 and 0.544 for both the sub-tasks
+    on the test set (ranking 8th on the leaderboard for both tasks) and shows better
+    performance compared to a baseline system using BART variants. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: prakhar.mishra@iiitb.org
+    first_name: Prakhar
+    last_name: Mishra
+    name: Prakhar Mishra
+    username: ~Prakhar_Mishra1
+  - emails: ravi.theja@iiitb.org
+    first_name: Ravi Theja
+    homepage: https://sites.google.com/view/ravi-theja
+    institution: Glance
+    last_name: Desetty
+    name: Ravi Theja Desetty
+    username: ~Ravi_Theja_Desetty1
+  decision: Accept
+  file: 71.pdf
+  id: 71
+  openreview_id: cj_pMWESHt
+  pdf_file: 7946e7a3d7e45c8d2a7d6b30005b586f826c4a2f.pdf
+  title: 'NewAgeHealthWarriors at MEDIQA-Chat 2023 Task A: Summarizing Short Medical
+    Conversation with Transformers'
+- abstract: Aphasia and dysarthria are both common symptoms of stroke, affecting around
+    30% and 50% of acute ischemic stroke patients. In this paper, we propose a storyline-centric
+    approach to detect aphasia and dysarthria in acute stroke patients using transcribed
+    picture descriptions alone. Our pipeline enriches the training set with healthy
+    data to address the lack of acute stroke patient data and utilizes knowledge distillation
+    to significantly improve upon a document classification baseline, achieving an
+    AUC of 0.814 (aphasia) and 0.764 (dysarthria) on a patient-only validation set.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - emails: peiqisui@utexas.edu
+    first_name: Peiqi
+    homepage: https://meritpages.com/Peiqi-Sui/3606007
+    last_name: Sui
+    name: Peiqi Sui
+    username: ~Peiqi_Sui1
+  - emails: kwong@houstonmethodist.org
+    first_name: Kelvin
+    google_scholar_id: https://scholar.google.com/citations?user=2e5ntbMAAAAJ&hl=en
+    institution: Weill Cornell Medicine, Cornell University and Houston Methodist
+      Research Institute
+    last_name: Wong
+    name: Kelvin Wong
+    username: ~Kelvin_Wong2
+  - emails: xyu2@houstomethodist.org
+    first_name: Xiaohui
+    institution: NA
+    last_name: Yu
+    name: Xiaohui Yu
+    username: xyu2@houstomethodist.org
+  - emails: jjvolpi@houstonmethodist.org
+    first_name: John
+    homepage: https://scholars.houstonmethodist.org/en/persons/john-j-volpi
+    institution: 'Houston Methodist Neurological Institute '
+    last_name: Volpi
+    middle_name: Julius
+    name: JOHN JULIUS VOLPI
+    username: ~JOHN_JULIUS_VOLPI1
+  - dblp_id: https://dblp.org/pid/51/5211
+    emails: stwong@houstonmethodist.org
+    first_name: Stephen
+    google_scholar_id: https://scholar.google.com/citations?user=C2gJxXYAAAAJ
+    institution: Houston Methodist Hospital and Weill Cornell Medicine
+    last_name: Wong
+    middle_name: T. C.
+    name: Stephen T. C. Wong
+    username: ~Stephen_T._C._Wong1
+  decision: Accept
+  file: 72.pdf
+  id: 72
+  openreview_id: Fp0xI-acN-w
+  pdf_file: 853447fbcc5f4f9eb777d884d96e18007c4ab2b2.pdf
+  title: Storyline-Centric Detection of Aphasia and Dysarthria in Stroke Patient Transcripts
+- abstract: The field of clinical natural language processing (NLP) can extract useful
+    information from clinical text. Since 2017, the NLP field has shifted towards
+    using pre-trained language models (PLMs), improving performance in several tasks.
+    Most of the research in this field has focused on English text, but there are
+    some available PLMs in Spanish. In this work, we use clinical PLMs to analyze
+    text from admission and medical reports in Spanish for an insurance and health
+    provider to give a probability of no coverage in a labor insurance process. Our
+    results show that fine-tuning a PLM pre-trained with the provider's data leads
+    to better results, but this process is time-consuming and computationally expensive.
+    At least for this task, fine-tuning publicly available clinical PLM leads to comparable
+    results to a custom PLM, but in less time and with fewer resources. Analyzing
+    large volumes of insurance requests is burdensome for employers, and models can
+    ease this task by pre-classifying reports that are likely not to have coverage.
+    Our approach of entirely using clinical-related text improves the current models
+    while reinforcing the idea of clinical support systems that simplify human labor
+    but do not replace it. To our knowledge, the clinical corpus collected for this
+    study is the largest one reported for the Spanish language.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+  authors:
+  - emails: claudio.aracena@uchile.cl
+    first_name: Claudio
+    homepage: https://claudioaracena.com/
+    last_name: Aracena
+    name: Claudio Aracena
+    username: ~Claudio_Aracena1
+  - emails: nrodriguez3@uc.cl
+    first_name: Nicolás
+    last_name: Rodríguez
+    name: Nicolás Rodríguez
+    username: ~Nicolás_Rodríguez1
+  - emails: varoccoc@achs.cl
+    first_name: Victor
+    last_name: Rocco
+    name: Victor Rocco
+    username: ~Victor_Rocco1
+  - dblp_id: https://dblp.org/pid/268/0573
+    emails: jdunstan@uchile.cl
+    first_name: Jocelyn
+    google_scholar_id: https://scholar.google.co.uk/citations?user=geH4mS0AAAAJ&hl=en&oi=ao
+    homepage: https://sites.google.com/view/jdunstan/home
+    institution: Universidad de Chile
+    last_name: Dunstan
+    name: Jocelyn Dunstan
+    orcid: https://orcid.org/0000-0001-6726-7242
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jocelyn-Dunstan/121936601?sort=pub-date
+    username: ~Jocelyn_Dunstan1
+  decision: Accept
+  file: 74.pdf
+  id: 74
+  openreview_id: hAsnh4SLCl
+  pdf_file: 1c0eed6d50e694a8a3f0ecba19535ccac3f37637.pdf
+  title: Pre-trained language models in Spanish for health insurance coverage
+- abstract: 'In response to the global challenge of mental health problems, we proposes
+    a Logical Neural Network (LNN) based Neuro-Symbolic AI method for the diagnosis
+    of mental disorders. Due to the lack of effective therapy coverage for mental
+    disorders, there is a need for an AI solution that can assist therapists with
+    the diagnosis. However, current Neural Network models lack explainability and
+    may not be trusted by therapists. The LNN is a Recurrent Neural Network architecture
+    that combines the learning capabilities of neural networks with the reasoning
+    capabilities of classical logic-based AI. The proposed system uses input predicates
+    from clinical interviews to output a mental disorder class, and different predicate
+    pruning techniques are used to achieve scalability and higher scores. In addition,
+    we provide an insight extraction method to aid therapists with their diagnosis.
+    The proposed system addresses the lack of explainability of current Neural Network
+    models and provides a more trustworthy solution for mental disorder diagnosis.
+
+    '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: yeldar.toleubay@gmail.com
+    first_name: Yeldar
+    institution: University of Tsukuba, Tsukuba University
+    last_name: Toleubay
+    name: Yeldar Toleubay
+    orcid: https://orcid.org/0000-0002-6559-7552
+    username: ~Yeldar_Toleubay1
+  - dblp_id: https://dblp.org/pid/135/8103.html
+    emails: don.joven.r.agravante@ibm.com
+    first_name: Don Joven
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=i1OXSoIAAAAJ
+    institution: International Business Machines
+    last_name: Agravante
+    name: Don Joven Agravante
+    semantic_scholar_id: https://www.semanticscholar.org/author/Don-Joven-Agravante/3352943
+    username: ~Don_Joven_Agravante1
+  - dblp_id: https://dblp.org/pid/126/9778
+    emails: daiki@jp.ibm.com
+    first_name: Daiki
+    google_scholar_id: https://scholar.google.co.jp/citations?user=UisUpBkAAAAJ
+    homepage: http://ibm.biz/daiki-kimura
+    institution: IBM Research
+    last_name: Kimura
+    name: Daiki Kimura
+    username: ~Daiki_Kimura1
+  - dblp_id: https://dblp.org/pid/210/2458
+    emails: doerlbh@gmail.com
+    first_name: Baihan
+    google_scholar_id: https://scholar.google.com/citations?user=H67KJ4cAAAAJ&hl=en
+    homepage: https://www.neuroinference.com/
+    institution: Columbia University and IBM, International Business Machines
+    last_name: Lin
+    name: Baihan Lin
+    orcid: https://orcid.org/0000-0002-7979-5509
+    semantic_scholar_id: https://www.semanticscholar.org/author/Baihan-Lin/5320216
+    username: ~Baihan_Lin1
+  - dblp_id: https://dblp.org/pid/45/11240-1
+    emails: djallel.bouneffouf@ibm.com
+    first_name: Djallel
+    last_name: Bouneffouf
+    name: Djallel Bouneffouf
+    username: ~Djallel_Bouneffouf2
+  - dblp_id: https://dblp.org/pid/38/5395
+    emails: mich@jp.ibm.com
+    first_name: Michiaki
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=N9GIvzkAAAAJ
+    homepage: https://researcher.watson.ibm.com/researcher/view.php?person=jp-MICH
+    institution: IBM Research
+    last_name: Tatsubori
+    name: Michiaki Tatsubori
+    orcid: https://orcid.org/0000-0003-2537-700X
+    username: ~Michiaki_Tatsubori1
+  decision: Accept
+  file: 75.pdf
+  id: 75
+  openreview_id: RzE7yvq9B2
+  pdf_file: a0cb954379552ef6a4b21273e1e16b4b13920573.pdf
+  title: 'Utterance Classification with Logical Neural Network: Explainable AI for
+    Mental Disorder Diagnosis'
+- abstract: Medical Report Generation (MRG) is a sub-task of  Natural Language Generation
+    (NLG) and aims to present information from various sources in textual form and
+    synthesize salient information, with the goal of reducing the time spent by domain
+    experts in writing medical reports and providing support information for decision-making.
+    Given the specificity of the medical domain, the evaluation of automatically generated
+    medical reports is of paramount importance to the validity of these systems. Therefore,
+    in this paper, we focus on the evaluation of automatically generated medical reports
+    from the perspective of automatic and human evaluation. We present evaluation
+    methods for general NLG evaluation and how they have been applied to domain-specific
+    medical tasks. The study shows that MRG evaluation methods are very diverse, and
+    that further work is needed to build shared evaluation methods. The state of the
+    art also emphasizes that such an evaluation must be task specific and include
+    human assessments, requesting the participation of experts in the field.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - None
+  authors:
+  - dblp_id: https://dblp.org/pid/z/YongxinZhou4.html
+    emails: yongxin.zhou@univ-grenoble-alpes.fr
+    first_name: Yongxin
+    institution: Laboratoire d'Informatique de Grenoble
+    last_name: Zhou
+    name: Yongxin Zhou
+    username: ~Yongxin_Zhou1
+  - dblp_id: https://dblp.org/pid/39/4933
+    emails: fabien.ringeval@univ-grenoble-alpes.fr
+    first_name: Fabien
+    google_scholar_id: https://scholar.google.fr/citations?hl=en&user=9CskMcsAAAAJ
+    homepage: https://sites.google.com/site/fabienringeval/
+    institution: University of Grenoble-Alpes
+    last_name: Ringeval
+    name: Fabien Ringeval
+    orcid: https://orcid.org/0000-0002-9213-4529
+    username: ~Fabien_Ringeval1
+  - dblp_id: https://dblp.org/pid/24/2419.html
+    emails: francois.portet@imag.fr
+    first_name: François
+    google_scholar_id: https://scholar.google.fr/citations?user=JPqdcoQAAAAJ&hl=fr
+    institution: Université Grenoble Alpes
+    last_name: Portet
+    name: François Portet
+    orcid: https://orcid.org/0000-0003-2542-0661
+    username: ~François_Portet1
+  decision: Accept
+  file: 76.pdf
+  id: 76
+  openreview_id: GXpV19I3jG
+  pdf_file: 4bd34fd1ee0f15117fab9ca1e1c0208613df48d0.pdf
+  title: A Survey of Evaluation Methods of Generated Medical Textual Reports
+- abstract: This paper presents UMASS_BioNLP team participation in the MEDIQA-Chat
+    2023 shared task for Task-A and Task-C. We focus especially on Task-C and propose
+    a novel LLMs cooperation system named a doctor-patient loop to generate high-quality
+    conversation data sets. The experiment results demonstrate that our approaches
+    yield reasonable performance as evaluated by automatic metrics such as ROUGE,
+    medical concept recall, BLEU, and Self-BLEU.  Furthermore, we conducted a comparative
+    analysis between our proposed method and ChatGPT and GPT-4. This analysis also
+    investigates the potential of utilizing cooperation LLMs to generate high-quality
+    datasets.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: jundawang@umass.edu
+    first_name: Junda
+    homepage: http://none
+    last_name: Wang
+    name: Junda Wang
+    username: ~Junda_Wang1
+  - emails: zonghaiyao@umass.edu
+    first_name: Zonghai
+    google_scholar_id: https://scholar.google.com/citations?user=oVYZ904AAAAJ&hl=en
+    homepage: https://www.linkedin.com/in/zonghaiyao/
+    institution: University of Massachusetts at Amherst
+    last_name: Yao
+    name: Zonghai Yao
+    username: ~Zonghai_Yao1
+  - emails: avijitmitra@umass.edu
+    first_name: Avijit
+    last_name: Mitra
+    name: Avijit Mitra
+    username: ~Avijit_Mitra1
+  - emails: sosebe@umass.edu
+    first_name: Samuel
+    last_name: Osebe
+    name: Samuel Osebe
+    username: ~Samuel_Osebe1
+  - dblp_id: https://dblp.org/pid/148/4419-1
+    emails: zhichaoyang@umass.edu
+    first_name: Zhichao
+    google_scholar_id: https://scholar.google.com//citations?user=RXXwBWIAAAAJ
+    institution: University of Massachusetts, Amherst
+    last_name: Yang
+    name: zhichao Yang
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhichao-Yang/48598711
+    username: ~zhichao_Yang1
+  - emails: hong.yu@umassmed.edu
+    first_name: Hong
+    google_scholar_id: https://scholar.google.com/citations?user=TyXe64wAAAAJ&hl=en&oi=ao
+    homepage: http://bio-nlp.org/
+    institution: Columbia University
+    last_name: yu
+    name: hong yu
+    username: ~hong_yu1
+  decision: Accept
+  file: 78.pdf
+  id: 78
+  openreview_id: qOZ2I2I8ISB
+  pdf_file: 10c98606fde4a657c10b07009ad78cb629ff0a9a.pdf
+  title: 'UMASS_BioNLP at MEDIQA-Chat 2023:   Can LLMs generate high-quality synthetic
+    note-oriented doctor-patient conversations?'
+- abstract: In recent years, we have seen many Transformer based models being created
+    to address Dialog Summarization problem. While there has been a lot of work on
+    understanding how these models stack against each other in summarizing regular
+    conversations such as the ones found in DialogSum dataset, there haven't been
+    many analysis of these models on Clinical Dialog Summarization. In this article,
+    we describe our solution to MEDIQA-Chat 2023 Shared Tasks as part of ACL-ClinicalNLP
+    2023 workshop which benchmarks some of the popular Transformer Architectures such
+    as BioBart, Flan-T5, DialogLED, and OpenAI GPT3 on the problem of Clinical Dialog
+    Summarization. We analyse their performance on two tasks - summarizing short conversations
+    and long conversations. In addition to this, we also benchmark two popular summarization
+    ensemble methods and report their performance.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: suri.kunal007@gmail.com
+    first_name: Kunal
+    institution: Optum,India
+    last_name: Suri
+    name: Kunal Suri
+    username: ~Kunal_Suri1
+  - emails: saha.saumajit@gmail.com
+    first_name: Saumajit
+    google_scholar_id: https://scholar.google.com/citations?user=wM1jCZAAAAAJ&hl=en
+    last_name: Saha
+    name: Saumajit Saha
+    username: ~Saumajit_Saha2
+  - emails: atulsingh.phd@gmail.com
+    first_name: Atul
+    last_name: Singh
+    name: Atul Singh
+    username: ~Atul_Singh1
+  decision: Accept
+  file: 79.pdf
+  id: 79
+  openreview_id: BkGs53vZcax
+  pdf_file: f1ae8a81819363f8d65c0dc6fbcf7423722cc3f7.pdf
+  title: 'HealthMavericks@MEDIQA-Chat 2023: Benchmarking different Transformer based
+    models for Clinical Dialogue Summarization'
+- abstract: 'Medical dialogue summarization is challenging due to the unstructured
+    nature of medical conversations, the use of medical terminology
+
+    in gold summaries, and the need to identify key information across multiple symptom
+    sets. We present a novel system for the Dialogue2Note Medical Summarization tasks
+    in the MEDIQA 2023 Shared Task. Our approach for sectionwise summarization (Task
+    A) is a two-stage process of selecting semantically similar dialogues and using
+    the top-k similar dialogues as in-context examples for GPT-4. For full-note summarization
+    (Task B), we use a similar solution with k=1. We achieved 3rd place in Task A
+    (2nd among all teams), 4th place in Task B Division Wise Summarization (2nd among
+    all teams), 15th place in Task A Section Header Classification (9th among all
+    teams), and 8th place among all teams in Task B. Our results highlight the effectiveness
+    of few-shot prompting for this task, though we also identify several weaknesses
+    of prompting-based approaches. We compare GPT-4 performance with several finetuned
+    baselines. We find that GPT-4 summaries are more abstractive and shorter. We make
+    our code publicly available.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: ymathur@cs.cmu.edu
+    first_name: Yash
+    last_name: Mathur
+    name: Yash Mathur
+    username: ~Yash_Mathur1
+  - emails: srangrej@andrew.cmu.edu
+    first_name: Sanketh
+    last_name: Rangreji
+    name: Sanketh Rangreji
+    username: ~Sanketh_Rangreji1
+  - dblp_id: https://dblp.org/pid/200/2387
+    emails: raghavka@cs.cmu.edu
+    first_name: Raghav
+    google_scholar_id: https://scholar.google.com/citations?user=8eJoJ0MAAAAJ&hl=en&oi=ao
+    homepage: https://raghav1606.github.io/
+    last_name: Kapoor
+    name: Raghav Kapoor
+    username: ~Raghav_Kapoor1
+  - emails: mpalaval@andrew.cmu.edu
+    first_name: Medha
+    last_name: Palavalli
+    name: Medha Palavalli
+    username: ~Medha_Palavalli1
+  - dblp_id: https://dblp.org/pid/305/7615
+    emails: abertsch72@gmail.com
+    first_name: Amanda
+    google_scholar_id: https://scholar.google.com/citations?user=G1Jw4CYAAAAJ
+    homepage: https://www.cs.cmu.edu/~abertsch/
+    institution: Carnegie Mellon University
+    last_name: Bertsch
+    name: Amanda Bertsch
+    orcid: https://orcid.org/0000-0002-1368-1111
+    semantic_scholar_id: https://www.semanticscholar.org/author/Amanda-Bertsch/2138301112
+    username: ~Amanda_Bertsch1
+  - dblp_id: https://dblp.org/pid/116/0475
+    emails: mgormley@cs.cmu.edu
+    first_name: Matthew
+    google_scholar_id: https://scholar.google.com/citations?user=GU0SZmYAAAAJ&hl=en
+    homepage: http://www.cs.cmu.edu/~mgormley/
+    institution: School of Computer Science, Carnegie Mellon University and 3M
+    last_name: Gormley
+    middle_name: R.
+    name: Matthew R. Gormley
+    semantic_scholar_id: https://www.semanticscholar.org/author/Matthew-R.-Gormley/1762110
+    username: ~Matthew_R._Gormley1
+  decision: Accept
+  file: 80.pdf
+  id: 80
+  openreview_id: S-wxTpdQEu
+  pdf_file: fb5d556e5b64b70515be4bfbd38169866d8026cd.pdf
+  title: 'SummQA at MEDIQA-Chat 2023: In-Context Learning with GPT-4 for Medical Summarization'
+- abstract: 'Automatic generation of clinical notes from doctor-patient conversations
+    can play a key role in reducing daily doctors'' workload and improving their interactions
+    with the patients. MEDIQA-Chat 2023 aims to advance and promote research on effective
+    solutions through shared tasks on the automatic summarization of doctor-patient
+    conversations and on the generation of synthetic dialogues from clinical notes
+    for data augmentation. Seventeen teams participated in the challenge and experimented
+    with a broad range of approaches and models. In this paper, we describe the three
+    MEDIQA-Chat 2023 tasks, the datasets, and the participants'' results and methods.
+    We hope that these shared tasks will lead to additional research efforts and insights
+    on the automatic generation and evaluation of clinical notes. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - dblp_id: https://dblp.org/pers/a/Abacha:Asma_Ben.html
+    emails: asma.benabacha@gmail.com
+    first_name: Asma
+    google_scholar_id: https://scholar.google.com/citations?user=KO6_r0cAAAAJ&hl=en
+    homepage: https://sites.google.com/site/asmabenabacha/
+    institution: Microsoft, USA
+    last_name: Ben Abacha
+    name: Asma Ben Abacha
+    orcid: https://orcid.org/0000-0001-6312-9387
+    username: ~Asma_Ben_Abacha1
+  - dblp_id: https://dblp.org/pid/152/2666.html
+    emails: wenwaiyim@gmail.com
+    first_name: Wen-wai
+    google_scholar_id: https://scholar.google.com/citations?user=zLbXslcAAAAJ&hl=en
+    last_name: Yim
+    name: Wen-wai Yim
+    semantic_scholar_id: https://www.semanticscholar.org/author/Wen-wai-Yim/38845771
+    username: ~Wen-wai_Yim1
+  - emails: griffin.adams@columbia.edu
+    first_name: Griffin
+    google_scholar_id: https://scholar.google.com/citations?user=ZxKRzugAAAAJ&hl=en
+    homepage: http://www.Griffintadams.com
+    last_name: Adams
+    middle_name: Thomas
+    name: Griffin Thomas Adams
+    username: ~Griffin_Thomas_Adams1
+  - dblp_id: https://dblp.org/pid/19/6855
+    emails: neal.snider@nuance.com
+    first_name: Neal
+    last_name: Snider
+    name: Neal Snider
+    username: ~Neal_Snider1
+  - emails: melihay@uw.edu
+    first_name: Meliha
+    homepage: https://faculty.washington.edu/melihay/
+    institution: University of Washington
+    last_name: Yetisgen
+    name: Meliha Yetisgen
+    username: ~Meliha_Yetisgen2
+  decision: Accept
+  file: 81.pdf
+  id: 81
+  openreview_id: zBd0YkIkdl
+  pdf_file: f09f6b6e24ad9ac69f5714f770382dad0c0a3d30.pdf
+  title: Overview of the MEDIQA-Chat 2023 Shared Tasks on the Summarization & Generation
+    of Doctor-Patient Conversations
+- abstract: We propose a transfer learning method that adapts a high-resource English
+    clinical NER model to low-resource languages and domains using only small amounts
+    of in-domain annotated data. Our approach involves translating in-domain datasets
+    to English, fine-tuning the English model on the translated data, and then transferring
+    it to the target language/domain. Experiments on Spanish, French, and conversational
+    clinical text datasets show accuracy gains over models trained on target data
+    alone. Our method achieves state-of-the-art performance and can enable clinical
+    NLP in more languages and modalities with limited resources.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP for clinical conversations'
+  authors:
+  - emails: nevasini24@gmail.com
+    first_name: Nevasini
+    homepage: https://nevasini24.wixsite.com/my-site-1
+    last_name: Sasikumar
+    name: Nevasini Sasikumar
+    username: ~Nevasini_Sasikumar1
+  - dblp_id: https://dblp.org/pid/340/8906
+    emails: ipsit.iitb@gmail.com
+    first_name: Krishna Sri Ipsit
+    google_scholar_id: https://scholar.google.com/citations?user=mcCbkLYAAAAJ&hl=en&authuser=1
+    homepage: https://ipsitmantri.github.io/
+    last_name: Mantri
+    name: Krishna Sri Ipsit Mantri
+    orcid: https://orcid.org/0000-0002-2393-2834
+    semantic_scholar_id: https://www.semanticscholar.org/author/Krishna-Sri-Ipsit-Mantri/2209207087
+    username: ~Krishna_Sri_Ipsit_Mantri1
+  decision: Accept
+  file: 83.pdf
+  id: 83
+  openreview_id: vcFlx_gagug
+  pdf_file: b0d1694759fadbead320e3d18f3920d4d87e828e.pdf
+  title: Transfer Learning for Low-Resource Clinical Named Entity Recognition
+- abstract: Clinical conversation summarization has become an important application
+    of Natural language Processing. In this work, we intend to analyze summarization
+    model ensembling approaches, that can be utilized to improve the overall accuracy
+    of the generated medical report called chart note. The work starts with a single
+    summarization model creating the baseline. Then leads to an ensemble of summarization
+    models trained on a separate section of the chart note. This leads to the final
+    approach of passing the generated results to another summarization model in a
+    multi-layer/stage fashion for better coherency of the generated text. Our results
+    indicate that although an ensemble of models specialized in each section produces
+    better results, the multi-layer/stage approach does not improve accuracy. The
+    code for the above paper is available at https://github.com/dhananjay-srivastava/MEDIQA-Chat-2023-iuteam1.git
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: dsrivast@iu.edu
+    first_name: Dhananjay
+    last_name: Srivastava
+    name: Dhananjay Srivastava
+    username: ~Dhananjay_Srivastava1
+  decision: Accept
+  file: 84.pdf
+  id: 84
+  openreview_id: mgm7xHJ7X6M
+  pdf_file: 96fa7b1c3a6e4b2baed5b48cb0056d97c353b68b.pdf
+  title: 'IUTEAM1 at MEDIQA-Chat 2023: Is simple fine tuning effective for multi layer
+    summarization of clinical conversations?'
+- abstract: 'Summarizing medical conversations is one of the tasks proposed by MEDIQA-Chat
+    to promote research on automatic clinical note generation from doctor-patient
+    conversations. In this paper, we present our submission to this task using fine-tuned
+    language models, including T5, BART and BioGPT models. The fine-tuned models are
+    evaluated using ensemble metrics including ROUGE, BERTScore and
+
+    BLEURT. Among the fine-tuned models, Flan-T5 achieved the highest aggregated score
+    for dialogue summarization.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Track] Clinical NLP in languages other than English'
+    - '[Track] Clinical NLP for clinical conversations'
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: amalqahtani@gwu.edu
+    first_name: Amal
+    google_scholar_id: https://scholar.google.com/citations?user=zDLsDooAAAAJ&hl=en&oi=ao
+    institution: George Washington University
+    last_name: Alqahtani
+    middle_name: Abdullah
+    name: Amal Abdullah Alqahtani
+    orcid: https://orcid.org/0000-0002-1739-9025
+    username: ~Amal_Abdullah_Alqahtani1
+  - emails: raref@gwu.edu
+    first_name: Rana
+    google_scholar_id: https://scholar.google.com/citations?user=dpzk1PIAAAAJ&hl=en&oi=ao
+    institution: George Washington University
+    last_name: Salama
+    name: Rana Salama
+    username: ~Rana_Salama1
+  - dblp_id: https://dblp.org/pid/15/4305
+    emails: mtdiab@gwu.edu
+    first_name: Mona
+    google_scholar_id: https://scholar.google.com.tw/citations?user=-y6SIhQAAAAJ
+    homepage: https://www.seas.gwu.edu/~mtdiab/
+    institution: George Washington University
+    last_name: Diab
+    middle_name: T.
+    name: Mona T. Diab
+    username: ~Mona_T._Diab1
+  - dblp_id: https://dblp.org/pid/48/46
+    emails: ayoussef@gwu.edu
+    first_name: Abdou
+    google_scholar_id: https://scholar.google.com.tw/citations?user=uq4JshgAAAAJ
+    homepage: https://www.seas.gwu.edu/~ayoussef/
+    institution: George Washington University
+    last_name: Youssef
+    name: Abdou Youssef
+    username: ~Abdou_Youssef1
+  decision: Accept
+  file: 85.pdf
+  id: 85
+  openreview_id: QjoCRn17-B
+  pdf_file: baa28e6c6e2076d719739c3e434182eac80c1029.pdf
+  title: 'Care4Lang at MEDIQA-Chat 2023: Fine-tuning Language Models for Classifying
+    and Summarizing Clinical Dialogues'
+- abstract: This paper presents our system for the MEDIQA-Chat 2023 shared task on
+    medical conversation summarization. Our approach involves finetuning a LongT5
+    model on multiple tasks simultaneously, which we demonstrate improves the model's
+    overall performance while reducing the number of factual errors and hallucinations
+    in the generated summary. Furthermore, we investigated the effect of augmenting
+    the data with in-text annotations from a clinical named entity recognition model,
+    finding that this approach decreased summarization quality. Lastly, we explore
+    using different text generation strategies for medical note generation based on
+    the length of the note. Our findings suggest that the application of our proposed
+    approach can be beneficial for improving the accuracy and effectiveness of medical
+    conversation summarization.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - dblp_id: https://dblp.org/pid/205/8996
+    emails: kirill.milintsevich@unicaen.fr
+    first_name: Kirill
+    google_scholar_id: https://scholar.google.com/citations?user=BQNVCjYAAAAJ&hl=en
+    institution: Université de Caen Basse Normandie and University of Tartu
+    last_name: Milintsevich
+    name: Kirill Milintsevich
+    username: ~Kirill_Milintsevich1
+  - emails: navneet.agarwal@unicaen.fr
+    first_name: Navneet
+    google_scholar_id: https://scholar.google.com/citations?user=DbcASB4AAAAJ&hl=en
+    last_name: Agarwal
+    name: Navneet Agarwal
+    username: ~Navneet_Agarwal1
+  decision: Accept
+  file: 86.pdf
+  id: 86
+  openreview_id: WIEKFPbmSA
+  pdf_file: 53f268e26ad4c7b8f0937e2630b3bf8a1aa4df5a.pdf
+  title: 'Calvados at MEDIQA-Chat 2023: Improving Clinical Note Generation with Multi-Task
+    Instruction Finetuning'
+- abstract: This paper presents the results of the Data Science for Digital Health
+    (DS4DH) group in the MEDIQA-Chat Tasks at ACL-ClinicalNLP 2023. Our study combines
+    the power of a classical machine learning method, Support Vector Machine, for
+    classifying medical dialogues, along with the implementation of one-shot prompts
+    using GPT-3.5. We employ dialogues and summaries from the same category as prompts
+    to generate summaries for novel dialogues. Our findings exceed the average benchmark
+    score, offering a robust reference for assessing performance in this field.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - emails: boya.zhang@unige.ch
+    first_name: Boya
+    homepage: https://be.linkedin.com/in/tinaboya
+    last_name: Zhang
+    name: Boya Zhang
+    username: ~Boya_Zhang2
+  - dblp_id: https://dblp.org/pid/66/9553.html
+    emails: rahul01om@gmail.com
+    first_name: Rahul
+    last_name: Mishra
+    name: Rahul Mishra
+    username: ~Rahul_Mishra2
+  - emails: douglas.teodoro@unige.ch
+    first_name: Douglas
+    google_scholar_id: https://scholar.google.com.br/citations?user=bDgzTucAAAAJ&hl=en
+    institution: University of Geneva
+    last_name: Teodoro
+    name: Douglas Teodoro
+    username: ~Douglas_Teodoro1
+  decision: Accept
+  file: 87.pdf
+  id: 87
+  openreview_id: VT3pNGeegr
+  pdf_file: 2fcdf0bb96920a8942384c7d38f5537f275120de.pdf
+  title: 'DS4DH at MEDIQA-Chat 2023: Leveraging SVM and GPT-3 Prompt Engineering for
+    Medical Dialogue Classification and Summarization'
+- abstract: 'This paper presents our contribution to the MEDIQA-2023 Dialogue2Note
+    shared task, encompassing both subtask A and subtask B. We approach the task as
+    a dialogue summarization problem and implement two distinct pipelines: (a) a fine-tuning
+    of a pre-trained dialogue summarization model and GPT-3, and (b) few-shot in-context
+    learning (ICL) using a large language model, GPT-4. Both methods achieve excellent
+    results in terms of ROUGE-1 F1, BERTScore F1 (deberta-xlarge-mnli), and BLEURT,
+    with scores of 0.4011, 0.7058, and 0.5421, respectively. Additionally, we predict
+    the associated section headers using RoBERTa and SciBERT based classification
+    models. Our team ranked fourth among all teams, while each team is allowed to
+    submit three runs as part of their submission. We also utilize expert annotations
+    to demonstrate that the notes generated through the ICL GPT-4 are better than
+    all other baselines. The code for our submission is available.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area:
+    - '[Shared Task] MEDIQA-Chat (must also contain MEDIQA-Chat in title)'
+  authors:
+  - dblp_id: https://dblp.org/pid/246/8064
+    emails: 871607149@qq.com
+    first_name: Xiangru
+    homepage: https://xiangrutang.github.io/
+    institution: Yale University
+    last_name: Tang
+    name: Xiangru Tang
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xiangru-Tang/47274259
+    username: ~Xiangru_Tang2
+  - emails: a.tran@yale.edu
+    first_name: Andrew
+    homepage: https://andrewtran.xyz/
+    last_name: Tran
+    name: Andrew Tran
+    username: ~Andrew_Tran1
+  - emails: jeffrey.tan@yale.edu
+    first_name: Jeffrey
+    last_name: Tan
+    name: Jeffrey Tan
+    username: ~Jeffrey_Tan1
+  - dblp_id: https://dblp.org/pid/67/5132
+    emails: mark.gerstein@yale.edu
+    first_name: Mark
+    google_scholar_id: https://scholar.google.com/citations?user=YvjuUugAAAAJ&hl=en
+    homepage: http://www.gersteinlab.org/
+    institution: Yale University
+    last_name: Gerstein
+    name: Mark Gerstein
+    orcid: https://orcid.org/0000-0002-9746-3719
+    username: ~Mark_Gerstein2
+  decision: Accept
+  file: 88.pdf
+  id: 88
+  openreview_id: Q-tElCMrBf4
+  pdf_file: 06608ac6478f00b2a8bc73236aee164a25e50caa.pdf
+  title: 'GersteinLab at MEDIQA-Chat 2023: Clinical Note Summarization from Doctor-Patient
+    Conversations through Fine-tuning and In-context Learning'

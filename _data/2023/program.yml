@@ -1,0 +1,86 @@
+- title: Opening Remarks
+  start_time: 2023-07-17 08:55:00
+  end_time: 2023-07-17 09:00:00
+
+- title: "Keynote: Noemie Elhadad"
+  start_time: 2023-07-17 09:00:00
+  end_time: 2023-07-14 09:45:00
+
+- title: Oral Session I
+  start_time: 2023-07-14 09:45:00
+  end_time: 2023-07-14 10:30:00
+  papers:
+    - id: 16
+      start_time: 2023-07-14 09:45:00
+      end_time: 2023-07-14 10:00:00
+    - id: 45
+      start_time: 2023-07-14 10:00:00
+      end_time: 2023-07-14 10:15:00
+    - id: 8
+      start_time: 2023-07-14 10:15:00
+      end_time: 2023-07-14 10:30:00
+    - id: 62
+      start_time: 2023-07-14 10:30:00
+      end_time: 2023-07-14 10:45:00
+
+- title: Break
+  start_time: 2023-07-14 10:45:00
+  end_time: 2023-07-14 11:00:00
+
+- title: Oral Session II
+  start_time: 2023-07-14 11:00:00
+  end_time: 2023-07-14 11:45:00
+  papers:
+    - id: 55
+      start_time: 2023-07-14 11:00:00
+      end_time: 2023-07-14 11:15:00
+    - id: 49
+      start_time: 2023-07-14 11:15:00
+      end_time: 2023-07-14 11:30:00
+    - id: 56
+      start_time: 2023-07-14 11:30:00
+      end_time: 2023-07-14 11:45:00
+
+- title: "Keynote: Timothy Miller"
+  start_time: 2023-07-14 11:45:00
+  end_time: 2023-07-14 12:30:00
+
+- title: Lunch
+  start_time: 2023-07-14 12:30:00
+  end_time: 2023-07-14 14:00:00
+
+- title: Oral Session III
+  start_time: 2023-07-14 14:00:00
+  end_time: 2023-07-14 14:45:00
+  papers:
+    - id: 40
+      start_time: 2023-07-14 14:00:00
+      end_time: 2023-07-14 14:15:00
+    - id: 33
+      start_time: 2023-07-14 14:15:00
+      end_time: 2023-07-14 14:30:00
+    - id: 12
+      start_time: 2023-07-14 14:30:00
+      end_time: 2023-07-14 14:45:00
+
+- title: Oral Session IV
+  start_time: 2023-07-14 14:45:00
+  end_time: 2023-07-14 15:30:00
+  papers:
+    - id: 81
+      start_time: 2023-07-14 14:45:00
+      end_time: 2023-07-14 15:00:00
+    - id: 57
+      start_time: 2023-07-14 15:00:00
+      end_time: 2023-07-14 15:15:00
+    - id: 48
+      start_time: 2023-07-14 15:15:00
+      end_time: 2023-07-14 15:30:00
+
+- title: Break
+  start_time: 2023-07-14 15:30:00
+  end_time: 2023-07-14 16:00:00
+
+- title: Poster Session
+  start_time: 2023-07-14 16:00:00
+  end_time: 2023-07-14 17:30:00
