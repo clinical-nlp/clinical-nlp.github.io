@@ -2,9 +2,12 @@
   start_time: 2023-07-17 08:55:00
   end_time: 2023-07-17 09:00:00
 
-- title: "Keynote: Noemie Elhadad"
+- title: "Keynote: Patient record summarization: tasks, approaches, evaluation, and open challenges"
   start_time: 2023-07-17 09:00:00
   end_time: 2023-07-14 09:45:00
+  speaker: "Noemie Elhadad"
+  abstract: "The patient record contains an overwhelming large amount of information, too much for a clinician to make sense of it, and yet the information it contains may be critical for clinicians to care for their patients safely and effectively. In this talk, I will review two tasks to alleviate the information overload in clinical care: longitudinal patient record summarization and abstractive brief hospital course summarization. I will describe potential approaches, evaluation objectives, and current open questions. Finally, using the abstractive task of brief hospital course summarization as a grounding example, I will discuss LLMs in the context of clinical NLP."
+  biography: "Noémie Elhadad is Chair of the department of Biomedical Informatics at Columbia University, affiliated with the department of Computer Science and the Data Science Institute. Elhadad’s research lies at the intersection of artificial intelligence, human-centered computing, and medicine. She creates novel methods and tools to support patients and clinicians in their information needs, with particular focus on ensuring that the AI systems of the future are robust, safe, fair, and just."
 
 - title: Oral Session I
   start_time: 2023-07-14 09:45:00
@@ -41,9 +44,12 @@
       start_time: 2023-07-14 11:30:00
       end_time: 2023-07-14 11:45:00
 
-- title: "Keynote: Timothy Miller"
+- title: "Keynote: The evolution of representations for clinical text and a few more thoughts about generative clinical models"
   start_time: 2023-07-14 11:45:00
   end_time: 2023-07-14 12:30:00
+  speaker: "Timothy Miller"
+  abstract: "Large language models have excited the broader public like no previous NLP advance. This has led to predictions from all corners about the future of LLM-enabled NLP for clinical data and tasks. In this talk, I review several recent projects from my lab that did not use LLMs, and re-imagine these projects in an LLM-enabled context. The talk then synthesizes the lessons from those projects to propose some guidelines for optimal use of LLMs in clinical NLP research, imagine future directions that are now enabled, and to make some predictions about the future of our field."
+  biography: "Tim Miller is an Associate Professor in the Computational Health Informatics Program at Boston Children’s Hospital, Department of Pediatrics at Harvard Medical School, and at the Harvard-MIT Center for Regulatory Science. He is the PI of the Machine Learning for Medical Language Lab, home of several federally funded projects, including projects focused on basic biomedical NLP research, as well as projects that are driven by biomedical use cases. His research focuses on domain adaptation/generalizability of ML-based NLP methods, as well as methods for learning universal patient representations."
 
 - title: Lunch
   start_time: 2023-07-14 12:30:00

@@ -12,7 +12,12 @@ layout: default_2023
 {% for session in site.data["2023"].program %}
 <tr>
     <td width="15%" style="border-top: 0px"><b>{{ session.start_time | date: "%H:%M"}}–{{ session.end_time | date: "%H:%M" }}</b></td>
-    <td style="border-top: 0px"><b>{{ session.title }}</b></td>
+    <td style="border-top: 0px">
+    <b>{{ session.title }}</b>
+    {% if session.speaker %}<br/><b>Speaker:</b> {{ session.speaker }}{% endif %}
+    {% if session.abstract %}<br/><b>Abstract:</b> {{ session.abstract }}{% endif %}
+    {% if session.biography %}<br/><b>Biography:</b> {{ session.biography }}{% endif %}
+    </td>
 </tr>
 {% for subsession in session.subsessions %}
 <tr>
