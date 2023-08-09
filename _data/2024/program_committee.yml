@@ -1,0 +1,49 @@
+- role: Program Chairs
+  entries:
+    - dblp_id: https://dblp.org/pers/a/Abacha:Asma_Ben.html
+      emails: asma.benabacha@gmail.com
+      first_name: Asma
+      google_scholar_id: https://scholar.google.com/citations?user=KO6_r0cAAAAJ&hl=en
+      homepage: https://sites.google.com/site/asmabenabacha/
+      institution: Microsoft
+      last_name: Ben Abacha
+      name: Asma Ben Abacha
+      orcid: https://orcid.org/0000-0001-6312-9387
+      username: ~Asma_Ben_Abacha1
+    - dblp_id: https://dblp.org/pid/52/5246
+      emails: bethard@arizona.edu
+      first_name: Steven
+      google_scholar_id: https://scholar.google.com.tw/citations?user=sXM8J5EAAAAJ
+      homepage: http://bethard.faculty.arizona.edu/
+      institution: University of Arizona
+      last_name: Bethard
+      name: Steven Bethard
+      orcid: https://orcid.org/0000-0001-9560-6491
+      semantic_scholar_id: https://www.semanticscholar.org/author/Steven-Bethard/2105138
+      username: ~Steven_Bethard1
+    - dblp_id: https://dblp.org/pid/148/5539
+      emails: tristan@microsoft.com
+      first_name: Tristan
+      google_scholar_id: https://scholar.google.com/citations?user=cjlSeqwAAAAJ&hl=en&oi=ao
+      homepage: https://www.microsoft.com/en-us/research/people/tristan/
+      institution: Microsoft Research
+      last_name: Naumann
+      name: Tristan Naumann
+      orcid: https://orcid.org/0000-0003-2150-1747
+      semantic_scholar_id: https://www.semanticscholar.org/author/Tristan-Naumann/40466858/
+      username: ~Tristan_Naumann1
+    - dblp_id: https://dblp.org/pid/59/1629
+      emails: kirkroberts@gmail.com
+      first_name: Kirk
+      google_scholar_id: https://scholar.google.com/citations?user=ukBG4CUAAAAJ&hl=en
+      institution: University of Texas Health Science Center at Houston
+      last_name: Roberts
+      name: Kirk Roberts
+      orcid: https://orcid.org/0000-0001-6525-5213
+      semantic_scholar_id: https://www.semanticscholar.org/author/Kirk-Roberts/1742509
+      username: ~Kirk_Roberts2
+    - first_name: Danielle
+      homepage: https://aim.hms.harvard.edu/team/danielle-bitterman
+      institution: Harvard Medical School
+      last_name: Bitterman
+      name: Danielle Bitterman
