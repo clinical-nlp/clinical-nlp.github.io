@@ -10,7 +10,7 @@ layout: default_2024
 | Submission deadline (both general and shared task)  | Thursday, Mar 21, 2024                  |
 | Notification of acceptance                          | Friday, Apr 19, 2024                    |
 | Final versions of papers due                        | Thursday, May 2, 2024                   |
-| Workshop @ NAACL 2024                               | Thursday or Friday, June 20 or 21, 2023 |
+| Workshop @ NAACL 2024                               | Thursday or Friday, June 20 or 21, 2024 |
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
 
