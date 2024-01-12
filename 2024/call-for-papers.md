@@ -41,10 +41,10 @@ Clinical NLP 2024 is hosting four shared tasks:
 
 Please visit the shared task websites to register to participate and for additional information about the shared tasks.
 
-- MEDIQA-CORR: https://sites.google.com/view/mediqa2024/mediqa-corr 
-- MEDIQA-M3G: https://sites.google.com/view/mediqa2024/mediqa-m3g 
-- EHRSQL: https://github.com/glee4810/ehrsql-2024
-- Chemotherapy Timelines Extraction: http://chemotimelines2024.healthnlp.org
+- MEDIQA-CORR: <https://sites.google.com/view/mediqa2024/mediqa-corr>
+- MEDIQA-M3G: <https://sites.google.com/view/mediqa2024/mediqa-m3g>
+- EHRSQL: <https://github.com/glee4810/ehrsql-2024>
+- Chemotherapy Timelines Extraction: <http://chemotimelines2024.healthnlp.org>
 
 
 ## Submissions
