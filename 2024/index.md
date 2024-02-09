@@ -3,7 +3,7 @@ title: about
 layout: default_2024
 --- 
 
-### Important Dates
+## Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)).
 
