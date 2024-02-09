@@ -20,12 +20,12 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Event                                               | Date                      |
 | --------------------------------------------------- | ------------------------- |
 | Shared task registration opens                      | Monday January 8, 2024    |
-| Shared task release of training / validation sets   | Friday January 26, 2024   |
+| Shared task release of training & validation sets   | Friday January 26, 2024   |
 | Shared task release of the test sets                | Tuesday March 26, 2024    |
 | Shared task run submission deadline                 | Thursday March 28, 2024   |
 | Shared task release of official results             | Monday April 1, 2024      |
 | Shared task paper submission period starts          | Monday April 8, 2024      |
-| Shared Task paper submission due                    | Wednesday April 10, 2024  |
+| Shared task paper submission due                    | Wednesday April 10, 2024  |
 | Notification of acceptance                          | Thursday April 18, 2024   |
 | Final versions of papers due                        | Wednesday April 24, 2024  |
 
