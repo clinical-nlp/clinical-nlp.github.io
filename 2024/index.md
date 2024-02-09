@@ -5,14 +5,30 @@ layout: default_2024
 
 ### Important Dates
 
-| Event                                               | Date                                    |
-| --------------------------------------------------- | --------------------------------------- |
-| Submission deadline (both general and shared task)  | Tuesday March 19, 2024                  |
-| Notification of acceptance                          | Tuesday April 16, 2024                  |
-| Final versions of papers due                        | Wednesday April 24, 2024                |
-| Workshop @ NAACL 2024                               | June 21 or 22, 2024                     |
+All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)).
 
-All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
+| Event                                               | Date                      |
+| --------------------------------------------------- | ------------------------- |
+| Submission deadline                                 | Tuesday, March 19, 2024   |
+| Notification of acceptance                          | Thursday April 18, 2024   |
+| Final versions of papers due                        | Wednesday April 24, 2024  |
+| Workshop                                            | June 20 or 21, 2024       |
+
+
+### Shared Task Dates
+
+| Event                                               | Date                      |
+| --------------------------------------------------- | ------------------------- |
+| Shared task registration opens                      | Monday January 8, 2024    |
+| Shared task release of training / validation sets   | Friday January 26, 2024   |
+| Shared task release of the test sets                | Tuesday March 26, 2024    |
+| Shared task run submission deadline                 | Thursday March 28, 2024   |
+| Shared task release of official results             | Monday April 1, 2024      |
+| Shared task paper submission period starts          | Monday April 8, 2024      |
+| Shared Task Paper submission due                    | Wednesday April 10, 2024  |
+| Notification of acceptance                          | Thursday April 18, 2024   |
+| Final versions of papers due                        | Wednesday April 24, 2024  |
+
 
 ### Prior Events
 
