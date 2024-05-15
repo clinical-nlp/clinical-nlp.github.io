@@ -16,12 +16,9 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 
 ### Program Committee
 
-TBA
-
-<!-- 
-{% assign program_committee = site.data["2023"].program_committee | where: "role", "Reviewers" %}
+{% assign program_committee = site.data["2024"].program_committee | where: "role", "Main Workshop Reviewers" %}
 {% for pc_group in program_committee %}
 {%- for member in pc_group.entries -%}
 - [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}) ({{member.institution}})
 {% endfor %}
-{% endfor %} -->
+{% endfor %}
