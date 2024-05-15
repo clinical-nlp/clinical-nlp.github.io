@@ -1,0 +1,117 @@
+- title: Opening Session
+  start_time: 2024-06-21 09:10:00
+  end_time: 2024-06-21 10:00:00
+  subsessions:
+    - title: Opening Remarks
+      start_time: 2024-06-21 09:00:00
+      end_time: 2024-06-21 09:10:00
+    - title: "Keynote: David Restrepo"
+      start_time: 2024-06-21 09:10:00
+      end_time: 2024-06-21 09:50:00
+    - title: "Keynote Q&A"
+      start_time: 2024-06-21 09:50:00
+      end_time: 2024-06-21 10:00:00
+
+- title: Oral Session I
+  start_time: 2024-06-21 10:00:00
+  end_time: 2024-06-21 10:30:00
+  papers:
+    - id: 30
+      start_time: 2024-06-21 10:00:00
+      end_time: 2024-06-21 10:15:00
+    - id: 17
+      start_time: 2024-06-21 10:15:00
+      end_time: 2024-06-21 10:30:00
+
+- title: Break
+  start_time: 2024-06-21 10:30:00
+  end_time: 2024-06-21 11:00:00
+
+- title: "Oral Session II: Clinical Conversations"
+  start_time: 2024-06-21 11:00:00
+  end_time: 2024-06-21 11:30:00
+  papers:
+    - id: 3
+      start_time: 2024-06-21 11:00:00
+      end_time: 2024-06-21 11:15:00
+    - id: 31
+      start_time: 2024-06-21 11:15:00
+      end_time: 2024-06-21 11:30:00
+
+- title: "Oral Session III: Multimodal"
+  start_time: 2024-06-21 11:30:00
+  end_time: 2024-06-21 12:00:00
+  papers:
+    - id: 42
+      start_time: 2024-06-21 11:30:00
+      end_time: 2024-06-21 11:45:00
+    - id: 34
+      start_time: 2024-06-21 11:45:00
+      end_time: 2024-06-21 12:00:00
+
+- title: "Oral Session IV: Low-Resource Settings"
+  start_time: 2024-06-21 12:00:00
+  end_time: 2024-06-21 12:30:00
+  papers:
+    - id: 19
+      start_time: 2024-06-21 12:00:00
+      end_time: 2024-06-21 12:15:00
+    - id: 45
+      start_time: 2024-06-21 12:15:00
+      end_time: 2024-06-21 12:30:00
+
+- title: Lunch
+  start_time: 2024-06-21 12:30:00
+  end_time: 2024-06-21 14:00:00
+
+- title: "Oral Session V: MEDIQA-CORR"
+  start_time: 2024-06-21 14:00:00
+  end_time: 2024-06-21 14:22:30
+  papers:
+    - id: 80
+      start_time: 2024-06-21 14:00:00
+      end_time: 2024-06-21 14:08:00
+    - id: 58
+      start_time: 2024-06-21 14:08:00
+      end_time: 2024-06-21 14:16:00
+
+- title: "Oral Session VI: MEDIQA-M3G"
+  start_time: 2024-06-21 14:22:30
+  end_time: 2024-06-21 14:45:00
+  papers:
+    - id: 78
+      start_time: 2024-06-21 14:22:30
+      end_time: 2024-06-21 14:30:30
+    - id: 83
+      start_time: 2024-06-21 14:30:30
+      end_time: 2024-06-21 14:38:30
+
+- title: "Oral Session VII: EHRSQL"
+  start_time: 2024-06-21 14:45:00
+  end_time: 2024-06-21 15:07:30
+  papers: 
+    - id: 85
+      start_time: 2024-06-21 14:45:00
+      end_time: 2024-06-21 14:53:00
+    - id: 84
+      start_time: 2024-06-21 15:01:00
+      end_time: 2024-06-21 15:09:00
+
+- title: "Oral Session VIII: ChemoTimelines"
+  start_time: 2024-06-21 15:07:30
+  end_time: 2024-06-21 15:30:00
+  papers:
+    - id: 76
+      start_time: 2024-06-21 15:07:30
+      end_time: 2024-06-21 15:15:30
+    - id: 60
+      start_time: 2024-06-21 15:23:30
+      end_time: 2024-06-21 15:31:30
+
+- title: Break
+  start_time: 2024-06-21 15:30:00
+  end_time: 2024-06-21 16:00:00
+
+- title: Poster Session
+  start_time: 2024-06-21 16:00:00
+  end_time: 2024-06-21 17:30:00

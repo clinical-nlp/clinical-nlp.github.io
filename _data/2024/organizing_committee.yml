@@ -1,0 +1,124 @@
+- role: General Chairs
+  members:
+  - first_name: Tristan
+    last_name: Naumann
+    institution: Microsoft Research
+    homepage: https://aka.ms/tristan
+
+  - first_name: Asma
+    last_name: Ben Abacha
+    institution: Microsoft
+    homepage: https://sites.google.com/site/asmabenabacha/
+
+  - first_name: Steven
+    last_name: Bethard
+    institution: University of Arizona
+    homepage: https://bethard.faculty.arizona.edu/
+
+  - first_name: Kirk
+    last_name: Roberts
+    institution: UTHealth Houston
+    homepage: https://sbmi.uth.edu/faculty-and-staff/kirk-roberts.htm
+
+  - first_name: Danielle
+    last_name: Bitterman
+    institution: Harvard Medical School
+    homepage: https://aim.hms.harvard.edu/team/danielle-bitterman
+
+- role: "MEDIQA-CORR 2024 Shared Task Organizers"
+  members:
+  - first_name: Asma
+    last_name: Ben Abacha
+    institution: Microsoft
+    homepage: https://sites.google.com/site/asmabenabacha/
+  
+  - first_name: Wen-wai
+    last_name: Yim
+    institution: Microsoft
+    homepage: https://www.linkedin.com/in/wen-wai-yim-b20b2420
+
+  - first_name: Meliha 
+    last_name: Yetisgen
+    institution: University of Washington
+    homepage: https://faculty.washington.edu/melihay/
+
+  - first_name: Fei
+    last_name: Xia
+    institution: University of Washington
+    homepage: https://faculty.washington.edu/fxia/
+
+- role: "MEDIQA-M3G 2024 Shared Task Organizers"
+  members:
+  - first_name: Asma
+    last_name: Ben Abacha
+    institution: Microsoft
+    homepage: https://sites.google.com/site/asmabenabacha/
+  
+  - first_name: Wen-wai
+    last_name: Yim
+    institution: Microsoft
+    homepage: https://www.linkedin.com/in/wen-wai-yim-b20b2420
+
+  - first_name: Meliha 
+    last_name: Yetisgen
+    institution: University of Washington
+    homepage: https://faculty.washington.edu/melihay/
+
+  - first_name: Fei
+    last_name: Xia
+    institution: University of Washington
+    homepage: https://faculty.washington.edu/fxia/
+
+  - first_name: Martin
+    last_name: Krallinger
+    institution: Barcelona Supercomputing Center (BSC)
+    homepage: https://www.bsc.es/krallinger-martin
+
+- role: "EHRSQL 2024 Shared Task Organizers"
+  members:
+  - first_name: Edward
+    last_name: Choi
+    institution: KAIST
+    homepage: https://mp2893.com/
+  
+  - first_name: Gyubok
+    last_name: Lee
+    institution: KAIST
+    homepage: https://sites.google.com/view/gyuboklee
+
+  - first_name: Sunjun
+    last_name: Kweon
+    institution: KAIST
+    homepage: https://scholar.google.com/citations?user=mKFQKpwAAAAJ
+
+  - first_name: Seongsu
+    last_name: Bae
+    institution: KAIST
+    homepage: https://seongsubae.info/
+
+- role: "ChemoTimelines 2024 Shared Task Organizers"
+  members:
+  - first_name: Jiarui
+    last_name: Yao
+    institution: Boston Children's Hospital, Harvard Medical School
+    homepage: https://www.linkedin.com/in/jiarui-yao-8077a2284/
+
+  - first_name: Guergana
+    last_name: Savova
+    institution: Boston Children's Hospital, Harvard Medical School
+    homepage: https://www.childrenshospital.org/research/researchers/guergana-savova
+
+  - first_name: Harry
+    last_name: Hochheiser
+    institution: University of Pittsburgh
+    homepage: https://www.sci.pitt.edu/people/harry-hochheiser
+
+  - first_name: WonJin
+    last_name: Yoon
+    institution: Boston Children's Hospital, Harvard Medical School
+    homepage: http://wonjin.info/
+
+  - first_name: Eli
+    last_name: Goldner
+    institution: Boston Children's Hospital, Harvard Medical School
+    homepage: https://www.linkedin.com/in/eli-goldner-321657157/

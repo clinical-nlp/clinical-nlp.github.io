@@ -1,0 +1,3920 @@
+- abstract: 'Summarizing medical conversations poses unique challenges due to the
+    specialized domain and the difficulty of collecting in-domain training data. In
+    this study, we investigate the performance of state-of-the-art doctor-patient
+    conversation generative summarization models on the out-of-domain data. We divide
+    the summarization model of doctor-patient conversation into two configurations:
+    (1) a general model, without specifying subjective (S), objective (O), and assessment
+    (A) and plan (P) notes; (2) a SOAP-oriented model that generates a summary with
+    SOAP sections. We analyzed the limitations and strengths of the fine-tuning language
+    model-based methods and GPTs on both configurations. We also conducted a Linguistic
+    Inquiry and Word Count analysis to compare the SOAP notes from different datasets.
+    The results exhibit a strong correlation for reference notes across different
+    datasets, indicating that format mismatch (i.e., discrepancies in word distribution)
+    is not the main cause of performance decline on out-of-domain data. Lastly, a
+    detailed analysis of SOAP notes is included to provide insights into missing information
+    and hallucinations introduced by the models.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: yc4093@columbia.edu
+    first_name: Yu-Wen
+    google_scholar_id: https://scholar.google.com.tw/citations?user=8r7SRL0AAAAJ&hl=zh-TW&authuser=1
+    institution: Columbia University
+    last_name: Chen
+    name: Yu-Wen Chen
+    username: ~Yu-Wen_Chen2
+  - emails: julia@cs.columbia.edu
+    first_name: Julia
+    google_scholar_id: https://scholar.google.com/citations?user=Qrd7FCoAAAAJ&hl=en
+    homepage: http://www.cs.columbia.edu/~julia/
+    institution: Columbia University
+    last_name: Hirschberg
+    name: Julia Hirschberg
+    username: ~Julia_Hirschberg1
+  decision: Oral
+  file: 3.pdf
+  id: 3
+  openreview_id: lG16VnRjNA
+  pdf_file: e4127a9d7430d5749e0f0ed67b67f0d3769ce4a5.pdf
+  title: 'Exploring Robustness in Doctor-Patient Conversation Summarization: An Analysis
+    of Out-of-Domain SOAP Notes'
+- abstract: 'In the expanding field of language model applications, medical knowledge
+    representation remains a significant challenge due to the specialized nature of
+    the domain. Large language models, such as GPT-4, obtain reasonable scores on
+    medical question-answering tasks, but smaller models are far behind.
+
+    In this work, we introduce a method to improve the proficiency of a small language
+    model in the medical domain by employing a two-fold approach. We first fine-tune
+    the model on a corpus of medical textbooks. Then, we use GPT-4 to generate questions
+    similar to the downstream task, prompted with textbook knowledge, and use them
+    to fine-tune the model. Additionally, we introduce ECN-QA, a novel Medical QA
+    dataset containing ``progressive questions'''' composed of related sequential
+    questions. We show the benefits of our training strategy on this dataset.
+
+    The study''s findings highlight the potential of small language models in the
+    medical domain when appropriately fine-tuned.'
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: julien.khlaut@raidium.fr
+    first_name: Julien
+    last_name: Khlaut
+    name: Julien Khlaut
+    username: ~Julien_Khlaut1
+  - emails: corentin.dancette@gmail.com
+    first_name: Corentin
+    google_scholar_id: https://scholar.google.fr/citations?user=2zReQdQAAAAJ&hl=fr
+    homepage: https://cdancette.fr
+    institution: Raidium
+    last_name: Dancette
+    name: Corentin Dancette
+    username: ~Corentin_Dancette1
+  - emails: elodie.ferreres@orange.fr
+    first_name: Elodie
+    last_name: Ferreres
+    name: Elodie Ferreres
+    username: ~Elodie_Ferreres1
+  - emails: alaedine.benani@aphp.fr
+    first_name: Benani
+    last_name: Alaedine
+    middle_name: D.
+    name: BENANI D. Alaedine
+    username: ~BENANI_D._Alaedine1
+  - emails: paul.herent@raidium.fr
+    first_name: Herent
+    google_scholar_id: https://scholar.google.com/citations?user=ZS9f4Q0AAAAJ&hl=fr&oi=ao
+    institution: Ecole Normale Supérieure de Paris
+    last_name: Herent
+    name: Herent
+    username: ~Herent1
+  - emails: pierre.manceron@gmail.com
+    first_name: Pierre
+    google_scholar_id: https://scholar.google.com/citations?user=cHHYMUMAAAAJ&hl=fr&oi=ao
+    homepage: http://www.phylliade.com/
+    institution: Raidium
+    last_name: Manceron
+    name: Pierre Manceron
+    orcid: https://orcid.org/0000-0002-2970-973X
+    username: ~Pierre_Manceron1
+  decision: Poster
+  file: 4.pdf
+  id: 4
+  openreview_id: Qgu2PuUISr
+  pdf_file: b10d4429bba0db37a3a9b0e18b1240812a33cbea.pdf
+  title: Efficient Medical Question Answering with Knowledge-Augmented Question Generation
+- abstract: "Large language models have the potential to be valuable in the healthcare\
+    \ industry, but it's crucial to verify their safety and effectiveness through\
+    \ rigorous evaluation. In our study, we evaluated LLMs, including Google's Gemini,\
+    \ across various medical tasks. Despite Gemini's capabilities, it underperformed\
+    \ compared to leading models like MedPaLM 2 and GPT-4, particularly in medical\
+    \ visual question answering (VQA), with a notable accuracy gap (Gemini at 61.45%\
+    \ vs. GPT-4V at 88%). \n\nOur analysis revealed that Gemini is highly susceptible\
+    \ to hallucinations, overconfidence, and knowledge gaps, which indicate risks\
+    \ if deployed uncritically. We also performed a detailed analysis by medical subject\
+    \ and test type, providing actionable feedback for developers and clinicians.\
+    \  To mitigate risks, we implemented effective prompting strategies, improving\
+    \ performance, and contributed to the field by releasing a Python module for medical\
+    \ LLM evaluation and establishing a leaderboard on Hugging Face for ongoing research\
+    \ and development. Python module can be found at https://github.com/promptslab/RosettaEval"
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: ankit.pal@saama.com
+    first_name: Ankit
+    google_scholar_id: https://scholar.google.com/citations?user=MXqo0_UAAAAJ&hl=en&authuser=3
+    institution: Saama AI Research Lab
+    last_name: Pal
+    name: Ankit Pal
+    username: ~Ankit_Pal1
+  - dblp_id: https://dblp.org/pid/224/0138.html
+    emails: malaikannan.sankarasubbu@saama.com
+    first_name: Malaikannan
+    google_scholar_id: https://scholar.google.com/citations?user=znWv6tUAAAAJ&hl=en
+    last_name: Sankarasubbu
+    name: Malaikannan Sankarasubbu
+    orcid: https://orcid.org/0000-0002-7160-5133
+    username: ~Malaikannan_Sankarasubbu1
+  decision: Poster
+  file: 5.pdf
+  id: 5
+  openreview_id: OO76gbXA9n
+  pdf_file: 470763057bed04570a4f1b3167de90cbe31656e8.pdf
+  title: 'Gemini Goes to Med School: Exploring the Capabilities of Multimodal Large
+    Language Models on Medical Challenge Problems & Hallucinations'
+- abstract: "Electronic health records (EHR) and claims data are rich sources of real-world\
+    \ data that reflect patient health status and healthcare utilization. \nQuerying\
+    \ these databases to answer epidemiological questions is challenging due to the\
+    \ intricacy of medical terminology and the need for complex SQL queries. Here,\
+    \ we introduce an end-to-end methodology that combines text-to-SQL generation\
+    \ with retrieval augmented generation (RAG) to answer epidemiological questions\
+    \ using EHR and claims data. We show that our approach, which integrates a medical\
+    \ coding step into the text-to-SQL process, significantly improves the performance\
+    \ over simple prompting. Our findings indicate that although current language\
+    \ models are not yet sufficiently accurate for unsupervised use, RAG offers a\
+    \ promising direction for improving their capabilities, as shown in a realistic\
+    \ industry setting."
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: angelo.ziletti@bayer.com
+    first_name: Angelo
+    google_scholar_id: https://scholar.google.com/citations?user=BiunNCQAAAAJ&hl=en
+    homepage: https://github.com/angeloziletti/angeloziletti.github.io
+    institution: Bayer Ag
+    last_name: Ziletti
+    name: Angelo Ziletti
+    username: ~Angelo_Ziletti1
+  - emails: leonardo.dambrosi@bayer.com
+    first_name: Leonardo
+    homepage: https://www.linkedin.com/in/leonardodambrosi/
+    institution: Bayer Ag
+    last_name: DAmbrosi
+    name: Leonardo DAmbrosi
+    username: ~Leonardo_DAmbrosi1
+  decision: Poster
+  file: 6.pdf
+  id: 6
+  openreview_id: Q3mVa7GPYH
+  pdf_file: 0306fdd26e0cfae7e415ba8ffbdb388b57d58aaf.pdf
+  title: Retrieval augmented text-to-SQL generation for epidemiological question answering
+    using electronic health records
+- abstract: "The advancement of natural language processing (NLP) systems in healthcare\
+    \ hinges on language models' ability to interpret the intricate information contained\
+    \ within clinical notes. \nThis process often requires integrating information\
+    \ from various time points in a patient's medical history. \nHowever, most earlier\
+    \ clinical language models were pretrained with a context length limited to roughly\
+    \ one clinical document. \nIn this study, We introduce ClinicalMamba, a specialized\
+    \ version of the Mamba language model, pretrained on a vast corpus of longitudinal\
+    \ clinical notes to address the unique linguistic characteristics and information\
+    \ processing needs of the medical domain. \nClinicalMamba models, with 130 million\
+    \ and 2.8 billion parameters, demonstrate superior performance in modeling clinical\
+    \ language across extended text lengths compared to Mamba and other clinical models\
+    \ based on longformer and Llama. \nWith few-shot learning, ClinicalMamba achieves\
+    \ notable benchmarks in speed and performance, outperforming existing clinical\
+    \ language models and large language models like GPT-4 in longitudinal clinical\
+    \ tasks."
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/148/4419-1
+    emails: zhichaoyang@umass.edu
+    first_name: Zhichao
+    google_scholar_id: https://scholar.google.com//citations?user=RXXwBWIAAAAJ
+    institution: University of Massachusetts, Amherst
+    last_name: Yang
+    name: Zhichao Yang
+    orcid: https://orcid.org/0000-0002-2797-4257
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhichao-Yang/48598711
+    username: ~Zhichao_Yang2
+  - emails: avijitmitra@umass.edu
+    first_name: Avijit
+    google_scholar_id: https://scholar.google.com/citations?user=i30KR5EAAAAJ&hl=en
+    homepage: https://avipartho.github.io/
+    last_name: Mitra
+    name: Avijit Mitra
+    username: ~Avijit_Mitra1
+  - dblp_id: https://dblp.org/pers/hd/k/Kwon:Sunjae
+    emails: soon91jae@gmail.com
+    first_name: Sunjae
+    google_scholar_id: https://scholar.google.co.kr/citations?user=N9ZM-CIAAAAJ&hl=ko
+    last_name: Kwon
+    name: SUNJAE KWON
+    username: ~SUNJAE_KWON1
+  - emails: hong.yu@umassmed.edu
+    first_name: Hong
+    google_scholar_id: https://scholar.google.com/citations?user=TyXe64wAAAAJ&hl=en&oi=ao
+    homepage: http://bio-nlp.org/
+    institution: Columbia University
+    last_name: yu
+    name: hong yu
+    username: ~hong_yu1
+  decision: Poster
+  file: 8.pdf
+  id: 8
+  openreview_id: 68u4PSB40J
+  pdf_file: 4621ec7852f31853323084e95668ed7e0fa4b255.pdf
+  title: 'ClinicalMamba: A Generative Clinical Language Model on Longitudinal Clinical
+    Notes'
+- abstract: As a predictive measure of the treatment outcome in psychotherapy, the
+    working alliance measures the agreement of the patient and the therapist in terms
+    of their bond, task and goal. Long been a clinical quantity estimated by the patients'
+    and therapists' self-evaluative reports, we believe that the working alliance
+    can be better characterized using natural language processing technique directly
+    in the dialogue transcribed in each therapy session. In this work, we propose
+    the Working Alliance Transformer (WAT), a Transformer-based classification model
+    that has a psychological state encoder which infers the working alliance scores
+    by projecting the embedding of the dialogues turns onto the embedding space of
+    the clinical inventory for working alliance. We evaluate our method in a real-world
+    dataset with over 950 therapy sessions with anxiety, depression, schizophrenia
+    and suicidal patients and demonstrate an empirical advantage of using information
+    about therapeutic states in the sequence classification task of psychotherapy
+    dialogues.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/210/2458
+    emails: doerlbh@gmail.com
+    first_name: Baihan
+    google_scholar_id: https://scholar.google.com/citations?user=H67KJ4cAAAAJ&hl=en
+    homepage: https://www.neuroinference.com/
+    institution: Columbia University and IBM, International Business Machines
+    last_name: Lin
+    name: Baihan Lin
+    orcid: https://orcid.org/0000-0002-7979-5509
+    semantic_scholar_id: https://www.semanticscholar.org/author/Baihan-Lin/5320216
+    username: ~Baihan_Lin1
+  - emails: gcecchi@us.ibm.com
+    first_name: Guillermo
+    google_scholar_id: https://scholar.google.com/citations?user=pQZaTGEAAAAJ&hl=en&hl=en&oi=ao
+    homepage: https://research.ibm.com/people/guillermo-cecchi
+    institution: International Business Machines
+    last_name: Cecchi
+    name: Guillermo Cecchi
+    username: ~Guillermo_Cecchi1
+  - dblp_id: https://dblp.org/pid/45/11240-1
+    emails: djallel.bouneffouf@ibm.com
+    first_name: Djallel
+    last_name: Bouneffouf
+    name: Djallel Bouneffouf
+    username: ~Djallel_Bouneffouf2
+  decision: Poster
+  file: 9.pdf
+  id: 9
+  openreview_id: aNzR3tldKg
+  pdf_file: 6448d2e74ec84de7e51d97be639337365523c89c.pdf
+  title: Working Alliance Transformer for Psychotherapy Dialogue Classification
+- abstract: Clinical Named Entity Recognition (NER) is essential for extracting important
+    medical insights from clinical narratives. Given the challenges in obtaining expert
+    training datasets for real-world clinical applications related to data protection
+    regulations and the lack of standardised entity types, this work represents a
+    collaborative initiative aimed at building a German clinical NER system with a
+    focus on addressing these obstacles effectively. In response to the challenge
+    of training data scarcity, we propose a Conditional Relevance Learning (CRL) approach
+    in low-resource transfer learning scenarios. CRL effectively leverages a pre-trained
+    language model and domain-specific open resources, enabling the acquisition of
+    a robust base model tailored for clinical NER tasks, particularly in the face
+    of changing label sets. This flexibility empowers the implementation of a Multilayered
+    Semantic Annotation (MSA) schema in our NER system, capable of organizing a diverse
+    array of entity types, thus significantly boosting the NER system's adaptability
+    and utility across various clinical domains. In the case study, we demonstrate
+    how our NER system can be applied to overcome resource constraints and comply
+    with data privacy regulations. Lacking prior training on in-domain data, feedback
+    from expert users in respective domains is essential in identifying areas for
+    system refinement. Future work will focus on the integration of expert feedback
+    to improve system performance in specific clinical contexts.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: siting.liang@dfki.de
+    first_name: Siting
+    google_scholar_id: https://scholar.google.com/citations?user=NuNixssAAAAJ&hl=en
+    homepage: https://www.dfki.de/web/ueber-uns/mitarbeiter/person/sili03
+    institution: German Research Center for AI
+    last_name: Liang
+    name: Siting Liang
+    username: ~Siting_Liang1
+  - dblp_id: https://dblp.org/pid/83/5858.html
+    emails: sonntag@dfki.de
+    first_name: Daniel
+    google_scholar_id: https://scholar.google.com/citations?user=v7i6Uz4AAAAJ&hl=en
+    homepage: https://www.dfki.de/~sonntag/
+    institution: German Research Center for AI and Carl von Ossietzky Universität
+      Oldenburg
+    last_name: Sonntag
+    name: Daniel Sonntag
+    username: ~Daniel_Sonntag2
+  decision: Poster
+  file: 10.pdf
+  id: 10
+  openreview_id: gIsSRMcLvp
+  pdf_file: b4511a8ceb3f24d1a02af0441dad220ee2e9eb10.pdf
+  title: Building A German Clinical Named Entity Recognition System without In-domain
+    Training Data
+- abstract: "Automatic depression detection from conversational data has gained significant\
+    \ interest in recent years.\nThe DAIC-WOZ dataset, interviews conducted by a human-controlled\
+    \ virtual agent, has been widely used for this task.\nRecent studies have reported\
+    \ enhanced performance when incorporating interviewer's prompts into the model.\n\
+    In this work, we hypothesize that this improvement might be mainly due to a bias\
+    \ present in these prompts, rather than the proposed architectures and methods.\n\
+    Through ablation experiments and qualitative analysis, we discover that models\
+    \ using interviewer's prompts learn to focus on a specific region of the interviews,\
+    \ where questions about past experiences with mental health issues are asked,\
+    \ and use them as discriminative shortcuts to detect depressed participants. \n\
+    In contrast, models using participant responses gather evidence from across the\
+    \ entire interview.\nFinally, to highlight the magnitude of this bias, we achieve\
+    \ a 0.90 F1 score by intentionally exploiting it, the highest result reported\
+    \ to date on this dataset using only textual information.\nOur findings underline\
+    \ the need for caution when incorporating interviewers' prompts into models, as\
+    \ they may inadvertently learn to exploit targeted prompts, rather than learning\
+    \ to characterize the language and behavior that are genuinely indicative of the\
+    \ patient's mental health condition."
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/224/2038
+    emails: sergio.burdisso@gmail.com
+    first_name: Sergio
+    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=en&user=XOD8lrAAAAAJ
+    homepage: https://github.com/sergioburdisso
+    institution: Idiap Research Institute
+    last_name: Burdisso
+    name: Sergio Burdisso
+    orcid: https://orcid.org/0000-0002-7694-6834
+    semantic_scholar_id: https://www.semanticscholar.org/author/S.-Burdisso/51168007
+    username: ~Sergio_Burdisso1
+  - emails: ernesto.reyes@cimat.mx
+    first_name: Ernesto
+    homepage: https://github.com/ErnestoR2
+    last_name: Reyes-Ramírez
+    middle_name: A.
+    name: Ernesto A. Reyes-Ramírez
+    username: ~Ernesto_A._Reyes-Ramírez1
+  - dblp_id: https://dblp.org/pid/21/2544.html
+    emails: esau.villatoro@idiap.ch
+    first_name: Esaú
+    google_scholar_id: https://scholar.google.com/citations?hl=en&pli=1&user=GzaiunYAAAAJ
+    homepage: https://villatoroe.github.io/
+    institution: Idiap Research Institute
+    last_name: Villatoro-tello
+    name: Esaú VILLATORO-TELLO
+    orcid: https://orcid.org/0000-0002-1322-0358
+    semantic_scholar_id: https://www.semanticscholar.org/author/Esa%C3%BA-Villatoro-Tello/1398324221
+    username: ~Esaú_VILLATORO-TELLO1
+  - emails: fernando.sanchez@cimat.mx
+    first_name: Fernando
+    homepage: https://www.cimat.mx/author/sanchez-vega-fernando/
+    institution: Center for Research in Mathematics (CIMAT)
+    last_name: Sánchez-Vega
+    name: Fernando Sánchez-Vega
+    username: ~Fernando_Sánchez-Vega1
+  - dblp_id: https://dblp.org/pers/hd/l/L=oacute=pez=Monroy:Adri=aacute=n_Pastor
+    emails: beiceman@gmail.com
+    first_name: Adrian
+    google_scholar_id: https://scholar.google.com.mx/citations?user=S1K3A6wAAAAJ&hl=es
+    homepage: https://www.cimat.mx/es/adri%C3%A1n-pastor-l%C3%B3pez-monroy
+    last_name: Lopez Monroy
+    middle_name: Pastor
+    name: ADRIAN PASTOR LOPEZ MONROY
+    orcid: https://orcid.org/0000-0003-1018-4221
+    username: ~ADRIAN_PASTOR_LOPEZ_MONROY1
+  - dblp_id: https://dblp.org/pers/hd/m/Motl=iacute=cek:Petr
+    emails: petr.motlicek@idiap.ch
+    first_name: Petr
+    homepage: http://www.idiap.ch/~pmotlic
+    last_name: Motlicek
+    name: Petr Motlicek
+    username: ~Petr_Motlicek1
+  decision: Poster
+  file: 13.pdf
+  id: 13
+  openreview_id: M6Ub89bEhl
+  pdf_file: 042fa35bf0465a6b36b7b40e8c3aa672708d8ffd.pdf
+  title: 'DAIC-WOZ: On the Validity of Using the Therapist''s prompts in Automatic
+    Depression Detection from Clinical Interviews'
+- abstract: Adapting pretrained language models to novel domains, such as clinical
+    applications, traditionally involves retraining their entire set of parameters.
+    Parameter-Efficient Fine-Tuning (PEFT) techniques for fine-tuning language models
+    significantly reduce computational requirements by selectively fine-tuning small
+    subsets of parameters.  In this study, we propose a two-step PEFT framework and
+    evaluate it in the clinical domain. Our approach combines a specialised PEFT adapter
+    layer designed for clinical domain adaptation with another adapter specialised
+    for downstream tasks. We evaluate the framework on multiple clinical outcome prediction
+    datasets, comparing it to clinically trained language models. Our framework achieves
+    a better AUROC score averaged across all clinical downstream tasks compared to
+    clinical language models. In particular, we observe large improvements of 4-5\%
+    AUROC in large-scale multilabel classification tasks, such as diagnoses and procedures
+    classification. To our knowledge, this study is the first to provide an extensive
+    empirical analysis of the interplay between PEFT techniques and domain adaptation
+    in an important real-world domain of clinical applications.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/207/5260.html
+    emails: aryo.gema@ed.ac.uk
+    first_name: Aryo
+    google_scholar_id: https://scholar.google.com/citations?user=Vf4Ij2MAAAAJ&hl=en
+    homepage: https://aryopg.github.io
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Gema
+    middle_name: Pradipta
+    name: Aryo Pradipta Gema
+    orcid: https://orcid.org/0009-0007-1163-3531
+    semantic_scholar_id: https://www.semanticscholar.org/author/A.-Gema/27080447
+    username: ~Aryo_Pradipta_Gema1
+  - dblp_id: https://dblp.org/pid/58/10142
+    emails: p.minervini@gmail.com
+    first_name: Pasquale
+    homepage: http://www.neuralnoise.com
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Minervini
+    name: Pasquale Minervini
+    username: ~Pasquale_Minervini4
+  - emails: luke.daines@ed.ac.uk
+    first_name: Luke
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=PP3LydkAAAAJ
+    homepage: https://www.research.ed.ac.uk/en/persons/luke-daines
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Daines
+    name: Luke Daines
+    orcid: https://orcid.org/0000-0003-0564-4000
+    username: ~Luke_Daines1
+  - dblp_id: https://dblp.org/pid/27/5588
+    emails: tomh@allenai.org
+    first_name: Tom
+    institution: Allen Institute for Artificial Intelligence and Hebrew University,
+      Hebrew University of Jerusalem
+    last_name: Hope
+    name: Tom Hope
+    username: ~Tom_Hope2
+  - dblp_id: https://dblp.org/pid/17/2942
+    emails: balex@ed.ac.uk
+    first_name: Beatrice
+    google_scholar_id: https://scholar.google.co.uk/citations?user=1VYnHCMAAAAJ&hl=en
+    homepage: https://www.ed.ac.uk/profile/dr-beatrice-alex
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Alex
+    name: Beatrice Alex
+    orcid: https://orcid.org/0000-0002-7279-1476
+    semantic_scholar_id: https://www.semanticscholar.org/author/Beatrice-Alex/144224160
+    username: ~Beatrice_Alex1
+  decision: Poster
+  file: 15.pdf
+  id: 15
+  openreview_id: M47XQRlmoc
+  pdf_file: 4593473bf53e3dfb79604c00e4a579e9219fce36.pdf
+  title: Parameter-Efficient Fine-Tuning of LLaMA for the Clinical Domain
+- abstract: 'Biomedical NLP models play a big role in the automatic extraction of
+    information from biomedical documents, such as COVID research papers. Three landmark
+    models have led the way in this area: BioBERT, MSR BiomedBERT, and BioLinkBERT.
+    However, their shallow evaluation –a single mean score– forbid us to better understand
+    how the contributions proposed in each model advance the Biomedical NLP field.
+    We show through a Multilevel Analysis how we can assess these contributions. Our
+    analyses across 5000 fine-tuned models show that, actually, BiomedBERT’s true
+    effect is bigger than BioLinkBERT’s effect, and the success of BioLinkBERT does
+    not seem to be due to its contribution –the Link function– but due to an unknown
+    factor.'
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/220/3203
+    emails: bonjour41@gmail.com
+    first_name: Vicente
+    homepage: https://sites.google.com/site/neuroivan/
+    institution: Ricoh Software Research Center Beijing
+    last_name: Sanchez Carmona
+    middle_name: Ivan
+    name: Vicente Ivan Sanchez Carmona
+    semantic_scholar_id: https://www.semanticscholar.org/author/V.-Carmona/3113789
+    username: ~Vicente_Ivan_Sanchez_Carmona1
+  - emails: shanshan.jiang@cn.ricoh.com
+    first_name: Shanshan
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=z4IBhAwAAAAJ
+    last_name: Jiang
+    name: Shanshan Jiang
+    semantic_scholar_id: https://www.semanticscholar.org/author/Shanshan-Jiang/2142373726
+    username: ~Shanshan_Jiang2
+  - emails: bin.dong@cn.ricoh.com
+    first_name: Bin
+    google_scholar_id: https://scholar.google.com/citations?user=JNRMVNYAAAAJ&hl=en
+    last_name: Dong
+    name: Bin Dong
+    username: ~Bin_Dong3
+  decision: Oral
+  file: 17.pdf
+  id: 17
+  openreview_id: CKBrjqqSfS
+  pdf_file: 67550de5521328933deb122e9dfe8f7bb71105bc.pdf
+  title: A Multilevel Analysis of PubMed-only BERT-based Biomedical Models
+- abstract: Annotated corpora are essential to reliable natural language processing.
+    While they are expensive to create, they are essential for building and evaluating
+    systems. This study introduces a new corpus of 2,869 medical and admission reports
+    collected by an occupational insurance and health provider. The corpus has been
+    carefully annotated for personally identifiable information (PII) and is shared,
+    masking this information. Two annotators adhered to annotation guidelines during
+    the annotation process, and a referee later resolved annotation conflicts in a
+    consolidation process to build a gold standard subcorpus. The inter-annotator
+    agreement values, measured in F1, range between 0.86 and 0.93 depending on the
+    selected subcorpus. The value of the corpus is demonstrated by evaluating its
+    use for NER of PII and a classification task. The evaluations find that fine-tuned
+    models and GPT-3.5 reach F1 of 0.911 and 0.720 in NER of PII, respectively. In
+    the case of the insurance coverage classification task, using the original or
+    de-identified corpus results in similar performance. The annotated data are released
+    in de-identified form.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: claudio.aracena@uchile.cl
+    first_name: Claudio
+    homepage: https://claudioaracena.com/
+    last_name: Aracena
+    name: Claudio Aracena
+    username: ~Claudio_Aracena1
+  - emails: lmirandn@uc.cl
+    first_name: Luis
+    google_scholar_id: https://scholar.google.com/citations?user=hVdz5ZQAAAAJ&hl=es
+    institution: Pontificia Universidad Catolica de Chile and Pontificia Universidad
+      Catolica de Chile
+    last_name: Miranda
+    name: Luis Miranda
+    username: ~Luis_Miranda1
+  - dblp_id: https://dblp.org/pid/313/4645
+    emails: thomas.vakili@dsv.su.se
+    first_name: Thomas
+    google_scholar_id: https://scholar.google.com/citations?user=1aqg-2wAAAAJ&hl=en
+    homepage: https://vakili.science
+    institution: Stockholm University
+    last_name: Vakili
+    name: Thomas Vakili
+    orcid: https://orcid.org/0000-0001-8988-8226
+    semantic_scholar_id: https://www.semanticscholar.org/author/Thomas-Vakili/121042730
+    username: ~Thomas_Vakili1
+  - emails: fabian.villena@uchile.cl
+    first_name: Fabián
+    google_scholar_id: https://scholar.google.com/citations?user=P-5s0ugAAAAJ&hl=es
+    homepage: http://fabianvillena.cl/
+    institution: Universidad de Chile
+    last_name: Villena
+    name: Fabián Villena
+    username: ~Fabián_Villena1
+  - emails: t.quiroga@uc.cl
+    first_name: Tamara
+    last_name: Quiroga
+    name: Tamara Quiroga
+    username: ~Tamara_Quiroga1
+  - emails: frnunez@uc.cl
+    first_name: Fredy
+    google_scholar_id: https://scholar.google.com/citations?user=n1QkFWYAAAAJ&hl=es
+    institution: Pontificia Universidad Catolica de Chile
+    last_name: Núñez-Torres
+    name: Fredy Núñez-Torres
+    orcid: https://orcid.org/0000-0002-0643-6628
+    username: ~Fredy_Núñez-Torres1
+  - emails: varoccoc@achs.cl
+    first_name: Victor
+    last_name: Rocco
+    name: Victor Rocco
+    username: ~Victor_Rocco1
+  - dblp_id: https://dblp.org/pid/268/0573
+    emails: jdunstan@uchile.cl
+    first_name: Jocelyn
+    google_scholar_id: https://scholar.google.co.uk/citations?user=geH4mS0AAAAJ&hl=en&oi=ao
+    homepage: https://sites.google.com/view/jdunstan/home
+    institution: Universidad de Chile
+    last_name: Dunstan
+    name: Jocelyn Dunstan
+    orcid: https://orcid.org/0000-0001-6726-7242
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jocelyn-Dunstan/121936601?sort=pub-date
+    username: ~Jocelyn_Dunstan1
+  decision: Oral
+  file: 19.pdf
+  id: 19
+  openreview_id: GLsmr53Hwi
+  pdf_file: 0a6e1cda6ab9f1c5877b1ebc7aba780a717803a4.pdf
+  title: 'A Privacy-Preserving Corpus for Occupational Health in Spanish: Evaluation
+    for NER and Classification Tasks'
+- abstract: 'Large language models (LLMs) have emerged as valuable tools for many
+    natural language understanding tasks. In safety-critical applications such as
+    healthcare, the utility of these models is governed by their ability to generate
+    factually accurate and complete outputs. In this work, we present dialog-enabled
+    resolving agents (DERA). DERA is a paradigm made possible by the increased conversational
+    abilities of LLMs.  It provides a simple, interpretable forum for models to communicate
+    feedback and iteratively improve output. We frame our dialog as a discussion between
+    two agent types -- a Researcher, who processes information and identifies crucial
+    problem components, and a Decider, who has the autonomy to integrate the Researcher''s
+    information and makes judgments on the final output.
+
+
+    We test DERA against three clinically-focused tasks, with GPT-4 serving as our
+    LLM. DERA shows significant improvement over the base GPT-4 performance in both
+    human expert preference evaluations and quantitative metrics for medical conversation
+    summarization and care plan generation. In a new finding, we also show that GPT-4''s
+    performance (70%) on an open-ended version of the MedQA question-answering (QA)
+    dataset (Jin 2021; USMLE) is well above the passing level (60%), with DERA showing
+    similar performance. We will release the open-ended MedQA dataset.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: nairvarun18@gmail.com
+    first_name: Varun
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=R3SqGgMAAAAJ&authuser=1
+    institution: Curai Health
+    last_name: Nair
+    name: Varun Nair
+    semantic_scholar_id: https://www.semanticscholar.org/author/Varun-Nair/2073604503
+    username: ~Varun_Nair1
+  - dblp_id: https://dblp.org/pid/177/9393
+    emails: elliot@elliotschu.com
+    first_name: Elliot
+    homepage: http://www.elliotschu.com
+    institution: Curai Health
+    last_name: Schumacher
+    name: Elliot Schumacher
+    orcid: https://orcid.org/0000-0002-2203-4784
+    username: ~Elliot_Schumacher1
+  - emails: geoff.tso@gmail.com
+    first_name: Geoffrey
+    google_scholar_id: https://scholar.google.com/citations?user=ze17CpYAAAAJ&hl=en
+    institution: Stanford University
+    last_name: Tso
+    middle_name: Jay
+    name: Geoffrey Jay Tso
+    username: ~Geoffrey_Jay_Tso1
+  - dblp_id: https://dblp.org/pid/58/2858
+    emails: anitha@curai.com
+    first_name: Anitha
+    institution: Curai Health
+    last_name: Kannan
+    name: Anitha Kannan
+    username: ~Anitha_Kannan3
+  decision: Poster
+  file: 20.pdf
+  id: 20
+  openreview_id: Q9UwGzVm0K
+  pdf_file: 80cd508934abba532fc6145ca6ddfecb7ab5aa73.pdf
+  title: 'DERA: Enhancing Large Language Model Completions with  Dialog-Enabled Resolving
+    Agents'
+- abstract: Information extraction from Electronic Health Records (EHRs) is a crucial
+    task in healthcare, and the lack of resources and language specificity pose significant
+    challenges. This study addresses the limited availability of Italian Natural Language
+    Processing (NLP) tools for clinical applications and the computational demand
+    of large language models (LLMs) for training. We present LlamaMTS, an instruction-tuned
+    Llama for the Italian language, leveraging the LoRA technique. It is ensembled
+    with a BERT-based model to classify EHRs based on the presence or absence of metastasis
+    in patients affected by Breast cancer. Through our evaluation analysis, we discovered
+    that LlamaMTS exhibits superior performance compared to both zero-shot LLMs and
+    other Italian BERT-based models specifically fine-tuned on the same metastatic
+    task. LlamaMTS demonstrates promising results in resource-constrained environments,
+    offering a practical solution for information extraction from Italian EHRs in
+    oncology, potentially improving patient care and outcomes.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: lilli.1629888@studenti.uniroma1.it
+    first_name: Livia
+    google_scholar_id: https://scholar.google.com/citations?user=RKLb-XMAAAAJ&hl=it
+    institution: Catholic University of the Sacred Heart
+    last_name: Lilli
+    name: Livia Lilli
+    orcid: https://orcid.org/0009-0005-3319-7211
+    username: ~Livia_Lilli1
+  - emails: stefano.patarnello@gemelligenerator.it
+    first_name: Stefano
+    last_name: Patarnello
+    name: Stefano Patarnello
+    username: ~Stefano_Patarnello1
+  - emails: carlotta.masciocchi@policlinicogemelli.it
+    first_name: Carlotta
+    last_name: Masciocchi
+    name: Carlotta Masciocchi
+    username: ~Carlotta_Masciocchi1
+  - emails: valeria.masiello@policlinicogemelli.it
+    first_name: Valeria
+    homepage: https://orcid.org/0000-0001-7589-7623
+    last_name: Masiello
+    name: Valeria Masiello
+    orcid: https://orcid.org/0000-0001-7589-7623
+    username: ~Valeria_Masiello1
+  - emails: fabio.marazzi@policlinicogemelli.it
+    first_name: Fabio
+    homepage: https://orcid.org/0000-0001-7589-7623
+    last_name: Marazzi
+    name: Fabio Marazzi
+    orcid: https://orcid.org/0000-0001-7589-7623
+    username: ~Fabio_Marazzi1
+  - emails: luca.tagliaferri@policlinicogemelli.it
+    first_name: Tagliaferri
+    last_name: Luca
+    name: Tagliaferri Luca
+    username: ~Tagliaferri_Luca1
+  - emails: dino.capocchiano@outlook.it
+    first_name: Nikola
+    institution: Catholic University of the Sacred Heart
+    last_name: Capocchiano
+    middle_name: Dino
+    name: Nikola Dino Capocchiano
+    orcid: https://orcid.org/0000-0003-3556-9232
+    username: ~Nikola_Dino_Capocchiano1
+  decision: Poster
+  file: 24.pdf
+  id: 24
+  openreview_id: OhTcmfl5aY
+  pdf_file: 81ceae877396a9bdd5ea043eab59b051dddcd080.pdf
+  title: 'LlamaMTS: Optimizing Metastasis Detection with Llama Instruction Tuning
+    and BERT-Based Ensemble in Italian Clinical Reports'
+- abstract: 'Text generation opens up new prospects for overcoming the lack of open
+    corpora in fields such as healthcare, where data sharing is bound by confidentiality.
+    In this study, we compare the performance of encoder-decoder and decoder-only
+    language models for the controlled generation of clinical cases in French. To
+    do so, we fine-tuned several pre-trained models on French clinical cases for each
+    architecture and generate clinical cases conditioned by patient demographic information
+    (gender and age) and clinical features.
+
+    Our results suggest that encoder-decoder models are easier to control than decoder-only
+    models, but more costly to train.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: hugo.boulanger@cea.fr
+    first_name: Hugo
+    google_scholar_id: https://scholar.google.com/citations?user=ee7oQskAAAAJ&hl=fr&oi=ao
+    institution: CEA
+    last_name: Boulanger
+    name: Hugo Boulanger
+    username: ~Hugo_Boulanger1
+  - dblp_id: https://dblp.org/pid/325/4018
+    emails: nicolas.hiebel@universite-paris-saclay.fr
+    first_name: Nicolas
+    institution: Université Paris-Saclay
+    last_name: Hiebel
+    name: Nicolas Hiebel
+    orcid: https://orcid.org/0000-0002-5323-3321
+    username: ~Nicolas_Hiebel1
+  - dblp_id: https://dblp.org/pid/79/6612
+    emails: olivier.ferret@cea.fr
+    first_name: Olivier
+    google_scholar_id: https://scholar.google.com/citations?user=-mCQhtIAAAAJ
+    homepage: http://oferret.free.fr
+    institution: CEA
+    last_name: Ferret
+    name: Olivier Ferret
+    orcid: https://orcid.org/0000-0003-0755-2361
+    semantic_scholar_id: https://www.semanticscholar.org/author/Olivier-Ferret/1679133
+    username: ~Olivier_Ferret1
+  - dblp_id: https://dblp.org/pid/35/8154.html
+    emails: karen.fort@loria.fr
+    first_name: Karën
+    google_scholar_id: https://scholar.google.fr/citations?user=O2fbAQcAAAAJ&hl=fr&oi=ao
+    homepage: https://members.loria.fr/KFort/
+    institution: Sorbonne Université / LORIA
+    last_name: Fort
+    name: Karën Fort
+    orcid: https://orcid.org/0000-0002-0723-8850
+    semantic_scholar_id: https://www.semanticscholar.org/author/Kar%C3%ABn-Fort/3196675
+    username: ~Karën_Fort1
+  - dblp_id: https://dblp.org/pid/37/3908
+    emails: aurelie.neveol@lisn.upsaclay.fr
+    first_name: Aurélie
+    google_scholar_id: https://scholar.google.com/citations?user=8uAT7BgAAAAJ&hl=fr
+    homepage: https://perso.limsi.fr/neveol
+    institution: LISN-CNRS / Université Paris Saclay
+    last_name: Névéol
+    name: Aurélie Névéol
+    orcid: https://orcid.org/0000-0002-1846-9144
+    semantic_scholar_id: https://www.semanticscholar.org/author/Aur%C3%A9lie-N%C3%A9v%C3%A9ol/1692256
+    username: ~Aurélie_Névéol1
+  decision: Poster
+  file: 26.pdf
+  id: 26
+  openreview_id: hTKWmh1fdQ
+  pdf_file: 0e860b60c89d22cd9d8c7030b58f6b7d417f7a95.pdf
+  title: Using Structured Health Information for Controlled Generation of Clinical
+    Cases in French
+- abstract: This study evaluates the proficiency of Large Language Models (LLMs) in
+    accurately labeling clinical document excerpts. Our focus is on the assignment
+    of potential or confirmed diagnoses and medical procedures to snippets of medical
+    text sourced from unstructured clinical patient records. We explore how the performance
+    of LLMs compare against human annotators in classifying these excerpts. Employing
+    a few-shot, chain-of-thought prompting approach with the MIMIC-III dataset, Med-PaLM
+    2 showcases annotation accuracy comparable to human annotators, achieving a notable
+    precision rate of approximately 92\% relative to the gold standard labels established
+    by human experts.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/160/3589
+    emails: ibtihel.amara@mail.mcgill.ca
+    first_name: Ibtihel
+    homepage: https://amaraai.github.io/
+    institution: McGill University
+    last_name: Amara
+    name: Ibtihel Amara
+    username: ~Ibtihel_Amara1
+  - emails: yuhaiyang@google.com
+    first_name: Haiyang
+    google_scholar_id: https://scholar.google.com/citations?user=MaA6i-EAAAAJ&hl=en
+    institution: Research, Google
+    last_name: Yu
+    name: Haiyang Yu
+    username: ~Haiyang_Yu8
+  - emails: jimzhangsklse@gmail.com
+    first_name: Fan
+    google_scholar_id: https://scholar.google.com/citations?user=n1cpblcAAAAJ&hl=zh-CN
+    homepage: https://people.cs.pitt.edu/~zhangfan/
+    institution: Google
+    last_name: Zhang
+    name: Fan Zhang
+    username: ~Fan_Zhang4
+  - emails: liuyuchen@google.com
+    first_name: Yuchen
+    last_name: Liu
+    name: Yuchen Liu
+    username: ~Yuchen_Liu18
+  - emails: bennyli@google.com
+    first_name: Benny
+    homepage: https://www.linkedin.com/in/benny-li-1961a9b2/
+    last_name: LI
+    name: Benny LI
+    username: ~Benny_LI2
+  - emails: changliustat@google.com
+    first_name: Chang
+    institution: Google
+    last_name: Liu
+    name: Chang Liu
+    username: ~Chang_Liu37
+  - emails: rupeshkartha@google.com
+    first_name: Rupesh
+    homepage: https://www.linkedin.com/in/rupeshkartha/
+    last_name: Kartha
+    name: Rupesh Kartha
+    username: ~Rupesh_Kartha1
+  - emails: goelak@google.com
+    first_name: Akshay
+    google_scholar_id: https://scholar.google.com/citations?user=6HXnvlgAAAAJ&hl=en
+    last_name: Goel
+    name: Akshay Goel
+    orcid: https://orcid.org/0000-0003-4833-9356
+    username: ~Akshay_Goel2
+  decision: Poster
+  file: 27.pdf
+  id: 27
+  openreview_id: D1nxw1iTkL
+  pdf_file: b298e12a095b458788e26c95d275b0eb0d55d69e.pdf
+  title: Large Language Models Provide Human-Level Medical Text Snippet Labeling
+- abstract: Given the increasing demand for mental health assistance, artificial intelligence
+    (AI), particularly large language models (LLMs), may be valuable for integration
+    into automated clinical support systems. In this work, we leverage a decision
+    transformer architecture for topic recommendation in counseling conversations
+    between patients and mental health professionals. The architecture is utilized
+    for  offline reinforcement learning, and we extract states (dialogue turn embeddings),
+    actions (conversation topics), and rewards (scores measuring the alignment between
+    patient and therapist) from previous turns within a conversation to train a decision
+    transformer model. We demonstrate an improvement over baseline reinforcement learning
+    methods, and propose a novel system of utilizing our model's output as synthetic
+    labels for fine-tuning a large language model for the same task. Although our
+    implementation based on LLaMA-2 7B has mixed results, future work can undoubtedly
+    build on the design.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: gunala@umich.edu
+    first_name: Aylin
+    google_scholar_id: https://scholar.google.com/citations?user=fIs1cBsAAAAJ&hl=en
+    homepage: https://aylingunal.github.io/
+    last_name: Gunal
+    middle_name: Ece
+    name: Aylin Ece Gunal
+    username: ~Aylin_Ece_Gunal1
+  - dblp_id: https://dblp.org/pid/210/2458
+    emails: doerlbh@gmail.com
+    first_name: Baihan
+    google_scholar_id: https://scholar.google.com/citations?user=H67KJ4cAAAAJ&hl=en
+    homepage: https://www.neuroinference.com/
+    institution: Columbia University and IBM, International Business Machines
+    last_name: Lin
+    name: Baihan Lin
+    orcid: https://orcid.org/0000-0002-7979-5509
+    semantic_scholar_id: https://www.semanticscholar.org/author/Baihan-Lin/5320216
+    username: ~Baihan_Lin1
+  - dblp_id: https://dblp.org/pid/45/11240-1
+    emails: djallel.bouneffouf@ibm.com
+    first_name: Djallel
+    last_name: Bouneffouf
+    name: Djallel Bouneffouf
+    username: ~Djallel_Bouneffouf2
+  decision: Poster
+  file: 28.pdf
+  id: 28
+  openreview_id: 1RTWuk8s4Q
+  pdf_file: a141b8d2ab9fa924777824ed6fc01c50da27f437.pdf
+  title: Conversational Topic Recommendation in Counseling and Psychotherapy with
+    Decision Transformer and Large Language Models
+- abstract: 'Biomedical Entity Linking (BEL) is a challenging task for low-resource
+    languages, due to the lack of appropriate resources: datasets, knowledge bases
+    (KBs), and pre-trained models. In this paper, we propose an approach to create
+    a biomedical knowledge base for German BEL using UMLS information from Wikidata,
+    that provides good coverage and can be easily extended to further languages. As
+    a further contribution, we adapt several existing approaches for use in the German
+    BEL setup, and report on their results. The chosen methods include a sparse model
+    using character n-grams, a multilingual biomedical entity linker, and two general-purpose
+    text retrieval models. Our results show that a language-specific KB that provides
+    good coverage leads to most improvement in entity linking performance, irrespective
+    of the used model. The finetuned German BEL model, newly created UMLS$_{Wikidata}$
+    KB as well as the code to reproduce our results are publicly available.'
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: faizan.e.mustafa@quibiq.de
+    first_name: Faizan
+    google_scholar_id: https://scholar.google.com/citations?user=U2fqjPMAAAAJ&hl=en
+    homepage: https://faizan-e-mustafa.github.io/
+    institution: QUIBIQ GmbH
+    last_name: Mustafa
+    middle_name: E
+    name: Faizan E Mustafa
+    orcid: https://orcid.org/0000-0002-1004-7545
+    semantic_scholar_id: https://www.semanticscholar.org/author/Faizan-E.-Mustafa/2143110719
+    username: ~Faizan_E_Mustafa2
+  - emails: corina.dima@ki.uni-stuttgart.de
+    first_name: Corina
+    google_scholar_id: https://scholar.google.com/citations?user=rE0NZ-8AAAAJ&hl=en&oi=ao
+    homepage: https://corinadima.github.io/
+    institution: Universität Stuttgart
+    last_name: Dima
+    name: Corina Dima
+    orcid: https://orcid.org/0000-0001-7409-4992
+    username: ~Corina_Dima2
+  - emails: juan.diaz@permediq.de
+    first_name: Juan
+    homepage: http://permediq.de/
+    institution: Duale Hochschule Baden-Württemberg Stuttgart, QuiBiQ. de, Permediq
+      and PerMediQ GmbH
+    last_name: Ochoa
+    middle_name: G. Diaz
+    name: Juan G. Diaz Ochoa
+    orcid: https://orcid.org/0000-0002-9893-4068
+    username: ~Juan_G._Diaz_Ochoa1
+  - dblp_id: https://dblp.uni-trier.de/pid/s/SteffenStaab
+    emails: steffen.staab@ki.uni-stuttgart.de
+    first_name: Steffen
+    google_scholar_id: https://scholar.google.com/citations?hl=de&user=QvpcUn8AAAAJ
+    homepage: https://www.ipvs.uni-stuttgart.de/institute/team/Staab-00001/
+    institution: University of Stuttgart
+    last_name: Staab
+    name: Steffen Staab
+    orcid: https://orcid.org/0000-0002-0780-4154
+    semantic_scholar_id: https://www.semanticscholar.org/author/Steffen-Staab/1752093
+    username: ~Steffen_Staab2
+  decision: Poster
+  file: 29.pdf
+  id: 29
+  openreview_id: 2IaZm5lKUD
+  pdf_file: 572a9dc6b062db0de2fab938264997d1705339e0.pdf
+  title: 'Leveraging Wikidata for Biomedical Entity Linking in a Low-Resource Setting:
+    A Case Study for German'
+- abstract: "Clinical Decision Support Systems assist medical professionals in providing\
+    \ optimal care for patients.\nA prominent data source used for creating tasks\
+    \ for such systems is the Medical Information Mart for Intensive Care (MIMIC).\n\
+    MIMIC contains electronic health records (EHR) gathered in a tertiary hospital\
+    \ in the United States.\nThe majority of past work is based on the third version\
+    \ of MIMIC, although the fourth is the most recent version.\nThis new version,\
+    \ not only introduces more data into MIMIC, but also increases the variety of\
+    \ patients.\nWhile MIMIC-III is limited to intensive care units, MIMIC-IV also\
+    \ offers EHRs from the emergency department.\nIn this work, we investigate how\
+    \ to adapt previous work to update clinical outcome prediction for MIMIC-IV.\n\
+    We revisit several established tasks, including prediction of diagnoses, procedures,\
+    \ length-of-stay, and also introduce a novel task: patient routing prediction.\n\
+    Furthermore, we quantitatively and qualitatively evaluate all tasks on several\
+    \ bio-medical transformer encoder models.\nFinally, we provide narratives for\
+    \ future research directions in the clinical outcome prediction domain.\n We make\
+    \ our source code publicly available to reproduce our experiments, data, and tasks."
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: troehr@posteo.de
+    first_name: Tom
+    institution: Berliner Hochschule für Technik
+    last_name: Röhr
+    name: Tom Röhr
+    username: ~Tom_Röhr1
+  - emails: alexeifigueroa@gmail.com
+    first_name: Alexei
+    homepage: https://projekt.bht-berlin.de/data-science/graduate-school/alexei-figueroa
+    institution: Berliner Hochschule für Technik
+    last_name: Figueroa
+    name: Alexei Figueroa
+    semantic_scholar_id: https://www.semanticscholar.org/author/Alexei-Figueroa/146066173
+    username: ~Alexei_Figueroa1
+  - dblp_id: https://dblp.org/pid/124/8938.html
+    emails: jensmicha@gmail.com
+    first_name: Jens-Michalis
+    google_scholar_id: https://scholar.google.de/citations?user=SEbikroAAAAJ&hl=de
+    last_name: Papaioannou
+    name: Jens-Michalis Papaioannou
+    username: ~Jens-Michalis_Papaioannou2
+  - emails: conorfallon1995@gmail.com
+    first_name: Conor
+    homepage: https://prof.bht-berlin.de/loeser/people/conor-fallon
+    institution: Berliner Hochschule für Technik
+    last_name: Fallon
+    name: Conor Fallon
+    username: ~Conor_Fallon1
+  - emails: kenobressem@gmail.com
+    first_name: Keno
+    google_scholar_id: https://scholar.google.com/citations?user=wIEgwbkAAAAJ&hl=de
+    institution: German Heart Center Munich
+    last_name: Bressem
+    name: Keno Bressem
+    orcid: https://orcid.org/0000-0001-9249-8624
+    username: ~Keno_Bressem1
+  - dblp_id: https://dblp.org/pid/n/WolfgangNejdl
+    emails: nejdl@l3s.de
+    first_name: Wolfgang
+    google_scholar_id: https://scholar.google.com/citations?user=LC62bdYAAAAJ
+    homepage: https://kbs.uni-hannover.de/~nejdl/
+    institution: L3S Research Center and Universität Hannover
+    last_name: Nejdl
+    name: Wolfgang Nejdl
+    orcid: https://orcid.org/0000-0003-3374-2193
+    semantic_scholar_id: https://www.semanticscholar.org/author/W.-Nejdl/1744808
+    username: ~Wolfgang_Nejdl1
+  - dblp_id: https://dblp.org/pid/36/979
+    emails: aloeser@beuth-hochschule.de
+    first_name: Alexander
+    last_name: Löser
+    name: Alexander Löser
+    username: ~Alexander_Löser1
+  decision: Oral
+  file: 30.pdf
+  id: 30
+  openreview_id: raoBjWk9uP
+  pdf_file: f100e42e4548c4d01daa9dafd1af9097004ef052.pdf
+  title: Revisiting Clinical Outcome Prediction for MIMIC-IV
+- abstract: We explore the potential of Large Language Models (LLMs) to assist and
+    potentially correct physicians in medical decision-making tasks. We evaluate several
+    LLMs, including Meditron, Llama2, and Mistral, to analyze the ability of these
+    models to interact effectively with physicians across different scenarios. We
+    consider questions from PubMedQA and several tasks, ranging from binary (yes/no)
+    responses to long answer generation, where the answer of the model is produced
+    after an interaction with a physician. Our findings suggest that prompt design
+    significantly influences the downstream accuracy of LLMs and that LLMs can provide
+    valuable feedback to physicians, challenging incorrect diagnoses and contributing
+    to more accurate decision-making. For example, when the physician is accurate
+    38% of the time, Mistral can produce the correct answer, improving accuracy up
+    to 74% depending on the prompt being used, while Llama2 and Meditron models exhibit
+    greater sensitivity to prompt choice. Our analysis also uncovers the challenges
+    of ensuring that LLM-generated suggestions are pertinent and useful, emphasizing
+    the need for further research in this area.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/280/3502
+    emails: burcusayinn@gmail.com
+    first_name: Burcu
+    google_scholar_id: https://scholar.google.com/citations?user=wNT8CJQAAAAJ&hl=en
+    institution: University of Trento
+    last_name: Sayin
+    name: Burcu Sayin
+    orcid: https://orcid.org/0000-0001-6804-127X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Burcu-Sayin-G%C3%BCnel/1736803520
+    username: ~Burcu_Sayin1
+  - dblp_id: https://dblp.org/pid/58/10142
+    emails: p.minervini@gmail.com
+    first_name: Pasquale
+    homepage: http://www.neuralnoise.com
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Minervini
+    name: Pasquale Minervini
+    username: ~Pasquale_Minervini4
+  - emails: jacopo.staiano@unitn.it
+    first_name: Jacopo
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=hI5X8UYAAAAJ
+    homepage: http://www.staiano.net
+    institution: University of Trento
+    last_name: Staiano
+    name: Jacopo Staiano
+    orcid: https://orcid.org/0000-0002-1260-4640
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jacopo-Staiano/1767493
+    username: ~Jacopo_Staiano2
+  - dblp_id: https://dblp.org/pid/00/6186
+    emails: andrea.passerini@unitn.it
+    first_name: Andrea
+    google_scholar_id: https://scholar.google.it/citations?user=IIXgkLoAAAAJ&hl=it
+    homepage: http://disi.unitn.it/~passerini/
+    institution: University of Trento
+    last_name: Passerini
+    name: Andrea Passerini
+    username: ~Andrea_Passerini2
+  decision: Oral
+  file: 31.pdf
+  id: 31
+  openreview_id: UfR4XNTbKb
+  pdf_file: 82caf9652081a82ff403135bec274aa464e54ead.pdf
+  title: Can LLMs Correct Physicians, Yet? Investigating Effective Interaction Methods
+    in the Medical Domain
+- abstract: We explore the utility of pre-trained Large Language Models (LLMs) in
+    detecting the presence, subtypes, and severity of aphasia across English and Mandarin
+    Chinese speakers. Our investigation suggests that even without fine-tuning or
+    domain-specific training, pre-trained LLMs can offer some insights on language
+    disorders, regardless of speakers' first language. Our analysis also reveals noticeable
+    differences between English and Chinese LLMs. While the English LLMs exhibit near-chance
+    level accuracy in subtyping aphasia, the Chinese counterparts demonstrate less
+    than satisfactory performance in distinguishing between individuals with and without
+    aphasia. This research advocates for the importance of linguistically tailored
+    and specified approaches in leveraging LLMs for clinical applications, especially
+    in the context of multilingual populations.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: cong4@purdue.edu
+    first_name: Yan
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=64baZKkAAAAJ
+    homepage: https://yancong222.github.io/
+    institution: Purdue University
+    last_name: Cong
+    name: Yan Cong
+    semantic_scholar_id: https://www.semanticscholar.org/author/Yan-Cong/2163639555
+    username: ~Yan_Cong1
+  - emails: lee1704@purdue.edu
+    first_name: Jiyeon
+    google_scholar_id: https://scholar.google.com/citations?user=ZQtlBAIAAAAJ&hl=en
+    homepage: https://www.purdue.edu/hhs/slhs/aphasia/
+    institution: Purdue University
+    last_name: Lee
+    name: Jiyeon Lee
+    username: ~Jiyeon_Lee1
+  - emails: anlacroi@purdue.edu
+    first_name: Arianna
+    google_scholar_id: https://scholar.google.com/citations?user=5CmlcU8AAAAJ&hl=en
+    homepage: https://hhs.purdue.edu/abclab/
+    institution: Purdue University
+    last_name: LaCroix
+    middle_name: N.
+    name: Arianna N. LaCroix
+    username: ~Arianna_N._LaCroix1
+  decision: Poster
+  file: 32.pdf
+  id: 32
+  openreview_id: ylKHUmqSUX
+  pdf_file: cbf1aa51556fad4d4fad3433a7df0a9670c8bc99.pdf
+  title: Leveraging pre-trained large language models for aphasia detection in English
+    and Chinese speakers
+- abstract: Vision-language models, while effective in general domains and showing
+    strong performance in diverse multi-modal applications like visual question-answering
+    (VQA), struggle to maintain the same level of effectiveness in more specialized
+    domains, e.g., medical. We propose a medical vision-language model that integrates
+    large vision and language models adapted for the medical domain. This model goes
+    through three stages of parameter-efficient training using three separate biomedical
+    and radiology multi-modal visual and text datasets. The proposed model achieves
+    state-of-the-art performance on the SLAKE 1.0 medical VQA (MedVQA) dataset with
+    an overall accuracy of 87.5% and demonstrates strong performance on another MedVQA
+    dataset, VQA-RAD, achieving an overall accuracy of 73.2%.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: cuong.ha@tum.de
+    first_name: Cuong
+    homepage: https://github.com/hncuong
+    last_name: Ha
+    name: Cuong Ha
+    username: ~Cuong_Ha1
+  - dblp_id: https://dblp.org/pid/210/6064
+    emails: shima.asaadi@gmail.com
+    first_name: Shima
+    last_name: Asaadi
+    name: Shima Asaadi
+    semantic_scholar_id: https://www.semanticscholar.org/author/Shima-Asaadi/30462410
+    username: ~Shima_Asaadi1
+  - dblp_id: https://dblp.org/pid/209/7975.html
+    emails: krnsanjeev@gmail.com
+    first_name: Sanjeev Kumar
+    google_scholar_id: https://scholar.google.com/citations?user=eb7e3jIAAAAJ&hl=en
+    institution: Siemens Healthineers
+    last_name: Karn
+    name: Sanjeev Kumar Karn
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sanjeev-Kumar-Karn/34112357
+    username: ~Sanjeev_Kumar_Karn2
+  - dblp_id: https://dblp.org/pid/119/3097.html
+    emails: oladimeji.farri@siemens-healthineers.com
+    first_name: Oladimeji
+    google_scholar_id: https://scholar.google.com/citations?user=jRPCkPkAAAAJ&hl=en
+    last_name: Farri
+    name: Oladimeji Farri
+    semantic_scholar_id: https://www.semanticscholar.org/author/Oladimeji-Farri/2211973
+    username: ~Oladimeji_Farri2
+  - dblp_id: http://dblp.uni-trier.de/pers/hd/h/Heimann:Tobias
+    emails: tobias.heimann@siemens-healthineers.com
+    first_name: Tobias
+    institution: Siemens Healthineers
+    last_name: Heimann
+    name: Tobias Heimann
+    username: ~Tobias_Heimann2
+  - dblp_id: https://dblp.org/pid/76/462
+    emails: thomas.runkler@siemens.com
+    first_name: Thomas
+    google_scholar_id: https://scholar.google.com.tw/citations?user=9ulZrB8AAAAJ
+    homepage: https://www7.in.tum.de/~runkler/
+    institution: Technische Universität München and Siemens Corporate Research
+    last_name: Runkler
+    name: Thomas Runkler
+    orcid: https://orcid.org/my-orcid?orcid=0000-0002-5465-198X
+    semantic_scholar_id: https://www.semanticscholar.org/author/T.-Runkler/1727058
+    username: ~Thomas_Runkler1
+  decision: Oral
+  file: 34.pdf
+  id: 34
+  openreview_id: 6b3xVERA2x
+  pdf_file: 23b28f2faaabb3100bdd1f8144624e1566622f31.pdf
+  title: Fusion of Domain-Adapted Vision and Language Models for Medical Visual Question
+    Answering
+- abstract: Electronic health records (EHR) even though a boon for healthcare practitioners,
+    are grow- ing convoluted and longer every day. Sifting around these lengthy EHRs
+    is taxing and be- comes a cumbersome part of physician-patient interaction. Several
+    approaches have been pro- posed to help alleviate this prevalent issue ei- ther
+    via summarization or sectioning, however, only a few approaches have truly been
+    helpful in the past. With the rise of automated methods, machine learning (ML)
+    has shown promise in solving the task of identifying relevant sections in EHR.
+    However, most ML methods rely on labeled data which is difficult to get in health-
+    care. Large language models (LLMs) on the other hand, have performed impressive
+    feats in natural language processing (NLP), that too in a zero-shot manner, i.e.
+    without any labeled data. To that end, we propose using LLMs to identify relevant
+    section headers. We find that GPT-4 can effectively solve the task on both zero
+    and few-shot settings as well as segment dramatically better than state-of-the-art
+    meth- ods. Additionally, we also annotate a much harder real world dataset and
+    find that GPT-4 struggles to perform well, alluding to further research and harder
+    benchmarks.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: sakm1213@gmail.com
+    first_name: Saranya
+    google_scholar_id: https://scholar.google.com/citations?user=AkBGeBUAAAAJ&hl=en
+    last_name: Krishnamoorthy
+    name: Saranya Krishnamoorthy
+    username: ~Saranya_Krishnamoorthy1
+  - emails: singh.ay@northeastern.edu
+    first_name: Ayush
+    google_scholar_id: https://scholar.google.com/citations?user=7cSAlAYAAAAJ&hl=en
+    last_name: Singh
+    name: Ayush Singh
+    orcid: https://orcid.org/0000-0002-3795-5623
+    username: ~Ayush_Singh1
+  - dblp_id: https://dblp.org/pid/219/5384
+    emails: stafresh@umd.edu
+    first_name: Shabnam
+    google_scholar_id: https://scholar.google.com/citations?user=lSeHyc0AAAAJ&hl=en
+    homepage: https://www.arlis.umd.edu/shabnam-tafreshi
+    institution: 'University of Maryland: ARLIS'
+    last_name: Tafreshi
+    name: Shabnam Tafreshi
+    username: ~Shabnam_Tafreshi1
+  decision: Poster
+  file: 36.pdf
+  id: 36
+  openreview_id: JhmN0Nke1m
+  pdf_file: 88331a68430fedaad95e62b02bce36d2a3c935d4.pdf
+  title: LLM-Based Section Identifiers Excel on Open Source but Stumble in Real World
+    Applications
+- abstract: This paper is dedicated to the design and evaluation of the first AMR
+    parser tailored for clinical notes. Our objective was to facilitate the precise
+    transformation of the clinical notes into structured AMR expressions, thereby
+    enhancing the interpretability and usability of clinical text data at scale. Leveraging
+    the colon cancer dataset from the Temporal Histories of Your Medical Events (THYME)
+    corpus, we adapted a state-of-the-art AMR parser utilizing continuous training.
+    Our approach incorporates data augmentation techniques to enhance the accuracy
+    of AMR structure predictions. Notably, through this learning strategy, our parser
+    achieved an impressive F1 score of 88\% on the THYME corpus's colon cancer dataset.
+    Moreover, our research delved into the efficacy of data required for domain adaptation
+    within the realm of clinical notes, presenting domain adaptation data requirements
+    for AMR parsing. This exploration not only underscores the parser's robust performance
+    but also highlights its potential in facilitating a deeper understanding of clinical
+    narratives through structured semantic representations.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: jon.z.cai@colorado.edu
+    first_name: Jon
+    homepage: https://www.jonzcai.com
+    institution: University of Colorado at Boulder
+    last_name: Cai
+    name: Jon Cai
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zheng-Cai/2113441612
+    username: ~Jon_Cai1
+  - emails: kristin.wrightbettner@colorado.edu
+    first_name: Kristin
+    institution: University of Colorado at Boulder
+    last_name: Wright-Bettner
+    name: Kristin Wright-Bettner
+    semantic_scholar_id: https://www.semanticscholar.org/author/Kristin-Wright-Bettner/1410067271
+    username: ~Kristin_Wright-Bettner1
+  - dblp_id: https://dblp.org/pid/p/MarthaStonePalmer.html
+    emails: mpalmer@colorado.edu
+    first_name: Martha
+    google_scholar_id: https://scholar.google.com/citations?user=pxc_-XYAAAAJ&hl=en
+    homepage: https://www.colorado.edu/faculty/palmer-martha/
+    institution: University of Colorado at Boulder
+    last_name: Palmer
+    name: Martha Palmer
+    orcid: https://orcid.org/0000-0001-9864-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Martha-Palmer/145755155
+    username: ~Martha_Palmer1
+  - emails: guerganasavova@hotmail.com
+    first_name: Guergana
+    google_scholar_id: https://scholar.google.com/citations?user=9538Cr4AAAAJ&hl=en&oi=sra
+    institution: Harvard University
+    last_name: Savova
+    middle_name: K
+    name: Guergana K Savova
+    orcid: https://orcid.org/0000-0002-5887-200X
+    username: ~Guergana_K_Savova1
+  - dblp_id: https://dblp.org/pid/56/3331
+    emails: james.martin@colorado.edu
+    first_name: James
+    google_scholar_id: https://scholar.google.com/citations?user=ZVxO6IIAAAAJ&hl=en
+    homepage: https://home.cs.colorado.edu/~martin/
+    last_name: Martin
+    middle_name: H.
+    name: James H. Martin
+    semantic_scholar_id: https://www.semanticscholar.org/author/James-H.-Martin/10796472
+    username: ~James_H._Martin1
+  decision: Poster
+  file: 39.pdf
+  id: 39
+  openreview_id: 2PwC4R9yHe
+  pdf_file: ec0fda05fe13c963e37517d0a3526803f42ea064.pdf
+  title: Adapting Abstract Meaning Representation Parsing to the Clinical Narrative
+    – the SPRING THYME parser
+- abstract: Radiology Report Generation (R2Gen) demonstrates how Multi-modal Large
+    Language Models (MLLMs) can automate the creation of accurate and coherent radiological
+    reports. Existing methods often hallucinate details in text-based reports that
+    don’t accurately reflect the image content. To mitigate this, we introduce a novel
+    strategy, SERPENT-VLM (SElf Refining Radiology RePort GENeraTion using Vision
+    Language Models), which improves the R2Gen task by integrating a self-refining
+    mechanism into the MLLM framework. We employ a unique self-supervised loss that
+    leverages similarity between pooled image representations and the contextual representations
+    of the generated radiological text, alongside the standard Causal Language Modeling
+    objective, to refine image-text representations. This allows the model to scrutinize
+    and align the generated text through dynamic interaction between a given image
+    and the generated text, therefore reducing hallucination and continuously enhancing
+    nuanced report generation. SERPENT-VLM outperforms existing baselines such as
+    LlaVA-Med, BiomedGPT, etc., achieving SoTA performance on the IU X-ray and Radiology
+    Objects in COntext (ROCO) datasets, and also proves to be robust against noisy
+    images. A qualitative case study emphasizes the significant advancements towards
+    more sophisticated MLLM frameworks for R2Gen, opening paths for further research
+    into self-supervised refinement in the medical imaging domain.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/304/7583
+    emails: iammanavk@gmail.com
+    first_name: Manav
+    google_scholar_id: https://scholar.google.com/citations?user=L7KLra8AAAAJ&hl=en
+    homepage: https://manavkapadnis.github.io/
+    last_name: Kapadnis
+    middle_name: Nitin
+    name: Manav Nitin Kapadnis
+    orcid: https://orcid.org/0009-0003-8640-2106
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Kapadnis/2134588364
+    username: ~Manav_Nitin_Kapadnis1
+  - emails: sohanpatnaik106@gmail.com
+    first_name: Sohan
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=3ZRTryQAAAAJ&scilu=&scisig=AMD79ooAAAAAYY6sRdFKFHS2HfVeyviuk8m3rzvhPe-u&gmla=AJsN-F6FJEWEj7PhAJjf_XfIMVyOKbZ8YlEmwZBbVs8NMAct5wG_guhFHDxloF-mmQT1Xj5s07oYRYFY8Jk8YZZdcTs33LMPcyCDXUfMAcm6Fze0Y44hy7M&sciund=16405773873469585805
+    last_name: Patnaik
+    name: Sohan Patnaik
+    username: ~Sohan_Patnaik1
+  - dblp_id: https://dblp.org/pid/237/2393.html
+    emails: nandyabhilash@gmail.com
+    first_name: Abhilash
+    google_scholar_id: https://scholar.google.com/citations?user=vJhwesAAAAAJ&hl=en
+    homepage: https://sites.google.com/view/abhilashnandy
+    institution: Indian Institute of Technology Kharagpur
+    last_name: Nandy
+    name: Abhilash Nandy
+    orcid: https://orcid.org/0000-0002-8683-107X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Abhilash-Nandy/82742429
+    username: ~Abhilash_Nandy1
+  - emails: sourjyadipray@gmail.com
+    first_name: Sourjyadip
+    google_scholar_id: https://scholar.google.com/citations?user=qDkeuREAAAAJ&hl=en
+    last_name: Ray
+    name: Sourjyadip Ray
+    username: ~Sourjyadip_Ray1
+  - dblp_id: https://dblp.org/pid/77/2307-2
+    emails: pawang@cse.iitkgp.ac.in
+    first_name: Pawan
+    google_scholar_id: https://scholar.google.com.tw/citations?user=F14FHsIAAAAJ
+    homepage: http://cse.iitkgp.ac.in/~pawang/
+    institution: IIT Kharagpur
+    last_name: Goyal
+    name: Pawan Goyal
+    semantic_scholar_id: https://www.semanticscholar.org/author/P.-Goyal/2111980452
+    username: ~Pawan_Goyal1
+  - dblp_id: https://dblp.uni-trier.de/pers/hd/s/Sheet:Debdoot?q=Debdoot%20Sheet
+    emails: debdoot@ee.iitkgp.ac.in
+    first_name: Debdoot
+    google_scholar_id: https://scholar.google.co.in/citations?user=x-0vLSsAAAAJ&hl=en
+    homepage: http://facweb.iitkgp.ac.in/~debdoot/
+    institution: Indian Institute of Technology Kharagpur
+    last_name: Sheet
+    name: Debdoot Sheet
+    orcid: https://orcid.org/0000-0001-9046-149X
+    username: ~Debdoot_Sheet1
+  decision: Oral
+  file: 42.pdf
+  id: 42
+  openreview_id: IxMTgfnEhD
+  pdf_file: 6c1f14a21c0698d39cd6a64e6d18ccc9097451d8.pdf
+  title: 'SERPENT-VLM : Self-Refining Radiology Report Generation Using Vision Language
+    Models'
+- abstract: Improving the accessibility of psychotherapy with the aid of Large Language
+    Models (LLMs) is garnering a significant attention in recent years. Recognizing
+    cognitive distortions from the interviewee's utterances can be an essential part
+    of psychotherapy, especially for cognitive behavioral therapy. In this paper,
+    we propose ERD, which improves LLM-based cognitive distortion classification performance
+    with the aid of additional modules of (1) extracting the parts related to cognitive
+    distortion, and (2) debating the reasoning steps by multiple agents. Our experimental
+    results on a public dataset show that ERD improves the multi-class F1 score as
+    well as binary specificity score. Regarding the latter score, it turns out that
+    our method is effective in debiasing the baseline method which has high false
+    positive rate, especially when the summary of multi-agent debate is provided to
+    LLMs.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: sehee0706@yonsei.ac.kr
+    first_name: Sehee
+    homepage: https://sehee-lim.github.io/
+    institution: Yonsei University
+    last_name: Lim
+    name: Sehee Lim
+    username: ~Sehee_Lim1
+  - emails: yjkim.stat@yonsei.ac.kr
+    first_name: Yejin
+    homepage: https://yejin109.github.io/
+    last_name: Kim
+    name: Yejin Kim
+    username: ~Yejin_Kim5
+  - emails: wallff@gmail.com
+    first_name: Chi-Hyun
+    institution: EverEx
+    last_name: Choi
+    name: Chi-Hyun Choi
+    orcid: https://orcid.org/0000-0003-2120-1111
+    username: ~Chi-Hyun_Choi1
+  - dblp_id: https://dblp.org/pid/188/6303
+    emails: jysohn1108@gmail.com
+    first_name: Jy-yong
+    google_scholar_id: https://scholar.google.co.kr/citations?user=Cs75s1MAAAAJ&hl=ko
+    homepage: https://sites.google.com/view/jsohn
+    institution: Yonsei University
+    last_name: Sohn
+    name: Jy-yong Sohn
+    username: ~Jy-yong_Sohn1
+  - emails: egyptdj@yonsei.ac.kr
+    first_name: Byung-Hoon
+    google_scholar_id: https://scholar.google.co.kr/citations?user=E50-Aj0AAAAJ&hl=ko
+    homepage: https://egyptdj.github.io/cv
+    institution: Yonsei University Health System, Yonsei University Health System
+      and EverEx
+    last_name: Kim
+    name: Byung-Hoon Kim
+    orcid: https://orcid.org/0000-0003-2501-038X
+    username: ~Byung-Hoon_Kim1
+  decision: Poster
+  file: 43.pdf
+  id: 43
+  openreview_id: Y4Hl6IZvvj
+  pdf_file: d0490f8ceebfe1fddb4f75fcd341d9e3c6f88086.pdf
+  title: 'ERD: A Framework for Improving LLM Reasoning for Cognitive Distortion Classification'
+- abstract: 'Automatic conversion of free-text radiology reports into structured data
+    using Natural Language Processing (NLP) techniques is crucial for analyzing diseases
+    on a large scale. While effective for tasks in widely spoken languages like English,
+    generative large language models (LLMs) typically underperform with less common
+    languages and can pose potential risks to patient privacy. Fine-tuning local NLP
+    models is hindered by the skewed nature of real-world medical datasets, where
+    rare findings represent a significant data imbalance. We introduce SMP-BERT, a
+    novel prompt learning method that leverages the structured nature of reports to
+    overcome these challenges. In our studies involving a substantial collection of
+    Crohn''s disease radiology reports in Hebrew (over 8,000 patients and 10,000 reports),
+    SMP-BERT greatly surpassed traditional fine-tuning methods in performance, notably
+    in detecting infrequent conditions (AUC: 0.99 vs 0.94, F1: 0.84 vs 0.34). SMP-BERT
+    empowers more accurate AI diagnostics available for low-resource languages.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: liamhazan@campus.technion.ac.il
+    first_name: Liam
+    last_name: Hazan
+    name: Liam Hazan
+    username: ~Liam_Hazan1
+  - emails: naamagav@campus.technion.ac.il
+    first_name: Naama
+    last_name: Gavrielov
+    name: Naama Gavrielov
+    username: ~Naama_Gavrielov1
+  - dblp_id: https://dblp.org/pid/96/5429
+    emails: roireichart@gmail.com
+    first_name: Roi
+    google_scholar_id: https://scholar.google.co.il/citations?user=xXJIsh4AAAAJ&hl=iw
+    homepage: https://ie.technion.ac.il/~roiri/
+    institution: Technion, Israel Institute of Technology
+    last_name: Reichart
+    name: Roi Reichart
+    semantic_scholar_id: https://www.semanticscholar.org/search?q=roi%20reichart&sort=relevance
+    username: ~Roi_Reichart1
+  - emails: talarha@szmc.org.il
+    first_name: Talar
+    homepage: https://www.facebook.com/talarHagopian96
+    last_name: Hagopian
+    name: Talar Hagopian
+    username: ~Talar_Hagopian1
+  - emails: mary-louise.greer@sickkids.ca
+    first_name: Mary-Louise
+    last_name: Greer
+    middle_name: C.
+    name: Mary-Louise C. Greer
+    username: ~Mary-Louise_C._Greer1
+  - emails: rcytter@szmc.org.il
+    first_name: Ruth
+    homepage: https://www.szmc.org.il/doctors/cytter-kuint-ruth/
+    last_name: Cytter-Kuint
+    name: Ruth Cytter-Kuint
+    username: ~Ruth_Cytter-Kuint1
+  - emails: gilif@szmc.org.il
+    first_name: Gili
+    institution: Hebrew University of Jerusalem
+    last_name: Focht
+    name: Gili Focht
+    username: ~Gili_Focht1
+  - emails: turnerd@szmc.org.il
+    first_name: Dan
+    homepage: https://www.szmc.org.il
+    last_name: Turner
+    name: Dan Turner
+    username: ~Dan_Turner1
+  - dblp_id: https://dblp.uni-trier.de/pid/72/3621
+    emails: moti.freiman@technion.ac.il
+    first_name: Moti
+    google_scholar_id: https://scholar.google.com/citations?user=8Oiqdz0AAAAJ&hl=en
+    homepage: https://biomed.faculty-ms.technion.ac.il/members/moti-freiman/
+    institution: Technion, Technion
+    last_name: Freiman
+    name: Moti Freiman
+    orcid: https://orcid.org/0000-0003-1083-1548
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Freiman/145191527
+    username: ~Moti_Freiman1
+  decision: Oral
+  file: 45.pdf
+  id: 45
+  openreview_id: iCWgqaOkgp
+  pdf_file: 10e68694151c0dfd29bc9511529a032afd48acf3.pdf
+  title: Leveraging Prompt-Learning for Structured Information Extraction from Crohn’s
+    Disease Radiology Reports in a Low-Resource Language
+- abstract: In the realm of dialogue systems, generated responses often lack personalization.
+    This is particularly true in the medical domain, where research is limited by
+    scarce available domain-specific data and the complexities of modeling medical
+    context and persona information. In this work, we investigate the potential of
+    harnessing large language models for personalized medical dialogue generation.
+    In particular, to better aggregate the long conversational context, we adopt topic-focused
+    summarization to distill core information from the dialogue history, and use such
+    information to guide the conversation flow and generated content. Drawing inspiration
+    from real-world telehealth conversations, we outline a comprehensive pipeline
+    encompassing data processing, profile construction, and domain adaptation. This
+    work not only highlights our technical approach but also shares distilled insights
+    from the data preparation and model construction phases.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/229/9236
+    emails: liu\_zhengyuan@i2r.a-star.edu.sg
+    first_name: Zhengyuan
+    institution: I2R
+    last_name: Liu
+    name: Zhengyuan Liu
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhengyuan-Liu/49293155
+    username: ~Zhengyuan_Liu2
+  - dblp_id: https://dblp.org/pid/277/3650.html
+    emails: sitiums@i2r.a-star.edu.sg
+    first_name: Siti
+    institution: ', A*STAR'
+    last_name: Salleh
+    middle_name: Umairah Md
+    name: Siti Umairah Md Salleh
+    username: ~Siti_Umairah_Md_Salleh1
+  - dblp_id: https://dblp.org/pid/17/10998
+    emails: pavitrak@i2r.a-star.edu.sg
+    first_name: Pavitra
+    google_scholar_id: https://scholar.google.com.sg/citations?user=hlN6yqkAAAAJ&hl=en
+    institution: Institute for Infocomm Research
+    last_name: Krishnaswamy
+    name: Pavitra Krishnaswamy
+    username: ~Pavitra_Krishnaswamy1
+  - dblp_id: https://dblp.org/pid/84/8761
+    emails: nfychen@i2r.a-star.edu.sg
+    first_name: Nancy
+    google_scholar_id: https://scholar.google.com.sg/citations?user=K3Z9UiAAAAAJ&hl=en
+    homepage: http://alum.mit.edu/www/nancychen
+    last_name: Chen
+    middle_name: F.
+    name: Nancy F. Chen
+    orcid: https://orcid.org/0000-0003-0872-5877
+    semantic_scholar_id: https://www.semanticscholar.org/author/Nancy-F.-Chen/2185019
+    username: ~Nancy_F._Chen1
+  decision: Poster
+  file: 46.pdf
+  id: 46
+  openreview_id: VbM8sIMyMC
+  pdf_file: bfd5e9cad5fa027a72e571f61c0b29322e69b26d.pdf
+  title: Context Aggregation with Topic-focused Summarization for Personalized Medical
+    Dialogue Generation
+- abstract: This paper explores the impact of incorporating sentiment, emotion, and
+    domain-specific lexicons into a transformer-based model for depression symptom
+    estimation. Lexicon information is added by marking the words in the input transcripts
+    of patient-therapist conversations as well as in social media posts. Overall results
+    show that the introduction of external knowledge within pre-trained language models
+    can be beneficial for prediction performance, while different lexicons show distinct
+    behaviours depending on the targeted task. Additionally, new state-of-the-art
+    results are obtained for the estimation of depression level over patient-therapist
+    interviews.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - dblp_id: https://dblp.org/pid/205/8996
+    emails: kirill.milintsevich@unicaen.fr
+    first_name: Kirill
+    google_scholar_id: https://scholar.google.com/citations?user=BQNVCjYAAAAJ&hl=en
+    institution: Université de Caen Basse Normandie and University of Tartu
+    last_name: Milintsevich
+    name: Kirill Milintsevich
+    username: ~Kirill_Milintsevich1
+  - dblp_id: https://dblp.org/pid/59/1816
+    emails: gael.dias@unicaen.fr
+    first_name: Gaël
+    google_scholar_id: https://scholar.google.fr/citations?user=47zG0aIAAAAJ&hl=fr
+    homepage: https://dias.users.greyc.fr/
+    institution: University of Caen Normandy
+    last_name: Dias
+    name: Gaël Dias
+    orcid: https://orcid.org/0000-0002-5840-1603
+    username: ~Gaël_Dias1
+  - dblp_id: https://dblp.uni-trier.de/pid/116/0450.html
+    emails: kairit.sirts@gmail.com
+    first_name: Kairit
+    google_scholar_id: https://scholar.google.com/citations?user=YOrsSssAAAAJ&hl=en
+    institution: institute of computer science, University of Tartu
+    last_name: Sirts
+    name: Kairit Sirts
+    semantic_scholar_id: https://www.semanticscholar.org/author/Kairit-Sirts/2132289
+    username: ~Kairit_Sirts2
+  decision: Poster
+  file: 47.pdf
+  id: 47
+  openreview_id: oURX9R7Ozj
+  pdf_file: d7e799a1372565cfc9aba0997cf3593b2db331c9.pdf
+  title: Evaluating Lexicon Incorporation for Depression Symptom Estimation
+- abstract: 'We construct a word complexity lexicon for medical terms in Japanese.
+
+    To facilitate communication between medical practitioners and patients, medical
+    text simplification is being studied.
+
+    Medical text simplification is a natural language processing task that paraphrases
+    complex technical terms into expressions that patients can understand.
+
+    However, in contrast to English, where this task is being actively studied, there
+    are insufficient language resources in Japanese.
+
+    As a first step in advancing research on medical text simplification in Japanese,
+    we annotate the 370,000 words from a large-scale medical terminology lexicon with
+    a five-point scale of complexity for patients.'
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: Not in a shared task
+  authors:
+  - emails: sugihara@ai.cs.ehime-u.ac.jp
+    first_name: Soichiro
+    homepage: https://github.com/SugiSou10
+    last_name: Sugihara
+    name: Soichiro Sugihara
+    username: ~Soichiro_Sugihara1
+  - dblp_id: https://dblp.org/pid/140/3305
+    emails: kajiwara@cs.ehime-u.ac.jp
+    first_name: Tomoyuki
+    google_scholar_id: https://scholar.google.com/citations?user=cCAR9aYAAAAJ
+    homepage: https://moguranosenshi.sakura.ne.jp/cv.pdf
+    institution: Ehime University
+    last_name: Kajiwara
+    name: Tomoyuki Kajiwara
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tomoyuki-Kajiwara/1981103
+    username: ~Tomoyuki_Kajiwara1
+  - dblp_id: https://dblp.org/pid/67/2953
+    emails: ninomiya@cs.ehime-u.ac.jp
+    first_name: Takashi
+    google_scholar_id: https://scholar.google.com/citations?user=g1qf95wAAAAJ&hl=ja
+    homepage: https://sites.google.com/view/ninomi
+    institution: Ehime University
+    last_name: Ninomiya
+    name: Takashi Ninomiya
+    semantic_scholar_id: https://www.semanticscholar.org/author/Takashi-Ninomiya/2067242699
+    username: ~Takashi_Ninomiya1
+  - dblp_id: 'https://dblp.org/search/pid/api?q=author:Shoko_Wakamiya:'
+    emails: wakamiya@is.naist.jp
+    first_name: Shoko
+    google_scholar_id: https://scholar.google.co.jp/citations?user=eD0TXs0AAAAJ&hl=en
+    institution: Nara Institute of Science and Technology
+    last_name: Wakamiya
+    name: Shoko Wakamiya
+    orcid: https://orcid.org/0000-0002-9371-1340
+    username: ~Shoko_Wakamiya2
+  - dblp_id: https://dblp.org/pid/02/2649
+    emails: eiji.aramaki@gmail.com
+    first_name: Eiji
+    google_scholar_id: https://scholar.google.com/citations?user=IV2W5d8AAAAJ&hl=ja
+    homepage: https://luululu.com/index-en.shtml
+    institution: Nara Institute of Science and Technology, Japan
+    last_name: Aramaki
+    name: Eiji Aramaki
+    orcid: https://orcid.org/0000-0003-0201-3609
+    semantic_scholar_id: https://www.semanticscholar.org/author/E.-Aramaki/3182818
+    username: ~Eiji_Aramaki1
+  decision: Poster
+  file: 49.pdf
+  id: 49
+  openreview_id: onFisDaczH
+  pdf_file: 9dde16dfb2e0c90329ebe37938441342bd78598c.pdf
+  title: Semi-automatic Construction of a Word Complexity Lexicon for Japanese Medical
+    Terminology
+- abstract: This paper describes the methods used for the NAACL 2024 workshop MEDIQA-M3G
+    shared task for generating medical answers from image and query data for skin
+    diseases. MedVInT-Decoder, LLaVA, and  LLaVA-Med are chosen as base models. Finetuned
+    with the task dataset on the dermatological domain, MedVInT-Decoder achieved a
+    BLEU score of 3.82 during competition, while LLaVA and LLaVA-Med reached 6.98
+    and 4.62 afterward, respectively.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - emails: peaceful1@snu.ac.kr
+    first_name: Hyeonjin
+    institution: Seoul National University
+    last_name: Kim
+    name: Hyeonjin Kim
+    username: ~Hyeonjin_Kim2
+  - emails: alsrb7000@snu.ac.kr
+    first_name: Min
+    google_scholar_id: https://scholar.google.com/citations?hl=ko&user=Cx-Ip_AAAAAJ
+    institution: Seoul National University
+    last_name: Kim
+    middle_name: Kyu
+    name: MIN KYU KIM
+    username: ~MIN_KYU_KIM1
+  - emails: pert0407@snu.ac.kr
+    first_name: Jae
+    homepage: http://mipal.snu.ac.kr
+    last_name: Jang
+    middle_name: Won
+    name: Jae Won Jang
+    username: ~Jae_Won_Jang1
+  - dblp_id: https://dblp.org/pid/266/1524
+    emails: 961230@snu.ac.kr
+    first_name: KiYoon
+    google_scholar_id: https://scholar.google.com/citations?user=S93OUYQAAAAJ&hl=en
+    homepage: http://mipal.snu.ac.kr
+    institution: Seoul National University
+    last_name: Yoo
+    name: KiYoon Yoo
+    semantic_scholar_id: https://www.semanticscholar.org/author/Kiyoon-Yoo/1713608836
+    username: ~KiYoon_Yoo1
+  - dblp_id: https://dblp.org/pid/49/2806
+    emails: nojunk@snu.ac.kr
+    first_name: Nojun
+    google_scholar_id: https://scholar.google.com/citations?user=h_8-1M0AAAAJ&hl=en
+    homepage: http://mipal.snu.ac.kr
+    institution: Seoul National University
+    last_name: Kwak
+    name: Nojun Kwak
+    orcid: https://orcid.org/0000-0002-1792-0327
+    username: ~Nojun_Kwak1
+  decision: Poster
+  file: 53.pdf
+  id: 53
+  openreview_id: EOJUOtPwpx
+  pdf_file: 5f68cf13c374f7f7fc65ff8d44981171e8c993bc.pdf
+  title: 'TEAM MIPAL at MEDIQA-M3G 2024: Large VQA Models for Dermatological Diagnosis'
+- abstract: The MEDIQA-M3G 2024 challenge necessitates novel solutions for Multilingual
+    \& Multimodal Medical Answer Generation in dermatology  (wai Yim et al., 2024a).
+    This paper addresses the limitations of traditional methods by proposing a weakly
+    supervised learning approach for open-ended medical question-answering (QA). Our
+    system leverages readily available MEDIQA-M3G images via a VGG16-CNN-SVM model,
+    enabling multilingual (English, Chinese, Spanish) learning of informative skin
+    condition representations. Using pre-trained QA models, we further bridge the
+    gap between visual and textual information through multimodal fusion. This approach
+    tackles complex, open-ended questions even without predefined answer choices.
+    We empower the generation of comprehensive answers by feeding the ViT-CLIP model
+    with multiple responses alongside images. This work advances medical QA research,
+    paving the way for clinical decision support systems and ultimately improving
+    healthcare delivery.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - emails: i181606@nu.edu.pk
+    first_name: Nadia
+    last_name: Saeed
+    name: Nadia Saeed
+    username: ~Nadia_Saeed1
+  decision: Poster
+  file: 54.pdf
+  id: 54
+  openreview_id: vnM4Y8LhMV
+  pdf_file: c8886614b0fc7a02256efac2da34b2786128cb08.pdf
+  title: 'MediFact at MEDIQA-M3G 2024: Medical Question Answering in Dermatology with
+    Multimodal Learning'
+- abstract: Accurate representation of medical information is crucial for patient
+    safety, yet artificial intelligence (AI) systems, such as Large Language Models
+    (LLMs), encounter challenges in error-free clinical text interpretation. This
+    paper presents a novel approach submitted to the MEDIQA-CORR 2024 shared task
+    k (Ben Abacha et al., 2024a), focusing on the automatic correction of single-word
+    errors in clinical notes. Unlike LLMs that rely on extensive generic data, our
+    method emphasizes extracting contextually relevant information from available
+    clinical text data. Leveraging an ensemble of extractive and abstractive question-answering
+    approaches, we construct a supervised learning framework with domain-specific
+    feature engineering. Our methodology incorporates domain expertise to enhance
+    error correction accuracy. By integrating domain expertise and prioritizing meaningful
+    information extraction, our approach underscores the significance of a human-centric
+    strategy in adapting AI for healthcare.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: i181606@nu.edu.pk
+    first_name: Nadia
+    last_name: Saeed
+    name: Nadia Saeed
+    username: ~Nadia_Saeed1
+  decision: Poster
+  file: 55.pdf
+  id: 55
+  openreview_id: fvVUFIM1I0
+  pdf_file: 1f3884b95f33c48b70b9aceee6b4e159012968a1.pdf
+  title: 'MediFact at MEDIQA-CORR 2024: Why AI Needs a Human Touch'
+- abstract: This paper describes our submission to the MEDIQA-CORR 2024 shared task
+    for automatically detecting and correcting medical errors in clinical notes. We
+    report results for three methods of few-shot In-Context Learning (ICL) augmented
+    with Chain-of-Thought (CoT) and reason prompts using a large language model (LLM).
+    In the first method, we manually analyse a subset of train and validation dataset
+    to infer three CoT prompts by examining error types in the clinical notes. In
+    the second method, we utilise the training dataset to prompt the LLM to deduce
+    reasons about their correctness or incorrectness. The constructed CoTs and reasons
+    are then augmented with ICL examples to solve the tasks of error detection, span
+    identification, and error correction. Finally, we combine the two methods using
+    a rule-based ensemble method. Across the three sub-tasks, our ensemble method
+    achieves a ranking of 3rd for both sub-task 1 and 2, while securing 7th place
+    in sub-task 3 among all submissions.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: wuzl01@connect.hku.hk
+    first_name: Zhaolong
+    last_name: Wu
+    name: Zhaolong Wu
+    username: ~Zhaolong_Wu1
+  - emails: a.kalam@ucl.ac.uk
+    first_name: Abul
+    homepage: https://profiles.ucl.ac.uk/92445-abul-hasan
+    institution: University College London, University of London
+    last_name: Hasan
+    name: Abul Hasan
+    username: ~Abul_Hasan1
+  - emails: jinge.wu.20@ucl.ac.uk
+    first_name: Jinge
+    google_scholar_id: https://scholar.google.com/citations?user=DdLPDagAAAAJ&hl=en
+    last_name: Wu
+    name: Jinge Wu
+    username: ~Jinge_Wu1
+  - emails: yunsoo.kim.23@ucl.ac.uk
+    first_name: Yunsoo
+    homepage: https://bluesky333.github.io/website
+    last_name: Kim
+    name: Yunsoo Kim
+    username: ~Yunsoo_Kim2
+  - emails: cheungjp@hku.hk
+    first_name: Jason
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=UNDjjwcAAAAJ
+    homepage: https://www.ortho.hku.hk/biography/cheung-pui-yin-jason/
+    institution: University of Hong Kong
+    last_name: Cheung
+    middle_name: Pui-Yin
+    name: Jason Pui-Yin Cheung
+    orcid: https://orcid.org/0000-0002-7052-0875
+    username: ~Jason_Pui-Yin_Cheung1
+  - emails: tgzhang@hku.hk
+    first_name: Teng
+    google_scholar_id: https://scholar.google.com/citations?user=6gs2jGoAAAAJ&hl=en
+    homepage: https://www.aimed.hku.hk/teng-zhang
+    last_name: Zhang
+    name: Teng Zhang
+    username: ~Teng_Zhang5
+  - dblp_id: https://dblp.org/pid/99/6255
+    emails: honghan.wu@gmail.com
+    first_name: Honghan
+    google_scholar_id: https://scholar.google.co.uk/citations?user=e0j8MpAAAAAJ&hl=en
+    homepage: https://knowlab.github.io/
+    institution: University College London, University of London
+    last_name: Wu
+    name: Honghan Wu
+    orcid: https://orcid.org/0000-0002-0213-5668
+    username: ~Honghan_Wu1
+  decision: Poster
+  file: 56.pdf
+  id: 56
+  openreview_id: BJLZxXaQtE
+  pdf_file: 7b38258ec12c4cd00e079f21b607907a36116692.pdf
+  title: 'KnowLab_AIMed at MEDIQA-CORR 2024: Chain-of-Though (CoT) prompting strategies
+    for medical error detection and correction'
+- abstract: This paper presents our approach to the EHRSQL-2024 shared task, which
+    aims to develop a reliable Text-to-SQL system for electronic health records. We
+    propose two approaches that leverage large language models (LLMs) for prompting
+    and fine-tuning to generate EHRSQL queries. In both techniques, we concentrate
+    on bridging the gap between the real-world knowledge on which LLMs are trained
+    and the domain-specific knowledge required for the task. The paper provides the
+    results of each approach individually, demonstrating that they achieve high execution
+    accuracy. Additionally, we show that an ensemble approach further enhances generation
+    reliability by reducing errors. This approach secured us 2nd place in the shared
+    task competition. The methodologies outlined in this paper are designed to be
+    transferable to domain-specific Text-to-SQL problems that emphasize both accuracy
+    and reliability.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - emails: satyakesav@google.com
+    first_name: Satya
+    google_scholar_id: https://scholar.google.com/citations?user=1_1F_1gAAAAJ&hl=en
+    institution: Google
+    last_name: Gundabathula
+    middle_name: Kesav
+    name: Satya Kesav Gundabathula
+    username: ~Satya_Kesav_Gundabathula1
+  - emails: sriram.kolar@inchworks.net
+    first_name: Sriram
+    google_scholar_id: https://scholar.google.com/citations?user=fsPDANYAAAAJ&hl=en
+    institution: Inchworks
+    last_name: Kolar
+    middle_name: R
+    name: Sriram R Kolar
+    username: ~Sriram_R_Kolar1
+  decision: Poster
+  file: 57.pdf
+  id: 57
+  openreview_id: Koi0oXp96t
+  pdf_file: bddefcf9cde429f926f55653aeca0701ee7508ee.pdf
+  title: 'PromptMind Team at EHRSQL-2024: Improving Reliability of SQL Generation
+    using Ensemble LLMs'
+- abstract: 'This paper describes our approach to the MEDIQA-CORR shared task, which
+    involves error detection and correction in clinical notes curated by medical professionals.
+    This task involves handling three subtasks: detecting the presence of errors,
+    identifying the specific sentence containing the error, and correcting it. Through
+    our work, we aim to assess the capabilities of Large Language Models (LLMs) trained
+    on a vast corpora of internet data that contain both factual and unreliable information.
+    We propose to comprehensively address all subtasks together, and suggest employing
+    a unique prompt-based in-context learning strategy. We will evaluate its efficacy
+    in this specialized task demanding a combination of general reasoning and medical
+    knowledge. In medical systems where prediction errors can have grave consequences,
+    we propose leveraging self-consistency and ensemble methods to enhance error correction
+    and error detection performance.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: satyakesav@google.com
+    first_name: Satya
+    google_scholar_id: https://scholar.google.com/citations?user=1_1F_1gAAAAJ&hl=en
+    institution: Google
+    last_name: Gundabathula
+    middle_name: Kesav
+    name: Satya Kesav Gundabathula
+    username: ~Satya_Kesav_Gundabathula1
+  - emails: sriram.kolar@inchworks.net
+    first_name: Sriram
+    google_scholar_id: https://scholar.google.com/citations?user=fsPDANYAAAAJ&hl=en
+    institution: Inchworks
+    last_name: Kolar
+    middle_name: R
+    name: Sriram R Kolar
+    username: ~Sriram_R_Kolar1
+  decision: Poster
+  file: 58.pdf
+  id: 58
+  openreview_id: kfJEQx7kNZ
+  pdf_file: b08b9f73571b7f476a5f3163fd761bed9e413195.pdf
+  title: 'PromptMind Team at MEDIQA-CORR 2024: Improving Clinical Text Correction
+    with Error Categorization and LLM Ensembles'
+- abstract: 'Addressing the critical challenge of identifying and rectifying medical
+    errors in clinical notes, we present a novel approach tailored for the MEDIQA-CORR
+    task @ NAACL-ClinicalNLP 2024, which comprises three subtasks: binary classification,
+    span identification, and natural language generation for error detection and correction.
+    Binary classification involves detecting whether the text contains a medical error;
+    span identification entails identifying the text span associated with any detected
+    error; and natural language generation focuses on providing a free text correction
+    if a medical error exists. Our proposed architecture leverages Named Entity Recognition
+    (NER) for identifying disease-related terms, Retrieval-Augmented Generation (RAG)
+    for contextual understanding from external datasets, and a quantized and fine-tuned
+    Palmyra model for error correction. Our model achieved a global rank of 5 with
+    an aggregate score of 0.73298, calculated as the mean of ROUGE-1-F, BERTScore,
+    and BLEURT scores.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: 2018suramyajadhav@gmail.com
+    first_name: Suramya
+    last_name: Jadhav
+    name: Suramya Jadhav
+    username: ~Suramya_Jadhav1
+  - emails: abhayshanbhag0110@gmail.com
+    first_name: Abhay
+    last_name: Shanbhag
+    name: Abhay Shanbhag
+    username: ~Abhay_Shanbhag1
+  - emails: sumedhjoshi463@gmail.com
+    first_name: Sumedh
+    last_name: Joshi
+    name: Sumedh Joshi
+    username: ~Sumedh_Joshi1
+  - emails: atharva2718@gmail.com
+    first_name: Atharva
+    last_name: Date
+    name: Atharva Date
+    username: ~Atharva_Date1
+  - dblp_id: https://dblp.org/pid/195/6947
+    emails: sssonawane@pict.edu
+    first_name: Sheetal
+    google_scholar_id: https://scholar.google.com/citations?user=sJLqr_4AAAAJ&hl=en&authuser=2
+    homepage: http://faculty.pictinc.org/Faculty-Profile.aspx?profileID=69
+    last_name: Sonawane
+    middle_name: S.
+    name: Sheetal S. Sonawane
+    orcid: https://orcid.org/0000-0002-8733-8340
+    semantic_scholar_id: https://www.semanticscholar.org/author/S.-Sonawane/39786233
+    username: ~Sheetal_S._Sonawane1
+  decision: Poster
+  file: 59.pdf
+  id: 59
+  openreview_id: J2Ic378jQX
+  pdf_file: c88aa2cb393e8aa0e28e8914ade3581d128381eb.pdf
+  title: 'Maven at MEDIQA-CORR 2024: Leveraging RAG and Medical LLM for  Error Detection
+    and Correction in Medical Notes'
+- abstract: 'In this paper, we report our effort to tackle the challenge of extracting
+    chemotimelines from EHR notes across a dataset of three cancer types. We focus
+    on the two subtasks: 1) detection and classification of temporal relations given
+    the annotated chemotherapy events and time expressions and 2) directly extracting
+    patient chemotherapy timelines from EHR notes. We address both subtasks using
+    Large Language Models. Our best-performing methods in both subtasks use Flan-T5,
+    an instruction-tuned language model. Our proposed system achieves the highest
+    average score in both subtasks. Our results underscore the effectiveness of finetuning
+    general-domain large language models in domain-specific and unseen tasks.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - dblp_id: https://dblp.org/pid/245/8736.html
+    emails: shohreh.haddadan@gmail.com
+    first_name: Shohreh
+    google_scholar_id: https://scholar.google.com/citations?user=G7BMGQYAAAAJ&hl=en
+    homepage: https://shohrehhd.github.io
+    institution: Moffitt Cancer Research center
+    last_name: Haddadan
+    name: Shohreh Haddadan
+    semantic_scholar_id: https://www.semanticscholar.org/author/Shohreh-Haddadan/121857840
+    username: ~Shohreh_Haddadan1
+  - emails: tuandungle@usf.edu
+    first_name: Tuan-Dung
+    institution: University of South Florida and Moffitt Cancer Research Center
+    last_name: Le
+    name: Tuan-Dung Le
+    username: ~Tuan-Dung_Le1
+  - emails: thanh.duong@moffitt.org
+    first_name: Thanh
+    homepage: https://labpages2.moffitt.org/thieu/members/
+    last_name: Duong
+    name: thanh duong
+    username: ~thanh_duong1
+  - emails: komthanh@gmail.com
+    first_name: Thanh
+    institution: Moffitt Cancer Center and Research Institute
+    last_name: Thieu
+    middle_name: Q.
+    name: Thanh Q. Thieu
+    orcid: https://orcid.org/0000-0002-4926-9292
+    username: ~Thanh_Q._Thieu1
+  decision: Oral
+  file: 60.pdf
+  id: 60
+  openreview_id: 55nx9BRROV
+  pdf_file: f5659c88c3c3080da9ac5a8b0e8bd04c7e0ade3b.pdf
+  title: 'LAILab at Chemotimelines 2024: Finetuning sequence-to-sequence language
+    models for temporal relation extraction towards cancer patient undergoing chemotherapy
+    treatment'
+- abstract: Automatic generation of chemotherapy treatment timelines from electronic
+    health records (EHRs) notes not only streamlines clinical workflows but also promotes
+    better coordination and improvements in cancer treatment and quality of care.
+    This paper describes the submission to the Chemotimelines 2024 shared task that
+    aims to automatically build a chemotherapy treatment timeline for each patient
+    using their complete set of EHR notes, spanning various sources such as primary
+    care provider, oncology, discharge summaries, emergency department, pathology,
+    radiology, and more. We report results from two large language models (LLMs),
+    namely Llama 2 and Mistral 7B, applied to the shared task data using zero-shot
+    prompting.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - dblp_id: https://dblp.uni-trier.de/pers/hd/s/Sharma_0001:Vishakha
+    emails: sh.vishakha@gmail.com
+    first_name: Vishakha
+    google_scholar_id: https://scholar.google.com/citations?user=E10rSTwAAAAJ&hl=en
+    institution: Roche Diagnostics
+    last_name: Sharma
+    name: Vishakha Sharma
+    username: ~Vishakha_Sharma1
+  - emails: fernandrez@gmail.com
+    first_name: Andres
+    last_name: Fernandez
+    name: Andres Fernandez
+    username: ~Andres_Fernandez2
+  - emails: andrei.ioanovici@gmail.com
+    first_name: Andrei
+    google_scholar_id: https://scholar.google.com/citations?user=_pf1FX0AAAAJ&hl=en&oi=ao
+    last_name: Ioanovici
+    middle_name: Constantin
+    name: Andrei Constantin Ioanovici
+    username: ~Andrei_Constantin_Ioanovici1
+  - dblp_id: https://dblp.org/pid/76/1644.html
+    emails: david@talby.com
+    first_name: David
+    google_scholar_id: https://scholar.google.co.il/citations?user=iJ7qwv8AAAAJ&hl=en
+    homepage: https://www.davidtalby.com
+    institution: John Snow Labs
+    last_name: Talby
+    name: David Talby
+    semantic_scholar_id: https://www.semanticscholar.org/author/David-Talby/1761395
+    username: ~David_Talby1
+  - emails: frederik.buijs@roche.com
+    first_name: Frederik
+    last_name: Buijs
+    name: Frederik Buijs
+    username: ~Frederik_Buijs1
+  decision: Poster
+  file: 61.pdf
+  id: 61
+  openreview_id: ddl3ixgOyt
+  pdf_file: 04499ff93367c663aa5061aece0410ed638a30c5.pdf
+  title: 'Lexicans at Chemotimelines 2024: Chemotimeline Chronicles - Leveraging Large
+    Language Models (LLMs) for Temporal Relations Extraction in Oncological Electronic
+    Health Records'
+- abstract: 'This paper presents our two deep learning-based approaches to participate
+    in subtask 1 of the Chemotimelines 2024 Shared task. The first uses a fine-tuning
+    strategy on a relatively small general domain Masked Language Model (MLM) model,
+    with additional normalization steps obtained using a simple Large Language Model
+    (LLM) prompting technique. The second is an LLM-based approach combining advanced
+    automated prompt search with few-shot in-context learning using the DSPy framework.
+
+    Our results confirm the continued relevance of the smaller MLM fine-tuned model.
+    It also suggests that the automated few-shot LLM approach can perform close to
+    the fine-tuning-based method without extra LLM normalization and be advantageous
+    under scarce data access conditions. We finally hint at the possibility to choose
+    between lower training examples or lower computing resources requirements when
+    considering both methods.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - emails: bannour.nesrine@gmail.com
+    first_name: Nesrine
+    google_scholar_id: https://scholar.google.com/citations?user=41pESkcAAAAJ&hl=fr
+    last_name: Bannour
+    name: Nesrine Bannour
+    orcid: https://orcid.org/0000-0003-2348-6691
+    username: ~Nesrine_Bannour1
+  - emails: judithjeyafreeda@gmail.com
+    first_name: Judith Jeyafreeda
+    google_scholar_id: https://scholar.google.com/citations?user=Zu7wIAcAAAAJ&hl=en
+    last_name: Andrew
+    name: Judith Jeyafreeda Andrew
+    orcid: https://orcid.org/0000-0002-2305-1439
+    username: ~Judith_Jeyafreeda_Andrew1
+  - emails: marc.vincent@institutimagine.org
+    first_name: Marc
+    institution: Institut Imagine
+    last_name: Vincent
+    name: Marc Vincent
+    orcid: https://orcid.org/0000-0001-6921-8161
+    username: ~Marc_Vincent1
+  decision: Poster
+  file: 62.pdf
+  id: 62
+  openreview_id: ByegUkfHQj
+  pdf_file: d2afcbd6c34f09e45e5dfde58f34935c81279e9d.pdf
+  title: 'Team NLPeers at Chemotimelines 2024: Evaluation of two timeline extraction
+    methods, can generative LLM do it all or is smaller model fine-tuning still relevant
+    ?'
+- abstract: 'This paper presents our participation in the Chemotimelines 2024 subtask2,
+    focusing on the development of an end-to-end system for chemotherapy timeline
+    extraction. We initially adopt a basic framework from subtask2, utilizing Apache
+    cTAKES for entity recognition and a BERT-based model for classifying the temporal
+    relationship between chemotherapy events and associated times. Subsequently, we
+    enhance this pipeline through two key directions: first, by expanding the exploration
+    of the system, achieved by extending the search dictionary of cTAKES with the
+    UMLS database; second, by reducing false positives through preprocessing of clinical
+    notes and implementing filters to reduce the potential errors from the BERT-based
+    model. To validate the effectiveness of our framework, we conduct extensive experiments
+    using clinical notes from breast, ovarian, and melanoma cancer cases. Our results
+    demonstrate improvements over the previous approach.'
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - emails: ytan1@mdanderson.org
+    first_name: Yukun
+    institution: The University of Texas MD Anderson Cancer Center
+    last_name: Tan
+    name: Yukun Tan
+    orcid: https://orcid.org/0000-0002-6368-8653
+    username: ~Yukun_Tan1
+  - emails: mdede@mdanderson.org
+    first_name: Merve
+    google_scholar_id: https://scholar.google.com/citations?user=VjrKWR4AAAAJ&hl=en&oi=ao
+    institution: The University of Texas MD Anderson Cancer Center
+    last_name: Dede
+    name: Merve Dede
+    orcid: https://orcid.org/0000-0002-0868-5863
+    username: ~Merve_Dede1
+  - emails: kchen3@mdanderson.org
+    first_name: Ken
+    homepage: https://faculty.mdanderson.org/profiles/ken_chen.html
+    institution: The University of Texas MD Anderson Cancer Center and The University
+      of Texas MD Anderson Cancer Center
+    last_name: Chen
+    name: Ken Chen
+    orcid: https://orcid.org/0000-0003-4013-5279
+    username: ~Ken_Chen4
+  decision: Poster
+  file: 63.pdf
+  id: 63
+  openreview_id: IapLwjkH4o
+  pdf_file: ecae39268f8846b1dd651f1c43712d3f2407b373.pdf
+  title: 'KCLab at Chemotimelines 2024: End-to-end system for chemotherapy timeline
+    extraction – Subtask2'
+- abstract: "This paper explores the application of the sqlcoders model, a pre-trained\n\
+    \ neural network, for automatic SQL query generation from natural language\n questions.\
+    \ We focus on the model’s internal functionality and demon\nstrate its effectiveness\
+    \ on a domain-specific validation dataset provided\n by EHRSQL. The sqlcoders\
+    \ model, based on transformers with attention\n mechanisms, has been trained on\
+    \ paired examples of natural language ques\ntions and corresponding SQL queries.\
+    \ It takes advantage of a carefully\n crafted prompt that incorporates the database\
+    \ schema alongside the question to guide the model towards the desired output\
+    \ format."
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - emails: sourav37@student.sust.edu
+    first_name: Sourav
+    last_name: Joy
+    middle_name: Bhowmik
+    name: Sourav Bhowmik Joy
+    username: ~Sourav_Bhowmik_Joy1
+  - emails: rohan22@student.sust.edu
+    first_name: Rohan
+    last_name: Ahmed
+    name: Rohan Ahmed
+    username: ~Rohan_Ahmed1
+  - emails: argha00@student.sust.edu
+    first_name: Argha
+    institution: Shahjalal University of Science and Technology
+    last_name: Saha
+    middle_name: Pratim
+    name: Argha Pratim Saha
+    username: ~Argha_Pratim_Saha1
+  - emails: minhaj36@student.sust.edu
+    first_name: Minhaj
+    last_name: Habil
+    middle_name: Ahmed
+    name: Minhaj Ahmed Habil
+    username: ~Minhaj_Ahmed_Habil1
+  - emails: utsho34@student.sust.edu
+    first_name: Utsho
+    last_name: Das
+    name: Utsho Das
+    username: ~Utsho_Das1
+  - emails: partha22@student.sust.edu
+    first_name: Partha
+    last_name: Bhowmik
+    middle_name: Sarothi
+    name: Partha Sarothi Bhowmik
+    username: ~Partha_Sarothi_Bhowmik1
+  decision: Poster
+  file: 64.pdf
+  id: 64
+  openreview_id: hCdHKd98cW
+  pdf_file: e08504e8ae6ef9a0c1734852c5b78f48c49dd5ac.pdf
+  title: 'Project PRIMUS at EHRSQL 2024 : Text-to-SQL Generation using Large Language
+    Model for EHR Analysis'
+- abstract: The extraction of chemotherapy treatment timelines from clinical narratives
+    poses significant challenges due to the complexity of medical language and patient-specific
+    treatment regimens. This paper describes the NYULangone team's approach to Subtask
+    2 of the Chemotimelines 2024 shared task, focusing on leveraging a locally hosted
+    Large Language Model (LLM), Mixtral 8x7B (Mistral AI, France), to interpret and
+    extract relevant events from clinical notes without relying on domain-specific
+    training data. Despite facing challenges due to the task's complexity and the
+    current capacity of open-source AI, our methodology highlights the future potential
+    of local foundational LLMs in specialized domains like biomedical data processing.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - emails: jeff.zhang@nyulangone.org
+    first_name: Jeff
+    institution: New York University
+    last_name: Zhang
+    name: Jeff Zhang
+    username: ~Jeff_Zhang3
+  - emails: yin.a@nyumc.org
+    first_name: Yin
+    institution: NYU Langone
+    last_name: Aphinyanaphongs
+    name: Yin Aphinyanaphongs
+    username: ~Yin_Aphinyanaphongs1
+  - emails: anthony.cardillo@nyulangone.org
+    first_name: Anthony
+    last_name: Cardillo
+    middle_name: B
+    name: Anthony B Cardillo
+    orcid: https://orcid.org/0000-0003-1594-2562
+    username: ~Anthony_B_Cardillo1
+  decision: Poster
+  file: 65.pdf
+  id: 65
+  openreview_id: yMLFkHiroz
+  pdf_file: ecb70b1e8a831ab67aba4efd98215d2623663f92.pdf
+  title: 'NYULangone at Chemotimelines 2024: Utilizing Open-Weights Large Language
+    Models for Chemotherapy Event Extraction'
+- abstract: "This paper presents a system developed for the Clinical NLP 2024 Shared\
+    \ Task, focusing on reliable text-to-SQL modeling on Electronic Health Records\
+    \ (EHRs). The goal is to create a model that accurately generates SQL queries\
+    \ for answerable questions while avoiding incorrect responses and handling unanswerable\
+    \ queries. Our approach comprises three main components: a query correspondence\
+    \ model, a text-to-SQL model, and an SQL verifier.\nFor the query correspondence\
+    \ model, we trained a logistic regression model using hand-crafted features to\
+    \ distinguish between answerable and unanswerable queries. As for the text-to-SQL\
+    \ model, we utilized T5-3B as a pretrained language model, further fine-tuned\
+    \ on pairs of natural language questions and corresponding SQL queries. Finally,\
+    \ we applied the SQL verifier to inspect the resulting SQL queries.\nDuring the\
+    \ evaluation stage of the shared task, our system achieved an accuracy of 68.9\
+    \ % (metric version without penalty), positioning it at the fifth-place ranking.\
+    \ \nWhile our approach did not surpass solutions based on large language models\
+    \ (LMMs) like ChatGPT, it demonstrates the promising potential of domain-specific\
+    \ specialized models that are more resource-efficient. \nThe code is publicly\
+    \ available at https://github.com/runnerup96/EHRSQL-text2sql-solution."
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - emails: somov.ol.dm@gmail.com
+    first_name: Oleg
+    google_scholar_id: https://scholar.google.com/citations?hl=ru&user=_6bAzjIAAAAJ
+    homepage: https://scholar.google.com/citations?hl=ru&user=_6bAzjIAAAAJ
+    last_name: Somov
+    name: Oleg Somov
+    username: ~Oleg_Somov1
+  - emails: xenon.a@ya.ru
+    first_name: Alexey
+    institution: Artificial Intelligence Research Institute
+    last_name: Dontsov
+    name: Alexey Dontsov
+    username: ~Alexey_Dontsov1
+  - dblp_id: https://dblp.org/pid/153/5554
+    emails: tlenusik@gmail.com
+    first_name: Elena
+    google_scholar_id: https://scholar.google.ru/citations?user=npM9yekAAAAJ
+    institution: Kazan Federal University
+    last_name: Tutubalina
+    name: Elena Tutubalina
+    orcid: https://orcid.org/0000-0001-7936-0284
+    semantic_scholar_id: https://www.semanticscholar.org/author/E.-Tutubalina/2617496
+    username: ~Elena_Tutubalina1
+  decision: Poster
+  file: 66.pdf
+  id: 66
+  openreview_id: S6JMdqyYdl
+  pdf_file: f9d6e7913a4083d8c6397cec3db5a8e74957f69a.pdf
+  title: 'AIRI NLP Team at EHRSQL 2024 Shared Task:  T5 and Logistic Regression to
+    the Rescue'
+- abstract: 'This paper presents our solution to the MEDIQA-M3G Challenge at NAACL-ClinicalNLP
+    2024. We participated in all three languages, ranking first in Chinese and Spanish
+    and third in English. Our approach utilizes LLaVA-med, an open-source, medical
+    vision-language model (VLM) for visual question-answering in Chinese, and Mixtral-8x7B-instruct,
+    a Large Language Model (LLM) for a subsequent translation into English and Spanish.
+    In addition to our final method, we experiment with alternative approaches: Training
+    three different models for each language instead of translating the results from
+    one model, using different combinations and numbers of input images, and additional
+    training on publicly available data that was not part of the original challenge
+    training set.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - emails: marie.bauer@uk-essen.de
+    first_name: Marie
+    homepage: https://mml.ikim.nrw/authors/marie-bauer/
+    institution: Universität Duisburg-Essen
+    last_name: Bauer
+    name: Marie Bauer
+    username: ~Marie_Bauer1
+  - emails: amin.dada@uk-essen.de
+    first_name: Amin
+    homepage: https://mml.ikim.nrw/
+    last_name: Dada
+    name: Amin Dada
+    username: ~Amin_Dada1
+  - dblp_id: https://dblp.org/pid/246/4779
+    emails: constantin.seibold2@uk-essen.de
+    first_name: Constantin
+    google_scholar_id: https://scholar.google.com/citations?user=rSuG-f4AAAAJ&hl=de
+    homepage: https://cvhci.anthropomatik.kit.edu/people_1853.php
+    institution: University Medicine Essen
+    last_name: Seibold
+    middle_name: Marc
+    name: Constantin Marc Seibold
+    username: ~Constantin_Marc_Seibold1
+  - dblp_id: https://dblp.org/pid/63/7927
+    emails: jens.kleesiek@uk-essen.de
+    first_name: Jens
+    google_scholar_id: https://scholar.google.com/citations?user=Vly6hRQAAAAJ
+    institution: Institute for AI in Medicine (IKIM), University Medicine Essen
+    last_name: Kleesiek
+    name: Jens Kleesiek
+    orcid: https://orcid.org/0000-0001-8686-0682
+    username: ~Jens_Kleesiek1
+  decision: Poster
+  file: 67.pdf
+  id: 67
+  openreview_id: r1pPQaTKgj
+  pdf_file: bc3a85f5e14f2cf92fdfa09ac48032d4a753120e.pdf
+  title: 'IKIM at MEDIQA-M3G 2024: Multilingual Visual Question-Answering for Dermatology
+    through VLM Fine-tuning and LLM Translations'
+- abstract: 'This document describes our solution to the MEDIQA-M3G: Multilingual
+    & Multimodal Medical Answer Generation. To build our solution, we leveraged two
+    pre-trained models, a Visual Language Model (VLM) and a Large Language Model (LLM).
+    We fine-tuned both models using the MEDIQA-M3G and MEDIQA-CORR training datasets,
+    respectively. In the first stage, the VLM provides singular responses for each
+    pair of image & text inputs in a case. In the second stage, the LLM consolidates
+    the VLM responses using it as context among the original text input. By changing
+    the original English case content field in the context component of the second
+    stage to the one in Spanish, we adapt the pipeline to generate submissions in
+    English and Spanish. We performed an ablation study to explore the impact of the
+    different models'' capabilities, such as multimodality and reasoning, on the MEDIQA-M3G
+    task. Our approach favored privacy and feasibility by adopting open-source and
+    self-hosted small models and ranked 4th in English and 2nd in Spanish.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - dblp_id: https://dblp.org/pid/76/8217
+    emails: omar@idsia.ch
+    first_name: Ricardo
+    institution: 'The Dalle Molle Institute for Artificial Intelligence '
+    last_name: García
+    middle_name: Omar Chávez
+    name: Ricardo Omar Chávez García
+    username: ~Ricardo_Omar_Chávez_García1
+  - emails: william.lithgow@gmail.com
+    first_name: Oscar
+    institution: The Swiss AI Lab (IDSIA)
+    last_name: Lithgow-Serrano
+    middle_name: William
+    name: Oscar William Lithgow-Serrano
+    orcid: https://orcid.org/0000-0003-1995-1669
+    username: ~Oscar_William_Lithgow-Serrano1
+  decision: Poster
+  file: 68.pdf
+  id: 68
+  openreview_id: 3LfAuPUsLf
+  pdf_file: c29f7a6a4fd9c1f4b274a7e142ecef870b442603.pdf
+  title: 'NEUI at MEDIQA-M3G 2024: Medical VQA through consensus'
+- abstract: The automatic identification of medical errors in clinical notes is crucial
+    for improving the quality of healthcare services.LLMs emerge as a powerful artificial
+    intelligence tool for automating this task. However, LLMs present vulnerabilities,
+    high costs, and sometimes a lack of transparency. This article addresses the detection
+    of medical errors through the fine-tuning approach, conducting a comprehensive
+    comparison between various models and exploring in depth the components of the
+    machine learning pipeline. The results obtained with the fine-tuned ClinicalBert
+    and Gated recurrent units  (Gru)  models show an accuracy of 0.56 and 0.55, respectively.
+    This approach not only mitigates the problems associated with the use of LLMs
+    but also demonstrates how exhaustive iteration in critical phases of the pipeline,
+    especially in feature selection, can facilitate the automation of clinical record
+    analysis.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: juanpajaro@javeriana.edu.co
+    first_name: Juan
+    institution: Pontificia Universidad Javeriana
+    last_name: Pajaro
+    name: Juan Pajaro
+    orcid: https://orcid.org/0000-0001-9527-006X
+    username: ~Juan_Pajaro1
+  - dblp_id: https://dblp.org/pid/206/4101.html
+    emails: epuerta@utb.edu.co
+    first_name: Edwin
+    google_scholar_id: https://scholar.google.com/citations?user=S_OvkYEAAAAJ&hl=en
+    homepage: https://edwinpuertas.github.io/edwinpuertas/
+    institution: Universidad Tecnologica de Bolivar
+    last_name: Puertas
+    name: Edwin Puertas
+    orcid: https://orcid.org/0000-0002-0758-1851
+    semantic_scholar_id: https://www.semanticscholar.org/author/Edwin-Puertas/3423530
+    username: ~Edwin_Puertas1
+  - emails: juand.villate@javeriana.edu.co
+    first_name: David
+    last_name: Villate
+    name: David Villate
+    username: ~David_Villate1
+  - emails: l-estrada@javeriana.edu.co
+    first_name: Laura
+    last_name: Estrada
+    name: Laura Estrada
+    username: ~Laura_Estrada1
+  - emails: tinjacac.l@javeriana.edu.co
+    first_name: Laura
+    homepage: http://laura-tinjaca.com
+    last_name: Tinjaca
+    name: Laura Tinjaca
+    username: ~Laura_Tinjaca1
+  decision: Poster
+  file: 69.pdf
+  id: 69
+  openreview_id: WGh09WRS6N
+  pdf_file: 44f30ee8241d59857d69e76420218bec56d203d5.pdf
+  title: 'VerbaNexAI at MEDIQA-CORR: Efficacy of GRU with BioWordVec and ClinicalBERT
+    in Error Correction in Clinical Notes'
+- abstract: 'This paper presents our LLM-based system designed for the MEDIQA-CORR
+    @ NAACL-ClinicalNLP 2024 Shared Task 3, focusing on medical error detection and
+    correction in medical records. Our approach consists of three key components:
+    entity extraction, prompt engineering, and ensemble. First, we automatically extract
+    biomedical entities such as therapies, diagnoses, and biological species. Next,
+    we explore few-shot learning techniques and incorporate graph information from
+    the MeSH database for the identified entities. Finally, we investigate two methods
+    for ensembling: (i) combining the predictions of three previous LLMs using an
+    AND strategy within a prompt and (ii) integrating the previous predictions into
+    the prompt as separate ''expert'' solutions, accompanied by trust scores representing
+    their performance. The latter system ranked second with a BERTScore score of 0.8059
+    and third with an aggregated score of 0.7806 out of the 15 teams'' solutions in
+    the shared task.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: aa.valiev@hse.ru
+    first_name: Airat
+    institution: Higher School of Economics
+    last_name: Valiev
+    name: Airat Valiev
+    orcid: https://orcid.org/0009-0007-1374-2002
+    username: ~Airat_Valiev1
+  - dblp_id: https://dblp.org/pid/153/5554
+    emails: tlenusik@gmail.com
+    first_name: Elena
+    google_scholar_id: https://scholar.google.ru/citations?user=npM9yekAAAAJ
+    institution: Kazan Federal University
+    last_name: Tutubalina
+    name: Elena Tutubalina
+    orcid: https://orcid.org/0000-0001-7936-0284
+    semantic_scholar_id: https://www.semanticscholar.org/author/E.-Tutubalina/2617496
+    username: ~Elena_Tutubalina1
+  decision: Poster
+  file: 70.pdf
+  id: 70
+  openreview_id: gO3umUP9Pc
+  pdf_file: 2e835e7f388bc157737a22af850da2003a44b09f.pdf
+  title: 'HSE NLP Team at MEDIQA-CORR 2024 Task: In-Prompt Ensemble with Entities
+    and Knowledge Graph for Medical Error Correction'
+- abstract: Extracting timeline information from clinical narratives is critical for
+    cancer research and practice using electronic health records (EHRs). In this study,
+    we apply MedTimeline, our end-to-end hybrid NLP system combining large language
+    model, deep learning with knowledge engineering, to the ChemoTimeLine challenge
+    subtasks. Our experiment results in 0.83, 0.90, 0.84, and 0.53, 0.63, 0.39, respectively,
+    for subtask1 and subtask2 in breast, melanoma and ovarian cancer.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - emails: liwei.wang@uth.tmc.edu
+    first_name: Liwei
+    homepage: https://sbmi.uth.edu/faculty-and-staff/liwei-wang.htm
+    institution: UTHealth Houston
+    last_name: Wang
+    name: Liwei Wang
+    username: ~Liwei_Wang10
+  - dblp_id: https://dblp.org/pid/213/8514
+    emails: chiuhaolu@gmail.com
+    first_name: Qiuhao
+    google_scholar_id: https://scholar.google.com/citations?user=IddOf0MAAAAJ&hl=en
+    institution: UTHealth Houston
+    last_name: Lu
+    name: Qiuhao Lu
+    semantic_scholar_id: https://www.semanticscholar.org/author/Qiuhao-Lu/35539899
+    username: ~Qiuhao_Lu1
+  - emails: rui.li.1@uth.tmc.edu
+    first_name: Rui
+    last_name: Li
+    name: Rui Li
+    username: ~Rui_Li38
+  - emails: sunyang.fu@uth.tmc.edu
+    first_name: Sunyang
+    google_scholar_id: https://scholar.google.com/citations?user=PUp9U5UAAAAJ
+    institution: UTHealth Houston
+    last_name: Fu
+    name: Sunyang Fu
+    username: ~Sunyang_Fu1
+  - dblp_id: https://dblp.org/pid/92/2407
+    emails: liu.hongfang@mayo.edu
+    first_name: Hongfang
+    google_scholar_id: https://scholar.google.com/citations?user=2TXcctIAAAAJ&hl=en&inst=12058184521150304743
+    homepage: https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092
+    institution: Mayo Clinic
+    last_name: Liu
+    name: Hongfang Liu
+    orcid: https://orcid.org/0000-0003-2570-3741
+    username: ~Hongfang_Liu1
+  decision: Poster
+  file: 71.pdf
+  id: 71
+  openreview_id: Q9JH4zs4H2
+  pdf_file: b9678b8e8a7e3db7f59aea148100cc6eebb4be15.pdf
+  title: 'Wonder at Chemotimelines 2024: MedTimeline: An End-to-End NLP System for
+    Timeline Extraction from Clinical Narratives'
+- abstract: 'The MEDIQA-CORR 2024 shared task aims to assess the ability of Large
+    Language Models (LLMs) to identify and correct medical errors in clinical notes.
+    In this study, we evaluate the capability of general LLMs, specifically GPT-3.5
+    and GPT-4, to identify and correct medical errors with multiple prompting strategies.
+    Recognising the limitation of LLMs in generating accurate corrections only via
+    prompting strategies, we propose incorporating error-span predictions from a smaller,
+    fine-tuned model in two ways: 1) by presenting it as a hint in the prompt and
+    2) by framing it as multiple-choice questions from which the LLM can choose the
+    best correction. We found that our proposed prompting strategies significantly
+    improve the LLM''s ability to generate corrections. Our best-performing solution
+    with 8-shot + CoT + hints ranked sixth in the shared task leaderboard. Additionally,
+    our comprehensive analyses show the impact of the location of the error sentence,
+    the prompted role, and the position of the multiple-choice option on the accuracy
+    of the LLM. This prompts further questions about the readiness of LLM to be implemented
+    in real-world clinical settings.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - dblp_id: https://dblp.org/pid/207/5260.html
+    emails: aryo.gema@ed.ac.uk
+    first_name: Aryo
+    google_scholar_id: https://scholar.google.com/citations?user=Vf4Ij2MAAAAJ&hl=en
+    homepage: https://aryopg.github.io
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Gema
+    middle_name: Pradipta
+    name: Aryo Pradipta Gema
+    orcid: https://orcid.org/0009-0007-1163-3531
+    semantic_scholar_id: https://www.semanticscholar.org/author/A.-Gema/27080447
+    username: ~Aryo_Pradipta_Gema1
+  - emails: c.lee-51@sms.ed.ac.uk
+    first_name: Chaeeun
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Lee
+    name: Chaeeun Lee
+    username: ~Chaeeun_Lee2
+  - dblp_id: https://dblp.org/pid/58/10142
+    emails: p.minervini@gmail.com
+    first_name: Pasquale
+    homepage: http://www.neuralnoise.com
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Minervini
+    name: Pasquale Minervini
+    username: ~Pasquale_Minervini4
+  - emails: luke.daines@ed.ac.uk
+    first_name: Luke
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=PP3LydkAAAAJ
+    homepage: https://www.research.ed.ac.uk/en/persons/luke-daines
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Daines
+    name: Luke Daines
+    orcid: https://orcid.org/0000-0003-0564-4000
+    username: ~Luke_Daines1
+  - emails: ian.simpson@ed.ac.uk
+    first_name: T.
+    homepage: https://biomedicalinformaticsgroup.github.io
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Simpson
+    middle_name: Ian
+    name: T. Ian Simpson
+    username: ~T._Ian_Simpson1
+  - dblp_id: https://dblp.org/pid/17/2942
+    emails: balex@ed.ac.uk
+    first_name: Beatrice
+    google_scholar_id: https://scholar.google.co.uk/citations?user=1VYnHCMAAAAJ&hl=en
+    homepage: https://www.ed.ac.uk/profile/dr-beatrice-alex
+    institution: University of Edinburgh, University of Edinburgh
+    last_name: Alex
+    name: Beatrice Alex
+    orcid: https://orcid.org/0000-0002-7279-1476
+    semantic_scholar_id: https://www.semanticscholar.org/author/Beatrice-Alex/144224160
+    username: ~Beatrice_Alex1
+  decision: Poster
+  file: 72.pdf
+  id: 72
+  openreview_id: dClQhhfKNi
+  pdf_file: 15847ff889e97ee13b10cd155bab2e89fdad4122.pdf
+  title: 'Edinburgh Clinical NLP at MEDIQA-CORR 2024: Guiding Large Language Models
+    with Hints'
+- abstract: This paper presents our team's participation in the MEDIQA-ClinicalNLP
+    2024 shared task B. We present a novel approach to diagnosing clinical dermatology
+    cases by integrating large multimodal models, specifically leveraging the capabilities
+    of GPT-4V under a retriever and a re-ranker framework. Our investigation reveals
+    that GPT-4V, when used as a retrieval agent, can accurately retrieve the correct
+    skin condition 85\% of the time using dermatological images and brief patient
+    histories. Additionally, we empirically show that Naive Chain-of-Thought (CoT)
+    works well for retrieval while Medical Guidelines Grounded CoT is required for
+    accurate dermatological diagnosis. Further, we introduce a Multi-Agent Conversation
+    (MAC) framework and show it’s superior performance and potential over the best
+    CoT strategy. The experiments suggest that using naive CoT for retrieval and multi-agent
+    conversation for critique-based diagnosis, GPT-4V can lead to an early and accurate
+    diagnosis of dermatological conditions. The implications of this work extend to
+    improving diagnostic workflows, supporting dermatological education, and enhancing
+    patient care by providing a scalable, accessible, and accurate diagnostic tool.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - emails: pvashisht@umass.edu
+    first_name: Parth
+    google_scholar_id: https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=parth+vashisht#
+    last_name: Vashisht
+    name: Parth Vashisht
+    username: ~Parth_Vashisht1
+  - emails: alodha@umass.edu
+    first_name: Abhilasha
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=pu1JEQQAAAAJ
+    homepage: https://abhilashalodha.github.io/
+    last_name: Lodha
+    name: Abhilasha Lodha
+    username: ~Abhilasha_Lodha1
+  - emails: mmaddipatla@umass.edu
+    first_name: Mukta
+    institution: Department of Computer Science, University of Massachusetts at Amherst
+    last_name: Maddipatla
+    name: Mukta Maddipatla
+    username: ~Mukta_Maddipatla1
+  - dblp_id: https://dblp.org/pid/276/5864
+    emails: zonghaiyao@umass.edu
+    first_name: Zonghai
+    google_scholar_id: https://scholar.google.com/citations?user=oVYZ904AAAAJ&hl=en
+    homepage: https://www.linkedin.com/in/zonghaiyao/
+    institution: University of Massachusetts at Amherst
+    last_name: Yao
+    name: Zonghai Yao
+    orcid: https://orcid.org/0000-0002-5707-8410
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zonghai-Yao/1576489304?utm_source=alert_email&utm_content=AuthorProfile&utm_campaign=AlertEmails_DAILY&utm_term=AuthorCitation&utm_medium=5176705
+    username: ~Zonghai_Yao1
+  - emails: avijitmitra@umass.edu
+    first_name: Avijit
+    google_scholar_id: https://scholar.google.com/citations?user=i30KR5EAAAAJ&hl=en
+    homepage: https://avipartho.github.io/
+    last_name: Mitra
+    name: Avijit Mitra
+    username: ~Avijit_Mitra1
+  - dblp_id: https://dblp.org/pid/148/4419-1
+    emails: zhichaoyang@umass.edu
+    first_name: Zhichao
+    google_scholar_id: https://scholar.google.com//citations?user=RXXwBWIAAAAJ
+    institution: University of Massachusetts, Amherst
+    last_name: Yang
+    name: Zhichao Yang
+    orcid: https://orcid.org/0000-0002-2797-4257
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhichao-Yang/48598711
+    username: ~Zhichao_Yang2
+  - dblp_id: https://dblp.org/pers/hd/k/Kwon:Sunjae
+    emails: soon91jae@gmail.com
+    first_name: Sunjae
+    google_scholar_id: https://scholar.google.co.kr/citations?user=N9ZM-CIAAAAJ&hl=ko
+    last_name: Kwon
+    name: SUNJAE KWON
+    username: ~SUNJAE_KWON1
+  - emails: jundawang@umass.edu
+    first_name: Junda
+    google_scholar_id: https://scholar.google.bg/citations?user=3ZhGCvkAAAAJ&hl=it
+    homepage: http://none
+    last_name: Wang
+    name: Junda Wang
+    username: ~Junda_Wang1
+  - emails: hong.yu@umassmed.edu
+    first_name: Hong
+    google_scholar_id: https://scholar.google.com/citations?user=TyXe64wAAAAJ&hl=en&oi=ao
+    homepage: http://bio-nlp.org/
+    institution: Columbia University
+    last_name: yu
+    name: hong yu
+    username: ~hong_yu1
+  decision: Poster
+  file: 73.pdf
+  id: 73
+  openreview_id: xIBpOZvJY0
+  pdf_file: 9c740c6a76f6b03b65bf68f834877e1d3a509529.pdf
+  title: 'UMass-BioNLP at MEDIQA-M3G 2024: DermPrompt - A Systematic Exploration of
+    Prompt Engineering with GPT-4V for Dermatological Diagnosis'
+- abstract: "Recent advancements in large language models (LM) like OpenAI's GPT-4\
+    \ have shown promise in healthcare, particularly in medical question answering\
+    \ and clinical applications. However, their deployment raises privacy concerns\
+    \ and their size limits use in resource-constrained environments.\nSmaller open-source\
+    \ LMs have emerged as alternatives, but their reliability in medicine remains\
+    \ underexplored.\nThis study evaluates small LMs in the medical field using the\
+    \ MEDIQA-CORR 2024 task, which assesses the ability of models to identify and\
+    \ correct errors in clinical notes. \nInitially, zero-shot inference and simple\
+    \ fine-tuning of small models resulted in poor performance. \nWhen fine-tuning\
+    \ with chain-of-thought (CoT) reasoning using synthetic data generated by GPT-4,\
+    \ their performance significantly improved. \nMeerkat-7B, a small LM trained with\
+    \ medical CoT reasoning, demonstrated notable performance gains. Our model outperforms\
+    \ other small non-commercial LMs and some larger models, achieving a 73.36 aggregate\
+    \ score on MEDIQA-CORR 2024."
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: hyeon-hwang@korea.ac.kr
+    first_name: Hyeon
+    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=ko&user=t1kz54QAAAAJ
+    last_name: Hwang
+    name: Hyeon Hwang
+    username: ~Hyeon_Hwang1
+  - emails: taewhoo@korea.ac.kr
+    first_name: Taewhoo
+    institution: Korea University
+    last_name: Lee
+    name: Taewhoo Lee
+    username: ~Taewhoo_Lee1
+  - dblp_id: https://dblp.org/pid/138/1746
+    emails: hyunjae-kim@korea.ac.kr
+    first_name: Hyunjae
+    google_scholar_id: https://scholar.google.co.kr/citations?user=rqBpumIAAAAJ
+    homepage: https://nowkim.github.io/
+    institution: Korea University
+    last_name: Kim
+    name: Hyunjae Kim
+    orcid: https://orcid.org/0000-0003-2996-2564
+    semantic_scholar_id: https://www.semanticscholar.org/author/3087706
+    username: ~Hyunjae_Kim1
+  - dblp_id: https://dblp.org/pid/k/JaewooKang
+    emails: kangj@korea.ac.kr
+    first_name: Jaewoo
+    google_scholar_id: https://scholar.google.co.kr/citations?user=RaBZafQAAAAJ&hl=ko
+    homepage: https://dmis.korea.ac.kr
+    institution: Korea University
+    last_name: Kang
+    name: Jaewoo Kang
+    username: ~Jaewoo_Kang1
+  decision: Poster
+  file: 74.pdf
+  id: 74
+  openreview_id: iryWEn4biG
+  pdf_file: eded6e52dfbc68224f38fc19e380876720474f0e.pdf
+  title: 'KU-DMIS at MEDIQA-CORR 2024: Exploring the Reasoning Capabilities of Small
+    Language Models in Medical Error Correction'
+- abstract: 'This paper demonstrates CLD-MEC team submission to the MEDIQA-CORR 2024
+    shared task for identifying and correcting medical errors from clinical notes.
+    We developed a framework to track two main types of medical errors: diagnostics
+    and medical management-related errors. The tracking framework is implied utilizing
+    a GPT-4 multi-stage prompting-based pipeline that ends with the three downstream
+    tasks: classification of medical error existence (Task 1), identification of error
+    location (Task 2), and correction error (Task 3). Throughout the pipeline, we
+    employed clinical Chain of Thought (CoT) and Chain-of-Verification (CoVe)  techniques
+    to mitigate the hallucination and enforce the clinical context learning. The model
+    performance is acceptable, given it is based on zero-shot learning. In addition,
+    we developed a RAG system injected with clinical practice guidelines as an external
+    knowledge datastore. Our RAG is based on the Bio_ClinicalBERT as a vector embedding
+    model. However, our RAG system failed to get the desired results. We proposed
+    recommendations to be investigated in future research work to overcome the limitations
+    of our approach.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: ren20228156@std.psut.edu.jo
+    first_name: Renad
+    last_name: Alzghoul
+    name: Renad Alzghoul
+    username: ~Renad_Alzghoul2
+  - emails: aya20228163@std.psut.edu.jo
+    first_name: Ayaabdelhaq
+    last_name: Ayaabdelhaq
+    name: ayaabdelhaq
+    username: ~ayaabdelhaq1
+  - emails: abd20200209@std.psut.edu.jo
+    first_name: Abdulrahman
+    last_name: Tabaza
+    name: Abdulrahman Tabaza
+    orcid: https://orcid.org/0009-0004-6288-1138
+    username: ~Abdulrahman_Tabaza1
+  - emails: a.altamimi@psut.edu.jo
+    first_name: Ahmad
+    homepage: https://psut.edu.jo/en/staff/professor/school_of_computing_sciences/dr-ahmad-altamimi
+    last_name: Altamimi
+    name: Ahmad Altamimi
+    username: ~Ahmad_Altamimi1
+  decision: Poster
+  file: 75.pdf
+  id: 75
+  openreview_id: VBzPPl4J2Q
+  pdf_file: 38c5631c937e18608f7a71334e74a3e49b0001af.pdf
+  title: 'CLD-MEC at MEDIQA- CORR 2024 Task: GPT-4 Multi-Stage Clinical Chain of Thought
+    Prompting for Medical Errors Detection and Correction'
+- abstract: The 2024 Shared Task on Chemotherapy Treatment Timeline Extraction aims
+    to advance the state of the art of clinical event timeline extraction from the
+    Electronic Health Records (EHRs). Specifically, this edition focuses on chemotherapy
+    event timelines from EHRs of patients with breast, ovarian and skin cancers. These
+    patient-level timelines present a novel challenge which involves tasks such as
+    the extraction of relevant events, time expressions and temporal relations from
+    each document and then summarizing over the documents. De-identified EHRs for
+    57,530 patients with breast and ovarian cancer spanning 2004-2020, and approximately
+    15,946 patients with melanoma spanning 2010-2020 were made available to participants
+    after executing a Data Use Agreement. A subset of patients is annotated for gold
+    entities, time expressions, temporal relations and patient-level timelines. The
+    rest is considered unlabeled data. In Subtask1, gold chemotherapy event mentions
+    and time expressions are provided (along with the EHR notes). Participants are
+    asked to build the patient-level timelines using gold annotations as input. Thus,
+    the subtask seeks to explore the topics of temporal relations extraction and timeline
+    creation if event and time expression input is perfect. In Subtask2, which is
+    the realistic real-world setting, only EHR notes are provided. Thus, the subtask
+    aims at developing an end-to-end system for chemotherapy treatment timeline extraction
+    from patient's EHR notes. There were 18 submissions for Subtask 1 and 9 submissions
+    for Subtask 2. The organizers provided a baseline system. The teams employed a
+    variety of methods including Logistic Regression, TF-IDF, n-grams, transformer
+    models, zero-shot prompting with Large Language Models (LLMs), and instruction
+    tuning. The gap in performance between prompting LLMs and finetuning smaller-sized
+    LMs indicates that for a challenging task such as patient-level chemotherapy timeline
+    extraction, more sophisticated LLMs or prompting techniques are necessary in order
+    to achieve optimal results as finetuing smaller-sized LMs outperforms by a wide
+    margin.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - dblp_id: https://dblp.org/pid/249/9101
+    emails: jryao@brandeis.edu
+    first_name: Jiarui
+    institution: Boston Children's Hospital
+    last_name: Yao
+    name: Jiarui Yao
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jiarui-Yao/40040342
+    username: ~Jiarui_Yao1
+  - dblp_id: https://dblp.org/pid/23/6837.html
+    emails: harryh@pitt.edu
+    first_name: Harry
+    google_scholar_id: https://scholar.google.com/citations?user=p6z7sL4AAAAJ&hl=en
+    homepage: https://www.dbmi.pitt.edu/directory/name/harry-hochheiser/
+    institution: University of Pittsburgh
+    last_name: Hochheiser
+    name: Harry Hochheiser
+    orcid: https://orcid.org/0000-0001-8793-9982
+    username: ~Harry_Hochheiser1
+  - emails: wonjin.yoon@childrens.harvard.edu
+    first_name: WonJin
+    google_scholar_id: https://scholar.google.com/citations?user=7xuGLSoAAAAJ
+    homepage: http://wonjin.info
+    institution: Harvard University
+    last_name: Yoon
+    name: WonJin Yoon
+    orcid: https://orcid.org/0000-0002-6435-548X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Wonjin-Yoon/51433082
+    username: ~WonJin_Yoon1
+  - emails: eli.goldner@childrens.harvard.edu
+    first_name: Eli
+    last_name: Goldner
+    middle_name: T
+    name: Eli T Goldner
+    orcid: https://orcid.org/0000-0003-3226-0942
+    username: ~Eli_T_Goldner1
+  - emails: guerganasavova@hotmail.com
+    first_name: Guergana
+    google_scholar_id: https://scholar.google.com/citations?user=9538Cr4AAAAJ&hl=en&oi=sra
+    institution: Harvard University
+    last_name: Savova
+    middle_name: K
+    name: Guergana K Savova
+    orcid: https://orcid.org/0000-0002-5887-200X
+    username: ~Guergana_K_Savova1
+  decision: Oral
+  file: 76.pdf
+  id: 76
+  openreview_id: xtBK2IvixU
+  pdf_file: 718534562b4190f9e7e5251402257b46793205a4.pdf
+  title: Overview of the 2024 Shared Task on Chemotherapy Treatment Timeline Extraction
+- abstract: In natural language processing applied to the clinical domain, utilizing
+    large language models has emerged as a promising avenue for error detection and
+    correction on clinical notes, a knowledge-intensive task for which annotated data
+    is scarce. This paper presents MedReAct'N'MedReFlex, which leverages a suite of
+    four LLM-based medical agents. The MedReAct agent initiates the process by observing,
+    analyzing, and taking action, generating trajectories to guide the search to target
+    a potential error in the clinical notes. Subsequently, the MedEval agent employs
+    five evaluators to assess the targeted error and the proposed correction. In cases
+    where MedReAct's actions prove insufficient, the MedReFlex agent intervenes, engaging
+    in reflective analysis and proposing alternative strategies. Finally, the MedFinalParser
+    agent formats the final output, preserving the original style while ensuring the
+    integrity of the error correction process. One core component of our method is
+    our RAG pipeline based on our ClinicalCorp corpora. Among other well-known sources
+    containing clinical guidelines and information, we preprocess and release the
+    open-source MedWiki dataset for clinical RAG application. Our results demonstrate
+    the central role of our RAG approach with ClinicalCorp leveraged through the MedReAct'N'MedReFlex
+    framework. It achieved the ninth rank on the MEDIQA-CORR 2024 final leaderboard.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: jeanphilippecorbeil@gmail.com
+    first_name: Jean-Philippe
+    google_scholar_id: https://scholar.google.ca/citations?user=eqlyHDsAAAAJ&hl=fr
+    last_name: Corbeil
+    name: Jean-Philippe Corbeil
+    username: ~Jean-Philippe_Corbeil1
+  decision: Poster
+  file: 77.pdf
+  id: 77
+  openreview_id: mM8l65l0mo
+  pdf_file: 2be90b111f97d3766693d729d2d5a5cda9c568ba.pdf
+  title: 'IryoNLP at MEDIQA-CORR 2024: Tackling the Medical Error Detection & Correction
+    Task on the Shoulders of Medical Agents'
+- abstract: Remote patient care provides opportunities for expanding medical access,
+    saving healthcare costs, and offering on-demand convenient services. In the MEDIQA-M3G
+    2024 Shared Task, researchers explored solutions for the specific task of dermatological
+    consumer health visual question answering, where user generated queries and images
+    are used as input and a free-text answer response is generated as output. In this
+    novel challenge, eight teams with a total of 48 submissions were evaluated across
+    three language test sets. In this work, we provide a summary of the dataset, as
+    well as results and approaches. We  hope that the insights learned here will inspire
+    future research directions that can lead to technology that  deburdens clinical
+    workload and improves care.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - dblp_id: https://dblp.org/pid/152/2666
+    emails: wenwaiyim@gmail.com
+    first_name: Wen-wai
+    google_scholar_id: https://scholar.google.com/citations?user=zLbXslcAAAAJ&hl=en
+    last_name: Yim
+    name: Wen-wai Yim
+    semantic_scholar_id: https://www.semanticscholar.org/author/Wen-wai-Yim/38845771
+    username: ~Wen-wai_Yim1
+  - dblp_id: https://dblp.org/pers/a/Abacha:Asma_Ben
+    emails: abenabacha@microsoft.com
+    first_name: Asma
+    google_scholar_id: https://scholar.google.com/citations?user=KO6_r0cAAAAJ&hl=en
+    homepage: https://sites.google.com/site/asmabenabacha/
+    institution: Microsoft, USA
+    last_name: Ben Abacha
+    name: Asma Ben Abacha
+    orcid: https://orcid.org/0000-0001-6312-9387
+    semantic_scholar_id: https://www.semanticscholar.org/author/Asma-Ben-Abacha/2205800
+    username: ~Asma_Ben_Abacha1
+  - emails: velvinfu@uw.edu
+    first_name: Yujuan
+    homepage: http://bime.uw.edu/students/yujuan-fu/
+    institution: University of Washington
+    last_name: Fu
+    name: Yujuan Fu
+    username: ~Yujuan_Fu1
+  - emails: zhaoyis@uw.edu
+    first_name: Zhaoyi
+    google_scholar_id: https://scholar.google.com/citations?user=5nEP4pQAAAAJ&hl=en&oi=ao
+    homepage: https://www.zhaoyisun.com/
+    last_name: Sun
+    name: Zhaoyi Sun
+    orcid: https://orcid.org/0009-0003-8197-1465
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhaoyi-Sun/1472897090
+    username: ~Zhaoyi_Sun3
+  - dblp_id: https://dblp.org/pid/79/1081.html
+    emails: fxia@u.washington.edu
+    first_name: Fei
+    google_scholar_id: https://scholar.google.com/citations?user=BnVLQFwAAAAJ
+    homepage: https://faculty.washington.edu/fxia/
+    institution: University of Washington, Seattle
+    last_name: Xia
+    name: Fei Xia
+    semantic_scholar_id: https://www.semanticscholar.org/author/Fei-Xia/144956443
+    username: ~Fei_Xia2
+  - emails: melihay@uw.edu
+    first_name: Meliha
+    homepage: https://faculty.washington.edu/melihay/
+    institution: University of Washington
+    last_name: Yetisgen
+    name: Meliha Yetisgen
+    username: ~Meliha_Yetisgen2
+  - emails: krallinger.martin@gmail.com
+    first_name: Martin
+    homepage: https://www.bsc.es/krallinger-martin
+    institution: Barcelona Supercomputing Center
+    last_name: Krallinger
+    name: Martin Krallinger
+    username: ~Martin_Krallinger2
+  decision: Oral
+  file: 78.pdf
+  id: 78
+  openreview_id: 6xDs0jmDDb
+  pdf_file: a50c545d1a0885ee7cc3aa04212251d9c1474e5c.pdf
+  title: Overview of the MEDIQA-M3G 2024 Shared Task on Multilingual Multimodal Medical
+    Answer Generation
+- abstract: 'This paper describes our submission to MEDIQA-CORR 2024 shared task for
+    automatic identification and correction of medical errors in a given clinical
+    text. We report results from two approaches: the first uses a few-shot in-context
+    learning (ICL) with a Large Language Model (LLM) and the second approach extends
+    the idea by using a knowledge-enhanced few-shot ICL approach. We used Azure OpenAI
+    GPT-4 API as the LLM and Wikipedia as the external knowledge source. We report
+    evaluation metrics (accuracy, ROUGE, BERTScore, BLEURT) across both approaches
+    for validation and test datasets. Of the two approaches implemented, our experimental
+    results show that the knowledge-enhanced few-shot ICL approach with GPT-4 performed
+    better with error flag (subtask A) and error sentence detection (subtask B) with
+    accuracies of 68% and 64%, respectively on the test dataset. These results positioned
+    us fourth in subtask A and second in subtask B, respectively in the shared task.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: srajwal@emory.edu
+    first_name: Swati
+    google_scholar_id: https://scholar.google.com/citations?user=6AfEraYAAAAJ&hl=en
+    homepage: https://swati-rajwal.github.io/
+    last_name: Rajwal
+    name: Swati Rajwal
+    orcid: https://orcid.org/0000-0002-3826-5069
+    username: ~Swati_Rajwal2
+  - dblp_id: https://dblp.org/pid/26/1185
+    emails: eugene.agichtein@emory.edu
+    first_name: Eugene
+    google_scholar_id: https://scholar.google.com/citations?user=3BX3vWcAAAAJ&hl=en
+    homepage: https://www.cs.emory.edu/~eugene
+    institution: Amazon and Emory University
+    last_name: Agichtein
+    name: Eugene Agichtein
+    orcid: https://orcid.org/0000-0002-3148-5448
+    username: ~Eugene_Agichtein1
+  - emails: abeed@dbmi.emory.edu
+    first_name: Abeed
+    google_scholar_id: https://scholar.google.com/citations?user=ShFx9OAAAAAJ&hl=en
+    homepage: https://sarkerlab.org/
+    institution: Emory University
+    last_name: Sarker
+    name: Abeed Sarker
+    username: ~Abeed_Sarker2
+  decision: Poster
+  file: 79.pdf
+  id: 79
+  openreview_id: ygrXEObZLD
+  pdf_file: f73a40cc4120ea6bab45fc279522b6564a0d90d0.pdf
+  title: 'EM_Mixers at MEDIQA-CORR 2024: Knowledge-Enhanced Few-Shot In-Context Learning
+    for Medical Error Detection and Correction'
+- abstract: Automatic detection and correction of medical errors enables a more rigorous
+    validation of medical documentation as well as clinical notes generated by large
+    language models. Such solutions can ensure the accuracy and medical coherence
+    of clinical texts and enhance patient care and health outcomes. The MEDIQA-CORR
+    2024 shared task focused on detecting and correcting different types of medical
+    errors in clinical texts. Seventeen teams participated in the shared task and
+    experimented with a broad range of approaches and models. In this paper, we describe
+    the MEDIQA-CORR task, datasets, and the participants' results and methods.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - dblp_id: https://dblp.org/pers/a/Abacha:Asma_Ben
+    emails: abenabacha@microsoft.com
+    first_name: Asma
+    google_scholar_id: https://scholar.google.com/citations?user=KO6_r0cAAAAJ&hl=en
+    homepage: https://sites.google.com/site/asmabenabacha/
+    institution: Microsoft, USA
+    last_name: Ben Abacha
+    name: Asma Ben Abacha
+    orcid: https://orcid.org/0000-0001-6312-9387
+    semantic_scholar_id: https://www.semanticscholar.org/author/Asma-Ben-Abacha/2205800
+    username: ~Asma_Ben_Abacha1
+  - dblp_id: https://dblp.org/pid/152/2666
+    emails: wenwaiyim@gmail.com
+    first_name: Wen-wai
+    google_scholar_id: https://scholar.google.com/citations?user=zLbXslcAAAAJ&hl=en
+    last_name: Yim
+    name: Wen-wai Yim
+    semantic_scholar_id: https://www.semanticscholar.org/author/Wen-wai-Yim/38845771
+    username: ~Wen-wai_Yim1
+  - emails: velvinfu@uw.edu
+    first_name: Yujuan
+    homepage: http://bime.uw.edu/students/yujuan-fu/
+    institution: University of Washington
+    last_name: Fu
+    name: Yujuan Fu
+    username: ~Yujuan_Fu1
+  - emails: zhaoyis@uw.edu
+    first_name: Zhaoyi
+    google_scholar_id: https://scholar.google.com/citations?user=5nEP4pQAAAAJ&hl=en&oi=ao
+    homepage: https://www.zhaoyisun.com/
+    last_name: Sun
+    name: Zhaoyi Sun
+    orcid: https://orcid.org/0009-0003-8197-1465
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhaoyi-Sun/1472897090
+    username: ~Zhaoyi_Sun3
+  - dblp_id: https://dblp.org/pid/79/1081.html
+    emails: fxia@u.washington.edu
+    first_name: Fei
+    google_scholar_id: https://scholar.google.com/citations?user=BnVLQFwAAAAJ
+    homepage: https://faculty.washington.edu/fxia/
+    institution: University of Washington, Seattle
+    last_name: Xia
+    name: Fei Xia
+    semantic_scholar_id: https://www.semanticscholar.org/author/Fei-Xia/144956443
+    username: ~Fei_Xia2
+  - emails: melihay@uw.edu
+    first_name: Meliha
+    homepage: https://faculty.washington.edu/melihay/
+    institution: University of Washington
+    last_name: Yetisgen
+    name: Meliha Yetisgen
+    username: ~Meliha_Yetisgen2
+  decision: Oral
+  file: 80.pdf
+  id: 80
+  openreview_id: SByE7Kdu7G
+  pdf_file: 8f202a44ee61ad902e91b9b0f1ba999aa3add3c0.pdf
+  title: Overview of the MEDIQA-CORR 2024 Shared Task on Medical Error Detection and
+    Correction
+- abstract: This paper presents our approach for the 2024 ChemoTimelines shared task.
+    Specifically, we explored using Large Language Models (LLMs) for temporal relation
+    extraction. We evaluate multiple model variations based on how the training data
+    is used. For instance, we transform the task into a question-answering problem
+    and use QA pairs to extract chemo-related events and their temporal relations.
+    Next, we add all the documents to each question-answer pair as examples in our
+    training dataset. Finally, we explore adding unlabeled data for continued pretraining.
+    Each addition is done iteratively. Our results show that adding the document helps,
+    but unlabeled data does not yield performance improvements, possibly because we
+    used only 1\% of the available data. Moreover, we find that instruction-tuned
+    models still substantially underperform more traditional systems (e.g., EntityBERT).
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: Chemotherapy Timelines Extraction'
+  authors:
+  - dblp_id: https://dblp.org/pid/317/0015
+    emails: xingmeng.zhao@utsa.edu
+    first_name: Xingmeng
+    google_scholar_id: https://scholar.google.com/citations?user=azM4bR8AAAAJ&hl=zh-CN
+    last_name: Zhao
+    name: Xingmeng Zhao
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingmeng-Zhao/2159185818
+    username: ~Xingmeng_Zhao1
+  - dblp_id: https://dblp.org/pid/133/1827
+    emails: anthony.rios@utsa.edu
+    first_name: Anthony
+    google_scholar_id: https://scholar.google.com/citations?user=KJr3ptUAAAAJ
+    homepage: https://anthonyrios.net/
+    institution: University of Texas at San Antonio
+    last_name: Rios
+    name: Anthony Rios
+    semantic_scholar_id: https://www.semanticscholar.org/author/Anthony-Rios/26355137
+    username: ~Anthony_Rios1
+  decision: Poster
+  file: 81.pdf
+  id: 81
+  openreview_id: BIdOeLYMLO
+  pdf_file: 96f90cd9b546a58c0be5004fd3e66c3bca689dfd.pdf
+  title: 'UTSA-NLP at ChemoTimelines 2024: Evaluating Instruction-Tuned Language Models
+    for Temporal Relation Extraction'
+- abstract: 'Medical errors in clinical text pose significant risks to patient safety.
+    The MEDIQA-CORR 2024 shared task focuses on detecting and correcting these errors
+    across three subtasks: identifying the presence of an error, extracting the erroneous
+    sentence, and generating a corrected sentence. In this paper, we present our approach
+    that achieved top performance in all three subtasks. For the MS dataset, which
+    contains subtle errors, we developed a retrieval-based system leveraging external
+    medical question-answering datasets. For the UW dataset, reflecting more realistic
+    clinical notes, we created a pipeline of modules to detect, localize, and correct
+    errors. Both approaches utilized the DSPy framework for optimizing prompts and
+    few-shot examples in large language model (LLM) based programs. Our results demonstrate
+    the effectiveness of LLM based programs for medical error correction. However,
+    our approach has limitations in addressing the full diversity of potential errors
+    in medical documentation. We discuss the implications of our work and highlight
+    future research directions to advance the robustness and applicability of medical
+    error detection and correction systems.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-CORR: Medical Error Detection and Correction'
+  authors:
+  - emails: augustin.toma@medportal.ca
+    first_name: Augustin
+    homepage: https://www.linkedin.com/in/augustin-toma-58964a244/
+    institution: University of Toronto
+    last_name: Toma
+    name: Augustin Toma
+    username: ~Augustin_Toma1
+  - emails: ronaldxie@gmail.com
+    first_name: Ronald
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=1yCn2oIAAAAJ
+    last_name: Xie
+    name: Ronald Xie
+    username: ~Ronald_Xie1
+  - emails: s.palayew@mail.utoronto.ca
+    first_name: Steven
+    institution: University of Toronto
+    last_name: Palayew
+    name: Steven Palayew
+    username: ~Steven_Palayew1
+  - emails: patrick.lawler@uhn.ca
+    first_name: Patrick
+    google_scholar_id: https://scholar.google.ca/citations?hl=en&user=Jc_eqNgAAAAJ&view_op=list_works&gmla=AJsN-F5yslq0JcRAm7fIlBKp3jFDs1mbIST4dYQurO6zNgd6CO8iBp2d6g8nYzQPzV_ESWV8hdjUiGl9MSStqPMq7WPN7eikpN5r94Iugy8wIMzxdiVd1CkUlLVVvhcE1DRUCdF7Uwv3
+    last_name: Lawler
+    name: Patrick Lawler
+    username: ~Patrick_Lawler1
+  - emails: bowang@vectorinstitute.ai
+    first_name: BO
+    google_scholar_id: https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en
+    homepage: https://wanglab.ai/
+    institution: Vector Institute
+    last_name: Wang
+    name: BO WANG
+    username: ~BO_WANG11
+  decision: Oral
+  file: 82.pdf
+  id: 82
+  openreview_id: 0mm73lqJ4S
+  pdf_file: c7ffeeae3dd2d5a7ab6cd803e96ea5dc5746d9dc.pdf
+  title: 'WangLab at MEDIQA-CORR 2024: Optimized LLM-based Programs for Medical Error
+    Detection and Correction'
+- abstract: This paper outlines our submission to the MEDIQA2024 Multilingual and
+    Multimodal Medical Answer Generation (M3G) shared task. We report results for
+    two standalone solutions under the English category of the task, the first involving
+    two consecutive API calls to the Claude 3 Opus API and the second involving training
+    an image-disease label joint embedding in the style of CLIP for image classification.
+    These two solutions scored 1st and 2nd place respectively on the competition leaderboard,
+    substantially outperforming the next best solution. Additionally, we discuss insights
+    gained from post-competition experiments. While the performance of these two described
+    solutions have significant room for improvement due to the difficulty of the shared
+    task and the challenging nature of medical visual question answering in general,
+    we identify the multi-stage LLM approach and the CLIP image classification approach
+    as promising avenues for further investigation.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - emails: augustin.toma@medportal.ca
+    first_name: Augustin
+    homepage: https://www.linkedin.com/in/augustin-toma-58964a244/
+    institution: University of Toronto
+    last_name: Toma
+    name: Augustin Toma
+    username: ~Augustin_Toma1
+  - emails: ronaldxie@gmail.com
+    first_name: Ronald
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=1yCn2oIAAAAJ
+    last_name: Xie
+    name: Ronald Xie
+    username: ~Ronald_Xie1
+  - emails: s.palayew@mail.utoronto.ca
+    first_name: Steven
+    institution: University of Toronto
+    last_name: Palayew
+    name: Steven Palayew
+    username: ~Steven_Palayew1
+  - dblp_id: https://dblp.org/pid/35/2796
+    emails: gary.bader@utoronto.ca
+    first_name: Gary
+    google_scholar_id: https://scholar.google.ca/citations?user=22M9eisAAAAJ&hl=en
+    homepage: https://baderlab.org/
+    institution: University of Toronto
+    last_name: Bader
+    middle_name: D.
+    name: Gary D. Bader
+    orcid: https://orcid.org/0000-0003-0185-8861
+    semantic_scholar_id: https://www.semanticscholar.org/author/Gary-D-Bader/144937305
+    username: ~Gary_D._Bader1
+  - emails: bowang@vectorinstitute.ai
+    first_name: BO
+    google_scholar_id: https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en
+    homepage: https://wanglab.ai/
+    institution: Vector Institute
+    last_name: Wang
+    name: BO WANG
+    username: ~BO_WANG11
+  decision: Oral
+  file: 83.pdf
+  id: 83
+  openreview_id: KmaWl1sLt9
+  pdf_file: 00e32dbb2df624d1e1623ab3a11384ca2a90a5e4.pdf
+  title: 'WangLab at MEDIQA-M3G 2024: Multimodal Medical Answer Generation using Large
+    Language Models'
+- abstract: Text-to-SQL models are pivotal for making Electronic Health Records (EHRs)
+    accessible to healthcare professionals without SQL knowledge. With the advancements
+    in large language models, these systems have become more adept at translating
+    complex questions into SQL queries. Nonetheless, the critical need for reliability
+    in healthcare necessitates these models to accurately identify unanswerable questions
+    or uncertain predictions, preventing misinformation. To address this problem,
+    we present a self-training strategy using pseudo-labeled unanswerable questions
+    to enhance the reliability of text-to-SQL models for EHRs. This approach includes
+    a two-stage training process followed by a filtering method based on the token
+    entropy and query execution. Our methodology's effectiveness is validated by our
+    top performance in the EHRSQL 2024 shared task, showcasing the potential to improve
+    healthcare decision-making through more reliable text-to-SQL systems.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - dblp_id: https://dblp.org/pid/252/6347
+    emails: dreamgonfly@gmail.com
+    first_name: Yongrae
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=6BtCrX4AAAAJ&authuser=1&scilu=&scisig=ACseELIAAAAAZF33lvLUcKqN_X5-rTh-BMiLbRE&gmla=AHoSzlUvsJAE5QyJueXcTw1z-zN7qVVOIOVGpkx7ZyGyIl27lmE__kWe_YlYh69MiLL1fQiYOTlS0VH7xsbsLUQsdX4vUPa0MaXsatE&sciund=2870709815918689887
+    homepage: https://github.com/dreamgonfly
+    last_name: Jo
+    name: Yongrae Jo
+    username: ~Yongrae_Jo1
+  - emails: sy-lee@korea.ac.kr
+    first_name: Seongyun
+    last_name: Lee
+    name: Seongyun Lee
+    username: ~Seongyun_Lee1
+  - dblp_id: https://dblp.org/pid/359/0071
+    emails: minjuseo@kaist.ac.kr
+    first_name: Minju
+    homepage: https://github.com/going-doer/going-doer
+    institution: Korea Advanced Institute of Science & Technology
+    last_name: Seo
+    name: Minju Seo
+    semantic_scholar_id: https://www.semanticscholar.org/author/Minju-Seo/2284871419
+    username: ~Minju_Seo1
+  - dblp_id: http://dblp2.uni-trier.de/pers/hd/h/Hwang:Sung_Ju
+    emails: sjhwang82@gmail.com
+    first_name: Sung Ju
+    google_scholar_id: https://scholar.google.com/citations?user=RP4Qx3QAAAAJ&hl=en
+    homepage: http://www.sungjuhwang.com/
+    institution: Korea Advanced Institute of Science and Technology and AITRICS
+    last_name: Hwang
+    name: Sung Ju Hwang
+    username: ~Sung_Ju_Hwang1
+  - dblp_id: https://dblp.org/pid/132/1761
+    emails: moontae@uic.edu
+    first_name: Moontae
+    google_scholar_id: https://scholar.google.com/citations?user=BMvYy9cAAAAJ&hl=en
+    homepage: https://moontae.people.uic.edu
+    institution: University of Illinois, Chicago
+    last_name: Lee
+    name: Moontae Lee
+    username: ~Moontae_Lee1
+  decision: Oral
+  file: 84.pdf
+  id: 84
+  openreview_id: WcPVF3yKZG
+  pdf_file: 3e3e46df022d24ad111844fb34bf877ff0835862.pdf
+  title: 'LG AI Research & KAIST at EHRSQL 2024: Self-Training Large Language Models
+    with Pseudo-Labeled Unanswerable Questions for a Reliable Text-to-SQL System on
+    EHRs'
+- abstract: Electronic Health Records (EHRs) are relational databases that store the
+    entire medical histories of patients within hospitals. They record numerous aspects
+    of patients' medical care, from hospital admission and diagnosis to treatment
+    and discharge. While EHRs are vital sources of clinical data, exploring them beyond
+    a predefined set of queries requires skills in query languages like SQL. To make
+    information retrieval more accessible, one strategy is to build a question-answering
+    system, possibly leveraging text-to-SQL models that can automatically translate
+    natural language questions into corresponding SQL queries and use these queries
+    to retrieve the answers. The EHRSQL 2024 shared task aims to advance and promote
+    research in developing a question-answering system for EHRs using text-to-SQL
+    modeling, capable of reliably providing requested answers to various healthcare
+    professionals to improve their clinical work processes and satisfy their needs.
+    Among more than 100 participants who applied to the shared task, eight teams completed
+    the entire shared task processes and demonstrated a wide range of methods to effectively
+    solve this task. In this paper, we describe the task of reliable text-to-SQL modeling,
+    the dataset, and the methods and results of the participants. We hope this shared
+    task will spur further research and insights into developing reliable question-answering
+    systems for EHRs.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - dblp_id: https://dblp.org/pid/249/4944
+    emails: gyubok.lee@kaist.ac.kr
+    first_name: Gyubok
+    google_scholar_id: https://scholar.google.com/citations?user=UYzauyYAAAAJ&hl=ko
+    homepage: https://sites.google.com/view/gyuboklee
+    institution: Korea Advanced Institute of Science and Technology
+    last_name: Lee
+    name: Gyubok Lee
+    username: ~Gyubok_Lee1
+  - emails: sean0042@kaist.ac.kr
+    first_name: Sunjun
+    google_scholar_id: https://scholar.google.com/citations?user=mKFQKpwAAAAJ&hl=en
+    last_name: Kweon
+    name: Sunjun Kweon
+    username: ~Sunjun_Kweon1
+  - dblp_id: https://dblp.org/pid/307/5358
+    emails: seongsu@kaist.ac.kr
+    first_name: Seongsu
+    google_scholar_id: https://scholar.google.com/citations?user=hJKVzt4AAAAJ&hl=en
+    institution: Korea Advanced Institute of Science and Technology
+    last_name: Bae
+    name: Seongsu Bae
+    username: ~Seongsu_Bae1
+  - dblp_id: https://dblp.org/pid/41/3886
+    emails: mp2893@gmail.com
+    first_name: Edward
+    google_scholar_id: https://scholar.google.com/citations?user=GUlGIPkAAAAJ&hl=en
+    homepage: http://mp2893.com
+    institution: Korea Advanced Institute of Science and Technology
+    last_name: Choi
+    name: Edward Choi
+    username: ~Edward_Choi1
+  decision: Oral
+  file: 85.pdf
+  id: 85
+  openreview_id: bis6nUhvwI
+  pdf_file: 513f435e071655c08c45e19f4100a25541a4496f.pdf
+  title: Overview of the EHRSQL 2024 Shared Task on Reliable Text-to-SQL Modeling
+    on Electronic Health Records
+- abstract: The EHRSQL task aims to develop a dependable text-to-SQL model for Electronic
+    Health Records (EHR) databases, which are crucial sources of clinical data that
+    store patients' medical histories in hospitals. Large language models (LLM) have
+    been proven to exhibit state-of-the-art performance for text-to-SQL tasks across
+    various domains. To this end, we have developed a framework, SQL Generation through
+    Classification Answer Selector by LLM (SCAS), which comprises two modules. The
+    CAS module determines the answerability of the question, while the SG model generates
+    the SQL query exclusively for answerable questions. Our system ranked 7th on the
+    leaderboard with a Reliability Score of 53.21 on the official test set.
+  attributes:
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - emails: mohammed.jabir@saama.com
+    first_name: Mohammed
+    last_name: Jabir
+    name: Mohammed Jabir
+    username: ~Mohammed_Jabir1
+  - emails: kamal.raj@saama.com
+    first_name: Kamal
+    google_scholar_id: https://scholar.google.com/citations?user=HFskDrsAAAAJ&hl=en
+    last_name: Kanakarajan
+    middle_name: Raj
+    name: Kamal Raj Kanakarajan
+    username: ~Kamal_Raj_Kanakarajan1
+  - dblp_id: https://dblp.org/pid/224/0138.html
+    emails: malaikannan.sankarasubbu@saama.com
+    first_name: Malaikannan
+    google_scholar_id: https://scholar.google.com/citations?user=znWv6tUAAAAJ&hl=en
+    last_name: Sankarasubbu
+    name: Malaikannan Sankarasubbu
+    orcid: https://orcid.org/0000-0002-7160-5133
+    username: ~Malaikannan_Sankarasubbu1
+  decision: Poster
+  file: 86.pdf
+  id: 86
+  openreview_id: BFY5aw6nNA
+  pdf_file: ff16c92bb0a48c52d4b18d3987e5d84b6754eeee.pdf
+  title: 'Saama Technologies at EHRSQL 2024: SQL Generation through Classification
+    Answer Selector by LLM'
+- abstract: Transforming natural language questions into SQL queries is crucial for
+    precise data retrieval from electronic health record (EHR) databases. A significant
+    challenge in this process is detecting and rejecting unanswerable questions that
+    request information outside the database's scope or exceed the system's capabilities.
+    In this paper, we introduce a novel text-to-SQL framework that focuses on standardizing
+    the structure of questions into a templated format. Our framework begins by fine-tuning
+    GPT-3.5-turbo, a powerful large language model (LLM), with detailed prompts involving
+    the table schemas of the EHR database system. Our approach shows promising results
+    on the EHRSQL-2024 benchmark dataset, part of the ClinicalNLP shared task. Although
+    fine-tuning GPT achieves third place on the development set, it struggled with
+    the diverse questions in the test set. With our framework, we improve our system's
+    adaptability and achieve fourth position in the official leaderboard of the EHRSQL-2024
+    challenge.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - emails: hajungk@korea.ac.kr
+    first_name: Hajung
+    last_name: Kim
+    name: Hajung Kim
+    orcid: https://orcid.org/0000-0003-3209-3494
+    username: ~Hajung_Kim1
+  - emails: chanhwi\_kim@korea.ac.kr
+    first_name: Chanhwi
+    google_scholar_id: https://scholar.google.co.kr/citations?user=gbq6zakAAAAJ&hl=ko
+    last_name: Kim
+    name: Chanhwi Kim
+    username: ~Chanhwi_Kim1
+  - emails: hoonick@korea.ac.kr
+    first_name: Hoonick
+    institution: Korea University
+    last_name: Lee
+    name: Hoonick Lee
+    username: ~Hoonick_Lee2
+  - emails: gcj0125@korea.ac.kr
+    first_name: Kyochul
+    last_name: Jang
+    name: Kyochul Jang
+    username: ~Kyochul_Jang1
+  - emails: hijiwoo7@korea.ac.kr
+    first_name: Jiwoo
+    google_scholar_id: https://scholar.google.co.kr/citations?hl=ko&user=bHIoUcAAAAAJ
+    last_name: Lee
+    name: Jiwoo Lee
+    orcid: https://orcid.org/0009-0008-1787-3664
+    username: ~Jiwoo_Lee1
+  - dblp_id: https://dblp.org/pid/13/7265-2
+    emails: lkj0509@yonsei.ac.kr
+    first_name: Kyungjae
+    google_scholar_id: https://scholar.google.co.kr/citations?user=bGeInhoAAAAJ&hl=ko&oi=ao
+    homepage: https://lkj0509.github.io/
+    last_name: Lee
+    name: Kyungjae Lee
+    orcid: https://orcid.org/0000-0003-0586-3748
+    username: ~Kyungjae_Lee2
+  - dblp_id: https://dblp.org/pid/264/0044
+    emails: gangwoo\_kim@korea.ac.kr
+    first_name: Gangwoo
+    google_scholar_id: https://scholar.google.com/citations?user=TmWGEFgAAAAJ&hl=en&oi=ao
+    homepage: https://gankim.github.io/
+    last_name: Kim
+    name: Gangwoo Kim
+    semantic_scholar_id: https://www.semanticscholar.org/author/Gangwoo-Kim/1390543205
+    username: ~Gangwoo_Kim1
+  - dblp_id: https://dblp.org/pid/k/JaewooKang
+    emails: kangj@korea.ac.kr
+    first_name: Jaewoo
+    google_scholar_id: https://scholar.google.co.kr/citations?user=RaBZafQAAAAJ&hl=ko
+    homepage: https://dmis.korea.ac.kr
+    institution: Korea University
+    last_name: Kang
+    name: Jaewoo Kang
+    username: ~Jaewoo_Kang1
+  decision: Poster
+  file: 87.pdf
+  id: 87
+  openreview_id: TAYue8LNwK
+  pdf_file: 85d643c81f59afb94ac2850f407973232fff53f7.pdf
+  title: 'KU-DMIS at EHRSQL 2024 : Generating SQL query via question templatization
+    in EHR'
+- abstract: 'Recently, deep learning-based language models have significantly enhanced
+    text-to-SQL tasks, with promising applications in retrieving patient records within
+    the medical domain. One notable challenge in such applications is discerning unanswerable
+    queries. Through fine-tuning model, we demonstrate the feasibility of converting
+    medical record inquiries into SQL queries. Additionally, we introduce an entropy-based
+    method to identify and filter out unanswerable results. We further enhance result
+    quality by filtering low-confidence SQL through log probability-based distribution,
+    while grammatical and schema errors are mitigated by executing queries on the
+    actual database.
+
+    We experimentally verified that our method can filter unanswerable questions,
+    which can be widely utilized even when the parameters of the model are not accessible,
+    and that it can be effectively utilized in practice.'
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - emails: sangryul@kaist.ac.kr
+    first_name: Sangryul
+    homepage: https://github.com/sangryul
+    institution: Korea Advanced Institute of Science & Technology
+    last_name: Kim
+    name: Sangryul Kim
+    username: ~Sangryul_Kim1
+  - emails: handonghee@kaist.ac.kr
+    first_name: Donghee
+    google_scholar_id: https://scholar.google.com/citations?user=M81V1F4AAAAJ&hl=ko
+    homepage: https://github.com/venzino-han
+    institution: Korea Advanced Institute of Science & Technology
+    last_name: Han
+    name: Donghee Han
+    username: ~Donghee_Han1
+  - emails: sehyun@kaist.ac.kr
+    first_name: Sehyun
+    last_name: Kim
+    name: Sehyun Kim
+    username: ~Sehyun_Kim2
+  decision: Poster
+  file: 88.pdf
+  id: 88
+  openreview_id: pYhpyt7qAv
+  pdf_file: 2ea32fbad797df48aa2dfebd04c7b51e151f1d36.pdf
+  title: 'ProbGate at EHRSQL 2024: Enhancing SQL Query Generation Accuracy through
+    Probabilistic Threshold Filtering and Error Handling'
+- abstract: In this paper, we present our work in the EHRSQL 2024 shared task which
+    tackles reliable text-to-SQL modeling on Electronic Health Records. Our proposed
+    system tackles the task with three modules - abstention module, text-to-SQL generation
+    module, and reliability module. The abstention module identifies whether the question
+    is answerable given the database schema. If the question is answerable, the text-to-SQL
+    generation module generates the SQL query and associated confidence score. The
+    reliability module has two key components - confidence score thresholding, which
+    rejects generations with confidence below a pre-defined level, and error filtering,
+    which identifies and excludes SQL queries that result in execution errors. In
+    the official leaderboard for the task, our system ranks 6th. We have also made
+    the source code public.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: EHRSQL: Reliable Text-to-SQL Modeling on Electronic
+      Health Records'
+  authors:
+  - emails: jerrin.thomas@research.iiit.ac.in
+    first_name: Jerrin
+    last_name: Thomas
+    middle_name: John
+    name: Jerrin John Thomas
+    username: ~Jerrin_John_Thomas1
+  - dblp_id: https://dblp.org/pid/185/5548
+    emails: pruthwikmishra@gmail.com
+    first_name: Pruthwik
+    google_scholar_id: https://scholar.google.co.in/citations?user=lzS6OhEAAAAJ&hl=en
+    homepage: https://pruthwik.github.io/
+    institution: IIIT-Hyderabad
+    last_name: Mishra
+    name: Pruthwik Mishra
+    semantic_scholar_id: https://www.semanticscholar.org/author/Pruthwik-Mishra/24975218
+    username: ~Pruthwik_Mishra1
+  - dblp_id: https://dblp.org/pid/58/217
+    emails: dipti@iiit.ac.in
+    first_name: Dipti
+    homepage: https://www.iiit.ac.in/people/faculty/dipti/
+    institution: IIIT Hyderabad
+    last_name: Sharma
+    name: Dipti Sharma
+    username: ~Dipti_Sharma1
+  - emails: parameshkrishnaa@gmail.com
+    first_name: Parameswari
+    last_name: Krishnamurthy
+    name: Parameswari Krishnamurthy
+    username: ~Parameswari_Krishnamurthy1
+  decision: Poster
+  file: 89.pdf
+  id: 89
+  openreview_id: J58owfzogA
+  pdf_file: 91ba17cf7e35f817ee24c0d68460adffec968323.pdf
+  title: 'LTRC-IIITH at EHRSQL 2024: Enhancing Reliability of Text-to-SQL Systems
+    through Abstention and Confidence Thresholding'
+- abstract: In this paper, we present our work to the MEDIQA-M3G 2024 shared task,
+    which tackles multilingual and multimodal medical answer generation. Our system
+    consists of a lightweight Vision-and-Language Transformer (ViLT) model which is
+    fine-tuned for the clinical dermatology visual question-answering task. In the
+    official leaderboard for the task, our system ranks 6th. After the challenge,
+    we experiment with training the ViLT model on more data. We also explore the capabilities
+    of large Vision-Language Models (VLMs) such as Gemini and LLaVA.
+  attributes:
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: 'Shared Task: MEDIQA-M3G: Multilingual and Multimodal Medical
+      Answer Generation'
+  authors:
+  - emails: jerrin.thomas@research.iiit.ac.in
+    first_name: Jerrin
+    last_name: Thomas
+    middle_name: John
+    name: Jerrin John Thomas
+    username: ~Jerrin_John_Thomas1
+  - emails: sushvin.marimuthu@research.iiit.ac.in
+    first_name: Sushvin
+    last_name: Marimuthu
+    name: Sushvin Marimuthu
+    username: ~Sushvin_Marimuthu1
+  - emails: parameshkrishnaa@gmail.com
+    first_name: Parameswari
+    last_name: Krishnamurthy
+    name: Parameswari Krishnamurthy
+    username: ~Parameswari_Krishnamurthy1
+  decision: Poster
+  file: 90.pdf
+  id: 90
+  openreview_id: IrL2JD9uhw
+  pdf_file: 95c707a5a35ce8f96d8b102fc52619674ed3c595.pdf
+  title: 'LTRC-IIITH at MEDIQA-M3G 2024: Medical Visual Question Answering with Vision-Language
+    Models'
