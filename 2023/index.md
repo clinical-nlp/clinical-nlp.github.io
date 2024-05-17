@@ -33,7 +33,7 @@ For content from prior events, please see:
 <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-4">
-          <img src="images/Lavita_logo_color-black@4x.png" class="img-responsive" width="50%" align="center">
+          <img src="/images/Lavita_logo_color-black@4x.png" class="img-responsive" width="50%" align="center">
     </div>
     <div class="col-md-4"></div>
 </div>
