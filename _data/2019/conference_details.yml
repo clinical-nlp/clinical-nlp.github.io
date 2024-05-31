@@ -1,0 +1,23 @@
+book_title: Proceedings of the 2nd Clinical Natural Language Processing Workshop
+event_name: The 2nd Workshop on Clinical Natural Language Processing (ClinicalNLP)
+cover_subtitle: Proceedings of the Workshop
+anthology_venue_id: ClinicalNLP
+start_date: 2019-06-07
+end_date: 2019-06-07
+isbn: TODO
+location: Minneapolis, USA
+editors:
+  - first_name: Anna
+    middle_name:
+    last_name: Rumshisky
+  - first_name: Kirk
+    middle_name:
+    last_name: Roberts
+  - first_name: Steven
+    middle_name:
+    last_name: Bethard
+  - first_name: Tristan
+    middle_name:
+    last_name: Naumann
+publisher: Association for Computational Linguistics
+volume_name: 1

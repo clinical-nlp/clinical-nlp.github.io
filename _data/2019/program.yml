@@ -1,0 +1,38 @@
+- title: Opening Session
+  start_time: 2019-06-07 09:00:00
+  end_time: 2019-06-07 10:30:00
+  subsessions:
+    - title: "Opening Remarks"
+      start_time: 2019-06-07 09:00:00
+      end_time: 2019-06-07 09:15:00
+    - title: "Keynote: Heng Ji"
+      start_time: 2019-06-07 09:15:00
+      end_time: 2019-06-07 10:30:00
+
+- title: Coffee Break
+  start_time: 2019-06-07 10:30:00
+  end_time: 2019-06-07 11:20:00
+
+- title: Oral Session 1
+  start_time: 2019-06-07 11:20:00
+  end_time: 2019-06-07 12:30:00
+
+- title: Lunch
+  start_time: 2019-06-07 12:30:00
+  end_time: 2019-06-07 14:00:00
+
+- title: Oral Session 2
+  start_time: 2019-06-07 14:00:00
+  end_time: 2019-06-07 15:30:00
+
+- title: Coffee Break
+  start_time: 2019-06-07 15:30:00
+  end_time: 2019-06-07 16:00:00
+
+- title: Poster Session
+  start_time: 2019-06-07 16:00:00
+  end_time: 2019-06-07 16:45:00
+
+- title: Panel Discussion
+  start_time: 2019-06-07 16:45:00
+  end_time: 2019-06-07 17:30:00

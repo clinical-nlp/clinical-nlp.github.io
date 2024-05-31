@@ -1,0 +1,70 @@
+- role: Program Committee
+  - first_name: Sabine
+    last_name: Bergler
+    institution: Concordia University
+  - first_name: Parminder
+    last_name: Bhatia
+    institution: Amazon
+  - first_name: Vivek
+    last_name: Datla
+    institution: Philips Research North America
+  - first_name: Dina
+    last_name: Demner-Fushman
+    institution: NLM
+  - first_name: Dmitriy
+    last_name: Dligach
+    institution: Loyola University
+  - first_name: Jungwei
+    last_name: Fan
+    institution: Mayo Clinic
+  - first_name: Sadid
+    last_name: Hasan
+    institution: Philips North America
+  - first_name: Lynette
+    last_name: Hirschman
+    institution: The MITRE Corporation
+  - first_name: Yoshinobu
+    last_name: Kano
+    institution: Shizuoka University
+  - first_name: Kathy
+    last_name: Lee
+    institution: Philips Research North America
+  - first_name: Stephane
+    last_name: Meystre
+    institution: University of Utah School of Medicine
+  - first_name: Timothy
+    last_name: Miller
+    institution: Boston Children's Hospital
+  - first_name: Martha
+    last_name: Palmer
+    institution: UC Boulder
+  - first_name: Hoifung
+    last_name: Poon
+    institution: Microsoft Research
+  - first_name: Ashequl
+    last_name: Qadir
+    institution: Philips Research North America
+  - first_name: Chaitanya
+    last_name: Shivade
+    institution: IBM
+  - first_name: Weiyi
+    last_name: Sun
+    institution: Nuance
+  - first_name: Sumithra
+    last_name: Velupillai
+    institution: KTH Royal Institute of Technology
+  - first_name: Karin
+    last_name: Verspoor
+    institution: The University of Melbourne
+  - first_name: Byron
+    last_name: Wallace
+    institution: Northeastern University
+  - first_name: Ben
+    last_name: Wellner
+    institution: The MITRE Corporation
+  - first_name: Jenna
+    last_name: Wiens
+    institution: University of Michigan
+  - first_name: Stephen
+    last_name: Wu
+    institution: UTHealth
