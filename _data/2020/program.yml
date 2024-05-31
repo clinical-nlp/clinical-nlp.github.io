@@ -1,0 +1,57 @@
+- title: Opening Session
+  start_time: 2020-11-19 08:45:00
+  end_time: 2020-11-19 10:00:00
+  subsessions:
+    - title: "Opening Remarks"
+      start_time: 2020-11-19 08:45:00
+      end_time: 2020-11-19 09:00:00
+    - title: "Keynote: Hong Yu - Deep Learning is Conquering Human Tasks. How Far Can it Go in Medicine? Advances, Challenges, and Future Directions"
+      start_time: 2020-11-19 09:00:00
+      end_time: 2020-11-19 09:45:00
+    - title: "Keynote Q&A"
+      start_time: 2020-11-19 09:45:00
+      end_time: 2020-11-19 10:00:00
+  
+- title: Oral Session 1
+  start_time: 2020-11-19 10:00:00
+  end_time: 2020-11-19 10:40:00
+
+- title: Break
+  start_time: 2020-11-19 10:40:00
+  end_time: 2020-11-19 10:50:00
+
+- title: Oral Session a2
+  start_time: 2020-11-19 10:50:00
+  end_time: 2020-11-19 11:40:00
+
+- title: Poster Teasers
+  start_time: 2020-11-19 11:40:00
+  end_time: 2020-11-19 12:00:00
+
+- title: "Poster Session & Lunch"
+  start_time: 2020-11-19 12:00:00
+  end_time: 2020-11-19 13:20:00
+
+- title: Oral Session 3
+  start_time: 2020-11-19 13:20:00
+  end_time: 2020-11-19 14:10:00
+
+- title: EMNLP Findings Session 1
+  start_time: 2020-11-19 14:10:00
+  end_time: 2020-11-19 14:55:00
+
+- title: Coffee Break
+  start_time: 2020-11-19 14:55:00
+  end_time: 2020-11-19 15:05:00
+
+- title: EMNLP Findings Session 2
+  start_time: 2020-11-19 15:05:00
+  end_time: 2020-11-19 15:50:00
+
+- title: Best Paper Session
+  start_time: 2020-11-19 15:50:00
+  end_time: 2020-11-19 16:35:00
+
+- title: Concluding Session
+  start_time: 2020-11-19 16:35:00
+  end_time: 2020-11-19 16:50:00

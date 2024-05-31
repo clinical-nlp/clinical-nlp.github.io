@@ -1,0 +1,131 @@
+- role: Program Committee
+  - first_name: John
+    last_name: Aberdeen
+    institution: The MITRE Corporation
+  - first_name: Emily
+    last_name: Alsentzer
+    institution: Massachusetts Institute of Technology
+  - first_name: Sabine
+    last_name: Bergler
+    institution: Concordia University
+  - first_name: Parminder
+    last_name: Bhatia
+    institution: Amazon
+  - first_name: William
+    last_name: Boag
+    institution: Massachusetts Institute of Technology
+  - first_name: Cheryl
+    last_name: Clark
+    institution: The MITRE Corporation
+  - first_name: Surabhi
+    last_name: Datta
+    institution: University of Texas Health Science Center at Houston
+  - first_name: Murthy
+    last_name: Devarakonda
+    institution: Arizona State University
+  - first_name: Dmitriy
+    last_name: Dligach
+    institution: Loyola University
+  - first_name: Jungwei
+    last_name: Fan
+    institution: Mayo Clinic
+  - first_name: Jason
+    last_name: Fries
+    institution: Stanford University
+  - first_name: Travis
+    last_name: Goodwin
+    institution: National Library of Medicine
+  - first_name: Yoan
+    last_name: Gutiérrez
+    institution: University of Alicante
+  - first_name: Sadid
+    last_name: Hasan
+    institution: CVS Health
+  - first_name: Saeed
+    last_name: Hassanpour
+    institution: Dartmouth University
+  - first_name: Djoerd
+    last_name: Hiemstra
+    institution: Radboud University
+  - first_name: Eben
+    last_name: Holderness
+    institution: Brandeis University
+  - first_name: Baotian
+    last_name: Hu
+    institution: Harbin Institute of Technology
+  - first_name: Di
+    last_name: Jin
+    institution: Massachusetts Institute of Technology
+  - first_name: Alistair
+    last_name: Johnson
+    institution: Massachusetts Institute of Technology
+  - first_name: Yoshinobu
+    last_name: Kano
+    institution: Shizuoka University
+  - first_name: Egoitz
+    last_name: Laparra
+    institution: University of Arizona
+  - first_name: Chen
+    last_name: Lin
+    institution: Boston Children's Hospital
+  - first_name: Sijia
+    last_name: Liu
+    institution: Mayo Clinic
+  - first_name: Matthew
+    last_name: McDermott
+    institution: Massachusetts Institute of Technology
+  - first_name: Bridget
+    last_name: McInnes
+    institution: Virginia Commonwealth University
+  - first_name: Timothy
+    last_name: Miller
+    institution: Boston Children's Hospital
+  - first_name: Yifan
+    last_name: Peng
+    institution: Weill Cornell Medicine
+  - first_name: Hoifung
+    last_name: Poon
+    institution: Microsoft Research
+  - first_name: Preethi
+    last_name: Raghavan
+    institution: IBM Research
+  - first_name: Frank
+    last_name: Rudzicz
+    institution: University of Toronto
+  - first_name: Allen
+    last_name: Schmaltz
+    institution: Harvard University
+  - first_name: Thomas
+    last_name: Searle
+    institution: King's College London
+  - first_name: Chaitanya
+    last_name: Shivade
+    institution: Amazon
+  - first_name: Yuqi
+    last_name: Si
+    institution: University of Texas Health Science Center at Houston
+  - first_name: Sarvesh
+    last_name: Soni
+    institution: University of Texas Health Science Center at Houston
+  - first_name: Karin
+    last_name: Verspoor
+    institution: The University of Melbourne
+  - first_name: Byron
+    last_name: Wallace
+    institution: Northeastern University
+  - first_name: Yanshan
+    last_name: Wang
+    institution: Mayo Clinic
+  - first_name: Ben
+    last_name: Wellner
+    institution: The MITRE Corporation
+  - first_name: Stephen
+    last_name: Wu
+    institution: University of Texas Health Science Center at Houston
+  - first_name: Dongfang
+    last_name: Xu
+    institution: University of Arizona
+  - first_name: Rui
+    last_name: Zhang
+    institution: University of Minnesota
+  
