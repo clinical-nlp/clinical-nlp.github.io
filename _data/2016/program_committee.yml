@@ -1,0 +1,76 @@
+- role: Program Committee
+  - first_name: Sabine
+    last_name: Bergler 
+    institution: Concordia University
+  - first_name: Kevin
+    last_name: Cohen 
+    institution: University of Colorado School of Medicine
+  - first_name: Dina
+    last_name: Demner-Fushman 
+    institution: National Library of Medicine
+  - first_name: Dmitriy
+    last_name: Dligach 
+    institution: Loyola University
+  - first_name: Oladimeji
+    last_name: Farri 
+    institution: Philips HealthCare
+  - first_name: Michele
+    last_name: Filannino 
+    institution: SUNY Albany
+  - first_name: Nazli
+    last_name: Goharian 
+    institution: Georgetown University
+  - first_name: Cyril
+    last_name: Grouin 
+    institution: LIMSI-CNRS
+  - first_name: Sanda
+    last_name: Harabagiu 
+    institution: University of Texas at Dallas
+  - first_name: Sadid
+    last_name: Hasan 
+    institution: Philips HealthCare
+  - first_name: Lynette
+    last_name: Hirschman 
+    institution: MITRE
+  - first_name: Guergana
+    last_name: Savova 
+    institution: Children's Hospital Boston and Harvard University
+  - first_name: Hongfang
+    last_name: Liu 
+    institution: Mayo Clinic
+  - first_name: Stephane
+    last_name: Meystre 
+    institution: University of Utah School of Medicine
+  - first_name: Timothy
+    last_name: Miller 
+    institution: Boston Children’s Hospital
+  - first_name: Marie-Francine
+    last_name: Moens 
+    institution: KU Leuven
+  - first_name: Danielle
+    last_name: Mowery 
+    institution: University of Utah School of Medicine
+  - first_name: Ted
+    last_name: Pedersen 
+    institution: University of Minnesota, Duluth
+  - first_name: Amber
+    last_name: Stubbs 
+    institution: Simmons College
+  - first_name: Sumithra
+    last_name: Velupillai 
+    institution: KTH Royal Institute of Technology
+  - first_name: Ben
+    last_name: Wellner 
+    institution: MITRE
+  - first_name: Jenna
+    last_name: Wiens 
+    institution: University of Michigan
+  - first_name: Stephen
+    last_name: Wu 
+    institution: Oregon Health and Science University
+  - first_name: Hua
+    last_name: Xu 
+    institution: University of Texas at Houston
+  - first_name: Pierre
+    last_name: Zweigenbaum 
+    institution: French National Centre for Scientific Research

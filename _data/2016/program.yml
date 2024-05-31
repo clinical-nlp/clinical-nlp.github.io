@@ -1,0 +1,42 @@
+- title: Opening Session
+  start_time: 2016-12-11 09:00:00
+  end_time: 2016-12-11 10:30:00
+  subsessions:
+    - title: "Opening Remarks"
+      start_time: 2016-12-11 09:00:00
+      end_time: 2016-12-11 09:30:00
+    - title: "Keynote: Tim Baldwin - VetCompass: Clinical Natural Language Processing for Animal Health"
+      start_time: 2016-12-11 09:30:00
+      end_time: 2016-12-11 10:30:00
+
+- title: Coffee Break
+  start_time: 2016-12-11 10:30:00
+  end_time: 2016-12-11 10:45:00
+
+- title: Short Talks
+  start_time: 2016-12-11 10:45:00
+  end_time: 2016-12-11 11:30:00
+
+- title: Best Student Paper Award Session
+  start_time: 2016-12-11 11:30:00
+  end_time: 2016-12-11 12:15:00
+
+- title: Lunch
+  start_time: 2016-12-11 12:15:00
+  end_time: 2016-12-11 14:00:00
+
+- title: Long Talks
+  start_time: 2016-12-11 14:00:00
+  end_time: 2016-12-11 15:00:00
+
+- title: Poster Session
+  start_time: 2016-12-11 15:00:00
+  end_time: 2016-12-11 15:45:00
+
+- title: Coffee Break
+  start_time: 2016-12-11 15:45:00
+  end_time: 2016-12-11 16:00:00
+
+- title: Panel on Facilitating Access to Clinical Data for the NLP Community
+  start_time: 2016-12-11 16:00:00
+  end_time: 2016-12-11 17:00:00
