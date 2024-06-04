@@ -1,0 +1,723 @@
+- abstract: "Knowledge discovery from text in natural language is a task usually aided by the manual construction of annotated corpora.\nSpecifically in the clinical domain, several annotation models are used depending on the characteristics of the task to solve\\textasciitilde{}(e.g., named entity recognition, relation extraction, etc.).\nHowever, few general-purpose annotation models exist, that can support a broad range of knowledge extraction tasks.\nThis paper presents an annotation model designed to capture a large portion of the semantics of natural language text.\nThe structure of the annotation model is presented, with examples of annotated sentences and a brief description of each semantic role and relation defined.\nThis research focuses on an application to clinical texts in the Spanish language. \nNevertheless, the presented annotation model is extensible to other domains and languages.\nAn example of annotated sentences, guidelines, and suitable configuration files for an annotation tool are also provided for the research community."
+  attachments:
+  - file: 2_metadata.txt
+    type: Supplementary Material
+  - file: 2_Tex.zip
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: apiad@matcom.uh.cu
+    first_name: Alejandro
+    institution: School of Math and Computer Science, University of Havana
+    last_name: P i a d - M o r f f i s
+    name: Alejandro P i a d - M o r f f i s
+    username: apiad
+  - emails: ygutierrez@dlsi.ua.es
+    first_name: Yoan
+    institution: University of Alicante
+    last_name: Guitérrez
+    name: Yoan Guitérrez
+    username: ''
+  - emails: sestevez@matcom.uh.cu
+    first_name: Suilan
+    institution: School of Math and Computer Science, University of Havana
+    last_name: E s t e v e z - V e l a r d e
+    name: Suilan E s t e v e z - V e l a r d e
+    username: sestevez
+  - emails: rafael@dlsi.ua.es
+    first_name: Rafael
+    institution: University of Alicante
+    last_name: Muñoz
+    name: Rafael Muñoz
+    username: ''
+  decision: Accept to main conference
+  file: 2.pdf
+  id: '2'
+  title: 'A General-Purpose Annotation Model for Knowledge Discovery: Case Study in Spanish Clinical Text'
+- abstract: Crucial information about the practice of healthcare is recorded only in free-form text, which creates an enormous opportunity for high-impact NLP. However, annotated healthcare datasets tend to be small and expensive to obtain, which raises the question of how to make maximally efficient uses of the available data. To this end, we develop an LSTM-CRF model for combining unsupervised word representations and hand-built feature representations derived from publicly available healthcare ontologies. We show that this combined model yields superior performance on five datasets of diverse kinds of healthcare text (clinical, social, scientific, commercial). Each involves the labeling of complex, multi-word spans that pick out different healthcare concepts. We also introduce a new labeled dataset for identifying the treatment relations between drugs and diseases.
+  attachments:
+  - file: 5_metadata.txt
+    type: Supplementary Material
+  - file: 5_Tex.zip
+    type: Supplementary Material
+  - file: 5_Dataset.zip
+    type: Supplementary Material
+  - file: 5_Software.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: yifengt@cs.cmu.edu
+    first_name: Yifeng
+    institution: Carnegie Mellon University
+    last_name: Tao
+    name: Yifeng Tao
+    username: yifengt
+  - emails: brgo@mail.com
+    first_name: Bruno
+    institution: Roam Analytics
+    last_name: Godefroy
+    name: Bruno Godefroy
+    username: brgo
+  - emails: guillaumegenthial@roaminsight.com
+    first_name: Guillaume
+    institution: Roam Analytics
+    last_name: Genthial
+    name: Guillaume Genthial
+    username: ''
+  - emails: cgpotts@stanford.edu
+    first_name: Christopher
+    institution: Stanford University
+    last_name: Potts
+    name: Christopher Potts
+    username: cgpotts
+  decision: Accept to main conference
+  file: 5.pdf
+  id: '5'
+  title: Effective Feature Representation for Clinical Text Concept Extraction
+- abstract: We explore the use of real-time clinical information, i.e., text messages sent between nurses and doctors regarding patient conditions in order to predict transfer to the intensive care unit(ICU).  Preliminary results,  in data from five hospitals, indicate that, despite being short and full of noise, text messages can augment other visit information to improve the performance of ICU transfer prediction.
+  attachments:
+  - file: 6_Tex.zip
+    type: Supplementary Material
+  - file: 6_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: faizakk@cs.toronto.edu
+    first_name: Faiza
+    institution: University of Toronto,  Vector Institute for Artificial Intelligence, Li Ka Shing Knowledge Institute, St Michael’s Hospital.
+    last_name: Khan Khattak
+    name: Faiza Khan Khattak
+    username: ''
+  - emails: chloe@cs.toronto.edu
+    first_name: Chloe
+    institution: St. Michael's Hospital, University of Toronto.
+    last_name: P o u - P r o m
+    name: Chloe P o u - P r o m
+    username: ''
+  - emails: Robert.Wu@uhn.ca
+    first_name: Robert
+    institution: Toronto General Hospital Research Institute (TGHRI)
+    last_name: Wu
+    name: Robert Wu
+    username: ''
+  - emails: frank@spoclab.com
+    first_name: Frank
+    institution: University of Toronto,  Vector Institute for Artificial Intelligence, Li Ka Shing Knowledge Institute, St Michael’s Hospital,  Surgical Safety Technologies Inc.
+    last_name: Rudzicz
+    name: Frank Rudzicz
+    username: ''
+  decision: Accept to main conference
+  file: 6.pdf
+  id: '6'
+  title: Predicting ICU transfers using text messages between nurses and doctors
+- abstract: 'Entity linking (or Normalization) is an essential task in text mining that maps the entity mentions in the medical text to standard entities in a given Knowledge Base (KB). This task is of great importance in the medical domain. It can also be used for merging different medical and clinical ontologies. In this paper, we center around the problem of disease linking or normalization. This task is executed in two phases: candidate generation and candidate scoring. In this paper, we present an approach to rank the candidate Knowledge Base entries based on their similarity with disease mention. We make use of the Triplet Network for candidate ranking. While the existing methods have used carefully generated sieves and external resources for candidate generation, we introduce a robust and portable candidate generation scheme that does not make use of the hand-crafted rules. Experimental results on the standard benchmark NCBI disease dataset demonstrate that our system outperforms the prior methods by a signiﬁcant margin.'
+  attachments:
+  - file: 7_Tex.zip
+    type: Supplementary Material
+  - file: 7_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: ishani340@gmail.com
+    first_name: Ishani
+    institution: University of Maryland
+    last_name: Mondal
+    name: Ishani Mondal
+    username: ishanim
+  - emails: sukannya.purkayastha@iitkgp.ac.in
+    first_name: Sukannya
+    institution: Department of Computer Science and Engineering, IIT Kharagpur
+    last_name: Purkayastha
+    name: Sukannya Purkayastha
+    username: sukannya
+  - emails: sudeshna@cse.iitkgp.ernet.in
+    first_name: Sudeshna
+    institution: IIT KHARAGPUR
+    last_name: Sarkar
+    name: Sudeshna Sarkar
+    username: sudeshna_sarkar
+  - emails: pawang.iitk@gmail.com
+    first_name: Pawan
+    institution: IIT Kharagpur
+    last_name: Goyal
+    name: Pawan Goyal
+    username: pawang
+  - emails: jitesh.pillai@excelra.com
+    first_name: Jitesh
+    institution: Excelra Knowledge Solutions Pvt. Ltd, Hyderabad, India
+    last_name: Pillai
+    name: Jitesh Pillai
+    username: ''
+  - emails: amit.bhattacharyya@excelra.com
+    first_name: Amitava
+    institution: Excelra Knowledge Solutions Pvt. Ltd, Hyderabad, India
+    last_name: Bhattacharyya
+    name: Amitava Bhattacharyya
+    username: ''
+  - emails: nandu.gattu@excelra.com
+    first_name: Mahanandeeshwar
+    institution: Excelra Knowledge Solutions Pvt. Ltd, Hyderabad, India
+    last_name: Gattu
+    name: Mahanandeeshwar Gattu
+    username: ''
+  decision: Accept to main conference
+  file: 7.pdf
+  id: '7'
+  title: Medical Entity Linking using Triplet Network
+- abstract: This paper details the development of a linguistic resource designed to improve temporal information extraction systems and to integrate aspectual values. After a brief review of recent works in temporal information extraction for the medical area, we discuss the linguistic notion of aspect and how it got a place in the NLP field. Then, we present our clinical data and describe the five-step approach adopted in this study. Finally, we represent the linguistic resource itself and explain how we elaborated it and which properties were selected for the creation of the tables.
+  attachments:
+  - file: 9_Tex.docx
+    type: Supplementary Material
+  - file: 9_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: agathe.pierson@uclouvain.be
+    first_name: Agathe
+    institution: Université catholique de Louvain
+    last_name: Pierson
+    name: Agathe Pierson
+    username: agathepierson
+  - emails: cedrick.fairon@uclouvain.be
+    first_name: Cédrick
+    institution: Université catholique de Louvain, CENTAL
+    last_name: Fairon
+    name: Cédrick Fairon
+    username: cfairon
+  decision: Accept to main conference
+  file: 9.pdf
+  id: '9'
+  title: Study of lexical aspect in the French medical language. Development of a lexical resource
+- abstract: 'Many clinical information needs can be stated as why-questions. The answers to them represent important clinical reasoning and justification. Clinical notes are a rich source for such why-question answering (why-QA). However, there are few dedicated corpora, and little is known about the characteristics of clinical why-QA narratives. To address this gap, the study performed manual annotation of 277 sentences containing explicit why-QA cues and summarized their quantitative and qualitative properties. The contributions are: 1) sharing a seed corpus that can be used for various QA-related training purposes, 2) adding to our knowledge about the diversity and distribution of clinical why-QA contents.'
+  attachments:
+  - file: 10_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: fan.jung-wei@mayo.edu
+    first_name: Jungwei
+    institution: Mayo Clinic
+    last_name: Fan
+    name: Jungwei Fan
+    username: fanweble
+  decision: Accept to main conference
+  file: 10.pdf
+  id: '10'
+  title: Annotating and Characterizing Clinical Sentences with Explicit Why-QA Cues
+- abstract: Large-scale clinical data is invaluable to driving many computational scientific advances today. However, understandable concerns regarding patient privacy hinder the open dissemination of such data and give rise to suboptimal siloed research. De-identification methods attempt to address these concerns but were shown to be susceptible to adversarial attacks. In this work, we focus on the vast amounts of unstructured natural language data stored in clinical notes and propose to automatically generate synthetic clinical notes that are more amenable to sharing using generative models trained on real de-identified records. To evaluate the merit of such notes, we measure both their privacy preservation properties as well as utility in training clinical NLP models. Experiments using neural language models yield notes whose utility is close to that of the real ones in some clinical NLP tasks, yet leave ample room for future improvements.
+  attachments:
+  - file: 11_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: oren@melamuds.com
+    first_name: Oren
+    institution: IBM
+    last_name: Melamud
+    name: Oren Melamud
+    username: orenmel
+  - emails: shivade@cse.ohio-state.edu
+    first_name: Chaitanya
+    institution: Amazon
+    last_name: Shivade
+    name: Chaitanya Shivade
+    username: shivade1
+  decision: Accept to main conference
+  file: 11.pdf
+  id: '11'
+  title: Towards Automatic Generation of Shareable Synthetic Clinical Notes Using Neural Language Models
+- abstract: 'Population age information is an essential characteristic of clinical trials. In this paper,
+
+    we focus on extracting minimum and maximum (min/max) age values for the study samples from clinical research articles. Specifically, we investigate the use of a neural network model for question answering to address this information extraction task. The min/max age QA model is trained on the massive structured clinical study records from ClinicalTrials.gov. For each article, based on multiple min and max age values extracted from the QA model, we predict both actual min/max age values for the study samples and filter out non-factual age expressions. Our system improves the results over (i) a passage retrieval based IE system and (ii) a CRF-based system by a large margin when evaluated on an annotated dataset consisting of 50 research papers
+
+    on smoking cessation.'
+  attachments:
+  - file: 12_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: bnuxiaofang@gmail.com
+    first_name: Yufang
+    institution: IBM Research
+    last_name: Hou
+    name: Yufang Hou
+    username: yufang
+  - emails: debforit@gmail.com
+    first_name: Debasis
+    institution: University of Glasgow
+    last_name: Ganguly
+    name: Debasis Ganguly
+    username: dganguly
+  - emails: lea.deleris@bnpparibas.com
+    first_name: Lea
+    institution: bnpparibas.ai
+    last_name: Deleris
+    name: Lea Deleris
+    username: lea.deleris
+  - emails: fbonin@ie.ibm.com
+    first_name: Francesca
+    institution: IBM Research Europe
+    last_name: Bonin
+    name: Francesca Bonin
+    username: francescabonin
+  decision: Accept to main conference
+  file: 12.pdf
+  id: '12'
+  title: Extracting Factual Min/Max Age Information from Clinical Trial Studies
+- abstract: Classic methods for clinical temporal relation extraction focus on relational candidates within a sentence. On the other hand, break-through Bidirectional Encoder Representations from Transformers (BERT) are trained on large quantities of arbitrary spans of contiguous text instead of sentences. In this study, we aim to build a sentence-agnostic framework for the task of CONTAINS temporal relation extraction. We establish a new state-of-the-art result for the task, 0.684F for in-domain (0.055-point improvement) and 0.565F for cross-domain (0.018-point improvement), by fine-tuning BERT and pre-training domain-specific BERT models on sentence-agnostic temporal relation instances with WordPiece-compatible encodings, and augmenting the labeled data with automatically generated "silver" instances.
+  attachments:
+  - file: 13_metadata.txt
+    type: Supplementary Material
+  - file: 13_Tex.zip
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: chen.linflyer@gmail.com
+    first_name: Chen
+    institution: Computational Health Informatics Program, Boston Children's Hospital
+    last_name: Lin
+    name: Chen Lin
+    username: linflyer
+  - emails: timothy.miller@childrens.harvard.edu
+    first_name: Timothy
+    institution: Boston Children's Hospital and Harvard Medical School
+    last_name: Miller
+    name: Timothy Miller
+    username: timothyamiller
+  - emails: ddligach@luc.edu
+    first_name: Dmitriy
+    institution: Loyola University Chicago
+    last_name: Dligach
+    name: Dmitriy Dligach
+    username: dmitriy.dligach
+  - emails: bethard@arizona.edu
+    first_name: Steven
+    institution: University of Arizona
+    last_name: Bethard
+    name: Steven Bethard
+    username: steven.bethard
+  - emails: guergana.savova@childrens.harvard.edu
+    first_name: Guergana
+    institution: Boston Children's Hospital and Harvard Medical School
+    last_name: Savova
+    name: Guergana Savova
+    username: guergana.savova
+  decision: Accept to main conference
+  file: 13.pdf
+  id: '13'
+  title: A BERT-based Universal Model for Both Within- and Cross-sentence Clinical Temporal Relation Extraction
+- abstract: Recently natural language processing (NLP) tools have been developed to identify and extract salient risk indicators in electronic health records (EHRs). Sentiment analysis, although widely used in non-medical areas for improving decision making, has been studied minimally in the clinical setting.  In this study, we undertook, to our knowledge, the first domain adaptation of sentiment analysis to psychiatric EHRs by defining psychiatric clinical sentiment, performing an annotation project, and evaluating multiple sentence-level sentiment machine learning (ML) models. Results indicate that off-the-shelf sentiment analysis tools fail in identifying clinically positive or negative polarity, and that the definition of clinical sentiment that we provide is learnable with relatively small amounts of training data. This project is an initial step towards further refining sentiment analysis methods for clinical use. Our long-term objective is to incorporate the results of this project as part of a machine learning model that predicts inpatient readmission risk. We hope that this work will initiate a discussion concerning domain adaptation of sentiment analysis to the clinical setting.
+  attachments:
+  - file: 14_Tex.zip
+    type: Supplementary Material
+  - file: 14_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: egh@brandeis.edu
+    first_name: Eben
+    institution: Brandeis University
+    last_name: Holderness
+    name: Eben Holderness
+    username: eholderness
+  - emails: pcawkwell@partners.org
+    first_name: Philip
+    institution: McLean Hospital, Massachusetts General Hospital
+    last_name: Cawkwell
+    name: Philip Cawkwell
+    username: ''
+  - emails: kbolton@partners.org
+    first_name: Kirsten
+    institution: McLean Hospital
+    last_name: Bolton
+    name: Kirsten Bolton
+    username: ''
+  - emails: jamesp@cs.brandeis.edu
+    first_name: James
+    institution: Brandeis University
+    last_name: Pustejovsky
+    name: James Pustejovsky
+    username: ''
+  - emails: mhall@mclean.harvard.edu
+    first_name: M e i - H u a
+    institution: McLean Hospital, Harvard Medical School
+    last_name: Hall
+    name: M e i - H u a Hall
+    username: ''
+  decision: Accept to main conference
+  file: 14.pdf
+  id: '14'
+  title: 'Distinguishing Clinical Sentiment: The Importance of Domain Adaptation in Psychiatric Patient Health Records'
+- abstract: 'The shift to electronic medical records (EMRs) has engendered research into machine learning and natural language technologies to analyze patient records, and to predict from these clinical outcomes of interest. Two observations motivate our aims here. First, unstructured notes contained within EMR often contain key information, and hence should be exploited by models. Second, while strong predictive performance is important, interpretability of models is perhaps equally so for applications in this domain.
+
+    Together, these points suggest that neural models for EMR may benefit from incorporation of attention over notes, which one may hope will both yield performance gains and afford transparency in predictions. In this work we perform experiments to explore this question using two EMR corpora and four different predictive tasks, that: (i) inclusion of attention mechanisms is critical for neural encoder modules that operate over notes fields in order to yield competitive performance, but, (ii) unfortunately, while these boost predictive performance, it is decidedly less clear whether they provide meaningful support for predictions.'
+  attachments:
+  - file: 16_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: successar@gmail.com
+    first_name: Sarthak
+    institution: AWS AI Labs
+    last_name: Jain
+    name: Sarthak Jain
+    username: successar
+  - emails: mohammadi.r@husky.neu.edu
+    first_name: Ramin
+    institution: Northeastern University
+    last_name: Mohammadi
+    name: Ramin Mohammadi
+    username: ramin.mohammadi
+  - emails: byron@ccs.neu.edu
+    first_name: Byron C.
+    institution: Northeastern University
+    last_name: Wallace
+    name: Byron C. Wallace
+    username: byroncw
+  decision: Accept to main conference
+  file: 16.pdf
+  id: '16'
+  title: An Analysis of Attention over Clinical Notes for Predictive Tasks
+- abstract: In this paper we describe an evaluation of the potential of classical information extraction methods to extract drug-related attributes, including adverse drug events, and compare to more recently developed neural methods. We use the 2018 N2C2 shared task data as our gold standard data set for training. We train support vector machine classifiers to detect drug and drug attribute spans, and pair these detected entities as training instances for an SVM relation classifier, with both systems using standard features. We compare to baseline neural methods that use standard contextualized embedding representations for entity and relation extraction. The SVM-based system and a neural system obtain comparable results, with the SVM system doing better on concepts and the neural system performing better on relation extraction tasks. The neural system obtains surprisingly strong results compared to the system based on years of research in developing features for information extraction.
+  attachments:
+  - file: 17_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: timothy.miller@childrens.harvard.edu
+    first_name: Timothy
+    institution: Boston Children's Hospital and Harvard Medical School
+    last_name: Miller
+    name: Timothy Miller
+    username: timothyamiller
+  - emails: alon.geva@childrens.harvard.edu
+    first_name: Alon
+    institution: Boston Children’s Hospital and Harvard Medical School
+    last_name: Geva
+    name: Alon Geva
+    username: ''
+  - emails: ddligach@luc.edu
+    first_name: Dmitriy
+    institution: Loyola University Chicago
+    last_name: Dligach
+    name: Dmitriy Dligach
+    username: dmitriy.dligach
+  decision: Accept to main conference
+  file: 17.pdf
+  id: '17'
+  title: Extracting Adverse Drug Event Information with Minimal Engineering
+- abstract: In the medical domain and other scientific areas, it is often important to recognize different levels of hierarchy in mentions, such as those related to specific symptoms or diseases associated with different anatomical regions. Unlike previous approaches, we build a transition-based parser that explicitly models an arbitrary number of hierarchical and nested mentions, and propose a loss that encourages correct predictions of higher-level mentions. We further introduce a set of modifier classes which introduces certain concepts that change the meaning of an entity, such as absence, or uncertainty about a given disease. Our proposed model achieves state-of-the-art results in medical entity recognition datasets, using both nested and hierarchical mentions.
+  attachments:
+  - file: 19_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: zmarinho@google.com
+    first_name: Zita
+    institution: Deepmind
+    last_name: Marinho
+    name: Zita Marinho
+    username: zmarinho
+  - emails: amm@priberam.pt
+    first_name: Afonso
+    institution: Priberam Informática, SA.
+    last_name: Mendes
+    name: Afonso Mendes
+    username: afonsoamendes
+  - emails: sebastiao.miranda@priberam.pt
+    first_name: Sebastião
+    institution: Priberam Labs
+    last_name: Miranda
+    name: Sebastião Miranda
+    username: smiranda
+  - emails: david.nogueira@priberam.pt
+    first_name: David
+    institution: Priberam Labs
+    last_name: Nogueira
+    name: David Nogueira
+    username: davidnogueira
+  decision: Accept to main conference
+  file: 19.pdf
+  id: '19'
+  title: Hierarchical Nested Named Entity Recognition
+- abstract: 'Word embeddings are representations of words in a dense vector space. Although they are not recent phenomena in Natural Language Processing (NLP), they have gained momentum after the recent developments of neural methods and Word2Vec. Regarding their applications in medical and clinical NLP, they are invaluable resources when training in-domain named entity recognition systems, classifiers or taggers, for instance. Thus, the development of tailored word embeddings for medical NLP is of great interest. However, we identified a gap in the literature which we aim to fill in this paper: the availability of embeddings for medical NLP in Spanish, as well as a standardized form of intrinsic evaluation. Since most work has been done for English, some established datasets for intrinsic evaluation are already available. In this paper, we show the steps we employed to adapt such datasets for the first time to Spanish, of particular relevance due to the considerable volume of EHRs in this language, as well as the creation of in-domain medical word embeddings for the Spanish using the state-of-the-art FastText model. We performed intrinsic evaluation with our adapted datasets, as well as extrinsic evaluation with a named entity recognition systems using a baseline embedding of general-domain. Both experiments proved that our embeddings are suitable for use in medical NLP in the Spanish language, and are more accurate than general-domain ones.'
+  attachments:
+  - file: 20_Tex.zip
+    type: Supplementary Material
+  - file: 20_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: fs@felipesoares.net
+    first_name: Felipe
+    institution: NVIDIA
+    last_name: Soares
+    name: Felipe Soares
+    username: soarescmsa
+  - emails: marta.villegas@bsc.es
+    first_name: Marta
+    institution: Barcelona Supercomputing Center (BSC)
+    last_name: Villegas
+    name: Marta Villegas
+    username: ''
+  - emails: aitor.gonzalez@bsc.es
+    first_name: Aitor
+    institution: Barcelona Supercomputing Center (BSC)
+    last_name: G o n z a l e z - A g i r r e
+    name: Aitor G o n z a l e z - A g i r r e
+    username: ''
+  - emails: mkrallin@bsc.es
+    first_name: Martin
+    institution: CNIO
+    last_name: Krallinger
+    name: Martin Krallinger
+    username: ''
+  - emails: jordi.armengol.estape@gmail.com
+    first_name: Jordi
+    institution: UPC
+    last_name: A r m e n g o l - E s t a p é
+    name: Jordi A r m e n g o l - E s t a p é
+    username: ''
+  decision: Accept to main conference
+  file: 20.pdf
+  id: '20'
+  title: 'Medical Word Embeddings for Spanish: Development and Evaluation'
+- abstract: 'Neural network models have shown promise in the temporal relation extraction task. In this
+
+    paper, we present the attention based neural network model to extract the containment relations within sentences from clinical narratives. The attention mechanism used on top of GRU model outperforms the existing state-of-the-art neural network models on THYME corpus in intra-sentence temporal relation extraction.'
+  attachments:
+  - file: 22_Tex.zip
+    type: Supplementary Material
+  - file: 22_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: liusijia724+acl@gmail.com
+    first_name: Sijia
+    institution: Mayo Clinic
+    last_name: Liu
+    name: Sijia Liu
+    username: ymnliu
+  - emails: wang.liwei@mayo.edu
+    first_name: Liwei
+    institution: Mayo Clinic
+    last_name: Wang
+    name: Liwei Wang
+    username: ''
+  - emails: vipin@buffalo.edu
+    first_name: Vipin
+    institution: University at Buffalo
+    last_name: Chaudhary
+    name: Vipin Chaudhary
+    username: ''
+  - emails: liu.hongfang@mayo.edu
+    first_name: Hongfang
+    institution: Mayo Clinic
+    last_name: Liu
+    name: Hongfang Liu
+    username: ''
+  decision: Accept to main conference
+  file: 22.pdf
+  id: '22'
+  title: Attention Neural Model for Temporal Relation Extraction
+- abstract: 'Electronic health records (EHRs) are notorious for reducing the face-to-face time with patients while increasing the screen-time for clinicians leading to burnout. This is especially problematic for psychiatry care in which maintaining consistent eye-contact and non-verbal cues are just as important as the spoken words. In this ongoing work, we explore the feasibility of automatically generating psychiatric EHR case notes from digital transcripts of doctor-patient conversation using a two-step approach: (1) predicting semantic topics for segments of transcripts using supervised machine learning, and (2) generating formal text of those segments using natural language processing. Through a series of preliminary experimental results obtained through a collection of synthetic and real-life transcripts, we demonstrate the viability of this approach.'
+  attachments:
+  - file: 23_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: kazinazmulhasan@gmail.com
+    first_name: Nazmul
+    institution: University of North Florida
+    last_name: Kazi
+    name: Nazmul Kazi
+    username: nazhkazi
+  - emails: indika.kahanda@montana.edu
+    first_name: Indika
+    institution: Montana State University
+    last_name: Kahanda
+    name: Indika Kahanda
+    username: ''
+  decision: Accept to main conference
+  file: 23.pdf
+  id: '23'
+  title: Automatically Generating Psychiatric Case Notes From Digital Transcripts of Doctor-Patient Conversations
+- abstract: While much data within a patient’s electronic health record (EHR) is coded, crucial information concerning the patient’s care and management remain buried in unstructured clinical notes, making it difficult and time-consuming for physicians to review during their usual clinical workflow. In this paper, we present our clinical note processing pipeline, which extends beyond basic medical natural language processing (NLP) with concept recognition and relation detection to also include components specific to EHR data, such as structured data associated with the encounter, sentence-level clinical aspects, and structures of the clinical notes. We report on the use of this pipeline in a disease-specific extractive text summarization task on clinical notes, focusing primarily on progress notes by physicians and nurse practitioners. We show how the addition of EHR-specific components to the pipeline resulted in an improvement in our overall system performance and discuss the potential impact of EHR-specific components on other higher-level clinical NLP tasks.
+  attachments:
+  - file: 24_Tex.zip
+    type: Supplementary Material
+  - file: 24_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: liang.jen@gmail.com
+    first_name: Jennifer J
+    institution: IBM Research
+    last_name: Liang
+    name: Jennifer J Liang
+    username: jjliang
+  - emails: ctsou@us.ibm.com
+    first_name: C h i n g - H u e i
+    institution: IBM
+    last_name: Tsou
+    name: C h i n g - H u e i Tsou
+    username: chinghuei
+  - emails: poddar@us.ibm.com
+    first_name: Ananya
+    institution: IBM Research
+    last_name: Poddar
+    name: Ananya Poddar
+    username: ''
+  decision: Accept to main conference
+  file: 24.pdf
+  id: '24'
+  title: A Novel System for Extractive Clinical Note Summarization using EHR Data
+- abstract: 'Past prescriptions constitute a central element in patient records. These are often written in an unstructured and brief form. Extracting information from such prescriptions enables the development of automated processes in the medical data mining field.
+
+    This paper presents a Conditional Random Fields (CRFs) based approach to extract relevant information from prescriptions. We focus on Finnish language prescriptions and make use of Finnish language specific features. Our labeling accuracy is 95\textbackslash{}\%, which compares favorably to the current state-of-the-art in English language prescriptions. This, to the best of our knowledge, is the first such work for the Finnish language.'
+  attachments:
+  - file: 25_Tex.zip
+    type: Supplementary Material
+  - file: 25_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Long paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: deniz.ehs@gmail.com
+    first_name: Razieh
+    institution: Digital Workforce Services Oy
+    last_name: Ehsani
+    name: Razieh Ehsani
+    username: elin
+  - emails: tyko.niemi@digitalworkforce.com
+    first_name: Tyko
+    institution: Digital Workforce Services Oy
+    last_name: Niemi
+    name: Tyko Niemi
+    username: ''
+  - emails: gaurav.khullar@digitalworkforce.com
+    first_name: Gaurav
+    institution: Digital Workforce Services Oy
+    last_name: Khullar
+    name: Gaurav Khullar
+    username: ''
+  - emails: tiina.leivo@digitalworkforce.com
+    first_name: Tiina
+    institution: Digital Workforce Services Oy
+    last_name: Leivo
+    name: Tiina Leivo
+    username: ''
+  decision: Accept to main conference
+  file: 25.pdf
+  id: '25'
+  title: Clinical Data Classification using Conditional Random Fields and Neural Parsing for Morphologically Rich Languages
+- abstract: 'Contextual word embedding models such as ELMo and BERT have dramatically improved performance for many natural language processing (NLP) tasks in recent months. However, these models have been minimally explored on specialty corpora, such as clinical text; moreover, in the clinical domain, no publicly-available pre-trained BERT models yet exist. In this work, we address this need by exploring and releasing BERT models for clinical text: one for generic clinical text and another for discharge summaries specifically. We demonstrate that using a domain-specific model yields performance improvements on 3/5 clinical NLP tasks, establishing a new state-of-the-art on the MedNLI dataset. We find that these domain-specific models are not as performant on 2 clinical de-identification tasks, and argue that this is a natural consequence of the differences between de-identified source text and synthetically non de-identified task text.'
+  attachments:
+  - file: 28_Tex.zip
+    type: Supplementary Material
+  - file: 28_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: Short paper
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: emily.alsentzer@gmail.com
+    first_name: Emily
+    institution: Harvard Medical School \& MIT
+    last_name: Alsentzer
+    name: Emily Alsentzer
+    username: emilya
+  - emails: jrmurphy@mit.edu
+    first_name: John
+    institution: MIT CSAIL
+    last_name: Murphy
+    name: John Murphy
+    username: ''
+  - emails: wboag@mit.edu
+    first_name: William
+    institution: MIT CSAIL
+    last_name: Boag
+    name: William Boag
+    username: ''
+  - emails: ckbjimmy@mit.edu
+    first_name: W e i - H u n g
+    institution: MIT
+    last_name: Weng
+    name: W e i - H u n g Weng
+    username: ckbjimmy
+  - emails: jindi15@mit.edu
+    first_name: Di
+    institution: MIT CSAIL
+    last_name: Jindi
+    name: Di Jindi
+    username: ''
+  - emails: tristan.naumann@gmail.com
+    first_name: Tristan
+    institution: Microsoft Research
+    last_name: Naumann
+    name: Tristan Naumann
+    username: tnaumann
+  - emails: mmd@mit.edu
+    first_name: Matthew
+    institution: MIT CSAIL
+    last_name: Mcdermott
+    name: Matthew Mcdermott
+    username: ''
+  decision: Accept to main conference
+  file: 28.pdf
+  id: '28'
+  title: Publicly Available Clinical BERT Embeddings

@@ -1,0 +1,880 @@
+- abstract: 'Importance of utilizing medical information is getting increased as electronic
+
+    health records (EHRs) are widely used nowadays. We aim to assign international
+
+    standardized disease codes, ICD-10, to Japanese textual information in EHRs for
+
+    users to reuse the information accurately. In this paper, we propose methods to
+
+    automatically extract diagnosis and to assign ICD codes to Japanese medical
+
+    records. Due to the lack of available training data, we dare employed
+
+    rule-based methods rather than machine learning. We observed characteristics of
+
+    medical records carefully, writing rules to make effective methods by hand. We
+
+    applied our system to the NTCIR-12 MedNLPDoc shared task data where
+
+    participants are required to assign ICD-10 codes of possible diagnosis in given
+
+    EHRs. In this shared task, our system achieved the highest F-measure score
+
+    among all participants in the most severe evaluation criteria. Through
+
+    comparison with other approaches, we show that our approach could be a useful
+
+    milestone for the future development of Japanese medical record processing.'
+  attachments:
+  - file: 1_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '5'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: msakishita@kanolab.net
+    first_name: Masahito
+    institution: Faculty of Informatics, Shizuoka University
+    last_name: Sakishita
+    name: Masahito Sakishita
+    username: msakishita
+  - emails: kano@inf.shizuoka.ac.jp
+    first_name: Yoshinobu
+    institution: Faculty of Informatics, Shizuoka University
+    last_name: Kano
+    name: Yoshinobu Kano
+    username: ''
+  decision: Accept to main conference
+  file: 1.pdf
+  id: '1'
+  title: Inference of ICD Codes from Japanese Medical Records by Searching Disease Names
+- abstract: 'In this work we present a fine-grained annotation schema to detect named
+
+    entities in German clinical data of chronically ill patients with kidney
+
+    diseases. The annotation schema is driven by the needs of our clinical partners
+
+    and the linguistic aspects of German language. In order to generate annotations
+
+    within a short period, the work also presents a semi-automatic annotation which
+
+    uses additional sources of knowledge such as UMLS, to pre-annotate concepts in
+
+    advance. The presented schema will be used to apply novel techniques from
+
+    natural language processing and machine learning to support doctors treating
+
+    their patients by improved information access from unstructured German texts.'
+  attachments:
+  - file: 2_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '9'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: roland.roller@dfki.de
+    first_name: Roland
+    institution: DFKI SLT Lab
+    last_name: Roller
+    name: Roland Roller
+    username: rroller
+  - emails: uszkoreit@dfki.de
+    first_name: Hans
+    institution: DFKI LT Lab
+    last_name: Uszkoreit
+    name: Hans Uszkoreit
+    username: ''
+  - emails: feiyuxu@mac.com
+    first_name: Feiyu
+    institution: AI Lab, Lenovo Research
+    last_name: Xu
+    name: Feiyu Xu
+    username: feiyu
+  - emails: laura.seiffe@dfki.de
+    first_name: Laura
+    institution: DFKI LT Lab
+    last_name: Seiffe
+    name: Laura Seiffe
+    username: ''
+  - emails: michael.mikhailov@dfki.de
+    first_name: Michael
+    institution: DFKI LT Lab, Charité
+    last_name: Mikhailov
+    name: Michael Mikhailov
+    username: ''
+  - emails: oliver.staeck@charite.de
+    first_name: Oliver
+    institution: Charité
+    last_name: Staeck
+    name: Oliver Staeck
+    username: ''
+  - emails: klemens.budde@charite.de
+    first_name: Klemens
+    institution: Charité
+    last_name: Budde
+    name: Klemens Budde
+    username: ''
+  - emails: fabian.halleck@charite.de
+    first_name: Fabian
+    institution: Charité
+    last_name: Halleck
+    name: Fabian Halleck
+    username: ''
+  - emails: danilo.schmidt@charite.de
+    first_name: Danilo
+    institution: Charité
+    last_name: Schmidt
+    name: Danilo Schmidt
+    username: ''
+  decision: Accept to main conference
+  file: 2.pdf
+  id: '2'
+  title: A fine-grained corpus annotation schema of German nephrology records
+- abstract: 'The goal of this paper is to examine the impact of simple feature engineering
+
+    mechanisms before applying more sophisticated techniques to the task of medical
+
+    NER. Sometimes papers using scientifically sound techniques present raw
+
+    baselines that could be improved adding simple and cheap features. This work
+
+    focuses on entity recognition for the clinical domain for three languages:
+
+    English, Swedish and Spanish. The task is tackled using simple features,
+
+    starting from the window size, capitalization, prefixes, and moving to POS and
+
+    semantic tags. This work demonstrates that a simple initial step of feature
+
+    engineering can improve the baseline results significantly. Hence, the
+
+    contributions of this paper are: first, a short list of guidelines well
+
+    supported with experimental results on three languages and, second, a detailed
+
+    description of the relevance of these features for medical NER.'
+  attachments:
+  - file: 5_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '6'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: rebeckaw@dsv.su.se
+    first_name: Rebecka
+    institution: Stockholm University
+    last_name: Weegar
+    name: Rebecka Weegar
+    username: rebeckaw
+  - emails: arantza.casillas@ehu.es
+    first_name: Arantza
+    institution: UPV-EHU
+    last_name: Casillas
+    name: Arantza Casillas
+    username: arantzacasillas
+  - emails: a.diazdeilarraza@ehu.es
+    first_name: Arantza
+    institution: University of the Basque Country
+    last_name: Diaz De Ilarraza
+    name: Arantza Diaz De Ilarraza
+    username: arantza_d
+  - emails: maite.oronoz@ehu.es
+    first_name: Maite
+    institution: HiTZ Center - Ixa, University of the Basque Country UPV/EHU
+    last_name: Oronoz
+    name: Maite Oronoz
+    username: jiporanm
+  - emails: alicia.perez@ehu.eus
+    first_name: Alicia
+    institution: Ixa (UPV/EHU)
+    last_name: Pérez
+    name: Alicia Pérez
+    username: apr
+  - emails: koldo.gojenola@ehu.eus
+    first_name: Koldo
+    institution: School of Engineering, University of the Basque Country UPV-EHU
+    last_name: Gojenola
+    name: Koldo Gojenola
+    username: koldo
+  decision: Accept to main conference
+  file: 5.pdf
+  id: '5'
+  title: The impact of simple feature engineering in multilingual medical NER
+- abstract: 'In recent years, detecting Alzheimer disease (AD) in early stages based on
+
+    natural language processing (NLP) has drawn much attention. To date, vocabulary
+
+    size, grammatical complexity, and fluency have been studied using NLP metrics.
+
+    However, the content analysis of AD narratives is still unreachable for NLP.
+
+    This study investigates features of the words that AD patients use in their
+
+    spoken language. After recruiting 18 examinees of 53–90 years old (mean:
+
+    76.89), they were divided into two groups based on MMSE scores. The AD group
+
+    comprised 9 examinees with scores of 21 or lower. The healthy control group
+
+    comprised 9 examinees with a score of 22 or higher. Linguistic Inquiry and Word
+
+    Count (LIWC) classified words were used to categorize the words that the
+
+    examinees used. The word frequency was found from observation. Significant
+
+    differences were confirmed for the usage of impersonal pronouns in the AD
+
+    group. This result demonstrated the basic feasibility of the proposed NLP-based
+
+    detection
+
+    approach.'
+  attachments:
+  - file: 6_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '8'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: shibatadaisaku@gmail.com
+    first_name: Daisaku
+    institution: Nara Institute of Science and Technology
+    last_name: Shibata
+    name: Daisaku Shibata
+    username: daisaku-s
+  - emails: wakamiya@is.naist.jp
+    first_name: Shoko
+    institution: Nara Institute of Science and Technology
+    last_name: Wakamiya
+    name: Shoko Wakamiya
+    username: ''
+  - emails: kinoshita.ayae.6v@kyoto-u.ac.jp
+    first_name: Ayae
+    institution: Kyoto University
+    last_name: Kinoshita
+    name: Ayae Kinoshita
+    username: ''
+  - emails: aramaki@is.naist.jp
+    first_name: Eiji
+    institution: Nara Institute of Science and Technology
+    last_name: Aramaki
+    name: Eiji Aramaki
+    username: ''
+  decision: Accept to main conference
+  file: 6.pdf
+  id: '6'
+  title: Detecting Japanese Patients with Alzheimer’s Disease based on Word Category Frequencies
+- abstract: 'Automated extraction of concepts from patient clinical records is an essential
+
+    facilitator of clinical research. For this reason, the 2010 i2b2/VA Natural
+
+    Language
+
+    Processing Challenges for Clinical Records introduced a concept extraction task
+
+    aimed at identifying and classifying concepts into predefined categories (i.e.,
+
+    treatments, tests and problems). State-of-the-art concept extraction approaches
+
+    heavily rely on handcrafted features and domain-specific resources which are
+
+    hard to collect and define. For this reason, this paper proposes an
+
+    alternative, streamlined approach: a recurrent neural network (the
+
+    bidirectional LSTM with CRF decoding) initialized with general-purpose,
+
+    off-the-shelf word embeddings. The experimental results achieved on the 2010
+
+    i2b2/VA reference corpora using the proposed framework outperform all recent
+
+    methods and ranks closely to the best submission from the original 2010 i2b2/VA
+
+    challenge.'
+  attachments:
+  - file: 7_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '6'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: raghav.chalapathy@gmail.com
+    first_name: Raghavendra
+    institution: University of Sydney
+    last_name: Chalapathy
+    name: Raghavendra Chalapathy
+    username: raghav.chalapathy
+  - emails: ezborzeshi@cmcrc.com
+    first_name: Ehsan
+    institution: Capital Markets CRC
+    last_name: Zare Borzeshi
+    name: Ehsan Zare Borzeshi
+    username: ''
+  - emails: Massimo.Piccardi@uts.edu.au
+    first_name: Massimo
+    institution: University of Technology Sydney
+    last_name: Piccardi
+    name: Massimo Piccardi
+    username: ''
+  decision: Accept to main conference
+  file: 7.pdf
+  id: '7'
+  title: Bidirectional LSTM-CRF for Clinical Concept Extraction
+- abstract: 'Due to the recent replacements of physical documents with electronic medical
+
+    records (EMR), the importance of information processing in medical fields has
+
+    been increased. We have been organizing the MedNLP task series in NTCIR-10 and
+
+    11. These workshops were the first shared tasks which attempt to evaluate
+
+    technologies that retrieve important information from medical reports written
+
+    in Japanese. In this report, we describe the NTCIR-12 MedNLPDoc task which is
+
+    designed for more advanced and practical use for the medical fields. This task
+
+    is considered as a multi-labeling task to a patient record. This report
+
+    presents results of the shared task, discusses and illustrates remained issues
+
+    in the medical natural language processing field.'
+  attachments:
+  - file: 8_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '4'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: eiji.aramaki@gmail.com
+    first_name: Eiji
+    institution: NAIST, Japan
+    last_name: Aramaki
+    name: Eiji Aramaki
+    username: aramaki
+  - emails: kano@inf.shizuoka.ac.jp
+    first_name: Yoshinobu
+    institution: Faculty of Informatics, Shizuoka University
+    last_name: Kano
+    name: Yoshinobu Kano
+    username: kanoyoshinobu
+  - emails: tomokoohkuma@gmail.com
+    first_name: Tomoko
+    institution: Asahi Kasei
+    last_name: Ohkuma
+    name: Tomoko Ohkuma
+    username: tomokoohkuma
+  - emails: morita.mizuki@gmail.com
+    first_name: Mizuki
+    institution: ''
+    last_name: Morita
+    name: Mizuki Morita
+    username: morita.mizuki
+  decision: Accept to main conference
+  file: 8.pdf
+  id: '8'
+  title: 'MedNLPDoc: Japanese Shared Task for Clinical NLP'
+- abstract: 'Rapid growth in Electronic Medical Records (EMR) has emerged to an expansion of
+
+    data in the
+
+    clinical domain. The majority of the available health care information is
+
+    sealed in the form of narrative
+
+    documents which form the rich source of clinical information. Text mining of
+
+    such clinical
+
+    records has gained huge attention in various medical applications like
+
+    treatment and decision making.
+
+    However, medical records enclose patient Private Health Information (PHI) which
+
+    can
+
+    reveal the identities of the patients. In order to retain the privacy of
+
+    patients, it is mandatory to remove
+
+    all the PHI information prior to making it publicly available. The aim is to
+
+    de-identify or
+
+    encrypt the PHI from the patient medical records. In this paper, we propose an
+
+    algorithm based
+
+    on deep learning architecture to solve this problem. We perform
+
+    de-identification of seven PHI
+
+    terms from the clinical records. Experiments on benchmark datasets show that
+
+    our proposed
+
+    approach achieves encouraging performance, which is better than the baseline
+
+    model developed
+
+    with Conditional Random Field.'
+  attachments:
+  - file: 9_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '10'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: yshweta73@gmail.com
+    first_name: Shweta
+    institution: University of Illinois at Chicago
+    last_name: Yadav
+    name: Shweta Yadav
+    username: shweta.yadav
+  - emails: asif.ekbal@gmail.com
+    first_name: Asif
+    institution: Indian Institute of Technology Patna
+    last_name: Ekbal
+    name: Asif Ekbal
+    username: asif.ekbal
+  - emails: sriparna.saha@gmail.com
+    first_name: Sriparna
+    institution: Indian Institute of Technology Patna
+    last_name: Saha
+    name: Sriparna Saha
+    username: ''
+  - emails: pushpakbh@gmail.com
+    first_name: Pushpak
+    institution: Indian Institute of Technology Patna
+    last_name: Bhattacharyya
+    name: Pushpak Bhattacharyya
+    username: ''
+  decision: Accept to main conference
+  file: 9.pdf
+  id: '9'
+  title: Deep Learning Architecture for Patient Data De-identification in Clinical Records
+- abstract: "The number of unstructured medical records kept in hospital information systems\nis increasing.\nThe conditions of patients are formulated as outcomes in clinical pathway.\nA variance of an outcome describes deviations from standards of care like a\npatient's bad condition. \nThe present paper applied text mining to extract feature words and phrases of\nthe variance from admission records.\nWe report the cases the variances of ``pain control'' and ``no neuropathy\nworsening'' in cerebral infarction."
+  attachments:
+  - file: 10_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '5'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: t-yama@med.kyushu-u.ac.jp
+    first_name: Takanori
+    institution: Kyushu University Hospital
+    last_name: Yamashita
+    name: Takanori Yamashita
+    username: t-yama
+  - emails: wakata@med.kyushu-u.ac.jp
+    first_name: Yoshifumi
+    institution: Kyushu University Hospital
+    last_name: Wakata
+    name: Yoshifumi Wakata
+    username: ''
+  - emails: hidehisa-soejima@saiseikaikumamoto.jp
+    first_name: Hidehisa
+    institution: Saiseikai Kumamoto Hospital
+    last_name: Soejima
+    name: Hidehisa Soejima
+    username: ''
+  - emails: nnaoki@med.kyushu-u.ac.jp
+    first_name: Naoki
+    institution: Kyushu University Hospital
+    last_name: Nakashima
+    name: Naoki Nakashima
+    username: ''
+  - emails: hirokawa@cc.kyushu-u.ac.jp
+    first_name: Sachio
+    institution: Kyushu University
+    last_name: Hirokawa
+    name: Sachio Hirokawa
+    username: ''
+  decision: Accept to main conference
+  file: 10.pdf
+  id: '10'
+  title: Prediction of Key Patient Outcome from Sentence and Word of Medical Text Records
+- abstract: 'Clinical narratives in electronic health record systems are a rich resource of
+
+    patient-based information. They constitute an ongoing challenge for natural
+
+    language processing, due to their high compactness and abundance of short
+
+    forms. German medical texts exhibit numerous ad-hoc abbreviations that
+
+    terminate with a period character. The disambiguation of period characters is
+
+    therefore an important task for sentence and abbreviation detection. This task
+
+    is addressed by a combination of co-occurrence information of word types with
+
+    trailing period characters, a large domain dictionary, and a simple rule
+
+    engine, thus merging statistical and dictionary-based disambiguation
+
+    strategies. An F-measure of 0.95 could be reached by using the unsupervised
+
+    approach presented in this paper. The results are promising for a
+
+    domain-independent abbreviation detection strategy, because our approach avoids
+
+    retraining of models or use case specific feature engineering efforts required
+
+    for supervised machine learning approaches.'
+  attachments:
+  - file: 11_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '8'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: markus.kreuzthaler@medunigraz.at
+    first_name: Markus
+    institution: CBmed, Medical University of Graz
+    last_name: Kreuzthaler
+    name: Markus Kreuzthaler
+    username: markus
+  - emails: michel.oleynik@stud.medunigraz.at
+    first_name: Michel
+    institution: Medical University of Graz
+    last_name: Oleynik
+    name: Michel Oleynik
+    username: ''
+  - emails: alexander.avian@medunigraz.at
+    first_name: Alexander
+    institution: Medical University of Graz
+    last_name: Avian
+    name: Alexander Avian
+    username: ''
+  - emails: stefan.schulz@medunigraz.at
+    first_name: Stefan
+    institution: Medical University of Graz
+    last_name: Schulz
+    name: Stefan Schulz
+    username: stefan.schulz
+  decision: Accept to main conference
+  file: 11.pdf
+  id: '11'
+  title: Unsupervised Abbreviation Detection in Clinical Narratives
+- abstract: 'Semi-supervised clustering is an attractive alternative for traditional
+
+    (unsupervised) clustering in targeted applications. By using the information of
+
+    a small annotated dataset, semi-supervised clustering can produce clusters that
+
+    are customized to the application domain. In this paper, we
+
+    present a semi-supervised clustering technique based on a multi-objective
+
+    evolutionary algorithm (NSGA-II-clus). We apply this technique to the task of
+
+    clustering medical publications for Evidence Based Medicine (EBM) and observe
+
+    an improvement of the results against unsupervised
+
+    and other semi-supervised clustering techniques.'
+  attachments:
+  - file: 12_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '9'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: pracheta.sahoo@utdallas.edu
+    first_name: Pracheta
+    institution: The University of Texas at Dallas
+    last_name: Sahoo
+    name: Pracheta Sahoo
+    username: pracheta
+  - emails: asif.ekbal@gmail.com
+    first_name: Asif
+    institution: Indian Institute of Technology Patna
+    last_name: Ekbal
+    name: Asif Ekbal
+    username: asif.ekbal
+  - emails: sriparna.saha@gmail.com
+    first_name: Sriparna
+    institution: IIT Patna
+    last_name: Saha
+    name: Sriparna Saha
+    username: ''
+  - emails: diego.molla-aliod@mq.edu.au
+    first_name: Diego
+    institution: Macquarie University
+    last_name: Molla
+    name: Diego Molla
+    username: diego.molla-aliod
+  - emails: kaushalta@gmail.com
+    first_name: Kaushik
+    institution: IIT Patna
+    last_name: Nandan
+    name: Kaushik Nandan
+    username: ''
+  decision: Accept to main conference
+  file: 12.pdf
+  id: '12'
+  title: Semi-supervised Clustering of Medical Text
+- abstract: 'Paraphrase generation is important in various applications such as search,
+
+    summarization, and question answering due to its ability to generate textual
+
+    alternatives while keeping the overall meaning intact. Clinical paraphrase
+
+    generation is especially vital in building patient-centric clinical decision
+
+    support (CDS) applications where users are able to understand complex clinical
+
+    jargons via easily comprehensible alternative paraphrases. This paper presents
+
+    Neural Clinical Paraphrase Generation (NCPG), a novel approach that casts the
+
+    task as a monolingual neural machine translation (NMT) problem. We propose an
+
+    end-to-end neural network built on an attention-based bidirectional Recurrent
+
+    Neural Network (RNN) architecture with an encoder-decoder framework to perform
+
+    the task. Conventional bilingual NMT models mostly rely on word-level modeling
+
+    and are often limited by out-of-vocabulary (OOV) issues. In contrast, we
+
+    represent the source and target paraphrase pairs as character sequences to
+
+    address this limitation. To the best of our knowledge, this is the first work
+
+    that uses attention-based RNNs for clinical paraphrase generation and also
+
+    proposes an end-to-end character-level modeling for this task. Extensive
+
+    experiments on a large curated clinical paraphrase corpus show that the
+
+    attention-based NCPG models achieve improvements of up to 5.2 BLEU points and
+
+    0.5 METEOR points over a non-attention based strong baseline for word-level
+
+    modeling, whereas further gains of up to 6.1 BLEU points and 1.3 METEOR points
+
+    are obtained by the character-level NCPG models over their word-level
+
+    counterparts. Overall, our models demonstrate comparable performance relative
+
+    to the state-of-the-art phrase-based non-neural models.'
+  attachments:
+  - file: 13_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '12'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: sadidhasan@gmail.com
+    first_name: Sadid A.
+    institution: Microsoft
+    last_name: Hasan
+    name: Sadid A. Hasan
+    username: sadid
+  - emails: boliu@auburn.edu
+    first_name: Bo
+    institution: Auburn University
+    last_name: Liu
+    name: Bo Liu
+    username: ''
+  - emails: joey.liu@philips.com
+    first_name: Joey
+    institution: Philips Research North America
+    last_name: Liu
+    name: Joey Liu
+    username: joeyliu
+  - emails: ashequlqadir@gmail.com
+    first_name: Ashequl
+    institution: Wayfair
+    last_name: Qadir
+    name: Ashequl Qadir
+    username: asheq
+  - emails: kathy.lee_1@philips.com
+    first_name: Kathy
+    institution: Philips Research North America
+    last_name: Lee
+    name: Kathy Lee
+    username: kml649
+  - emails: vivek.datla@philips.com
+    first_name: Vivek
+    institution: Philips Research North America
+    last_name: Datla
+    name: Vivek Datla
+    username: vivekdatla
+  - emails: aprakash@brandeis.edu
+    first_name: Aaditya
+    institution: Brandeis University
+    last_name: Prakash
+    name: Aaditya Prakash
+    username: iamaditya
+  - emails: oladimeji.farri@siemens-healthineers.com
+    first_name: Oladimeji
+    institution: Siemens Healthineers
+    last_name: Farri
+    name: Oladimeji Farri
+    username: dimeji
+  decision: Accept to main conference
+  file: 13.pdf
+  id: '13'
+  title: Neural Clinical Paraphrase Generation with Attention
+- abstract: 'Patient notes contain a wealth of information of potentially great interest to
+
+    medical investigators. However, to protect patients'' privacy, Protected Health
+
+    Information (PHI) must be removed from the patient notes before they can be
+
+    legally released, a process known as patient note de-identification. The main
+
+    objective for a de-identification system is to have the highest possible
+
+    recall. Recently, the first neural-network-based de-identification system has
+
+    been proposed, yielding state-of-the-art results. Unlike other systems, it does
+
+    not rely on human-engineered features, which allows it to be quickly deployed,
+
+    but does not leverage knowledge from human experts or from electronic health
+
+    records (EHRs). In this work, we explore a method to incorporate
+
+    human-engineered features as well as features derived from EHRs to a
+
+    neural-network-based de-identification system. Our results show that the
+
+    addition of features, especially the EHR-derived features, further improves the
+
+    state-of-the-art in patient note de-identification, including for some of the
+
+    most sensitive PHI types such as patient names. Since in a real-life setting
+
+    patient notes typically come with EHRs, we recommend developers of
+
+    de-identification systems to leverage the information EHRs contain.'
+  attachments:
+  - file: 14_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '6'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: jjylee@mit.edu
+    first_name: Ji Young
+    institution: MIT
+    last_name: Lee
+    name: Ji Young Lee
+    username: ''
+  - emails: franck.dernoncourt@adobe.com
+    first_name: Franck
+    institution: Adobe Research
+    last_name: Dernoncourt
+    name: Franck Dernoncourt
+    username: franck.dernoncourt
+  - emails: ouzuner@albany.edu
+    first_name: Ozlem
+    institution: SUNY Albany
+    last_name: Uzuner
+    name: Ozlem Uzuner
+    username: ''
+  - emails: psz@mit.edu
+    first_name: Peter
+    institution: MIT
+    last_name: Szolovits
+    name: Peter Szolovits
+    username: ''
+  decision: Accept to main conference
+  file: 14.pdf
+  id: '14'
+  title: Feature-Augmented Neural Networks for Patient Note De-identification
+- abstract: 'The issue of privacy has always been a concern when clinical texts are used for
+
+    research purposes. Personal health information (PHI) (such as name and
+
+    identification number) needs to be removed so that patients cannot be
+
+    identified. Manual anonymization is not feasible due to the large number of
+
+    clinical texts to be anonymized. In this paper, we tackle the task of
+
+    anonymizing clinical texts written in sentence fragments and which frequently
+
+    contain symbols, abbreviations, and misspelled words. Our clinical texts
+
+    therefore differ from those in the i2b2 shared tasks which are in prose form
+
+    with complete sentences. Our clinical texts are also part of a structured
+
+    database which contains patient name and identification number in structured
+
+    fields. As such, we formulate our anonymization task as spelling variant
+
+    detection, exploiting patients'' personal information in the structured fields
+
+    to detect their spelling variants in clinical texts. We successfully anonymized
+
+    clinical texts consisting of more than 200 million words, using minimum edit
+
+    distance and regular expression patterns.'
+  attachments:
+  - file: 15_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '5'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: a0080415@u.nus.edu
+    first_name: Steven Kester
+    institution: National University of Singapore
+    last_name: Yuwono
+    name: Steven Kester Yuwono
+    username: yulonglong
+  - emails: nght@comp.nus.edu.sg
+    first_name: Hwee Tou
+    institution: National University of Singapore
+    last_name: Ng
+    name: Hwee Tou Ng
+    username: nght
+  - emails: kee_yuan_ngiam@nuhs.edu.sg
+    first_name: Kee Yuan
+    institution: National University Hospital
+    last_name: Ngiam
+    name: Kee Yuan Ngiam
+    username: ''
+  decision: Accept to main conference
+  file: 15.pdf
+  id: '15'
+  title: Automated Anonymization as Spelling Variant Detection
+- abstract: "The proliferation of deep learning methods in natural language processing (NLP)\nand the large amounts of data they often require stands in stark contrast to\nthe relatively data-poor clinical NLP domain. In particular, large text corpora\nare necessary to build high-quality word embeddings, yet often large corpora\nthat are suitably representative of the target clinical data are unavailable. \nThis forces a choice between building embeddings from small clinical corpora\nand less representative, larger corpora. This paper explores this trade-off, as\nwell as intermediate compromise solutions. Two standard clinical NLP tasks (the\ni2b2 2010 concept and assertion tasks) are evaluated with commonly used deep\nlearning models (recurrent neural networks and convolutional neural networks)\nusing a set of six corpora ranging from the target i2b2 data to large\nopen-domain datasets. While combinations of corpora are generally found to work\nbest, the single-best corpus is generally task-dependent."
+  attachments:
+  - file: 16_metadata.txt
+    type: Supplementary Material
+  attributes:
+    paper_type: '10'
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: kirkroberts@gmail.com
+    first_name: Kirk
+    institution: University of Texas Health Science Center at Houston
+    last_name: Roberts
+    name: Kirk Roberts
+    username: captkrob
+  decision: Accept to main conference
+  file: 16.pdf
+  id: '16'
+  title: Assessing the Corpus Size vs. Similarity Trade-off for Word Embeddings in Clinical NLP
