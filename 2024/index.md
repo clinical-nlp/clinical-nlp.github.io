@@ -40,14 +40,17 @@ For content from prior events, please see:
 - [Clinical NLP 2019](https://clinical-nlp.github.io/2019/)
 - [Clinical NLP 2016](https://clinical-nlp.github.io/2016/)
 
-<!-- 
+
 ### Sponsors
 
 <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-4">
-          <img src="images/Lavita_logo_color-black@4x.png" class="img-responsive" width="50%" align="center">
+          <img src="/images/misti_logo.png" class="img-responsive" width="50%" align="center">
+    </div>
+    <div class="col-md-4">
+          <img src="/images/mit_critical_data_logo.png" class="img-responsive" width="50%" align="center">
     </div>
     <div class="col-md-4"></div>
 </div> 
--->
+
