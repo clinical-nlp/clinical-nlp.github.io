@@ -19,7 +19,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 
 ### Shared Tasks
 
-- [**Multimodal Question Answering (MEDIQA-WV)**](https://sites.google.com/view/mediqa-2025/mediqa-wv): 
+- [**Wouncare Visual Question Answering (MEDIQA-WV)**](https://sites.google.com/view/mediqa-2025/mediqa-wv): 
     - Asynchronous communication has enabled remote patient care, improving access, and cutting costs. However, with this new care model, the burden for providers increased dramatically. The ability to provide draft responses to remote care patient queries can help speed doctor response and raise care quality. We extend the MEDIQA-M3G 2024 shared task into the domain of wound-care visual question answering. Participants will be tasked with generating a free text response to a patient question and associated images. We created a dataset of questions and answers in English and Chinese. Each question has one or two images and multiple annotations (e.g., anatomic location, wound type). 
   
 - [**Chemotherapy Treatment Event Extraction (2nd edition)**](https://sites.google.com/view/chemotimelines2025): 
