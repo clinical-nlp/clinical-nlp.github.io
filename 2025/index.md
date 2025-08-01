@@ -9,12 +9,12 @@ TBA
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)).
 
-| Event                                               | Date                      |
-| --------------------------------------------------- | ------------------------- |
-| Paper Submission deadline                           | Monday August 11, 2025    |
-| Notification of acceptance                          | Monday September 15, 2025 |
-| Final versions of papers due                        | Monday September 29, 2025 |
-| Workshop                                            | 27-30 October, 2025       |
+| Event                                               | Date                        |
+| --------------------------------------------------- | -------------------------   |
+| Paper Submission deadline                           | Thursday August 21, 2025    |
+| Notification of acceptance                          | Thursday September 25, 2025 |
+| Final versions of papers due                        | Thursday October 9, 2025    |
+| Workshop                                            | 27-30 October, 2025         |
 
 
 ### Shared Tasks
