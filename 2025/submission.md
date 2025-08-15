@@ -7,7 +7,7 @@ layout: default_2025
 
 The OpenReview submission site is:
 
-* <https://openreview.net/group?id=aclweb.org/NAACL/2024/Workshop/Clinical_NLP>
+* <https://openreview.net/group?id=clinical-nlp.github.io/Clinical_NLP/2025/Workshop>
 
 All submissions must follow [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html), including:
 
