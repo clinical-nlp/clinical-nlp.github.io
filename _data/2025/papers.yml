@@ -1,0 +1,726 @@
+- abstract: Extracting patient treatment timelines from clinical notes is a complex
+    task involving identification of relevant events, temporal expressions, and temporal
+    relations in individual documents and developing cross-document summaries. The
+    2025 Shared Task on Chemotherapy Treatment Timeline Extraction builds upon the
+    initial 2024 challenge, using data from 57,530 breast and ovarian cancer patients
+    and 15,946 melanoma patients. Participants were provided with a subset annotated
+    for treatment entities, temporal expressions, temporal relations, and timelines
+    for each patient. This training data was used to addressed two subtasks. Subtask
+    1 focused on extracting temporal relations and creating timelines, given documents
+    and gold-standard events and temporal expressions. Sutask 2 involved development
+    of an end-to-end system involving extraction of entities, temporal expressions,
+    and relations, and construction of timelines, given only the Electronic Health
+    Record notes. Five teams participated, submitting eight entries for Subtask 1
+    and twelve for Subtask 2. Supervised fine-tuning remains a productive approach
+    albeit with a shift of supervised fine-tuning of very large language models compared
+    to the 2024 task edition.  Even with the much more "strict" evaluation metric,
+    the best results are comparable to the  best less strict 2024 relaxed-to-month
+    results.
+  attachments:
+  - file: 1.pdf
+    open_review_id: /attachment/b86efbb251d39db34a450e12275f07b7dd94a77c.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'ChemoTimelines: Chemotherapy Treatment Event Extraction'
+  authors:
+  - dblp_id: https://dblp.org/pid/249/9101
+    emails: '****@childrens.harvard.edu'
+    first_name: Jiarui
+    institution: Boston Children's Hospital
+    last_name: Yao
+    name: Jiarui Yao
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jiarui-Yao/40040342
+    username: ~Jiarui_Yao1
+  - dblp_id: https://dblp.org/pid/23/6837.html
+    emails: '****@pitt.edu'
+    first_name: Harry
+    google_scholar_id: https://scholar.google.com/citations?user=p6z7sL4AAAAJ&hl=en
+    homepage: https://www.dbmi.pitt.edu/directory/name/harry-hochheiser/
+    institution: University of Pittsburgh
+    last_name: Hochheiser
+    name: Harry Hochheiser
+    orcid: https://orcid.org/0000-0001-8793-9982
+    username: ~Harry_Hochheiser1
+  - dblp_id: https://dblp.org/pid/227/2205
+    emails: '****@childrens.harvard.edu'
+    first_name: WonJin
+    google_scholar_id: https://scholar.google.com/citations?user=7xuGLSoAAAAJ
+    homepage: http://wonjin.info
+    institution: Harvard University
+    last_name: Yoon
+    name: WonJin Yoon
+    orcid: https://orcid.org/0000-0002-6435-548X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Wonjin-Yoon/51433082
+    username: ~WonJin_Yoon1
+  - emails: '****@childrens.harvard.edu'
+    first_name: Eli
+    last_name: Goldner
+    middle_name: T
+    name: Eli T Goldner
+    orcid: https://orcid.org/0000-0003-3226-0942
+    username: ~Eli_T_Goldner1
+  - emails: '****@childrens.harvard.edu'
+    first_name: Guergana
+    google_scholar_id: https://scholar.google.com/citations?user=9538Cr4AAAAJ&hl=en&oi=sra
+    institution: Harvard University
+    last_name: Savova
+    middle_name: K
+    name: Guergana K Savova
+    orcid: https://orcid.org/0000-0002-5887-200X
+    username: ~Guergana_K_Savova1
+  decision: Submission
+  file: 1.pdf
+  id: 1
+  openreview_id: gArmybCT9G
+  pdf_file: 252df4af86eede874fd7eae48978ac3eaf5c77c5.pdf
+  title: Overview of the 2025 Shared Task on Chemotherapy Treatment Timeline Extraction
+- abstract: Medical Visual Question Answering (MedVQA) enables natural language queries
+    over medical images to support clinical decision-making and patient care. The
+    MEDIQA-WV 2025 shared task addressed wound-care VQA, requiring systems to generate
+    free-text responses and structured wound attributes from images and patient queries.
+    We present the MasonNLP system, which employs a general-domain, instruction-tuned
+    large language model with a retrieval-augmented generation (RAG) framework that
+    incorporates textual and visual examples from in-domain data. This approach grounds
+    outputs in clinically relevant exemplars, improving reasoning, schema adherence,
+    and response quality across dBLEU, ROUGE, BERTScore, and LLM-based metrics. Our
+    best-performing system ranked 3rd among 19 teams and 51 submissions with an average
+    score of 41.37%, demonstrating that lightweight RAG with general-purpose LLMs—a
+    minimal inference-time layer that adds a few relevant exemplars via simple indexing
+    and fusion, with no extra training or complex re-ranking— provides a simple and
+    effective baseline for multimodal clinical NLP tasks.
+  attachments:
+  - file: 2.pdf
+    open_review_id: /attachment/e089d0c74e489e96d5b4bbee1746191b933e9f2e.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'MEDIQA-WV: Woundcare Visual Question Answering'
+  authors:
+  - emails: '****@gmu.edu'
+    first_name: A H M Rezaul
+    google_scholar_id: https://scholar.google.com/citations?user=QqB3TnoAAAAJ
+    last_name: Karim
+    name: A H M Rezaul Karim
+    username: ~A_H_M_Rezaul_Karim1
+  - dblp_id: https://dblp.org/pid/43/957
+    emails: '****@gmu.edu'
+    first_name: Ozlem
+    google_scholar_id: https://scholar.google.com/citations?user=jAZ90RIAAAAJ&hl=en&oi=ao
+    homepage: https://ist.gmu.edu/people/detail/ozlem-uzuner/
+    institution: George Mason University
+    last_name: Uzuner
+    name: Ozlem Uzuner
+    semantic_scholar_id: https://www.semanticscholar.org/author/Özlem-Uzuner/1723337
+    username: ~Ozlem_Uzuner2
+  decision: Submission
+  file: 2.pdf
+  id: 2
+  openreview_id: GsyrA9gMfS
+  pdf_file: f8bb408c2e6b2b36a3019e4336b010784e12242e.pdf
+  title: 'MasonNLP at MEDIQA-WV 2025: Multimodal Retrieval-Augmented Generation with
+    Large Language Models for Medical VQA'
+- abstract: Medical order extraction is essential for structuring actionable clinical
+    information, supporting decision-making, and enabling downstream applications
+    such as documentation and workflow automation. Orders may be embedded in diverse
+    sources, including electronic health records, discharge summaries, and multi-turn
+    doctor–patient dialogues, and can span categories such as medications, laboratory
+    tests, imaging studies, and follow-up actions. The MEDIQA-OE 2025 shared task
+    focuses on extracting structured medical orders from extended conversational transcripts,
+    requiring the identification of order type, description, reason, and provenance.
+    We present the MasonNLP submission, which ranked 5th among 17 participating teams
+    with 105 total submissions. Our approach uses a general-purpose, instruction-tuned
+    LLaMA-4 17B model without domain-specific fine-tuning, guided by a single in-context
+    example. This few-shot configuration achieved an average F1 score of 37.76, with
+    notable improvements in reason and provenance accuracy. These results demonstrate
+    that large, non-domain-specific LLMs, when paired with effective prompt engineering,
+    can serve as strong, scalable baselines for specialized clinical NLP tasks.
+  attachments:
+  - file: 3.pdf
+    open_review_id: /attachment/93564db9e0220a2cd76cb5cf75eddd4fb1049adc.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'MEDIQA-OE: Medical Order Extraction'
+  authors:
+  - emails: '****@gmu.edu'
+    first_name: A H M Rezaul
+    google_scholar_id: https://scholar.google.com/citations?user=QqB3TnoAAAAJ
+    last_name: Karim
+    name: A H M Rezaul Karim
+    username: ~A_H_M_Rezaul_Karim1
+  - dblp_id: https://dblp.org/pid/43/957
+    emails: '****@gmu.edu'
+    first_name: Ozlem
+    google_scholar_id: https://scholar.google.com/citations?user=jAZ90RIAAAAJ&hl=en&oi=ao
+    homepage: https://ist.gmu.edu/people/detail/ozlem-uzuner/
+    institution: George Mason University
+    last_name: Uzuner
+    name: Ozlem Uzuner
+    semantic_scholar_id: https://www.semanticscholar.org/author/Özlem-Uzuner/1723337
+    username: ~Ozlem_Uzuner2
+  decision: Submission
+  file: 3.pdf
+  id: 3
+  openreview_id: nAZCLKxvds
+  pdf_file: bf15f8b1f7b7da334fca2b9c442bd6ccf7d53791.pdf
+  title: 'MasonNLP at MEDIQA-OE 2025: Assessing Large Language Models for Structured
+    Medical Order Extraction'
+- abstract: 'The accurate extraction of medical orders from
+
+    doctor-patient conversations is a critical task
+
+    for reducing clinical documentation burdens
+
+    and ensuring patient safety. This paper details
+
+    our team''s submission to the MEDIQA-OE-2025
+
+    Shared Task. We investigate the performance
+
+    of MedGemma, a new domain-specific opensource language model, for structured order
+    extraction. We systematically evaluate three distinct prompting paradigms: a straightforward
+
+    one-shot approach, a reasoning-focused ReAct
+
+    framework, and a multi-step agentic workflow.
+
+    Our experiments reveal that while more complex frameworks like ReAct and agentic
+    flows
+
+    are powerful, the simpler one-shot prompting
+
+    method achieved the highest performance on
+
+    the official validation set. We posit that on manually annotated transcripts,
+    complex reasoning
+
+    chains can lead to "overthinking" and introduce noise, making a direct approach
+    more robust and efficient. Our work provides valuable
+
+    insights into selecting appropriate prompting
+
+    strategies for clinical information extraction in
+
+    varied data conditions.'
+  attachments:
+  - file: 4.pdf
+    open_review_id: /attachment/a3ecd96e77f5b1c6eba7d51d3f9879743c5b5bc0.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'MEDIQA-OE: Medical Order Extraction'
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Abhinand
+    google_scholar_id: https://scholar.google.com/citations?user=apWpPIYAAAAJ
+    institution: Self Employed
+    last_name: Balachandran
+    name: Abhinand Balachandran
+    orcid: https://orcid.org/0009-0004-9692-8432
+    username: ~Abhinand_Balachandran1
+  - emails: '****@gmail.com'
+    first_name: Bavana
+    institution: EXL Healthcare
+    last_name: Durgapraveen
+    name: Bavana Durgapraveen
+    username: ~Bavana_Durgapraveen1
+  - emails: gowsikkan.s2001@gmail.com
+    first_name: gowsikkan.s2001@gmail.com
+    institution: NA
+    last_name: gowsikkan.s2001@gmail.com
+    name: gowsikkan.s2001@gmail.com
+    username: gowsikkan.s2001@gmail.com
+  - emails: vidhyavarshany@gmail.com
+    first_name: vidhyavarshany@gmail.com
+    institution: NA
+    last_name: vidhyavarshany@gmail.com
+    name: vidhyavarshany@gmail.com
+    username: vidhyavarshany@gmail.com
+  - emails: '****@gmail.com'
+    first_name: Sriram
+    institution: Exl service
+    last_name: Rajkumar
+    name: Sriram Rajkumar
+    username: ~Sriram_Rajkumar1
+  decision: Submission
+  file: 4.pdf
+  id: 4
+  openreview_id: fRrKRhmEUQ
+  pdf_file: a0860f653e1d1b5e9c881cec03bc4e8283001177.pdf
+  title: 'EXL Health AI Lab at MEDIQA-OE 2025: Evaluating Prompting Strategies with
+    MedGemma for Medical Order Extraction'
+- abstract: The rapid expansion of asynchronous remote care has intensified provider
+    workload, creating demand for AI systems that can assist clinicians in managing
+    patient queries more efficiently. The MEDIQA-WV 2025 shared task addresses this
+    challenge by focusing on generating free-text responses to wound care queries
+    paired with images. In this work, we present two complementary approaches developed
+    for the English track. The first leverages a mined prompting strategy, where training
+    data is embedded, and the top-k most similar examples are retrieved to serve as
+    few-shot demonstrations during generation. The second approach builds on a metadata
+    ablation study, which identified four metadata attributes that consistently enhance
+    response quality. We train classifiers to predict these attributes for test cases
+    and incorporate them into the generation pipeline, dynamically adjusting outputs
+    based on prediction confidence. Experimental results demonstrate that mined prompting
+    improves response relevance, while metadata-guided generation further refines
+    clinical precision. Together, these methods highlight promising directions for
+    developing AI-driven tools that can provide reliable and efficient wound care
+    support.
+  attachments:
+  - file: 5.pdf
+    open_review_id: /attachment/b1a9664e0e4312d104135ef8615167015c592d16.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'MEDIQA-WV: Woundcare Visual Question Answering'
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Bavana
+    institution: EXL Healthcare
+    last_name: Durgapraveen
+    name: Bavana Durgapraveen
+    username: ~Bavana_Durgapraveen1
+  - emails: '****@gmail.com'
+    first_name: Sornaraj
+    last_name: Sivasankaran
+    name: Sornaraj Sivasankaran
+    username: ~Sornaraj_Sivasankaran1
+  - emails: '****@gmail.com'
+    first_name: Abhinand
+    google_scholar_id: https://scholar.google.com/citations?user=apWpPIYAAAAJ
+    institution: Self Employed
+    last_name: Balachandran
+    name: Abhinand Balachandran
+    orcid: https://orcid.org/0009-0004-9692-8432
+    username: ~Abhinand_Balachandran1
+  - emails: '****@gmail.com'
+    first_name: Sriram
+    institution: Exl service
+    last_name: Rajkumar
+    name: Sriram Rajkumar
+    username: ~Sriram_Rajkumar1
+  decision: Submission
+  file: 5.pdf
+  id: 5
+  openreview_id: somEuMMcSu
+  pdf_file: 80c66885d95d942c0ce1894e78581a09992a24a8.pdf
+  title: 'EXL Health AI Lab at MEDIQA-WV 2025: Mined Prompting and Metadata-Guided
+    Generation for Wound Care Visual Question Answering'
+- abstract: 'Medical order extraction from doctor-patient conversations presents a
+    critical challenge in reducing clinical documentation burden and ensuring accurate
+    capture of patient care instructions. This paper describes our system for the
+    MEDIQA-OE 2025 shared task using the ACI-Bench and PriMock57 datasets, which achieved
+    second place on the public leaderboard with an average score of 0.6014 across
+    four metrics: description ROUGE-1 F1, reason ROUGE-1 F1, order-type strict F1,
+    and provenance multi-label F1. Unlike traditional approaches that rely on fine-tuned
+    biomedical language models, we demonstrate that a carefully engineered zero-shot
+    prompting strategy using Gemini 2.5 Pro can achieve competitive performance without
+    requiring model training or GPU resources. Our approach employs a deterministic
+    state-machine prompt design incorporating chain-of-thought reasoning, self-verification
+    protocols, and structured JSON output generation. The system particularly excels
+    in reason extraction, achieving 0.4130 ROUGE-1 F1, the highest among the top performing
+    teams. Our results suggest that advanced prompt engineering can effectively bridge
+    the gap between general-purpose large language models and specialized clinical
+    NLP tasks, offering a computationally efficient and immediately deployable alternative
+    to traditional fine-tuning approaches with significant implications for resource-constrained
+    healthcare settings.'
+  attachments:
+  - file: 6.pdf
+    open_review_id: /attachment/930af6b3023a86739e78c25bcaf3589e55906d29.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'MEDIQA-OE: Medical Order Extraction'
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Parth
+    last_name: Mehta
+    name: Parth Mehta
+    username: ~Parth_Mehta4
+  decision: Submission
+  file: 6.pdf
+  id: 6
+  openreview_id: lPdDvCYMXM
+  pdf_file: b3a4eb687ea7e1fbbd16c2d8faf75b9f4ececcfb.pdf
+  title: 'PNLP at MEDIQA-OE 2025: A Zero-Shot Prompting Strategy with Gemini for Medical
+    Order Extraction'
+- abstract: Extracting chemotherapy timelines from clinical narratives is a challenging
+    task, but critical for cancer research and practice. In this paper, we present
+    our approach and the research investigation we conducted to participate in Subtask
+    1 of the ChemoTimelines 2025 shared task on predicting temporal relations between
+    pre-identified events and time expressions. We evaluated multiple fine-tuned large
+    language models for the task. We used supervised fine-tuning strategies for Llama3-8B
+    model to classify temporal relations. Further, we set up zero-shot prompting for
+    Qwen3-14B to normalize time expressions. We also pre-trained and fine-tuned a
+    Llama3-3B model using unlabeled notes and achieved results comparable with the
+    fine-tuned Llama3-8B model. Our results demonstrate the effectiveness of fine-tuning
+    and continual pre-training strategies in adapting large language models to domain-specific
+    tasks.
+  attachments:
+  - file: 7.pdf
+    open_review_id: /attachment/ce8966357d9ece607debec0bda02433301c13dec.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'ChemoTimelines: Chemotherapy Treatment Event Extraction'
+  authors:
+  - emails: '****@umich.edu'
+    first_name: Zhe
+    google_scholar_id: https://scholar.google.com/citations?user=gf-2IBkAAAAJ&hl=en
+    homepage: https://zhezhaozz.github.io/
+    last_name: Zhao
+    name: Zhe Zhao
+    orcid: https://orcid.org/0009-0001-8023-0775
+    username: ~Zhe_Zhao9
+  - dblp_id: https://dblp.org/pid/67/6469.html
+    emails: '****@umich.edu'
+    first_name: V.G.Vinod
+    google_scholar_id: https://scholar.google.com/citations?user=_olmUXcAAAAJ
+    homepage: https://www.si.umich.edu/people/vg-vinod-vydiswaran
+    institution: University of Michigan - Ann Arbor
+    last_name: Vydiswaran
+    name: V.G.Vinod Vydiswaran
+    orcid: https://orcid.org/0000-0002-3122-1936
+    semantic_scholar_id: https://www.semanticscholar.org/author/V.G.Vinod-Vydiswaran/145126492
+    username: ~V.G.Vinod_Vydiswaran1
+  decision: Submission
+  file: 7.pdf
+  id: 7
+  openreview_id: CbVgClEiQl
+  pdf_file: 8a6a8c9290ea60a163d7b9bcd19c7ca82b313ae2.pdf
+  title: 'Team NLP4Health at ChemoTimelines 2025: Finetuning Large Language Models
+    for Temporal Relation Extractions from Clinical Notes'
+- abstract: 'Reconstructing the timeline of Systemic Anticancer Therapy (SACT) or
+    "chemotherapy" from heterogeneous Electronic Health Record
+
+    (EHR) notes is a challenging task. Rapid developments in Large Language Models
+    (LLMs), including a range of architectural improvements and post-training refinements
+    since the 2024 Chemotherapy Timelines Task could make this task more tractable.
+    We evaluated the performance of 4 recently released LLMs (GPT-4.1-mini, Phi4 and
+    2 Qwen3 models) on this task. Our results indicate that even with
+
+    a variety of prompt optimization and synthetic data training, more work is still
+    needed to see a useful application of this work.'
+  attachments:
+  - file: 8.pdf
+    open_review_id: /attachment/ccf96592492c0d712c4bdf91b076b82156ddee70.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'ChemoTimelines: Chemotherapy Treatment Event Extraction'
+  authors:
+  - emails: '****@uab.edu'
+    first_name: Vijay
+    last_name: Jain
+    middle_name: Raj
+    name: Vijay Raj Jain
+    username: ~Vijay_Raj_Jain1
+  - emails: chrico@uab.edu
+    first_name: chrico@uab.edu
+    institution: NA
+    last_name: chrico@uab.edu
+    name: chrico@uab.edu
+    username: chrico@uab.edu
+  - emails: '****@uab.edu'
+    first_name: Kaiwen
+    google_scholar_id: https://scholar.google.com/citations?user=UHmftIwAAAAJ&hl=en&oi=ao
+    last_name: He
+    name: Kaiwen He
+    username: ~Kaiwen_He3
+  - emails: rrcron@uab.edu
+    first_name: rrcron@uab.edu
+    institution: NA
+    last_name: rrcron@uab.edu
+    name: rrcron@uab.edu
+    username: rrcron@uab.edu
+  - emails: mdcochra@uab.edu
+    first_name: mdcochra@uab.edu
+    institution: NA
+    last_name: mdcochra@uab.edu
+    name: mdcochra@uab.edu
+    username: mdcochra@uab.edu
+  - emails: lmansill@uab.edu
+    first_name: lmansill@uab.edu
+    institution: NA
+    last_name: lmansill@uab.edu
+    name: lmansill@uab.edu
+    username: lmansill@uab.edu
+  - emails: nadimpalliakhilvarma@gmail.com
+    first_name: nadimpalliakhilvarma@gmail.com
+    institution: NA
+    last_name: nadimpalliakhilvarma@gmail.com
+    name: nadimpalliakhilvarma@gmail.com
+    username: nadimpalliakhilvarma@gmail.com
+  - emails: '****@uab.edu'
+    first_name: Danish
+    institution: University of Alabama at Birmingham
+    last_name: Murad
+    name: Danish Murad
+    orcid: https://orcid.org/0009-0003-1482-9784
+    username: ~Danish_Murad1
+  - dblp_id: https://dblp.org/pid/94/9587.html
+    emails: '****@uabmc.edu'
+    first_name: John
+    google_scholar_id: https://scholar.google.com/citations?user=IVOPCscAAAAJ&hl=en
+    homepage: https://www.uab.edu/medicine/informatics/about/dbids-faculty/john-d-osborne-ph-d
+    institution: University of Alabama at Birmingham
+    last_name: Osborne
+    middle_name: D
+    name: John D Osborne
+    orcid: https://orcid.org/0000-0002-0851-1150
+    semantic_scholar_id: https://www.semanticscholar.org/author/J.-D.-Osborne/145985429
+    username: ~John_D_Osborne1
+  decision: Submission
+  file: 8.pdf
+  id: 8
+  openreview_id: rKZCZ77TTF
+  pdf_file: 066c38890e40066aa8f584e95cc361a96ef5e672.pdf
+  title: 'TEAM UAB at Chemotherapy Timelines 2025: Integrating Encoders and Large
+    Language Models for Chemotherapy Timelines Generation'
+- abstract: The ChemoTimelines shared task benchmarks methods for constructing timelines
+    of systemic anticancer treatment from electronic health records of cancer patients.
+    This paper describes our methods, results, and findings for subtask 2---generating
+    patient chemotherapy timelines from raw clinical notes. We evaluated strategies
+    involving chain-of-thought thinking, supervised fine-tuning, direct preference
+    optimization, and dictionary-based lookup to improve timeline extraction. All
+    of our approaches followed a two-step workflow, wherein an LLM first extracted
+    chemotherapy events from individual clinical notes, and then an algorithm normalized
+    and aggregated events into patient-level timelines. Each specific method differed
+    in how the associated LLM was utilized and trained. Multiple approaches yielded
+    competitive performances on the test set leaderboard, with fine-tuned Qwen3-14B
+    achieving the best official score of 0.678. Our results and analyses could provide
+    useful insights for future attempts on this task as well as the design of similar
+    tasks.
+  attachments:
+  - file: 9.pdf
+    open_review_id: /attachment/d3e48cd00e2a5d2303a9d4de62ba1fcc12e8cd23.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'ChemoTimelines: Chemotherapy Treatment Event Extraction'
+  authors:
+  - emails: '****@uw.edu'
+    first_name: Tianmai
+    google_scholar_id: https://scholar.google.com/citations?user=TXRPq_kAAAAJ
+    institution: University of Washington
+    last_name: Zhang
+    middle_name: M.
+    name: Tianmai M. Zhang
+    username: ~Tianmai_M._Zhang1
+  - emails: '****@uw.edu'
+    first_name: Zhaoyi
+    google_scholar_id: https://scholar.google.com/citations?user=5nEP4pQAAAAJ&hl=en&oi=ao
+    homepage: https://www.zhaoyisun.com/
+    last_name: Sun
+    name: Zhaoyi Sun
+    orcid: https://orcid.org/0009-0003-8197-1465
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhaoyi-Sun/1472897090
+    username: ~Zhaoyi_Sun3
+  - emails: '****@uw.edu'
+    first_name: Sihang
+    google_scholar_id: https://scholar.google.com/citations?user=yhMm2S0AAAAJ&hl=en
+    homepage: https://zengsihang.github.io/
+    last_name: Zeng
+    name: Sihang Zeng
+    username: ~Sihang_Zeng1
+  - emails: '****@uw.edu'
+    first_name: Chenxi
+    institution: University of Washington
+    last_name: LI
+    name: CHENXI LI
+    username: ~CHENXI_LI4
+  - emails: '****@uw.edu'
+    first_name: Neil
+    google_scholar_id: https://scholar.google.com/citations?user=BOslzwoAAAAJ&hl=en&oi=ao
+    institution: University of Washington
+    last_name: Abernethy
+    middle_name: F.
+    name: Neil F. Abernethy
+    username: ~Neil_F._Abernethy1
+  - emails: '****@gmail.com'
+    first_name: Barbara
+    institution: Fred Hutchinson Cancer Research Center
+    last_name: Lam
+    middle_name: D.
+    name: Barbara D. Lam
+    orcid: https://orcid.org/0000-0002-5585-3823
+    username: ~Barbara_D._Lam1
+  - dblp_id: https://dblp.org/pid/79/1081-4.html
+    emails: '****@u.washington.edu'
+    first_name: Fei
+    google_scholar_id: https://scholar.google.com/citations?user=BnVLQFwAAAAJ
+    homepage: https://faculty.washington.edu/fxia/
+    institution: University of Washington, Seattle
+    last_name: Xia
+    name: Fei Xia
+    semantic_scholar_id: https://www.semanticscholar.org/author/Fei-Xia/144956443
+    username: ~Fei_Xia2
+  - dblp_id: https://dblp.org/pid/87/3886.html
+    emails: '****@uw.edu'
+    first_name: Meliha
+    homepage: https://faculty.washington.edu/melihay/
+    institution: University of Washington
+    last_name: Yetisgen
+    name: Meliha Yetisgen
+    semantic_scholar_id: https://www.semanticscholar.org/author/Meliha-Yetisgen-Yildiz/1398215463
+    username: ~Meliha_Yetisgen2
+  decision: Submission
+  file: 9.pdf
+  id: 9
+  openreview_id: YRsmxpQiWc
+  pdf_file: 9327c4f9f2993400fb722022ba351d89c443b887.pdf
+  title: 'UW-BioNLP at ChemoTimelines 2025: Thinking, Fine-Tuning, and Dictionary-Enhanced
+    LLM Systems for Chemotherapy Timeline Extraction'
+- abstract: Clinical documentation increasingly uses automatic speech recognition
+    and summarization, yet converting conversations into actionable medical orders
+    for Electronic Health Records remains unexplored. A solution to this problem can
+    significantly reduce the documentation burden of clinicians and directly impact
+    downstream patient care. We introduce the MEDIQA-OE 2025 shared task, the first
+    challenge on extracting medical orders from doctor-patient conversations. Six
+    teams participated in the shared task and experimented with a broad range of approaches,
+    and both closed- and open-weight large language models (LLMs). In this paper,
+    we describe the MEDIQA-OE task, dataset, final leaderboard ranking, and participants’
+    solutions.
+  attachments:
+  - file: 10.pdf
+    open_review_id: /attachment/f3819dd08a9e43b0d69a66065ee9ab05f88dfa64.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'MEDIQA-OE: Medical Order Extraction'
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Jean-Philippe
+    google_scholar_id: https://scholar.google.ca/citations?user=eqlyHDsAAAAJ&hl=fr
+    institution: Microsoft
+    last_name: Corbeil
+    name: Jean-Philippe Corbeil
+    username: ~Jean-Philippe_Corbeil1
+  - dblp_id: https://dblp.org/pers/a/Abacha:Asma_Ben
+    emails: '****@microsoft.com'
+    first_name: Asma
+    google_scholar_id: https://scholar.google.com/citations?user=KO6_r0cAAAAJ&hl=en
+    homepage: https://sites.google.com/site/asmabenabacha/
+    institution: Microsoft, USA
+    last_name: Ben Abacha
+    name: Asma Ben Abacha
+    orcid: https://orcid.org/0000-0001-6312-9387
+    semantic_scholar_id: https://www.semanticscholar.org/author/Asma-Ben-Abacha/2205800
+    username: ~Asma_Ben_Abacha1
+  - emails: '****@microsoft.com'
+    first_name: Jerome
+    institution: Microsoft
+    last_name: Tremblay
+    name: Jerome Tremblay
+    username: ~Jerome_Tremblay1
+  - dblp_id: https://dblp.org/pid/272/5430
+    emails: '****@in.tum.de'
+    first_name: Phillip
+    google_scholar_id: https://scholar.google.de/citations?user=eqDGnSkAAAAJ&hl=en
+    homepage: http://www.swazinna.de
+    institution: Microsoft
+    last_name: Swazinna
+    name: Phillip Swazinna
+    username: ~Phillip_Swazinna1
+  - emails: akilaj@microsoft.com
+    first_name: akilaj@microsoft.com
+    institution: NA
+    last_name: akilaj@microsoft.com
+    name: akilaj@microsoft.com
+    username: akilaj@microsoft.com
+  - emails: '****@nuance.com'
+    first_name: Miguel
+    google_scholar_id: https://scholar.google.com/citations?user=AfGKyF8AAAAJ&hl=es
+    institution: Nuance Communications
+    last_name: Del-Agua
+    name: Miguel Del-Agua
+    username: ~Miguel_Del-Agua1
+  - emails: '****@microsoft.com'
+    first_name: Francois
+    institution: Microsoft
+    last_name: Beaulieu
+    name: Francois Beaulieu
+    username: ~Francois_Beaulieu1
+  decision: Submission
+  file: 10.pdf
+  id: 10
+  openreview_id: 35rJ6fGeIs
+  pdf_file: 9f73e2889d2dc45187d492d04ba9c7495628a715.pdf
+  title: Overview of the MEDIQA-OE 2025 Shared Task on Medical Order Extraction from
+    Doctor-Patient Consultations
+- abstract: Electronic messaging through patient portals facilitates remote care,
+    connecting patients with doctors through asynchronous communication. While convenient,
+    this new modality places an additional burden on physicians, requiring them to
+    provide remote care as well as to see patients in clinic. Technology that can
+    automatically draft responses for physician review is a promising way to improve
+    clinical efficiency. Here, building on the 2024 MEDIQA Multilingual Multi-modal
+    Medical Answer Generation (MEDIQA-M3G) challenge on dermatology, we present the
+    2025 MEDIQA Woundcare Visual Question Answering (MEDIQA-WV) shared task focusing
+    on generating clinical responses to patient text and image queries. Three teams
+    participated and submitted a total of fourteen systems. In this paper, we describe
+    the task, datasets, as well as the participating systems and their results. We
+    hope that this work can inspire future research on wound care visual question
+    answering.
+  attachments:
+  - file: 11.pdf
+    open_review_id: /attachment/834e298890867f6b46da5802cb87a764192b70c2.pdf
+    type: copyright
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: 'MEDIQA-WV: Woundcare Visual Question Answering'
+  authors:
+  - dblp_id: https://dblp.org/pid/152/2666
+    emails: '****@gmail.com'
+    first_name: Wen-wai
+    google_scholar_id: https://scholar.google.com/citations?user=zLbXslcAAAAJ&hl=en
+    last_name: Yim
+    name: Wen-wai Yim
+    semantic_scholar_id: https://www.semanticscholar.org/author/Wen-wai-Yim/38845771
+    username: ~Wen-wai_Yim1
+  - dblp_id: https://dblp.org/pers/a/Abacha:Asma_Ben
+    emails: '****@microsoft.com'
+    first_name: Asma
+    google_scholar_id: https://scholar.google.com/citations?user=KO6_r0cAAAAJ&hl=en
+    homepage: https://sites.google.com/site/asmabenabacha/
+    institution: Microsoft, USA
+    last_name: Ben Abacha
+    name: Asma Ben Abacha
+    orcid: https://orcid.org/0000-0001-6312-9387
+    semantic_scholar_id: https://www.semanticscholar.org/author/Asma-Ben-Abacha/2205800
+    username: ~Asma_Ben_Abacha1
+  - dblp_id: https://dblp.org/pid/87/3886.html
+    emails: '****@uw.edu'
+    first_name: Meliha
+    homepage: https://faculty.washington.edu/melihay/
+    institution: University of Washington
+    last_name: Yetisgen
+    name: Meliha Yetisgen
+    semantic_scholar_id: https://www.semanticscholar.org/author/Meliha-Yetisgen-Yildiz/1398215463
+    username: ~Meliha_Yetisgen2
+  - dblp_id: https://dblp.org/pid/79/1081-4.html
+    emails: '****@u.washington.edu'
+    first_name: Fei
+    google_scholar_id: https://scholar.google.com/citations?user=BnVLQFwAAAAJ
+    homepage: https://faculty.washington.edu/fxia/
+    institution: University of Washington, Seattle
+    last_name: Xia
+    name: Fei Xia
+    semantic_scholar_id: https://www.semanticscholar.org/author/Fei-Xia/144956443
+    username: ~Fei_Xia2
+  decision: Submission
+  file: 11.pdf
+  id: 11
+  openreview_id: YPnTcqV8VP
+  pdf_file: d13ad88f76f7487b2c11fb9a0d5677229871074f.pdf
+  title: Overview of the MEDIQA-WV 2025 Shared Task on Woundcare Visual Question Answering

@@ -1,0 +1,77 @@
+- title: Opening Session
+  start_time: 2025-10-30 09:00:00
+  end_time: 2025-10-30 10:30:00
+  speaker: Dr. Karandeep Singh
+  abstract: Abstract TBD
+  biography: Biography TBD
+  subsessions:
+    - title: Opening Remarks
+      start_time: 2025-10-30 09:00:00
+      end_time: 2025-10-30 09:10:00
+    - title: Keynote
+      start_time: 2025-10-30 09:10:00
+      end_time: 2025-10-30 10:10:00
+    - title: Keynote Q&A
+      start_time: 2025-10-30 10:10:00
+      end_time: 2025-10-30 10:30:00
+
+- title: Shared Task Overviews (15 min talks + 5 min questions)
+  start_time: 2025-10-30 10:30:00
+  end_time: 2025-10-30 11:30:00
+  papers:
+    - id: 1
+      start_time: 2025-10-30 10:30:00
+      end_time: 2025-10-30 10:50:00
+    - id: 10
+      start_time: 2025-10-30 10:50:00
+      end_time: 2025-10-30 11:10:00
+    - id: 11
+      start_time: 2025-10-30 11:10:00
+      end_time: 2025-10-30 11:30:00
+
+- title: Break
+  start_time: 2025-10-30 11:30:00
+  end_time: 2025-10-30 12:00:00
+
+- title: Timeline Extraction System Overviews (10 min talks + 5 min questions)
+  start_time: 2025-10-30 12:00:00
+  end_time: 2025-10-30 12:45:00
+  papers:
+    - id: 7
+      start_time: 2025-10-30 12:45:00
+      end_time: 2025-10-30 13:00:00
+    - id: 8
+      start_time: 2025-10-30 13:00:00
+      end_time: 2025-10-30 13:15:00
+    - id: 9
+      start_time: 2025-10-30 13:15:00
+      end_time: 2025-10-30 13:30:00
+
+- title: MEDIQA-OE System Overviews (10 min talks + 5 min questions)
+  start_time: 2025-10-30 12:45:00
+  end_time: 2025-10-30 13:30:00
+  papers:
+    - id: 3
+      start_time: 2025-10-30 12:45:00
+      end_time: 2025-10-30 13:00:00
+    - id: 4
+      start_time: 2025-10-30 13:00:00
+      end_time: 2025-10-30 13:15:00
+    - id: 6
+      start_time: 2025-10-30 13:15:00
+      end_time: 2025-10-30 13:30:00
+
+- title: MEDIQA-WV System Overviews (10 min talks + 5 min questions)
+  start_time: 2025-10-30 13:30:00
+  end_time: 2025-10-30 14:00:00
+  papers:
+    - id: 2
+      start_time: 2025-10-30 13:30:00
+      end_time: 2025-10-30 13:45:00
+    - id: 5
+      start_time: 2025-10-30 13:45:00
+      end_time: 2025-10-30 14:00:00
+
+- title: Closing Session
+  start_time: 2025-10-30 14:00:00
+  end_time: 2025-10-30 14:30:00
