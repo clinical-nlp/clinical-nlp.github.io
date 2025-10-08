@@ -14,11 +14,11 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 {% endfor %}
 {% endfor %}
 
-<!-- ### Program Committee
+### Program Committee
 
-{% assign program_committee = site.data["2025"].program_committee | where: "role", "Main Workshop Reviewers" %}
+{% assign program_committee = site.data["2025"].program_committee | where: "role", "Reviewers" %}
 {% for pc_group in program_committee %}
 {%- for member in pc_group.entries -%}
-- [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}) ({{member.institution}})
+- [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}){% if member.institution %} ({{member.institution}}){% endif %}
 {% endfor %}
-{% endfor %} -->
+{% endfor %}
