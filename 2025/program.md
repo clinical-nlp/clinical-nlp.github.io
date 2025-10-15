@@ -11,7 +11,7 @@ Request your registration by emailing the <a href="mailto:clinical-nlp-workshop-
 
 <table>
 <tr>
-    <td style="border-top: 0px" colspan=2><h4>Thu 30 Oct 2025 (all times <a href="https://www.timeanddate.com/time/zones/pst">PST</a>)</h4></td>
+    <td style="border-top: 0px" colspan=2><h4>Thu 30 Oct 2025 (all times <a href="https://www.timeanddate.com/time/zones/pdt">PDT</a>)</h4></td>
 </tr>
 {% for session in site.data["2025"].program %}
 <tr>
