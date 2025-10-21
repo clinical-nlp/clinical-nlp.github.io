@@ -26,7 +26,11 @@ Request your registration by emailing the <a href="mailto:clinical-nlp-workshop-
 {% for subsession in session.subsessions %}
 <tr>
     <td style="border-top: 0px">{{ subsession.start_time | date: "%H:%M"}}–{{ subsession.end_time | date: "%H:%M" }}</td>
-    <td style="border-top: 0px"><em>{{ subsession.title }}</em></td>
+    <td style="border-top: 0px"><em>{{ subsession.title }}</em>
+    {% if subsession.speaker %}<br/><b>Speaker:</b> {{ subsession.speaker }}{% endif %}
+    {% if subsession.abstract %}<br/><b>Abstract:</b> {{ subsession.abstract }}{% endif %}
+    {% if subsession.biography %}<br/><b>Biography:</b> {{ subsession.biography }}{% endif %}
+    </td>
 </tr>
 {% endfor %}
 

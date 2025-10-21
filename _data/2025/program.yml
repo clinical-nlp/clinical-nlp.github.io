@@ -1,14 +1,14 @@
 - title: Opening Session
   start_time: 2025-10-30 09:00:00
   end_time: 2025-10-30 10:30:00
-  speaker: Dr. Karandeep Singh
-  abstract: Abstract TBD
-  biography: Biography TBD
   subsessions:
     - title: Opening Remarks
       start_time: 2025-10-30 09:00:00
       end_time: 2025-10-30 09:10:00
     - title: Keynote
+      speaker: Dr. Karandeep Singh
+      abstract: "In this talk, Dr. Karandeep Singh will describe healthcare delivery challenges that cut across multiple clinical services and care settings and culminate in the phenomenon of patients 'boarding' in the emergency department. Is boarding really a fixable problem? If so, how can artificial intelligence (AI) help? He will present key areas where AI can play a role in informing and redesigning how care is delivered, touching on its roles in measurement, simulation, prediction, and automation. The talk is intended to build skills in health systems-level thinking and AI-supported quality improvement."
+      biography: "Karandeep Singh, MD, MMSc is the Chief Health AI Officer for UC San Diego Health, and Joan and Irwin Jacobs Chancellor’s Endowed Chair and Associate Professor of Medicine in Biomedical Informatics at UC San Diego. In these roles, Dr. Singh oversees AI strategy and governance for the health system and leads AI initiatives within the Jacobs Center for Health Innovation. He completed his internal medicine residency at UCLA Medical Center, where he served as chief resident, and a nephrology fellowship in the combined Brigham and Women’s Hospital and Massachusetts General Hospital program. He completed his medical education at the University of Michigan Medical School and holds a master’s degree in medical sciences in Biomedical Informatics from Harvard Medical School."
       start_time: 2025-10-30 09:10:00
       end_time: 2025-10-30 10:10:00
     - title: Keynote Q&A
