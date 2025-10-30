@@ -5,7 +5,7 @@ layout: default_2025
 
 ## Happening Now!
 
-Clinical NLP 2025 is happening now. Join us: [https://clinicalnlp.short.gy/kqVjTG](https://clinicalnlp.short.gy/kqVjTG).
+Clinical NLP 2025 is happening now. Join us on Zoom: [https://clinicalnlp.short.gy/kqVjTG](https://clinicalnlp.short.gy/kqVjTG).
 
 ## Important Dates
 
