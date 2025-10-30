@@ -5,7 +5,8 @@ layout: default_2025
 
 **Registration for Clinical NLP 2025 is FREE!**
 
-Request your registration by emailing the <a href="mailto:clinical-nlp-workshop-organizers@googlegroups.com?subject=Clinical NLP 2025 registration&body=I would like to attend the virtual Clinical NLP 2025 workshop.">Clinical NLP Organizers</a>.
+Please join us starting at 9:00 PDT on Thursday, October 30, 2025 via the Zoom room here:
+<https://clinicalnlp.short.gy/kqVjTG>
 
 <h3 class="bg-heading">Workshop Program</h3>
 
