@@ -3,10 +3,6 @@ title: about
 layout: default_2025
 --- 
 
-## Happening Now!
-
-Clinical NLP 2025 is happening now. Join us on Zoom: [https://clinicalnlp.short.gy/kqVjTG](https://clinicalnlp.short.gy/kqVjTG).
-
 ## Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)).
