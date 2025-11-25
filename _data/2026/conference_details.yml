@@ -1,0 +1,26 @@
+book_title: Proceedings of the 8th Clinical Natural Language Processing Workshop
+event_name: The 8th Clinical Natural Language Processing Workshop # add (ClinicalNLP) for proceedings
+cover_subtitle: Proceedings of the Workshop
+anthology_venue_id: ClinicalNLP
+start_date: 11, 12 or 16 May 2026 # should be changed to YYYY-MM-DD format when known
+end_date: 
+isbn: 
+location: Palma, Mallorca (Spain)
+editors:
+  - first_name: Asma
+    middle_name:
+    last_name: Ben Abacha
+  - first_name: Steven
+    middle_name:
+    last_name: Bethard
+  - first_name: Danielle
+    middle_name:
+    last_name: Bitterman
+  - first_name: Tristan
+    middle_name:
+    last_name: Naumann
+  - first_name: Kirk
+    middle_name:
+    last_name: Roberts
+publisher: Association for Computational Linguistics
+volume_name: 1
