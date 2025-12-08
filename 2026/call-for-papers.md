@@ -34,16 +34,19 @@ The 6th Clinical NLP Workshop will be co-located with [LREC 2026](https://lrec20
 
 Clinical NLP 2026 is hosting two shared tasks:
 
-- MEDIQA-EVAL: Evaluating Metrics for Multimodal Question Answering https://sites.google.com/view/mediqa2026/mediqa-eval
+- MEDIQA-EVAL: Evaluating Metrics for Multimodal Question Answering  
+  <https://sites.google.com/view/mediqa2026/mediqa-eval>
 
-- MEDIQA-SYNUR: Extracting Observations from Nurse-Patient Conversations
-https://sites.google.com/view/mediqa2026/mediqa-synur
+- MEDIQA-SYNUR: Extracting Observations from Nurse-Patient Conversations  
+  <https://sites.google.com/view/mediqa2026/mediqa-synur>
 
-<!-- Please visit the shared task websites to register to participate and for additional information about the shared tasks. -->
+Please visit the shared task websites to register to participate and for additional information about the shared tasks.
 
 ## Submissions
 
-The submission site will be available soon.
+The submission site is:
+
+<https://softconf.com/lrec2026/ClinicalNLP/>
 
 All submissions must follow [LREC formatting guidelines](https://lrec2026.info/third-call-for-papers/)
 
