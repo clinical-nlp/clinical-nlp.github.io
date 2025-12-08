@@ -34,10 +34,10 @@ The 6th Clinical NLP Workshop will be co-located with [LREC 2026](https://lrec20
 
 Clinical NLP 2026 is hosting two shared tasks:
 
-- Observation Extraction from Nurse-Patient Conversations
-- Multimodal QA Evaluation
+- MEDIQA-EVAL: Evaluating Metrics for Multimodal Question Answering https://sites.google.com/view/mediqa2026/mediqa-eval
 
-The shared task websites will be available soon.
+- MEDIQA-SYNUR: Extracting Observations from Nurse-Patient Conversations
+https://sites.google.com/view/mediqa2026/mediqa-synur
 
 <!-- Please visit the shared task websites to register to participate and for additional information about the shared tasks. -->
 
@@ -62,10 +62,11 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Shared tasks: test data release                   | Mon 02 Feb 2026       |
 | Shared tasks: run submissions due                 | Thu 05 Feb 2026       |
 | Shared tasks: organizers release results          | Fri 06 Feb 2026       |
-| Submission deadline (main and shared task papers) | Mon 16 Feb 2026       |
+| Submission deadline: main papers | Mon 16 Feb 2026       |
+| Submission deadline: shared task papers | Fri 13 Feb 2026       |
 | Notification of acceptance                        | Wed 11 Mar 2026       |
 | Final versions of papers due                      | Mon 30 Mar 2026       |
-| Workshop                                          | 11, 12 or 16 May 2026 |
+| Workshop                                          | Sat 16 May 2026 |
 
 
 
