@@ -37,7 +37,7 @@ Clinical NLP 2026 is hosting two shared tasks:
 - MEDIQA-EVAL: Evaluating Metrics for Multimodal Question Answering  
   <https://sites.google.com/view/mediqa2026/mediqa-eval>
 
-- MEDIQA-SYNUR: Extracting Observations from Nurse-Patient Conversations  
+- MEDIQA-SYNUR: Extracting Clinical Observations from Nurse Dictations  
   <https://sites.google.com/view/mediqa2026/mediqa-synur>
 
 Please visit the shared task websites to register to participate and for additional information about the shared tasks.
