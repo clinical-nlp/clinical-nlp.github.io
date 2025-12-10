@@ -41,7 +41,7 @@
   <div class="jumbotron">
     {% assign details = site.data[year]["conference_details"] %}
     <h2>{{ details.event_name }}</h2>
-    <h4>{{ details.location }}. {{ details.start_date }}.</h4>
+    <h4>{{ details.location }}. {{ details.start_date | date_to_string }}.</h4>
   </div>
   <div class="container">
     <div class="row">
