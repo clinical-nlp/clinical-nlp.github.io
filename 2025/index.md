@@ -1,6 +1,6 @@
 ---
 title: about
-layout: default_2025
+layout: 2025
 --- 
 
 ## Important Dates

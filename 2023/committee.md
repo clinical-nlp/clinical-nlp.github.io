@@ -1,6 +1,6 @@
 ---
 title: committee
-layout: default_2023
+layout: 2023
 ---
 
 For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.com>.

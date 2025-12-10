@@ -1,6 +1,6 @@
 ---
 title: submission
-layout: default_2025
+layout: 2025
 ---
 
 ## Submissions

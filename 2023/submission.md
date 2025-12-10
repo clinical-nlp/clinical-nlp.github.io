@@ -1,6 +1,6 @@
 ---
 title: submission
-layout: default_2023
+layout: 2023
 ---
 
 ### Submissions 

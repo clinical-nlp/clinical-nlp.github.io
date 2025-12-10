@@ -1,6 +1,6 @@
 ---
 title: resources
-layout: default_2023
+layout: 2023
 ---
 
 <h3 class="bg-heading">Datasets</h3>

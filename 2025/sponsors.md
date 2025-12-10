@@ -1,6 +1,6 @@
 ---
 title: sponsors
-layout: default_2025
+layout: 2025
 ---
 
 ## Sponsorship Opportunities

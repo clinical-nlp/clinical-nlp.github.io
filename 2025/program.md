@@ -1,6 +1,6 @@
 ---
 title: program
-layout: default_2025
+layout: 2025
 ---
 
 <h3 class="bg-heading">Workshop Program</h3>

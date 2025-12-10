@@ -1,6 +1,6 @@
 ---
 title: Committee
-layout: default_2026
+layout: default
 ---
 
 For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.com>.

@@ -1,6 +1,6 @@
 ---
 title: Call for Papers
-layout: default_2026
+layout: default
 ---
 
 # Call for Papers & Participation: The ClinicalNLP 2026 Workshop & Shared Tasks at LREC 2026
