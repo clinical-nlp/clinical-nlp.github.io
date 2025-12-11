@@ -31,7 +31,7 @@
         <li class="dropdown{% if page.title == 'About' %} active{% endif %}">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ year }} <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right" style="min-width: unset">
-            {% for year_data in site.data %}
+            {% for year_data in site.data reversed %}
               {% assign nav_year = year_data[0] %}
               <li><a href="/{{ nav_year }}">{{ nav_year }}</a></li>
             {% endfor %}
