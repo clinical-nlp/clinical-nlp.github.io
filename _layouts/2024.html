@@ -36,7 +36,16 @@
         <a class="navbar-brand" href="#">Clinical NLP Workshop 2024</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li {% if page.title == "about" %} class="active" {% endif %}><a href="index.html">About</a></li>
+        {% assign year = page.dir | replace: "/", "" %}
+        <li class="dropdown{% if page.title == 'about' %} active{% endif %}">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select Year: ({{ year }}) <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            {% for year_data in site.data %}
+              {% assign nav_year = year_data[0] %}
+              <li><a href="/{{ nav_year }}">{{ nav_year }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
         <li {% if page.title == "call-for-papers" %}class="active"{% endif %}><a href="call-for-papers.html">Call for Papers</a></li>
         <li {% if page.title == "submission" %}class="active"{% endif %}><a href="submission.html">Submission</a></li>
         <li {% if page.title == "program" %}class="active"{% endif %}><a href="program.html">Program</a></li>

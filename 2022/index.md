@@ -13,11 +13,3 @@ layout: 2022
 | Notification of acceptance                 | Monday, May 23, 2022    |
 | Final versions of papers due               | Friday, June 3, 2022    |
 | Workshop                                   | Thursday, July 14, 2022 |
-
-### Prior Events
-
-For content from prior events, please see:
-
-- [Clinical NLP 2020](https://clinical-nlp.github.io/2020/)
-- [Clinical NLP 2019](https://clinical-nlp.github.io/2019/)
-- [Clinical NLP 2016](https://clinical-nlp.github.io/2016/)

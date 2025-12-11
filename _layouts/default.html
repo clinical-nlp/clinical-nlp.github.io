@@ -28,11 +28,20 @@
         <a class="navbar-brand" href="#">Clinical NLP Workshop {{ year }}</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        {%- assign nav_titles = "About,Call for Papers,Submission,Program,Sponsors,Committee,Resources" | split: ',' -%}
+        <li class="dropdown{% if page.title == 'About' %} active{% endif %}">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select Year: ({{ year }}) <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            {% for year_data in site.data %}
+              {% assign nav_year = year_data[0] %}
+              <li><a href="/{{ nav_year }}">{{ nav_year }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {%- assign nav_titles = "Call for Papers,Submission,Program,Sponsors,Committee,Resources" | split: ',' -%}
         {% for nav_title in nav_titles %}
           {%- assign has_file = site.pages | where: "title", nav_title | first -%}
           {% if has_file %}
-          <li {% if page.title == nav_title %}class="active"{% endif %}><a href="{{ nav_title | slugify | replace: 'about', 'index' }}.html">{{ nav_title }}</a></li>
+          <li {% if page.title == nav_title %}class="active"{% endif %}><a href="{{ nav_title | slugify }}.html">{{ nav_title }}</a></li>
           {% endif -%}
         {% endfor %}
       </ul>

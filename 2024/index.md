@@ -30,17 +30,6 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Final versions of papers due                        | Wednesday April 24, 2024  |
 
 
-### Prior Events
-
-For content from prior events, please see:
-
-- [Clinical NLP 2023](https://clinical-nlp.github.io/2023/)
-- [Clinical NLP 2022](https://clinical-nlp.github.io/2022/)
-- [Clinical NLP 2020](https://clinical-nlp.github.io/2020/)
-- [Clinical NLP 2019](https://clinical-nlp.github.io/2019/)
-- [Clinical NLP 2016](https://clinical-nlp.github.io/2016/)
-
-
 ### Sponsors
 
 <div class="row">
