@@ -7,58 +7,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Tristan Naumann">
-  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-  <style>
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="/css/clinical-nlp.css" rel="stylesheet">
 
   {% assign year = page.dir | replace: "/", "" %}
   <title>Clinical NLP Workshop {{ year }}</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="/css/clinical-nlp2016.css" rel="stylesheet">
-  <link href="/css/toolbar.css" rel="stylesheet">
 </head>
 <body>
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-expand-md">
     <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Clinical NLP Workshop</a>
+      <a class="navbar-brand" href="#">Clinical NLP Workshop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle{% if page.title == 'About' %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ year }}</a>
+            <ul class="dropdown-menu" style="min-width: unset">
+              {% for year_data in site.data reversed %}
+                {% assign nav_year = year_data[0] %}
+                <li><a class="dropdown-item" href="/{{ nav_year }}">{{ nav_year }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          {%- assign nav_titles = "Call for Papers,Submission,Program,Sponsors,Committee,Resources" | split: ',' -%}
+          {% for nav_title in nav_titles %}
+            {%- assign has_file = site.pages | where_exp: "item", "item.path contains year" | where: "title", nav_title | first -%}
+            {% if has_file %}
+            <li class="nav-item"><a class="nav-link{% if page.title == nav_title %} active{% endif %}" href="{{ nav_title | slugify }}.html">{{ nav_title }}</a></li>
+            {% endif -%}
+          {% endfor %}
+        </ul>
       </div>
-      <ul class="nav navbar-nav navbar-left">
-        <li class="dropdown{% if page.title == 'About' %} active{% endif %}">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ year }} <span class="caret"></span></a>
-          <ul class="dropdown-menu dropdown-menu-right" style="min-width: unset">
-            {% for year_data in site.data reversed %}
-              {% assign nav_year = year_data[0] %}
-              <li><a href="/{{ nav_year }}">{{ nav_year }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        {%- assign nav_titles = "Call for Papers,Submission,Program,Sponsors,Committee,Resources" | split: ',' -%}
-        {% for nav_title in nav_titles %}
-          {%- assign has_file = site.pages | where_exp: "item", "item.path contains year" | where: "title", nav_title | first -%}
-          {% if has_file %}
-          <li {% if page.title == nav_title %}class="active"{% endif %}><a href="{{ nav_title | slugify }}.html">{{ nav_title }}</a></li>
-          {% endif -%}
-        {% endfor %}
-      </ul>
+    </div>
+    </nav>
+  </div>
+  <div class="container-fluid py-5 bg-body-secondary">
+    <div class="container">
+      {% assign details = site.data[year]["conference_details"] %}
+      {% assign int_year = year | plus: 0 %}
+      {% if int_year <= 2020 %}
+      <div class="row">
+        <div class="col">
+      {% endif %}
+      <h2>{{ details.event_name | replace: " (ClinicalNLP)", "" }}</h2>
+      <h4>{% if details.host %}At {% if details.host_url %}<a href="{{ details.host_url }}">{% endif %}{{ details.host }}{% if details.host_url %}</a>{% endif %}. {% endif %}{{ details.location }}. {{ details.start_date | date_to_string }}.</h4>
+      {% if int_year <= 2020 %}
+        </div>
+        <div class="col">
+          <img src="/images/logo1.jpg" class="img-fluid" style="max-height: 120px;">
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
-  <div class="jumbotron">
-    {% assign details = site.data[year]["conference_details"] %}
-    <h2>{{ details.event_name | replace: " (ClinicalNLP)", "" }}</h2>
-    <h4>{% if details.host %}At {% if details.host_url %}<a href="{{ details.host_url }}">{% endif %}{{ details.host }}{% if details.host_url %}</a>{% endif %}. {% endif %}{{ details.location }}. {{ details.start_date | date_to_string }}.</h4>
-    {% assign int_year = year | plus: 0 %}
-    {% if int_year <= 2024 %}
-    <img src="/images/logo1.jpg" class="img-square img-responsive" align=right width="30%">
-    {% endif %}
-  </div>
-  <div class="container">
+  <div class="container mt-4">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col" style="max-width: 960px;">
         {{ content }}
       </div>
     </div>
@@ -68,30 +74,10 @@
     </footer>
   </div>
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script type="text/javascript">$("table:not([class|='table'])").addClass("table");</script>
-
-  <!-- Start of StatCounter Code for Default Guide -->
-  <script type="text/javascript">
-    var sc_project = 11063637;
-    var sc_invisible = 1;
-    var sc_security = "cc3ecb24";
-    var scJsHost = (("https:" == document.location.protocol) ?
-      "https://secure." : "http://www.");
-    document.write("<sc" + "ript type='text/javascript' src='" +
-      scJsHost +
-      "statcounter.com/counter/counter.js'></" + "script>");
-  </script>
-  <noscript>
-    <div class="statcounter"><a title="web stats" href="http://statcounter.com/" target="_blank"><img
-          class="statcounter" src="//c.statcounter.com/11063637/0/cc3ecb24/1/" alt="web
-stats"></a></div>
-  </noscript>
-  <!-- End of StatCounter Code for Default Guide -->
 
 </body>
 </html>

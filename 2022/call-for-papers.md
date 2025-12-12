@@ -3,7 +3,7 @@ title: Call for Papers
 layout: default
 ---
 
-### Call for Papers
+## Call for Papers
 
 Clinical text is growing rapidly as electronic health records become pervasive.
 Much of the information recorded in a clinical encounter is located exclusively in provider narrative notes, which makes them indispensable for supplementing structured clinical data in order to better understand patient state and care provided.
@@ -33,7 +33,7 @@ The following is a list of topics of interest for this workshop:
 * Annotation schemes and annotation methodology for clinical data
 * Evaluation techniques for the clinical domain
 
-## Submissions
+### Submissions
 
 Submissions may have a maximum length of eight (8) pages for long papers and four (4) pages for short papers, with unlimited pages for references and appendices.
 All submissions must be made through [ACL Rolling Review](https://aclrollingreview.org/) and follow [ACL Rolling Review style guidelines](https://aclrollingreview.org/cfp).
@@ -43,7 +43,7 @@ The ACL Rolling Review submission sites on OpenReview are here:
 
 You must submit to ACL Rolling Review by 15 Mar 2022, as you must have your reviews back from ACL Rolling Review by 8 May 2022 to be considered for Clinical NLP 2022.
 
-## Commitment
+### Commitment
 
 Once you have reviews back from ACL Rolling Review, you may commit your reviews to Clinical NLP 2022 by filling out the commitment form here:
 

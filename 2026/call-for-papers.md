@@ -3,7 +3,7 @@ title: Call for Papers
 layout: default
 ---
 
-# Call for Papers & Participation: The ClinicalNLP 2026 Workshop & Shared Tasks at LREC 2026
+## Call for Papers & Participation: The ClinicalNLP 2026 Workshop & Shared Tasks at LREC 2026
 
 Clinical text is growing rapidly as electronic health records (EHRs) become pervasive. Much of the information recorded in a clinical encounter is located exclusively in provider narrative notes, which makes them indispensable for supplementing structured clinical data to better understand patient state and care provided. The methods and tools developed for the clinical domain have historically lagged behind the scientific advances in the general-domain NLP. Despite the substantial recent strides in clinical NLP, a substantial gap remains. The goal of this workshop is to address this gap by establishing a regular event in CL conferences that brings together researchers interested in developing state-of-the-art methods for the clinical domain. The focus is on improving NLP technology to enable clinical applications, and specifically, information extraction and modeling of narrative provider notes from electronic health records, patient encounter transcripts, and other clinical narratives.
 
@@ -30,7 +30,7 @@ In 2026, Clinical NLP will encourage submissions from the following special trac
 The 6th Clinical NLP Workshop will be co-located with [LREC 2026](https://lrec2026.info/) in Palma, Mallorca (Spain).
 
 
-## Shared Tasks
+### Shared Tasks
 
 Clinical NLP 2026 is hosting two shared tasks:
 
@@ -42,7 +42,7 @@ Clinical NLP 2026 is hosting two shared tasks:
 
 Please visit the shared task websites to register to participate and for additional information about the shared tasks.
 
-## Submissions
+### Submissions
 
 The submission site is:
 
@@ -54,7 +54,7 @@ Clinical NLP 2026 has no preprint restrictions; you may post to arXiv at any tim
 
 We encourage submissions of papers submitted to but not accepted by [EACL 2026](https://2026.eacl.org/), [LREC 2026](https://lrec2026.info/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
 
-## Important Dates
+### Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)).
 
@@ -74,7 +74,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 
 
 
-## Workshop Organizers
+### Workshop Organizers
 
 * Asma Ben Abacha (Microsoft)
 * Steven Bethard (University of Arizona)

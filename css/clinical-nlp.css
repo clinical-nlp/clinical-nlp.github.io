@@ -1,0 +1,11 @@
+.navbar, .navbar ul.dropdown-menu {
+    background-color: #9b59b6;
+}
+.navbar .nav-link.active {
+    color: #ccff00;
+    background-color: #8b44a5;
+}
+.navbar a {
+    color: #ccff00;
+    white-space: nowrap;
+}

@@ -3,7 +3,7 @@ title: Call for Papers
 layout: default
 ---
 
-# Call for Participation: The ClinicalNLP 2025 Shared Tasks
+## Call for Participation: The ClinicalNLP 2025 Shared Tasks
 
 Clinical NLP 2025 is hosting three shared tasks:
 
@@ -12,7 +12,7 @@ Clinical NLP 2025 is hosting three shared tasks:
 - [MEDIQA-OE: Medical Order Extraction](https://sites.google.com/view/mediqa-2025/mediqa-oe)
 
 
-## Submissions
+### Submissions
 
 The OpenReview submission site is:
 
@@ -27,7 +27,7 @@ Any “Limitations” section or “Ethics Statement” is similar to references
 
 Clinical NLP 2025 has no preprint restrictions; you may post to arXiv at any time. We expect Clinical NLP 2025 workshop proceedings to be archival and are working to get them published [on the ACL Anthology](https://aclanthology.org/venues/clinicalnlp/).
 
-## Important Dates
+### Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)).
 
@@ -39,7 +39,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Workshop                                            | Thursday October 30, 2025   |
 
 
-## Workshop Organizers
+### Workshop Organizers
 
 * Asma Ben Abacha (Microsoft)
 * Steven Bethard (University of Arizona)

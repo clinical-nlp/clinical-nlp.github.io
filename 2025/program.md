@@ -5,13 +5,13 @@ layout: default
 
 <h3 class="bg-heading">Workshop Program</h3>
 
-<table>
+<table class="table-sm table-borderless">
 <tr>
     <td style="border-top: 0px" colspan=2><h4>Thu 30 Oct 2025 (all times <a href="https://www.timeanddate.com/time/zones/pdt">PDT</a>)</h4></td>
 </tr>
 {% for session in site.data["2025"].program %}
 <tr>
-    <td width="15%" style="border-top: 0px"><b>{{ session.start_time | date: "%H:%M"}}–{{ session.end_time | date: "%H:%M" }}</b></td>
+    <td width="120px" style="border-top: 0px"><b>{{ session.start_time | date: "%H:%M"}}–{{ session.end_time | date: "%H:%M" }}</b></td>
     <td style="border-top: 0px">
     <b>{{ session.title }}</b>
     {% if session.speaker %}<br/><b>Speaker:</b> {{ session.speaker }}{% endif %}

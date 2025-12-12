@@ -3,7 +3,7 @@ title: Call for Papers
 layout: default
 ---
 
-# Call for Papers & Participation: The ClinicalNLP 2023 Workshop & Shared Tasks at ACL 2023 
+## Call for Papers & Participation: The ClinicalNLP 2023 Workshop & Shared Tasks at ACL 2023 
 
 Clinical text is growing rapidly as electronic health records become pervasive.
 Much of the information recorded in a clinical encounter is located exclusively in provider narrative notes, which makes them indispensable for supplementing structured clinical data in order to better understand patient state and care provided.
@@ -31,7 +31,7 @@ In 2023, Clinical NLP will encourage submissions from the following special trac
 
 The 5th Clinical NLP Workshop will be co-located with [ACL 2023](https://2023.aclweb.org/) in Toronto, Canada - July 14, 2023. 
 
-## Joint Track with MWE
+### Joint Track with MWE
 
 Clinical NLP 2023 is also co-organizing a special track with the [19th Workshop on Multiword Expressions (MWE 2023)](https://multiword.org/mwe2023/).
 The goal is to foster future synergies that could address scientific challenges in the creation of resources, models and applications to deal with multiword expressions and related phenomena in the specialised domain of Clinical NLP.
@@ -41,7 +41,7 @@ Note that submissions to this track must be **submitted to MWE, not Clinical NLP
 Please visit the [MWE 2023 website](https://multiword.org/mwe2023/) for more details.
 Submissions accepted to this "Multi-word expressions in Clinical NLP" special track will have the opportunity to present their work first at MWE 2023 at EACL and then also at Clinical NLP 2023 at ACL.
 
-## Shared Task
+### Shared Task
 
 Clinical NLP 2023 is hosting the [MEDIQA-Chat Shared Tasks](https://sites.google.com/view/mediqa2023/clinicalnlp-mediqa-chat-2023) on doctor-patient conversations, which focuses on the following tasks:
 
@@ -50,7 +50,7 @@ Clinical NLP 2023 is hosting the [MEDIQA-Chat Shared Tasks](https://sites.google
 
 Please visit the [shared task website](https://sites.google.com/view/mediqa2023/clinicalnlp-mediqa-chat-2023) to register to participate and for additional information about the shared tasks.
 
-## Submissions
+### Submissions
 
 The OpenReview submission site is:
 
@@ -69,7 +69,7 @@ Clinical NLP 2023 workshop proceedings are archival will be published [on the AC
 We encourage submissions of papers submitted to but not accepted by [EACL 2023](https://2023.eacl.org/), [ACL 2023](https://2023.aclweb.org/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
 
 
-## Important Dates
+### Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))
 
@@ -85,7 +85,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Final versions of papers due                        | Tuesday, June 6, 2023     |
 | Workshop                                            | Friday, July 14, 2023     |
 
-## Workshop Organizers
+### Workshop Organizers
 
 * Anna Rumshisky (UMass Lowell)
 * Asma Ben Abacha (Microsoft)
