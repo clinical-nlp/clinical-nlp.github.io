@@ -7,6 +7,7 @@ end_date: 2016-12-11
 isbn: TODO
 location: Osaka, Japan
 host: COLING 2016
+host_url: https://coling2016.anlp.jp/
 editors:
   - first_name: Anna
     middle_name:

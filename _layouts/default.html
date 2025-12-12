@@ -50,7 +50,7 @@
   <div class="jumbotron">
     {% assign details = site.data[year]["conference_details"] %}
     <h2>{{ details.event_name | replace: " (ClinicalNLP)", "" }}</h2>
-    <h4>{% if details.host %}At {{ details.host }}. {% endif %}{{ details.location }}. {{ details.start_date | date_to_string }}.</h4>
+    <h4>{% if details.host %}At {% if details.host_url %}<a href="{{ details.host_url }}">{% endif %}{{ details.host }}{% if details.host_url %}</a>{% endif %}. {% endif %}{{ details.location }}. {{ details.start_date | date_to_string }}.</h4>
     {% assign int_year = year | plus: 0 %}
     {% if int_year <= 2024 %}
     <img src="/images/logo1.jpg" class="img-square img-responsive" align=right width="30%">

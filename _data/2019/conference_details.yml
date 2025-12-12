@@ -7,6 +7,7 @@ end_date: 2019-06-07
 isbn: TODO
 location: Minneapolis, USA
 host: NAACL 2019
+host_url: https://naacl2019.org/
 editors:
   - first_name: Anna
     middle_name:
