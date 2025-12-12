@@ -39,7 +39,7 @@
         </li>
         {%- assign nav_titles = "Call for Papers,Submission,Program,Sponsors,Committee,Resources" | split: ',' -%}
         {% for nav_title in nav_titles %}
-          {%- assign has_file = site.pages | where: "title", nav_title | first -%}
+          {%- assign has_file = site.pages | where_exp: "item", "item.path contains year" | where: "title", nav_title | first -%}
           {% if has_file %}
           <li {% if page.title == nav_title %}class="active"{% endif %}><a href="{{ nav_title | slugify }}.html">{{ nav_title }}</a></li>
           {% endif -%}
@@ -73,7 +73,7 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
-  <script type="text/javascript">$("table").addClass("table");</script>
+  <script type="text/javascript">$("table:not([class|='table'])").addClass("table");</script>
 
   <!-- Start of StatCounter Code for Default Guide -->
   <script type="text/javascript">
