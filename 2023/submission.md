@@ -33,3 +33,4 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Notification of acceptance                          | Monday, May 29, 2023  |
 | Final versions of papers due                        | Tuesday, June 6, 2023 |
 | Workshop                                            | Friday, July 14, 2023 |
+{: .table .table-deadlines-long}

@@ -28,3 +28,4 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Notification of acceptance                          | Thursday September 25, 2025 |
 | Final versions of papers due                        | Monday October 6, 2025      |
 | Workshop                                            | Thursday October 30, 2025   |
+{: .table .table-deadlines-long}

@@ -71,7 +71,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Notification of acceptance                          | Wed 11 Mar 2026 |
 | Final versions of papers due                        | Mon 30 Mar 2026 |
 | Workshop                                            | Sat 16 May 2026 |
-
+{: .table .table-deadlines}
 
 
 ### Workshop Organizers

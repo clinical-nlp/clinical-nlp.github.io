@@ -37,3 +37,4 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Notification of acceptance                          | Thursday April 18, 2024  |
 | Final versions of papers due                        | Wednesday April 24, 2024 |
 | Workshop                                            | June 21, 2024 | 
+{: .table .table-deadlines-long}

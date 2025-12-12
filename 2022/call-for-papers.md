@@ -63,6 +63,7 @@ If you committed your reviews to NAACL 2022, and you find you are not accepted b
 | Notification of acceptance                 | Monday, May 23, 2022    |
 | Final versions of papers due               | Friday, June 3, 2022    |
 | Workshop                                   | Thursday, July 14, 2022 |
+{: .table .table-deadlines-long}
 
 ### Workshop Organizers
 

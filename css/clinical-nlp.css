@@ -9,3 +9,12 @@
     color: #ccff00;
     white-space: nowrap;
 }
+.table-program td:nth-child(1) {
+    width: 120px;
+}
+.table-deadlines td:nth-child(2) {
+    width: 150px;
+}
+.table-deadlines-long td:nth-child(2) {
+    width: 250px;
+}
