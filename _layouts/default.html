@@ -52,7 +52,7 @@
         <div class="col">
       {% endif %}
       <h2>{{ details.event_name | replace: " (ClinicalNLP)", "" }}</h2>
-      <h4>{% if details.host %}At {% if details.host_url %}<a href="{{ details.host_url }}">{% endif %}{{ details.host }}{% if details.host_url %}</a>{% endif %}. {% endif %}{{ details.location }}. {{ details.start_date | date_to_string }}.</h4>
+      <h4>{% if details.host %}At {% if details.host_url %}<a href="{{ details.host_url }}">{% endif %}{{ details.host }}{% if details.host_url %}</a>{% endif %}. {% endif %}{{ details.location }}. {{ details.start_date | date: "%a %d %b %Y" }}.</h4>
       {% if int_year <= 2020 %}
         </div>
         <div class="col">
