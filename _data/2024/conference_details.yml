@@ -1,0 +1,27 @@
+book_title: Proceedings of the 6th Clinical Natural Language Processing Workshop
+event_name: The 6th Workshop on Clinical Natural Language Processing (ClinicalNLP)
+cover_subtitle: Proceedings of the Workshop
+anthology_venue_id: ClinicalNLP
+start_date: 2024-06-21
+end_date: 2024-06-21
+isbn: 979-8-89176-109-4
+location: Mexico City, Mexico
+host: NAACL 2024
+editors:
+  - first_name: Tristan
+    middle_name:
+    last_name: Naumann
+  - first_name: Asma
+    middle_name:
+    last_name: Ben Abacha
+  - first_name: Steven
+    middle_name:
+    last_name: Bethard
+  - first_name: Kirk
+    middle_name:
+    last_name: Roberts
+  - first_name: Danielle
+    middle_name:
+    last_name: Bitterman
+publisher: Association for Computational Linguistics
+volume_name: 1

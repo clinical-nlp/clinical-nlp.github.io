@@ -1,6 +1,6 @@
 ---
-title: call-for-papers
-layout: 2022
+title: Call for Papers
+layout: default
 ---
 
 ### Call for Papers

@@ -1,12 +1,11 @@
-book_title: Proceedings of the 8th Clinical Natural Language Processing Workshop
-event_name: The 8th Clinical Natural Language Processing Workshop (ClinicalNLP)
+book_title: Proceedings of the 7th Clinical Natural Language Processing Workshop
+event_name: The 7th Workshop on Clinical Natural Language Processing (ClinicalNLP)
 cover_subtitle: Proceedings of the Workshop
 anthology_venue_id: ClinicalNLP
-start_date: 2026-05-16
-end_date: 2026-05-16
+start_date: 2025-10-30
+end_date: 2025-10-30
 isbn: 
-location: Palma, Mallorca (Spain)
-host: LREC 2026
+location: Virtual
 editors:
   - first_name: Asma
     middle_name:

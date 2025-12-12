@@ -1,6 +1,6 @@
 ---
-title: program
-layout: 2023
+title: Program
+layout: default
 ---
 
 <h3 class="bg-heading">Workshop Program</h3>

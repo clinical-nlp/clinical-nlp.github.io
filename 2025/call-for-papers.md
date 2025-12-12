@@ -1,6 +1,6 @@
 ---
-title: call-for-papers
-layout: 2025
+title: Call for Papers
+layout: default
 ---
 
 # Call for Participation: The ClinicalNLP 2025 Shared Tasks

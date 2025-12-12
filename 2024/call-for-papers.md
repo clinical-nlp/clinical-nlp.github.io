@@ -1,6 +1,6 @@
 ---
-title: call-for-papers
-layout: 2024
+title: Call for Papers
+layout: default
 ---
 
 # Call for Papers & Participation: The ClinicalNLP 2024 Workshop & Shared Tasks at NAACL 2024

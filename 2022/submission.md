@@ -1,6 +1,6 @@
 ---
-title: submission
-layout: 2022
+title: Submission
+layout: default
 ---
 
 ## Submissions

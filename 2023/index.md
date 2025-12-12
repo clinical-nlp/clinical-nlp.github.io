@@ -1,6 +1,6 @@
 ---
-title: about
-layout: 2023
+title: About
+layout: default
 --- 
 
 ### Important Dates

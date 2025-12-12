@@ -1,6 +1,6 @@
 ---
-title: call-for-papers
-layout: 2023
+title: Call for Papers
+layout: default
 ---
 
 # Call for Papers & Participation: The ClinicalNLP 2023 Workshop & Shared Tasks at ACL 2023 
