@@ -7,7 +7,7 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 
 ### Workshop Organizers
 
-{% assign program_chairs = site.data["2025"].program_committee | where: "role", "Program Chairs" %}
+{% assign program_chairs = site.data["2026"].program_committee | where: "role", "Program Chairs" %}
 {% for pc_group in program_chairs %}
 {%- for member in pc_group.entries -%}
 - [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}) ({{member.institution}})
@@ -16,7 +16,7 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 
 ### Program Committee
 
-{% assign program_committee = site.data["2025"].program_committee | where: "role", "Reviewers" %}
+{% assign program_committee = site.data["2026"].program_committee | where: "role", "Reviewers" %}
 {% for pc_group in program_committee %}
 {%- for member in pc_group.entries -%}
 - [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}){% if member.institution %} ({{member.institution}}){% endif %}
