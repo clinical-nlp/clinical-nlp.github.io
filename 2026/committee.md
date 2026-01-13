@@ -19,6 +19,6 @@ For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.co
 {% assign program_committee = site.data["2026"].program_committee | where: "role", "Reviewers" %}
 {% for pc_group in program_committee %}
 {%- for member in pc_group.entries -%}
-- [{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}){% if member.institution %} ({{member.institution}}){% endif %}
+- {% if member.homepage %}[{{ member.first_name }} {{ member.last_name }}]({{ member.homepage }}){% else %}{{ member.first_name }} {{ member.last_name }}{% endif %}{% if member.institution %} ({{ member.institution }}){% endif %}
 {% endfor %}
 {% endfor %}
