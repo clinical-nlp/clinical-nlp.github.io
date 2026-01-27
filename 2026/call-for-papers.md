@@ -50,7 +50,7 @@ All submissions must follow [LREC formatting guidelines](https://lrec2026.info/t
 
 We encourage submissions of papers submitted to, but not accepted by, [EACL 2026](https://2026.eacl.org/), [LREC 2026](https://lrec2026.info/), or [ACL Rolling Review](https://aclrollingreview.org/), as long as the topics are relevant to Clinical NLP.
 
-Clinical NLP 2026 has no preprint restrictions; you may post to arXiv at any time. Clinical NLP 2026 workshop proceedings are archival will be published [on the ACL Anthology](https://aclanthology.org/venues/clinicalnlp/).
+Clinical NLP 2026 has no preprint restrictions; you may post to arXiv at any time. Clinical NLP 2026 workshop proceedings are archival and will be published [on the ACL Anthology](https://aclanthology.org/venues/clinicalnlp/).
 
 ### Important Dates
 
