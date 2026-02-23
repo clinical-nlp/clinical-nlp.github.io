@@ -66,7 +66,8 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Submission deadline: shared task participant papers | Tue 17 Feb 2026 |
 | Submission deadline: shared task organizer papers   | Thu 19 Feb 2026 |
 | Submission deadline: main workshop papers           | Thu 19 Feb 2026 |
-| Notification of acceptance                          | Wed 11 Mar 2026 |
+| Review Deadline                                     | Mon 16 Mar 2026 |
+| Notification of acceptance                          | Wed 18 Mar 2026 |
 | Final versions of papers due                        | Mon 30 Mar 2026 |
 | Workshop                                            | Sat 16 May 2026 |
 {: .table .table-deadlines}
