@@ -69,7 +69,7 @@
     - id: 57
     - id: 59
 
-- title: Special Track: Low Resource Settings
+- title: Special Track on Low Resource Settings
   start_time: 2026-05-16 11:15:00
   end_time: 2026-05-16 11:45:00
   papers:
@@ -80,7 +80,7 @@
       start_time: 2026-05-16 11:30:00
       end_time: 2026-05-16 11:45:00
 
-- title: Special Track: Construction or Deconstruction of LLMs
+- title: Special Track on Construction or Deconstruction of LLMs
   start_time: 2026-05-16 11:45:00
   end_time: 2026-05-16 12:15:00
   papers:
