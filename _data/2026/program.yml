@@ -1,0 +1,110 @@
+- title: Opening
+  start_time: 2026-05-16 09:00:00
+  end_time: 2026-05-16 09:45:00
+  subsessions:
+  - title: Keynote Talk
+    start_time: 2026-05-16 09:00:00
+    end_time: 2026-05-16 09:30:00
+    speaker: Dr. Stephen Wu
+    abstract: TBD
+    biography: TBD
+  - title: Keynote Q&A
+    start_time: 2026-05-16 09:30:00
+    end_time: 2026-05-16 09:45:00
+
+- title: MEDIQA-EVAL 2026 Shared Task
+  start_time: 2026-05-16 09:45:00
+  end_time: 2026-05-16 10:00:00
+  papers:
+    - id: 52
+      start_time: 2026-05-16 09:45:00
+      end_time: 2026-05-16 09:55:00
+    - id: 17
+      start_time: 2026-05-16 09:55:00
+      end_time: 2026-05-16 10:00:00
+
+- title: MEDIQA-SYNUR 2026 Shared Task
+  start_time: 2026-05-16 10:00:00
+  end_time: 2026-05-16 10:15:00
+  papers:
+    - id: 53
+      start_time: 2026-05-16 10:00:00
+      end_time: 2026-05-16 10:10:00
+    - id: 40
+      start_time: 2026-05-16 10:10:00
+      end_time: 2026-05-16 10:15:00
+
+- title: Poster Session
+  start_time: 2026-05-16 10:15:00
+  end_time: 2026-05-16 11:15:00
+  papers:
+    - id: 2
+    - id: 3
+    - id: 4
+    - id: 5
+    - id: 7
+    - id: 10
+    - id: 11
+    - id: 12
+    - id: 13
+    - id: 16
+    - id: 18
+    - id: 19
+    - id: 21
+    - id: 23
+    - id: 27
+    - id: 29
+    - id: 30
+    - id: 31
+    - id: 33
+    - id: 34
+    - id: 37
+    - id: 39
+    - id: 41
+    - id: 42
+    - id: 43
+    - id: 46
+    - id: 49
+    - id: 54
+    - id: 57
+    - id: 59
+
+- title: Low Resource Settings
+  start_time: 2026-05-16 11:15:00
+  end_time: 2026-05-16 11:45:00
+  papers:
+    - id: 8
+      start_time: 2026-05-16 11:15:00
+      end_time: 2026-05-16 11:30:00
+    - id: 47
+      start_time: 2026-05-16 11:30:00
+      end_time: 2026-05-16 11:45:00
+
+- title: Construction or Deconstruction of LLMs
+  start_time: 2026-05-16 11:45:00
+  end_time: 2026-05-16 12:15:00
+  papers:
+    - id: 32
+      start_time: 2026-05-16 11:45:00
+      end_time: 2026-05-16 12:00:00
+    - id: 38
+      start_time: 2026-05-16 12:00:00
+      end_time: 2026-05-16 12:15:00
+
+- title: Construction or Deconstruction of LLMs
+  start_time: 2026-05-16 12:15:00
+  end_time: 2026-05-16 13:00:00
+  papers:
+    - id: 9
+      start_time: 2026-05-16 12:15:00
+      end_time: 2026-05-16 12:30:00
+    - id: 15
+      start_time: 2026-05-16 12:30:00
+      end_time: 2026-05-16 12:45:00
+    - id: 51
+      start_time: 2026-05-16 12:45:00
+      end_time: 2026-05-16 13:00:00
+
+- title: Closing
+  start_time: 2026-05-16 13:00:00
+  end_time: 2026-05-16 13:00:00

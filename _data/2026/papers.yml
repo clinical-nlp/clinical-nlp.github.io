@@ -1,0 +1,180 @@
+-   id: 2
+    title: 'L2D-Clinical: Learning to Defer for Adaptive Model Selection in Clinical
+        Text Classification'
+    authors: Rishik Kondadadi and John E. Ortega
+-   id: 3
+    title: 'TRUMEDIQA: A Modular Trustworthy RAG Pipeline for Multilingual Medical
+        Question Answering'
+    authors: Jihad Zahir, Ayoub Nainia and Meryem El Fatimi
+-   id: 4
+    title: Evaluating the Retrieval Component in a Retrieval-Augmented Summarization
+        System for Patient Records in French
+    authors: "Marco Naguib, Christel G\xE9rardin, Victor Beaucot\xE9, Cyril Charron,\
+        \ Adrien Joseph, Aur\xE9lie N\xE9v\xE9ol and Xavier Tannier"
+-   id: 5
+    title: Retrieval-Augmented Generation Based Nurse Observation Extraction
+    authors: Kyomin Hwang and Nojun Kwak
+-   id: 7
+    title: 'Automatic Generation of Discharge Summaries Using Large Language Models:
+        A Systematic Literature Review'
+    authors: "Lucas Molino-Pi\xF1ar, Manuel Carlos Diaz Galiano and Mar\xEDa-Teresa\
+        \ Mart\xEDn-Valdivia"
+-   id: 8
+    title: 'MOSAIC: A Multilingual, Taxonomy-Agnostic, and Computationally Efficient
+        Approach for Radiological Report Classification in Low-Resource Settings'
+    authors: Alice Schiavone, Marco Fraccaro, Lea Marie Pehrson, Silvia Ingala, Rasmus
+        Bonnevie, Michael Bachmann Nielsen, Vincent Beliveau, Melanie Ganz and Desmond
+        Elliott
+-   id: 9
+    title: 'Disentangling Ambiguity from Instability in Large Language Models: A Clinical
+        Text-to-SQL Case Study'
+    authors: Angelo Ziletti and Leonardo D'Ambrosi
+-   id: 10
+    title: 'Smart_solutions at MEDIQA-SYNUR 2026: A Multi-Stage LLM Pipeline for Nursing
+        Observation Extraction'
+    authors: Prateek Munjal
+-   id: 11
+    title: 'GS-BrainText: A Multi-Site Brain Imaging Report Dataset from Generation
+        Scotland for Clinical Natural Language Processing Development and Validation'
+    authors: Beatrice Alex, Claire Grover, Arlene Casey, Richard Tobin, Heather Whalley
+        and William Whiteley
+-   id: 12
+    title: 'SASTA Self Assessment: An efficient human-in-the-loop strategy for developmental
+        and pathological language analysis'
+    authors: Jan Odijk, Jelte van Boheemen, Xander Vertegaal, Tessel Boerma and Marijn
+        Schraagen
+-   id: 13
+    title: 'Differentially Private De-identification of Dutch Clinical Notes: A Comparative
+        Evaluation'
+    authors: "Michele Miranda, Xinlan Yan, Nishant Mishra, Rachel Murphy, Ameen Abu\
+        \ Hanna, S\xE9bastien Brati\xE8res and Iacer Calixto"
+-   id: 15
+    title: An OMOP-Based Open-Source Text-to-SQL Benchmark Dataset
+    authors: Paul Legrand, Kawsar Noor, Satyam Bhagwanani and Richard J. Dobson
+-   id: 16
+    title: 'SQUCS at MEDIQA-SYNUR 2026: A Multi-Agent Open Source LLM System for Nursing
+        Observation Extraction'
+    authors: Riham JeebAllah, Adhari AlZaabi and Abdulrahman Khalifa AAlAbdulsalam
+-   id: 17
+    title: 'SUAT-BMI at MEDIQA-EVAL 2026: An Ensemble Approach to Language Models
+        as Judges for Automatic Rating of Medical Responses'
+    authors: Xinzhe Peng, Liyuan E, Kun Feng, Jielin Li, Yuxuan Tang and Zhao Li
+-   id: 18
+    title: 'LTRC-IIIT at MEDIQA-SYNUR 2026: Benchmarking a Fully Local, Training-Free
+        RAG Pipeline'
+    authors: Aashwin Vaish and Dipti Misra Sharma
+-   id: 19
+    title: 'BDI at MEDIQA-EVAL 2026: A ReAct-Style Multimodal Agent for Fine-Grained
+        Medical Response Assessment'
+    authors: Justin Xu, Zizheng Zhang, Augustine Luk, Benjamin Khong, Haochen Cui,
+        Samuel Hwang, Alyssa Pradhan, Kevin Yuan and David W. Eyre
+-   id: 21
+    title: 'MasonNLP at MEDIQA-SYNUR 2026: Retrieval-Augmented Large Language Models
+        for Schema-Constrained Clinical Information Extraction'
+    authors: "A H M Rezaul Karim and \xD6zlem Uzuner"
+-   id: 23
+    title: 'Night Shift Nerds at MEDIQA-SYNUR 2026: Pushing Small Large Language Model
+        Capability for Clinical Observation Extraction and Normalization from Nurse
+        Dictation using RLVR'
+    authors: Bayu Aryoyudanta, Maria Yuliana, Mikie Rachman and I Made Agus Setiawan
+-   id: 27
+    title: Extracting Medication Instructions from Dutch General Practice Electronic
+        Health Records with Local Natural Language Processing
+    authors: Marya Dukmak, Constanza L. Andaur Navarro and Artuur Leeuwenberg
+-   id: 29
+    title: 'Gladiator at MEDIQA-SYNUR 2026: Contextual Clinical Extraction: Integrating
+        Foundation Models with Domain-Specific Validation Rules'
+    authors: Siva Satyanarayana Raju Pusapati and Ankit Singh
+-   id: 30
+    title: 'MedAware at MEDIQA-EVAL 2026: Vision-Language Model Fine-Tuning with Logprob-Based
+        Score Calibration for Medical Response Evaluation'
+    authors: Ziqi Hao and Pengbo Liu
+-   id: 31
+    title: 'HSE NLP TEAM at MEDIQA-SYNUR 2026: Consensus Adjudication Ensemble (ACE):
+        Balancing Precision and Recall for Schema-Bystander Clinical Extraction'
+    authors: Airat A. Valiev
+-   id: 32
+    title: Pediatric Sepsis Cohort Detection Using In-Context Pointwise V-Usable Information
+    authors: Yingya Li, Alon Geva, Steven Bethard, Timothy A. Miller, Kate Madden,
+        Matthew A. Eisenberg, Daniel P. Kelly and Guergana Savova
+-   id: 33
+    title: 'Lakefront AI Ramblers at MEDIQA-SYNUR 2026: Hybrid Retrieval and LLM Verification
+        for Open-Source Schema-Guided Clinical Information Extraction'
+    authors: Michael T. Saban, Arsalan Yaghoubi, Behnaz Eslami, Samie Tootooni and
+        Dmitriy Dligach
+-   id: 34
+    title: 'JMedWiC: A Japanese Word-in-Context Dataset in the Medical Domain'
+    authors: Koki Horiguchi, Seiji Sugiyama, Tomoyuki Kajiwara, Shoko Wakamiya and
+        Eiji ARAMAKI
+-   id: 37
+    title: 'LTRC-Medicom at MEDIQA-SYNUR 2026: Schema-Guided Clinical Information
+        Extraction with Hybrid Clustering-SFT-Verification'
+    authors: Pasumarthy Deepak, Sushvin Marimuthu and Parameswari Krishnamurthy
+-   id: 38
+    title: 'RECAP: Transparent Inference-Time Emotion Alignment for Medical Dialogue
+        Systems'
+    authors: Adarsh Srinivasan, Jake A. Dineen, Muhammad Uzair Sarfraz, Muhammad Umar
+        Afzal, Irbaz Riaz and Ben Zhou
+-   id: 39
+    title: 'SloCal-Net at MEDIQA-Eval 2026: Investigating the Impact of Reasoning
+        and External Context on Medical Answer Grading'
+    authors: Primoz Kocbek, Valentina Carbonari, Pierangelo Veltri, Pietro Hiram Guzzi
+        and Gregor Stiglic
+-   id: 40
+    title: 'SemAnTICA Lab at MediQA-SYNUR 2026: Route, Extract and Verify -- An LLM-gated
+        Ensemble for Parsing Nurse Dictations'
+    authors: Sy Hwang, Katherine S. Pitcher, Sue Hyon Kim, Yoonjae Lee, Hayoung K.
+        Donelly, Harsh Bandhey, Andrew J. King, Karen O'Connor, Ryan J. Urbanowicz
+        and Danielle L. Mowery
+-   id: 41
+    title: 'MIDAS_SYNUR at MEDIQA-SYNUR 2026: A Prompting Study for Clinical Observation
+        Extraction from Nurse Dictation Transcriptions'
+    authors: Swetha Krishna Sriram and Akshitaa Sahoo
+-   id: 42
+    title: 'AnotherOne at MEDIQA-SYNUR 2026: Detect, Extract, Normalize - Knowledge-Grounded
+        LLM Pipeline for Clinical Observation Extraction'
+    authors: Jerrin John Thomas and Parameswari Krishnamurthy
+-   id: 43
+    title: 'hgkai26 at MEDIQA-EVAL 2026: Automated Evaluation of Visual Medical Question
+        Answering Using LLM-as-a-Judge'
+    authors: Haritha Gangavarapu
+-   id: 46
+    title: Role-Adapted Clinical Report Generation for Ultrasound Measurements in
+        Low-Resource Settings
+    authors: Ayoub Nainia, Tanya Akumu, Noussair Lazrak and Karim Lekadir
+-   id: 47
+    title: 'MedNormJ: A Benchmark Dataset for Medical Concept Normalization in Japanese
+        Clinical Documents'
+    authors: Yuki Tashiro, Seiji Shimizu, Tomohiro Nishiyama, Shoko Wakamiya and Eiji
+        ARAMAKI
+-   id: 49
+    title: A Comparative Study of Approaches to Anonymization of Clinical Free Text
+        in Spanish
+    authors: Florencia Luciana Brunello, Laura Alonso Alemany, Serena Villata and
+        Milagro Teruel
+-   id: 51
+    title: Profiling Hallucinations in Frontier LLMs for Entity Linking to Medical
+        Ontologies
+    authors: Logan Born, Nishant Kambhatla, Uliyana Kubasova, Maryam Siahbani, Andrei
+        Vacariu and Anoop Sarkar
+-   id: 52
+    title: Overview of the MEDIQA-EVAL 2026 Shared Task on Evaluation Metrics in Medical
+        Multimodal Question Answering
+    authors: Asma Ben Abacha and Wen-wai Yim
+-   id: 53
+    title: Overview of the MEDIQA-SYNUR 2026 Shared Task on Observation Extraction
+        from Nurse Dictations
+    authors: George Michalopoulos, Jean-Philippe Corbeil, Cari Bader, Nathan Bodenstab
+        and Asma Ben Abacha
+-   id: 54
+    title: Disagreement-Driven Joint Refinement of Retrieval and Decision Rules for
+        Imbalanced Counseling Risk Classification
+    authors: Zhihao Shao, Ryo Sekizaki, Shengzhou Yi and Toshihiko Yamasaki
+-   id: 57
+    title: Context-Aware SNOMED CT Entity Linking for Clinical Text
+    authors: Provia Kadusabe, Demian Gholipour Ghalandari, Lauren Cassidy, Jack Boylan,
+        Chris Hokamp, Abhishek Kaushik and Fiona Lawless
+-   id: 59
+    title: 'Temporal Structure in Clinical Narratives in Portuguese: Insights from
+        Cross-Document Annotation'
+    authors: "Ana Luisa Fernandes, Purifica\xE7\xE3o Silvano and Lu\xEDs Filipe Cunha"
