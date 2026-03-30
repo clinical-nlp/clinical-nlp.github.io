@@ -156,7 +156,7 @@
     title: Profiling Hallucinations in Frontier LLMs for Entity Linking to Medical
         Ontologies
     authors: Logan Born, Nishant Kambhatla, Uliyana Kubasova, Maryam Siahbani, Andrei
-        Vacariu and Anoop Sarkar
+        Vacariu, Timothy W. O'Connell and Anoop Sarkar
 -   id: 52
     title: Overview of the MEDIQA-EVAL 2026 Shared Task on Evaluation Metrics in Medical
         Multimodal Question Answering
