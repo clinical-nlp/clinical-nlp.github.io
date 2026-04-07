@@ -3,6 +3,19 @@ title: About
 layout: default
 --- 
 
+## Workshop Information
+
+**Thu, 16 May 9a - 1p  CEST (UTC+2)**
+- 10:30a - 11:00a: Coffee available during Poster Session
+- 1:00p - 2:00p: Lunch break (no organized lunch)
+
+**Q: Do authors need to register for the workshop in order to have their papers included in the proceedings?**
+Per LREC policy: for all papers, regardless of presentation mode, at least one author of the paper must be registered. Failure to comply with the registration requirement will result in cancellation of the paper presentation and elimination of the paper from the conference proceedings.
+
+**Q: How do I participate?**
+Participants must register for each workshop. For remote attendance, the Zoom link is shared to remote registered participants only. For in-person attendance, the badge shows all the items that have been purchased.
+
+
 ## Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)).
@@ -18,7 +31,8 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | Workshop                                            | Sat 16 May 2026 |
 {: .table .table-deadlines}
 
-### Shared Tasks
+
+## Shared Tasks
 
 - [**MEDIQA-EVAL: Evaluating Metrics for Multimodal Question Answering**](https://sites.google.com/view/mediqa2026/mediqa-eval):
   In this multimodal evaluation task, participants assign quality scores to model-generated answers for patient questions that are paired with one or multiple clinical images. The dataset includes both English and Chinese questions and answers, along with structured metadata such as anatomical location and wound type. Each system answer is independently rated by clinical experts along three dimensions: overall quality, factual accuracy, and completeness.
