@@ -17,8 +17,8 @@ Per LREC policy: for all papers, regardless of presentation mode, at least one a
 **Q: How do I participate?**
 Participants must register for each workshop. For remote attendance, the Zoom link is shared to remote registered participants only. For in-person attendance, the badge shows all the items that have been purchased.
 
-**Q: Is online poster presentation possible?** According to LREC policies, remote participants are allowed to present oral presentations only, but poster presentations must be given in person. However, accepted papers will still appear in the proceedings. 
-If you are unable to attend in person, you may pre-record a presentation of your work and send us a QR code linking to it by May 1st. We can display this QR code alongside the other posters.
+**Q: Is online poster presentation possible?** According to LREC policies, remote participants are allowed to present oral presentations only, while poster presentations must be given in-person. However, accepted papers will still appear in the proceedings if at least one author is registered either in-person or remote. 
+If you are unable to attend in-person, you may pre-record a presentation of your work and send us a QR code linking to it by May 1st. We can display this QR code alongside the other posters.
 
 ## Important Dates
 
