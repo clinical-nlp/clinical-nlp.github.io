@@ -6,7 +6,7 @@ layout: default
 ## Workshop FAQs
 
 **Q: When is the workshop?**  
-**A:** Thu 16 May 9:00am - 1:00pm  CEST (UTC+2)
+**A:** Sat 16 May 9:00am - 1:00pm  CEST (UTC+2)
 
 **Q: Is there food and drink?**  
 **A:** LREC provides coffee 10:30am - 11:00am during the Poster Session, but no lunch is provided following the workshop at 1:00pm.
