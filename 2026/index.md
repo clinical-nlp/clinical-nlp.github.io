@@ -3,21 +3,22 @@ title: About
 layout: default
 --- 
 
-## Workshop Information
+## Workshop FAQs
 
-**Thu, 16 May 9a - 1p  CEST (UTC+2)**
-- 10:30a - 11:00a: Coffee available during Poster Session
-- 1:00p - 2:00p: Lunch break (no organized lunch)
+**Q: When is the workshop?**  
+**A:** Thu 16 May 9:00am - 1:00pm  CEST (UTC+2)
 
-**FAQs:**
+**Q: Is there food and drink?**  
+**A:** LREC provides coffee 10:30am - 11:00am during the Poster Session, but no lunch is provided following the workshop at 1:00pm.
 
-**Q: Do authors need to register for the workshop in order to have their papers included in the proceedings?**
-Per LREC policy: for all papers, regardless of presentation mode, at least one author of the paper must be registered. Failure to comply with the registration requirement will result in cancellation of the paper presentation and elimination of the paper from the conference proceedings.
+**Q: Do authors need to register for the workshop in order to have their papers included in the proceedings?**  
+**A:** Per LREC policy: for all papers, regardless of presentation mode, at least one author of the paper must be registered. Failure to comply with the registration requirement will result in cancellation of the paper presentation and elimination of the paper from the conference proceedings.
 
-**Q: How do I participate?**
-Participants must register for each workshop. For remote attendance, the Zoom link is shared to remote registered participants only. For in-person attendance, the badge shows all the items that have been purchased.
+**Q: How do I participate?**  
+**A:** Participants must register for each workshop. For remote attendance, the Zoom link is shared to remote registered participants only. For in-person attendance, the badge shows all the items that have been purchased.
 
-**Q: Is online poster presentation possible?** According to LREC policies, remote participants are allowed to present oral presentations only, while poster presentations must be given in-person. However, accepted papers will still appear in the proceedings if at least one author is registered either in-person or remote. 
+**Q: Is online poster presentation possible?**  
+**A:** According to LREC policies, remote participants are allowed to present oral presentations only, while poster presentations must be given in-person. However, accepted papers will still appear in the proceedings if at least one author is registered either in-person or remote. 
 If you are unable to attend in-person, you may pre-record a presentation of your work and send us a QR code linking to it by May 1st. We can display this QR code alongside the other posters.
 
 ## Important Dates
