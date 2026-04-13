@@ -17,12 +17,21 @@ layout: default
 **Q: How do I participate?**  
 **A:** Participants must register for each workshop. For remote attendance, the Zoom link is shared only with remote registered participants. For in-person attendance, the badge shows all the items that have been purchased.
 
-**Q: What are the requirements for attending and presenting a poster?** 
-You are expected to attend in person. Posters must be in portrait orientation, as boards are 90 cm × 150 cm and cannot accommodate landscape formats. Printing your poster in A0 portrait size (84.1 cm × 118.9 cm) is recommended. For full details, see the author kit: https://lrec2026.info/authors-kit/
+**Q: What are the requirements for attending and presenting a poster?**  
+**A:** To present a poster, you should attend in person. Posters must be in portrait orientation, as boards are 90 cm × 150 cm and cannot accommodate landscape formats. Printing your poster in A0 portrait size (84.1 cm × 118.9 cm) is recommended. For full details, see the author kit: <https://lrec2026.info/authors-kit/>
+
+**Q: Can I get my poster printed at the conference site?**  
+**A:** It is possible to get posters printed in Mallorca by sending the poster file before Monday, May 4, 2026 (non-negotiable deadline) to <jmmilian@impresrapit.com>. The email must include full billing details (name, address, ID/passport number) and delivery details (LREC26 Conference – Congress Center). The price for printing an A0 poster is €35.20 + VAT. Printing will only begin once full payment has been received. The printing company will contact you directly with payment instructions.
+> Fotocopistería Impresrapit SL
+> Tel.: +34 971 71 47 72  
+> Opening hours: 09:00–14:00 and 16:00–19:00 (CET)  
+> Closed: April 2–12
+> 
+Your printed poster will be delivered to the conference venue and will be available at the registration desk on May 11. Given all this, we strongly recommend bringing your poster already printed, as this is the safest option.
 
 **Q: Is online poster presentation possible?**  
 **A:** According to LREC policies, remote participants are allowed to present oral presentations only, while poster presentations must be given in person. However, accepted papers will still appear in the proceedings if at least one author is registered (either in-person or remote). 
-If you are unable to attend in person, you may pre-record a presentation of your work and send us a QR code linking to it by May 1st. We can display this QR code alongside the other posters. 
+If you are unable to attend in person, you may pre-record a <10 minute presentation of your work and send us a QR code linking to it by May 1st. We can display this QR code alongside the other posters. 
 
 ## Important Dates
 
