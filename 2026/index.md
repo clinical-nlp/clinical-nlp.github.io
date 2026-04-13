@@ -15,11 +15,14 @@ layout: default
 **A:** Per LREC policy: for all papers, regardless of presentation mode, at least one author of the paper must be registered. Failure to comply with the registration requirement will result in cancellation of the paper presentation and elimination of the paper from the conference proceedings.
 
 **Q: How do I participate?**  
-**A:** Participants must register for each workshop. For remote attendance, the Zoom link is shared to remote registered participants only. For in-person attendance, the badge shows all the items that have been purchased.
+**A:** Participants must register for each workshop. For remote attendance, the Zoom link is shared only with remote registered participants. For in-person attendance, the badge shows all the items that have been purchased.
+
+**Q: What are the requirements for attending and presenting a poster?** 
+You are expected to attend in person. Posters must be in portrait orientation, as boards are 90 cm × 150 cm and cannot accommodate landscape formats. Printing your poster in A0 portrait size (84.1 cm × 118.9 cm) is recommended. For full details, see the author kit: https://lrec2026.info/authors-kit/
 
 **Q: Is online poster presentation possible?**  
-**A:** According to LREC policies, remote participants are allowed to present oral presentations only, while poster presentations must be given in-person. However, accepted papers will still appear in the proceedings if at least one author is registered either in-person or remote. 
-If you are unable to attend in-person, you may pre-record a presentation of your work and send us a QR code linking to it by May 1st. We can display this QR code alongside the other posters.
+**A:** According to LREC policies, remote participants are allowed to present oral presentations only, while poster presentations must be given in person. However, accepted papers will still appear in the proceedings if at least one author is registered (either in-person or remote). 
+If you are unable to attend in person, you may pre-record a presentation of your work and send us a QR code linking to it by May 1st. We can display this QR code alongside the other posters. 
 
 ## Important Dates
 
