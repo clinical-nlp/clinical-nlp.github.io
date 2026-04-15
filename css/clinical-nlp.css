@@ -9,6 +9,10 @@
     color: #ccff00;
     white-space: nowrap;
 }
+.navbar a:hover,
+.navbar a:focus {
+    color: #fff;
+}
 .table-program td:nth-child(1) {
     width: 120px;
 }

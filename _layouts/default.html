@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Tristan Naumann">
+  <meta name="theme-color" content="#9b59b6">
+  <link rel="icon" href="/favicon.ico" sizes="any">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link href="/css/clinical-nlp.css" rel="stylesheet">
 
@@ -23,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle{% if page.title == 'About' %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ year }}</a>
+            <a class="nav-link dropdown-toggle{% if page.title == 'About' %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"{% if page.title == 'About' %} aria-current="page"{% endif %}>{{ year }}</a>
             <ul class="dropdown-menu" style="min-width: unset">
               {% for year_data in site.data reversed %}
                 {% assign nav_year = year_data[0] %}
@@ -35,14 +37,13 @@
           {% for nav_title in nav_titles %}
             {%- assign has_file = site.pages | where_exp: "item", "item.path contains year" | where: "title", nav_title | first -%}
             {% if has_file %}
-            <li class="nav-item"><a class="nav-link{% if page.title == nav_title %} active{% endif %}" href="{{ nav_title | slugify }}.html">{{ nav_title }}</a></li>
+            <li class="nav-item"><a class="nav-link{% if page.title == nav_title %} active{% endif %}"{% if page.title == nav_title %} aria-current="page"{% endif %} href="{{ nav_title | slugify }}.html">{{ nav_title }}</a></li>
             {% endif -%}
           {% endfor %}
         </ul>
       </div>
     </div>
     </nav>
-  </div>
   <div class="container-fluid py-5 bg-body-secondary">
     <div class="container">
       {% assign details = site.data[year]["conference_details"] %}
@@ -70,7 +71,7 @@
     </div>
     <hr>
     <footer>
-      <p>&copy; ClinicalNLP {{ year }}</p>
+      <p>&copy; ClinicalNLP {{ "now" | date: "%Y" }}</p>
     </footer>
   </div>
 
