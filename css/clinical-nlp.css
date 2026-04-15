@@ -13,6 +13,18 @@
 .navbar a:focus {
     color: #fff;
 }
+.navbar .dropdown-item {
+    color: #fff;
+}
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+    color: #fff;
+    background-color: #8b44a5;
+}
+.navbar .dropdown-item:active {
+    color: #ccff00;
+    background-color: #7a3994;
+}
 .table-program td:nth-child(1) {
     width: 120px;
 }
