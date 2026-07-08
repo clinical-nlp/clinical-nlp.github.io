@@ -19,9 +19,11 @@
     - id: 52
       start_time: 2026-05-16 09:45:00
       end_time: 2026-05-16 09:55:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-01
     - id: 17
       start_time: 2026-05-16 09:55:00
       end_time: 2026-05-16 10:00:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-02
 
 - title: MEDIQA-SYNUR 2026 Shared Task
   start_time: 2026-05-16 10:00:00
@@ -30,44 +32,76 @@
     - id: 53
       start_time: 2026-05-16 10:00:00
       end_time: 2026-05-16 10:10:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-03
     - id: 40
       start_time: 2026-05-16 10:10:00
       end_time: 2026-05-16 10:15:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-04
 
 - title: Poster Session
   start_time: 2026-05-16 10:15:00
   end_time: 2026-05-16 11:15:00
   papers:
     - id: 2
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-05
     - id: 3
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-06
     - id: 4
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-07
     - id: 5
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-08
     - id: 7
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-09
     - id: 10
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-10
     - id: 11
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-11
     - id: 12
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-12
     - id: 13
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-13
     - id: 16
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-14
     - id: 18
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-15
     - id: 19
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-16
     - id: 21
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-17
     - id: 23
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-18
     - id: 27
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-19
     - id: 29
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-20
     - id: 30
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-21
     - id: 31
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-22
     - id: 33
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-23
     - id: 34
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-24
     - id: 37
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-25
     - id: 39
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-26
     - id: 41
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-27
     - id: 42
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-28
     - id: 43
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-29
     - id: 46
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-30
     - id: 49
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-31
     - id: 54
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-32
     - id: 57
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-33
     - id: 59
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-34
 
 - title: Special Track on Low Resource Settings
   start_time: 2026-05-16 11:15:00
@@ -76,9 +110,11 @@
     - id: 8
       start_time: 2026-05-16 11:15:00
       end_time: 2026-05-16 11:30:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-35
     - id: 47
       start_time: 2026-05-16 11:30:00
       end_time: 2026-05-16 11:45:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-36
 
 - title: Special Track on Construction or Deconstruction of LLMs
   start_time: 2026-05-16 11:45:00
@@ -87,9 +123,11 @@
     - id: 32
       start_time: 2026-05-16 11:45:00
       end_time: 2026-05-16 12:00:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-37
     - id: 38
       start_time: 2026-05-16 12:00:00
       end_time: 2026-05-16 12:15:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-38
 
 - title: Main Track
   start_time: 2026-05-16 12:15:00
@@ -98,12 +136,15 @@
     - id: 9
       start_time: 2026-05-16 12:15:00
       end_time: 2026-05-16 12:30:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-39
     - id: 15
       start_time: 2026-05-16 12:30:00
       end_time: 2026-05-16 12:45:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-40
     - id: 51
       start_time: 2026-05-16 12:45:00
       end_time: 2026-05-16 13:00:00
+      url: https://lrec.elra.info/lrec2026-ws-clinicalnlp-41
 
 - title: Closing
   start_time: 2026-05-16 13:00:00
