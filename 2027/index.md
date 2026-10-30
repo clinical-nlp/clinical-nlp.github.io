@@ -8,11 +8,22 @@ layout: default
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)). 
 
 
+| Event                                               | Date            |
+| --------------------------------------------------- | ----------------|
+| Paper submission deadline (main and shared task papers) | Monday February 15, 2027  |
+| Review deadline                                     | Wednesday March 17, 2027  |
+|Reviews shared with authors (no author rebuttal or response period) | Friday March 19, 2027  |
+ |Pre-reviewed ARR commitment deadline  | Friday, March 26, 2027  |
+| Notification of acceptance                          | Friday, April 2, 2027 |
+| Camera-ready paper deadline                      | April 16, 2027 |
+| Pre-recorded video deadline                       | Friday May 14, 2027 |
+| Workshop                                            | June 2027 |
+
 
 
 ## Shared Tasks
 
-- [**MEDIQA-RADEVAL: Evaluating Metrics for Radiology Report Evaluation**](https://sites.google.com/view/mediqa2027/mediqa-radeval): 
+- [**MEDIQA-RADEVAL: Evaluating Metrics for Radiology Report Assessment**](https://sites.google.com/view/mediqa2027/mediqa-radeval): 
  This new shared task focuses on developing reliable methods for evaluating radiology report quality. Participants will use a new benchmark of expert-annotated report comparisons capturing clinically meaningful differences across imaging modalities and anatomical regions. The dataset includes fine-grained annotations of relevant quality dimensions and error types for benchmarking automated evaluation metrics. By comparing metrics against expert assessments, the task aims to advance robust, clinically grounded evaluation of radiology report generation systems.
 
 - [**MEDIQA-EVAL: Evaluating Metrics for Multimodal Question Answering**](https://sites.google.com/view/mediqa2027/mediqa-eval): 
