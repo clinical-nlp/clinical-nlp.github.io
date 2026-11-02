@@ -8,16 +8,17 @@ layout: default
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)). 
 
 
-| Event                                               | Date            |
-| --------------------------------------------------- | ----------------|
-| Paper submission deadline (main and shared task papers) | Monday February 15, 2027  |
-| Review deadline                                     | Wednesday March 17, 2027  |
-|Reviews shared with authors (no author rebuttal or response period) | Friday March 19, 2027  |
- |Pre-reviewed ARR commitment deadline  | Friday, March 26, 2027  |
-| Notification of acceptance                          | Friday, April 2, 2027 |
-| Camera-ready paper deadline                      | April 16, 2027 |
-| Pre-recorded video deadline                       | Friday May 14, 2027 |
-| Workshop                                            | June 2027 |
+| Event                                                               | Date            |
+| ------------------------------------------------------------------- | ----------------|
+| Paper submission deadline (main and shared task papers)             | Mon 15 Feb 2027 |
+| Review deadline                                                     | Wed 17 Mar 2027 |
+| Reviews shared with authors (no author rebuttal or response period) | Fri 19 Mar 2027 |
+| Pre-reviewed ARR commitment deadline                                | Fri 26 Mar 2027 |
+| Notification of acceptance                                          | Fri 02 Apr 2027 |
+| Camera-ready paper deadline                                         | Fri 16 Apr 2027 |
+| Pre-recorded video deadline                                         | Fri 14 May 2027 |
+| Workshop                                                            |        Jun 2027 |
+{: .table .table-deadlines}
 
 
 
