@@ -50,5 +50,5 @@ The workshop will recognize outstanding research contributions and top-performin
 
 All winners will be announced during the ClinicalNLP 2027 workshop. 
 
-For more info: https://clinical-nlp.github.io/2027/awards.html 
+For more info: <https://clinical-nlp.github.io/2027/awards.html>
 
