@@ -33,7 +33,7 @@
               {% endfor %}
             </ul>
           </li>
-          {%- assign nav_titles = "Call for Papers,Submission,Program,Sponsors,Committee,Resources" | split: ',' -%}
+          {%- assign nav_titles = "Call for Papers,Submission,Awards,Program,Sponsors,Committee,Resources" | split: ',' -%}
           {% for nav_title in nav_titles %}
             {%- assign has_file = site.pages | where_exp: "item", "item.path contains year" | where: "title", nav_title | first -%}
             {% if has_file %}
