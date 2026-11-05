@@ -3,6 +3,11 @@ title: About
 layout: default
 ---
 
+## Special Interest Group
+
+The Clinical NLP Workshop is sponsored by the new ACL Special Interest Group on Clinically Related Language, SIGClinical!
+Anyone interested in joining SIGClinical can do so by following the instructions here: <https://sigclinical.org/>
+
 ## Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)). 
