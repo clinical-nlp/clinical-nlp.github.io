@@ -73,7 +73,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 | ------------------------------------------------------------------- | ----------------|
 | Paper submission deadline (main and shared task papers)             | Wed 24 Feb 2027 |
 | Review deadline                                                     | Fri 26 Mar 2027 |
-| Notification of acceptance                                          | Thur 01 Apr 2027 |
+| Notification of acceptance                                          | Thu 01 Apr 2027 |
 | Camera-ready paper deadline                                         | Fri 16 Apr 2027 |
 | Pre-recorded video deadline                                         | Fri 14 May 2027 |
 | Workshop                                                            |        Jun 2027 |
@@ -88,3 +88,8 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 * Kirk Roberts (UTHealth Houston)
 
 For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.com>.
+
+## Special Interest Group
+
+The Clinical NLP Workshop is sponsored by the new ACL Special Interest Group on Clinically Related Language, SIGClinical.
+Anyone interested in joining SIGClinical can do so by following the instructions here: <https://sigclinical.org/>
