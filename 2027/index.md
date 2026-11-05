@@ -31,7 +31,7 @@ All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate
 
 The workshop will recognize outstanding research contributions and top-performing shared task teams with six awards of $1,000 each.
 
-### Paper Awards
+#### Paper Awards
 
 - Best Workshop Paper: Outstanding overall contribution.
 - Best Student Paper: Exceptional student-led research.
@@ -43,5 +43,7 @@ The workshop will recognize outstanding research contributions and top-performin
 - MEDIQA-MULTIREFEVAL (English): Best-performing team.
 - MEDIQA-MULTIREFEVAL (Chinese): Best-performing team.
 
-All winners will be announced during the ClinicalNLP 2027 workshop. For more info: URL
+All winners will be announced during the ClinicalNLP 2027 workshop. 
+
+For more info: https://clinical-nlp.github.io/2027/awards.html 
 
