@@ -11,6 +11,16 @@ Anyone interested in joining SIGClinical can do so by following the instructions
 ## Contact
 For inquiries, please contact: clinical-nlp-workshop-organizers@googlegroups.com.
 
+
+## Submission Information 
+Authors are invited to submit their papers through the OpenReview submission system: https://openreview.net/group?id=aclweb.org/NAACL/2027/Workshop/Clinical_NLP
+
+We encourage authors to create their OpenReview profiles in advance to allow sufficient time for any required moderation. 
+
+All papers must be prepared in accordance with the NAACL 2027 paper submission guidelines. 
+
+For further details: https://clinical-nlp.github.io/2027/call-for-papers.html (Paper Submission)
+
 ## Important Dates
 
 All deadlines are 11:59PM UTC-12:00 ([anywhere on Earth](https://www.timeanddate.com/time/zones/aoe)). 
