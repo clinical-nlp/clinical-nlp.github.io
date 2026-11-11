@@ -41,13 +41,23 @@ Clinical NLP 2027 is hosting two shared tasks:
 
 Please visit the shared task websites to register to participate and for additional information about the shared tasks.
 
-### Submissions
+### Paper Submission
+
+Authors are invited to submit their papers through the OpenReview submission system: <https://openreview.net/group?id=aclweb.org/NAACL/2027/Workshop/Clinical_NLP> 
+
+All papers must be prepared in accordance with the NAACL 2027 paper submission guidelines, including the formatting requirements and policies for anonymized review: <https://2027.naacl.org/calls/main_conference_papers/#paper-submission-information> 
 
 Clinical NLP 2027 has no preprint restrictions; you may post to arXiv at any time. 
 Clinical NLP 2027 workshop proceedings are archival and will be published [on the ACL Anthology](https://aclanthology.org/venues/clinicalnlp/).
 
-More details will be available soon. 
+#### OpenReview Profiles: 
 
+Please note that, according to OpenReview's moderation policy, newly created profiles are subject to the following activation process:
+- New profiles created using an institutional email address will be activated automatically.
+- New profiles created without an institutional email address will undergo a moderation process before activation.
+
+This policy is established and administered by OpenReview and is independent of the workshop's submission and review policies. 
+We encourage authors to create their OpenReview profiles in advance to allow sufficient time for any required moderation.
 
 ### Workshop Awards
 
