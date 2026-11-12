@@ -9,17 +9,17 @@ The Clinical NLP Workshop is sponsored by the new ACL Special Interest Group on 
 Anyone interested in joining SIGClinical can do so by following the instructions here: <https://sigclinical.org/>
 
 ## Contact
-For inquiries, please contact: clinical-nlp-workshop-organizers@googlegroups.com.
+For inquiries, please contact: <clinical-nlp-workshop-organizers@googlegroups.com>.
 
 
 ## Submission Information 
-Authors are invited to submit their papers through the OpenReview submission system: <https://openreview.net/group?id=aclweb.org/NAACL/2027/Workshop/Clinical_NLP>
+Authors are invited to submit their papers through the OpenReview submission system:  
+<https://openreview.net/group?id=aclweb.org/NAACL/2027/Workshop/Clinical_NLP>
 
-We encourage authors to create their OpenReview profiles in advance to allow sufficient time for any required moderation. 
-
-All papers must be prepared in accordance with the NAACL 2027 paper submission guidelines. 
-
-For further details: <https://clinical-nlp.github.io/2027/call-for-papers.html> (Paper Submission)
+We encourage authors to create their OpenReview profiles in advance to allow sufficient time for any required moderation.
+All papers must be prepared in accordance with the NAACL 2027 paper submission guidelines.
+For further details see the full call for papers:  
+<https://clinical-nlp.github.io/2027/call-for-papers.html>
 
 ## Important Dates
 
